@@ -15,6 +15,10 @@ jobs:
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Test verification failure propagation (mock checkers)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python3 -m unittest discover -s scripts -p test_verification.py -v
       - name: Free disk space
         uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
         with:
@@ -28,7 +32,7 @@ jobs:
       - uses: leanprover/lean-action@fe408643ea7367d8c0404a8be3975bb145f5fb64
         with:
           auto-config: false
-          build: true
+          build: false
       - name: Install the pinned Palomar Bubblewrap
         run: |
           set -euo pipefail
@@ -45,12 +49,18 @@ jobs:
           echo "COMPARATOR_BWRAP=$comparator_bwrap" >> "$GITHUB_ENV"
           "$comparator_bwrap" --unshare-all --new-session --die-with-parent \
             --ro-bind / / --proc /proc --dev /dev -- /usr/bin/true
-      - name: Compare the main-result interfaces (T01-T07), one configuration at a time
+      - name: Check the committed manifest
         run: |
           set -euo pipefail
-          for cfg in comparator/heights.json comparator/locallimits.json comparator/samelaw.json comparator/sir.json; do
-            echo "== $cfg"
-            lake comparator --config "$cfg"
-          done
-      - name: Compare the auxiliary supporting results
-        run: lake comparator --config comparator.json
+          sha256sum --check MANIFEST.sha256 > "$RUNNER_TEMP/freezing1-manifest.log"
+      - name: Build, audit and run sandboxed Comparator with NanoDa
+        run: scripts/run-linux-checks.sh "$RUNNER_TEMP/freezing1-linux-checks"
+      - name: Keep exact-commit Linux diagnostics, including failures
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: freezing1-linux-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/freezing1-manifest.log
+            ${{ runner.temp }}/freezing1-linux-checks
+          if-no-files-found: warn

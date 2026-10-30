@@ -1,3 +1,34 @@
+# Current Codex takeover checkpoint — 30 October 2026
+
+The user authorized takeover of `freezing1-candidate` from local commit
+`4b3e78c6b9cd9db80f1b63fd85046e2805589123`, four-interface audit, repairs
+to verification failure propagation and Linux preparation. Push/publication
+remain expressly prohibited. No remote, workflow dispatch or visibility change.
+
+Read `verification/certification/CODEX_TAKEOVER.md` and `SCRIPT_REVIEW.md`.
+All four interfaces passed an independent audit within their disclosed
+chronological/canonical-observable scope; no model, Challenge, Solution,
+comparison target or version pin was changed. The new independent probes
+passed 16 expanded examples/24 closures in total. Main-result proof evidence
+from the original rebuilt candidate is preserved; no empty-cache rebuild.
+
+Verification scripts now fail on failed/missing stages, stale exports,
+missing metadata and changed source identity. Eighteen regression tests pass,
+with separate real auxiliary-comparison and six-checker small-export smoke
+checks. These are not official Linux/Palomar results. Compact logs are in
+`verification/certification/codex-checks/`. The prepared manual Linux workflow
+uses `scripts/run-linux-checks.sh`, explicitly requests NanoDa in copied
+configs, verifies the manifest and retains logs even on failure. It has not
+been dispatched. Local macOS refusal is an expected exit 2, not a pass.
+
+Local changes were reviewed against the 4b3e78c base. Use `git log -1` and
+`git status --short` for the current local checkpoint. Future full collection
+requires a clean committed checkout and a new evidence directory outside it.
+No old log has been relabelled as a result of the repaired scripts. The rest
+of this file is historical Claude context, superseded where noted here.
+
+---
+
 # Certification-interface preparation for T01–T07 (30 October 2026, Claude Code)
 
 Task: prepare a verifiable certification candidate for the seven main results and their twenty conclusions, for GitHub

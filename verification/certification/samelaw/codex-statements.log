@@ -1,0 +1,5 @@
+'Freezing1.CanonicalTree.construction_laws_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.reverseStateLaw_eq_forward_treeLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseStamped.treeLaw_canonical_ids' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.treeLaw_reverse_graph_isomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_valid' depends on axioms: [propext, Classical.choice, Quot.sound]

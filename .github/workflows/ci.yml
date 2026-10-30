@@ -17,6 +17,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - name: Scan the Lean sources (module headers, sizes, forbidden constructs)
         run: python3 scripts/check-sources.py
+      - name: Test verification failure propagation (mock checkers, no mathematical claim)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python3 -m unittest discover -s scripts -p test_verification.py -v
       - name: Free disk space
         uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
         with:
@@ -35,6 +39,7 @@ jobs:
         run: lake env lean scripts/AxiomAudit.lean
       - name: Axiom closures of the exported main results (T01-T07)
         run: |
+          set -euo pipefail
           lake env lean scripts/MainResultsAxioms.lean | tee main-results-axioms.log
-          # exactly the three standard axioms for each of the 26 exported names
-          python3 scripts/check-axiom-log.py main-results-axioms.log 26
+          python3 scripts/check-axiom-log.py main-results-axioms.log 26 \
+            --declarations scripts/MainResultsAxioms.lean

@@ -17,7 +17,7 @@ into four interfaces, with no result omitted:
 | Same law | `comparator/samelaw.json` | `Challenge/SameLaw.lean` | T05 `thm:samelaw` |
 | SIR | `comparator/sir.json` | `Challenge/Sir.lean` | T06 `thm:SIRlocallimit`, T07 `thm:SIR` |
 
-Each Challenge is a single self-contained module importing only Mathlib: it reproduces verbatim every
+Each Challenge is a single self-contained module importing Mathlib and Lean core only: it reproduces verbatim every
 definition (and every theorem reachable through a definition body) of the development that the statements
 use, and states the main results with `sorry` bodies (the only `sorry`s in the Challenge are the targets,
 plus two pinning theorems proved inside `Challenge/Heights.lean`). The matching `Solution/X.lean` imports
@@ -43,7 +43,33 @@ scripts/local-kernel-replay.sh comparator/heights.json OUT/heights/solution.ndjs
 ```
 
 and likewise for `locallimits`, `samelaw` and `sir`. On Linux with the Palomar bubblewrap build the official
-command is `lake comparator --config comparator/heights.json` (workflow `.github/workflows/comparator.yml`).
+command is `lake comparator --config comparator/heights.json`. The prepared
+workflow now calls `scripts/run-linux-checks.sh` and explicitly enables NanoDa
+in copies of all five configurations; the toolchain default is off.
+
+## Codex takeover from `4b3e78c`
+
+The four interfaces have a new independent audit in each interface directory
+(`CODEX_AUDIT.md`). The selected statements pass within the disclosed chronological
+and canonical-observable representations. This does not certify the unrestricted
+ambient bridge as a compared target, the whole manuscript or Palomar acceptance.
+See [the takeover review and Linux runbook](CODEX_TAKEOVER.md).
+
+The verification scripts now stop with a nonzero status on any failed required
+step. Each run needs a **new or empty output directory**. Collection requires a
+clean committed checkout, checks its identity again at the end, and writes
+`result.json`; summaries reject incomplete runs and changed export files.
+Use output directories outside the checkout, for example:
+
+```sh
+scripts/collect-evidence.sh /tmp/freezing1-local-evidence
+python3 scripts/summarize-evidence.py /tmp/freezing1-local-evidence > /tmp/freezing1-local-summary.md
+```
+
+Commit local changes before collecting evidence; the collector deliberately
+rejects a dirty checkout. Standalone diagnostics remain available while editing.
+The historical summary below and its logs are preserved, not retroactively
+presented as output of the repaired scripts.
 
 ## Results for the stabilized candidate (local runs, details in `candidate/SUMMARY.md`)
 
@@ -52,7 +78,7 @@ empty `.lake/build` against the pinned Mathlib v4.35.0 packages: 4645 jobs, succ
 8683 `Freezing1` declarations and the 26 exported names have only the three standard axioms; for each of the four interfaces
 the local comparison reports `statements and reachable constants match` and `only permitted axioms`, and the Solution export is
 accepted by Lean's `leanchecker`, NanoDa (`nanoda_bin`) and the four other bundled checkers (exit 0). The logs are
-`<interface>/{compare,run,leanchecker,kernels}.log`. The later local commits add only scripts, documentation and these logs
+`<interface>/{compare,run,leanchecker,kernels}.log`. The Claude evidence commits `7546bcf` and `4b3e78c` add only scripts, documentation and these logs
 (no Lean file changes, checked with `git diff --stat`); no rebuild was needed.
 
 ## Four levels of evidence — kept distinct
@@ -80,4 +106,4 @@ Independent statement reviews of each Challenge (written without reading the pro
 
 `scripts/export_candidate.py DEST` copies an explicit allowlist from the development tree into an isolated
 directory (the development tree is untouched). `MANIFEST.sha256` in the candidate lists the hash of every
-file. The candidate is a local git repository with one local commit (no remote, no push).
+file. The candidate is a local git repository with local commits only (no remote or push).

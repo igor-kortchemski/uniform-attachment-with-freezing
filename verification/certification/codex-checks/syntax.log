@@ -1,0 +1,5 @@
+Python syntax: PASS
+.github/workflows/comparator.yml: YAML and embedded shell syntax PASS
+.github/workflows/palomar.yml: YAML and embedded shell syntax PASS
+.github/workflows/ci.yml: YAML and embedded shell syntax PASS
+Shell wrapper syntax: PASS

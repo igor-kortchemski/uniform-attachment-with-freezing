@@ -1,0 +1,10 @@
+'Freezing1.SIR.PoissonSIRData.exists_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonSIRData.exists_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonSIRData.exists_data_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.physical_sir_not_tight_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.physical_sir_strong_uniform_fluid_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.independent_poisson_fullContact_counts_fullLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

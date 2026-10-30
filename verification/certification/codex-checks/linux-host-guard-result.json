@@ -1,0 +1,9 @@
+{
+  "mode": "linux",
+  "status": "failed",
+  "official_palomar_report": false,
+  "started_utc": "2026-10-30T18:06:22Z",
+  "exit_code": 2,
+  "error": "Official sandboxed checks require Linux; no sandbox bypass is permitted",
+  "completed_utc": "2026-10-30T18:06:22Z"
+}

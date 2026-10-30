@@ -30,7 +30,6 @@ Challenge interface.
 * L04 (forward-tree probability on the displayed class) false on the printed support (S01); corrected
   support version proved.
 * P03 upper half false at n = 1 (S16); corrected bound with the true vertex count proved.
-* L13 literal current-state-only formulation: neither proved nor refuted (item 3).
 * Introduction sentence at tex line 312 swaps the roles of +1 and −1 with respect to Algorithm 2.
 
 ## 3. Open obligations of the manuscript
@@ -86,12 +85,18 @@ Challenge interface.
   They change no statement and no kernel term of a reachable constant (checked by the local comparison), but
   they are metaprogramming inside an interface file and Palomar acceptance is **unconfirmed**. The alternative
   is a development refactor so that reachable definitions avoid these internals.
+  `Challenge/LocalLimits.lean` also uses `bootstrap.genMatcherCode false` and explicit auxiliary
+  proofs. The Codex audit inspected the pinned environment, matcher, exporter and recursive-comparison
+  implementations: these devices do not exempt constants from comparison; this is not a guarantee
+  of official policy or pipeline acceptance.
 
 ## 5. Unverified items, stated exactly
 
-1. **Official Comparator, Linux sandbox, NanoDa/lean4lean/con-ron kernels, the Palomar full mechanical report**
-   have not been run: this machine is macOS (Darwin 23.6); `lake comparator` exits with status 2 because the
-   bubblewrap namespace sandbox is unavailable, and no isolation bypass was attempted.
+1. **Official Comparator, Linux sandbox, official kernel replay and the full Palomar mechanical report**
+   have not been obtained. Local unsandboxed Lean/NanoDa and other checker runs passed as recorded
+   in `candidate/SUMMARY.md`; they are not official pipeline results. This machine is macOS;
+   `lake comparator` exits with status 2 because the bubblewrap namespace sandbox is unavailable.
+   No isolation bypass was attempted.
 2. No public commit exists and nothing was uploaded; Palomar's pipeline checks a public repository at a commit.
 3. The local diagnostic (`scripts/local-comparator-diagnostic.sh`) reproduces Lake's own comparison functions
    outside the sandbox on `leanexport` output. It is not the official tool.

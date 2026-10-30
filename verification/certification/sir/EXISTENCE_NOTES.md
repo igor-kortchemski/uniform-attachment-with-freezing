@@ -2,7 +2,10 @@
 
 ## Result
 
-New modules (no existing file was edited; `Freezing1.lean` does not yet import them):
+The following modules are built and imported by `Freezing1.lean` in the candidate.
+`exists_data` and `exists_family` are selected SIR comparison targets. Earlier
+implementation notes and the unchanged Challenge header contain historical
+pending-work wording; that is superseded by this status and the config.
 
 | Module | Lines | Content |
 | --- | --- | --- |

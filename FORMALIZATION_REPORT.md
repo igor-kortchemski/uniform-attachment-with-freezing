@@ -952,3 +952,27 @@ Scope: seven theorems, twenty conclusions; **not** the whole manuscript. Details
   for the exact results of the final candidate.
 * Unchanged open items: A85–A86, literal L13, A06 GHP/dendron, A87 stochastic domination, A24/A67/A73 couplings, and the
   false-as-printed statements L03, L04, P03 upper.
+
+## Codex audit of the publication candidate — 30 October 2026
+
+The isolated candidate was audited from local commit `4b3e78c`. Four independent
+interface reviews found no blocking mathematical mismatch in the selected
+Heights, chronological LocalLimits, canonical-observable SameLaw and physical
+SIR statements. New imported probes passed 16 expanded examples and 24 axiom
+closures. The full ambient local-limit bridge remains proved elsewhere in
+the library rather than selected by this comparison interface; the literal
+T05 isomorphism-class dictionary remains an explicit representation caveat.
+
+The verifier scripts were repaired to propagate failures and reject stale,
+incomplete or mixed-identity evidence. Eighteen regression tests pass. A real
+auxiliary comparison/Lean kernel check and a small real export replayed by
+six bundled checkers passed. These focused tests do not replace the unchanged
+full main-result proof evidence or establish an official Linux/Palomar pass.
+No mathematical implementation, interface statement, comparison target or
+version pin changed. The manual Linux workflow is prepared with NanoDa
+explicitly enabled, but no push, dispatch, publication or visibility change
+was performed. All whole-manuscript gaps remain retained.
+
+Details and exact logs: [Codex takeover](verification/certification/CODEX_TAKEOVER.md),
+[script review](verification/certification/SCRIPT_REVIEW.md), and the four
+`CODEX_AUDIT.md` interface records.

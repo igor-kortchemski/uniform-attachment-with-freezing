@@ -1,6 +1,6 @@
 # Palomar Challenge/Solution pair for Theorem `thm:samelaw` (group T05)
 
-Files: `Challenge/SameLaw.lean` (module `Challenge.SameLaw`, 675 lines, 30.4 KiB),
+Files: `Challenge/SameLaw.lean` (module `Challenge.SameLaw`, 680 lines),
 `Solution/SameLaw.lean` (imports `Freezing1`), `comparator/samelaw.json`.
 Evidence in this directory: `compare.log`, `run.log`, `leanchecker.log` (final run) and
 `compare-attempt1-failed.log` (first run, see "Adjustments").
@@ -15,9 +15,9 @@ Evidence in this directory: `compare.log`, `run.log`, `leanchecker.log` (final r
 and `leanchecker --from-export` on the Solution export exits 0. The diagnostic takes about 2 minutes on
 this machine for this pair. `Challenge/SameLaw.lean` direct check
 (`lake env lean -DautoImplicit=false Challenge/SameLaw.lean`) gives only `declaration uses sorry` warnings
-(23, one per target); `bl.sh Challenge.SameLaw Solution.SameLaw` builds.
+(24, one per target); the recorded artifact build passes.
 
-## Targets (23 theorems; each a `sorry` body in the Challenge, listed in `comparator/samelaw.json`)
+## Targets (24 theorems; each a `sorry` body in the Challenge, listed in `comparator/samelaw.json`)
 
 Main target (manuscript Theorem `thm:samelaw`, tex lines 661-664; Algorithm 1 at tex 424-436,
 Algorithm 2 at tex 527-538):

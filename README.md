@@ -175,3 +175,9 @@ The source reverse-SIR coupling and other explicitly retained obligations
 remain open. See the coverage report and continuation checkpoint for current
 proof evidence; this remains a partial development rather than a verified
 whole-paper publication candidate.
+
+The local candidate has since received an independent four-interface audit
+and verification-script repairs. See
+[the Codex takeover record](verification/certification/CODEX_TAKEOVER.md)
+for the exact scope, failure-injection tests and prepared Linux checks.
+No official Linux/Palomar run or publication is claimed.
