@@ -1,0 +1,15 @@
+start 2026-10-30T16:20:55Z
+
+real	1m51.581s
+user	0m19.155s
+sys	0m33.293s
+export challenge exit=0
+
+real	2m4.069s
+user	0m40.008s
+sys	0m35.937s
+export solution exit=0
+-rw-r--r--  1 igor  wheel  201504920 Oct 30 17:22 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/sir/challenge.ndjson
+-rw-r--r--  1 igor  wheel  442385240 Oct 30 17:24 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/sir/solution.ndjson
+leanchecker exit=0
+(nanoda and other bundled checkers are run separately: see the certification notes)

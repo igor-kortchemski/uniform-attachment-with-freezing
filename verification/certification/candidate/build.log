@@ -1,0 +1,989 @@
+start 2026-10-30T15:24:43Z
+✔ [3689/3715] Built Freezing1.RateFunction (4.9s)
+✔ [3692/3715] Built Freezing1.Path (6.2s)
+✔ [3694/3715] Built Freezing1.UniformRootPair (7.1s)
+✔ [3695/3715] Built Freezing1.RootedForest (8.3s)
+✔ [3696/3725] Built Freezing1.SourceChecks (5.5s)
+✔ [3697/3725] Built Freezing1.BernoulliConcentration (6.8s)
+✔ [3698/3726] Built Freezing1.HeightScale (6.7s)
+✔ [3701/3774] Built Freezing1.IntervalCounts (9.2s)
+✔ [3702/3803] Built Freezing1.Extinction (6.7s)
+✔ [3707/3803] Built Freezing1.BirthTime (7.4s)
+✔ [3708/3803] Built Freezing1.HeightTailBounds (6.5s)
+✔ [3709/3803] Built Freezing1.AtomicMeasureComparison (4.9s)
+✔ [3710/3803] Built Freezing1.BernoulliLimits (7.3s)
+✔ [3711/3803] Built Freezing1.RootedForestExtensionality (7.4s)
+✔ [3712/3803] Built Freezing1.BernoulliProductLaw (5.2s)
+✔ [3713/3803] Built Freezing1.PolyaBernoulliMGF (8.7s)
+✔ [3714/3803] Built Freezing1.LinearRegimeIntervals (9.6s)
+✔ [3715/3803] Built Freezing1.HeightScaleBounds (8.4s)
+✔ [3717/3803] Built Freezing1.LinearRegimeAssumptions (9.4s)
+✔ [3718/3804] Built Freezing1.HistoryProbability (8.5s)
+✔ [3719/3804] Built Freezing1.ForwardTree (8.5s)
+✔ [3721/3804] Built Freezing1.FiniteMultisetSampling (7.7s)
+✔ [3722/3804] Built Freezing1.RootedForestLaw (7.1s)
+✔ [3723/3804] Built Freezing1.UniformPermutationMoments (8.5s)
+✔ [3724/3834] Built Freezing1.HeightAsymptotics (6.3s)
+✔ [3725/3834] Built Freezing1.PaperResults (7.1s)
+✔ [3726/3834] Built Freezing1.BernoulliArrayLimits (6.1s)
+✔ [3727/3834] Built Freezing1.RootedForestRelabel (7.6s)
+✔ [3730/3834] Built Freezing1.SignedUrn (7.6s)
+✔ [3731/3834] Built Freezing1.LinearRegimeCutoffs (7.6s)
+✔ [3732/3834] Built Freezing1.ForwardLaw (7.8s)
+✔ [3733/3834] Built Freezing1.TaggedPopulationKernel (7.3s)
+✔ [3734/3834] Built Freezing1.LinearRegimeUniform (11s)
+✔ [3735/3834] Built Freezing1.RootedForestCoalescence (7.7s)
+✔ [3737/3834] Built Freezing1.ReverseForest (7.3s)
+✔ [3738/3834] Built Freezing1.FinitePermutationAverage (6.8s)
+✔ [3739/3834] Built Freezing1.SummableFailureChain (6.7s)
+✔ [3740/3834] Built Freezing1.UniformPermutationWeighted (7.5s)
+✔ [3741/3834] Built Freezing1.BernoulliBlockRestriction (5.2s)
+✔ [3742/3834] Built Freezing1.MGFLimits (6.8s)
+✔ [3743/3834] Built Freezing1.ScheduleBernoulli (7.0s)
+✔ [3744/3834] Built Freezing1.GeometricChainCutoffs (8.1s)
+✔ [3745/3834] Built Freezing1.ForwardComponentPopulation (7.8s)
+✔ [3746/3834] Built Freezing1.ForwardStateDefaults (6.6s)
+✔ [3747/3834] Built Freezing1.ForwardEdgeOrder (6.2s)
+✔ [3748/3834] Built Freezing1.ForwardHeight (8.1s)
+✔ [3749/3834] Built Freezing1.ForwardAbsorption (6.9s)
+✔ [3751/3834] Built Freezing1.ForwardLabels (7.1s)
+✔ [3752/3834] Built Freezing1.MainLinearHeightScale (7.9s)
+✔ [3753/3834] Built Freezing1.RootedForestDistance (6.5s)
+✔ [3754/3834] Built Freezing1.ReverseCoalescence (6.7s)
+✔ [3755/3834] Built Freezing1.ReverseHeightLaw (8.2s)
+✔ [3756/3834] Built Freezing1.ReverseHistory (8.1s)
+✔ [3757/3834] Built Freezing1.ReverseStampedForest (8.4s)
+✔ [3758/3834] Built Freezing1.UniformPermutationGrowth (9.2s)
+✔ [3759/3834] Built Freezing1.MaximumMGFLimits (7.3s)
+✔ [3760/3834] Built Freezing1.ForwardHeightOrder (8.5s)
+✔ [3761/3834] Built Freezing1.ForwardMaximum (9.5s)
+✔ [3762/3834] Built Freezing1.GeometricChainErrors (5.0s)
+✔ [3763/3834] Built Freezing1.MainHeight (8.1s)
+✔ [3764/3838] Built Freezing1.ForwardReconstruction (8.0s)
+✔ [3765/3838] Built Freezing1.ForwardScheduleSupport (7.4s)
+✔ [3766/3838] Built Freezing1.RootedForestFiniteDistance (7.2s)
+✔ [3767/3838] Built Freezing1.ReverseSeparationLaw (8.1s)
+✔ [3768/3838] Built Freezing1.ReverseHistoryContinuation (7.7s)
+✔ [3769/3838] Built Freezing1.ReverseHistoryHeight (8.7s)
+✔ [3770/3838] Built Freezing1.ReverseTimestampSupport (9.6s)
+✔ [3771/3838] Built Freezing1.TaggedPopulationCounts (9.8s)
+✔ [3773/3839] Built Freezing1.CenteredMGFLimits (8.3s)
+✔ [3774/3839] Built Freezing1.ForwardUniformHeight (10s)
+✔ [3775/3839] Built Freezing1.MainMaximum (9.6s)
+✔ [3776/3839] Built Freezing1.ForwardHistorySupport (8.0s)
+✔ [3777/3839] Built Freezing1.ReverseCoalescenceTime (9.3s)
+✔ [3778/3839] Built Freezing1.ReverseHistoryBernoulli (9.1s)
+✔ [3779/3839] Built Freezing1.ReversePairHeightKernel (8.8s)
+✔ [3781/3839] Built Freezing1.ReverseStampedTransitionProbability (8.1s)
+✔ [3783/3839] Built Freezing1.ReverseStampedDefaults (7.3s)
+✔ [3784/3839] Built Freezing1.ReverseTimestampOrder (6.4s)
+✔ [3785/3839] Built Freezing1.TaggedPopulationGrowth (6.4s)
+✔ [3786/3839] Built Freezing1.ForwardUniformHeightTails (7.0s)
+✔ [3787/3839] Built Freezing1.LinearMaximumUpper (8.4s)
+✔ [3788/3839] Built Freezing1.ForwardPointMass (8.9s)
+✔ [3789/3840] Built Freezing1.CoalescenceBounds (9.8s)
+✔ [3791/3842] Built Freezing1.ForwardHistoryExistence (12s)
+✔ [3792/3842] Built Freezing1.ReverseHistoryBlocks (10s)
+✔ [3793/3842] Built Freezing1.ReversePairHeightBlocks (10s)
+✔ [3794/3843] Built Freezing1.ReverseStampedReconstruction (9.8s)
+✔ [3797/3843] Built Freezing1.CanonicalTreeObservable (9.9s)
+✔ [3799/3843] Built Freezing1.MainLinearUniformHeight (10s)
+✔ [3800/3843] Built Freezing1.UniformCoalescence (8.1s)
+✔ [3801/3843] Built Freezing1.ForwardCutForest (7.1s)
+✔ [3802/3846] Built Freezing1.ReverseHistoryBlockCount (7.3s)
+✔ [3805/3846] Built Freezing1.SignedUrnContinuation (8.1s)
+✔ [3806/3846] Built Freezing1.ReversePairHeightTails (7.4s)
+✔ [3807/3848] Built Freezing1.ReverseStampedPointMass (7.3s)
+✔ [3810/3849] Built Freezing1.CanonicalReverseState (7.1s)
+✔ [3811/3849] Built Freezing1.CoalescenceLimits (7.3s)
+✔ [3812/3849] Built Freezing1.ForwardCutUpdates (6.4s)
+✔ [3816/3849] Built Freezing1.ForwardComponentContinuation (6.7s)
+✔ [3817/3849] Built Freezing1.ReversePairHeightHistory (7.1s)
+✔ [3818/3849] Built Freezing1.ReverseStampedHistoryExistence (7.7s)
+✔ [3819/3849] Built Freezing1.CanonicalForwardShape (8.2s)
+✔ [3821/3849] Built Freezing1.CoalescenceLogScale (8.9s)
+✔ [3822/3849] Built Freezing1.ForwardCutTruncation (8.6s)
+✔ [3823/3849] Built Freezing1.ForwardGoodChains (9.3s)
+✔ [3824/3849] Built Freezing1.ForwardTaggedPopulation (9.1s)
+✔ [3825/3852] Built Freezing1.ForwardComponentMaximum (9.4s)
+✔ [3827/3852] Built Freezing1.ReversePairHeightVariance (11s)
+✔ [3829/3852] Built Freezing1.ReverseStampedRelabel (8.7s)
+✔ [3831/3945] Built Freezing1.ForwardGoodChainPropagation (8.1s)
+✔ [3876/3945] Built Freezing1.ForwardTaggedCounts (7.3s)
+✔ [3877/3945] Built Freezing1.LinearBlockVariance (8.0s)
+✔ [3878/3945] Built Freezing1.CanonicalReverseRelabel (8.0s)
+✔ [3879/3945] Built Freezing1.BlockAttachmentParameters (9.8s)
+✔ [3880/3945] Built Freezing1.SignedUrnConcentration (10s)
+✔ [3881/3945] Built Freezing1.TreeSourceChecks (9.7s)
+✔ [3882/3945] Built Freezing1.ReverseHistoryDistance (9.9s)
+✔ [3883/3945] Built Freezing1.GeometricChainSourceIndices (8.3s)
+✔ [3884/3945] Built Freezing1.SignedUrnPath (10s)
+✔ [3885/3945] Built Freezing1.GeometricChainErrorRate (5.3s)
+✔ [3888/3951] Built Freezing1.TaggedPopulationStatistics (7.3s)
+✔ [3889/3951] Built Freezing1.ForwardDegree (6.0s)
+✔ [3890/3951] Built Freezing1.ForwardVertexLifetime (6.9s)
+✔ [3891/3951] Built Freezing1.FreezingReciprocalSeries (6.8s)
+✔ [3892/3951] Built Freezing1.CanonicalReverseFibers (6.9s)
+✔ [3894/3951] Built Freezing1.CoalescenceSourceChecks (6.0s)
+✔ [3896/3951] Built Freezing1.LinearComponentTail (9.7s)
+✔ [3897/3952] Built Freezing1.ReverseHeightBounds (7.1s)
+✔ [3899/3952] Built Freezing1.SignedUrnMaximal (7.9s)
+✔ [3901/3952] Built Freezing1.AttachmentReciprocalSeries (6.6s)
+✔ [3903/3954] Built Freezing1.ForwardDegreeSurvival (6.9s)
+✔ [3904/3956] Built Freezing1.CanonicalReversePointMass (6.5s)
+✔ [3907/3956] Built Freezing1.LinearComponentTailBounds (8.3s)
+✔ [3908/3956] Built Freezing1.SurvivalProduct (6.8s)
+✔ [3909/3956] Built Freezing1.SignedUrnInfinite (7.5s)
+✔ [3910/3956] Built Freezing1.ForwardDegreeProducts (7.2s)
+✔ [3913/3956] Built Freezing1.ConstructionEquivalence (6.9s)
+✔ [3914/3956] Built Freezing1.PoissonLowerTail (7.1s)
+✔ [3915/3956] Built Freezing1.PoissonApproximation (7.7s)
+✔ [3917/3956] Built Freezing1.MainLinearComponentMaximum (9.3s)
+✔ [3918/3956] Built Freezing1.ForwardLifetimeCriterion (8.6s)
+✔ [3919/3956] Built Freezing1.ForwardDegreeBounds (8.4s)
+✔ [3920/3956] Built Freezing1.CanonicalGraphDistance (6.6s)
+✔ [3921/3956] Built Freezing1.CanonicalUniformSampling (6.6s)
+✔ [3922/3956] Built Freezing1.ReverseStampedHistory (7.0s)
+✔ [3923/3956] Built Freezing1.BernoulliParameterBounds (5.7s)
+✔ [3924/3956] Built Freezing1.ForwardSupportCharacterization (7.0s)
+✔ [3925/3956] Built Freezing1.ForwardDegreeLimits (7.5s)
+✔ [3926/3956] Built Freezing1.CanonicalMaximum (7.1s)
+✔ [3927/3956] Built Freezing1.CanonicalPairSampling (7.4s)
+✔ [3928/3961] Built Freezing1.ForwardTruncationLaw (6.6s)
+✔ [3929/3961] Built Freezing1.LinearBlockLowerTail (19s)
+✔ [3930/3961] Built Freezing1.ReverseTimestampCuts (10s)
+✔ [3931/3961] Built Freezing1.BernoulliReciprocalParameters (8.0s)
+✔ [3932/3961] Built Freezing1.ForwardBlockPrefixLaw (6.3s)
+✔ [3933/3961] Built Freezing1.ForwardGoodChainMaximum (6.6s)
+✔ [3935/3961] Built Freezing1.LinearGoodChainBase (7.3s)
+✔ [3936/3964] Built Freezing1.ForwardContinuationPrefix (7.3s)
+✔ [3938/3964] Built Freezing1.MainLinearBlockCount (7.4s)
+✔ [3939/3964] Built Freezing1.UniformPairDistance (16s)
+✔ [3940/3967] Built Freezing1.CanonicalCutForest (7.4s)
+✔ [3942/3967] Built Freezing1.ForwardBlockStatistics (6.3s)
+✔ [3943/3967] Built Freezing1.ForwardGoodChainStep (6.2s)
+✔ [3946/3968] Built Freezing1.ForwardPrefixEvents (6.2s)
+✔ [3951/3970] Built Freezing1.MainLinearBlockConcentration (6.6s)
+✔ [3952/3970] Built Freezing1.UniformPairDistanceMoments (6.9s)
+✔ [3956/3970] Built Freezing1.CanonicalCutHeight (6.5s)
+✔ [3959/3970] Built Freezing1.ForwardBlockIndependence (6.5s)
+✔ [3960/3971] Built Freezing1.ForwardGoodChainJoint (6.8s)
+✔ [3961/3971] Built Freezing1.CanonicalCutAncestor (6.9s)
+✔ [3962/3975] Built Freezing1.ForwardBlockCountLaw (7.2s)
+✔ [3964/3975] Built Freezing1.MainLinearDistance (9.8s)
+✔ [3965/4022] Built Freezing1.ForwardConditionalGoodChain (9.2s)
+✔ [4006/4040] Built Freezing1.ForwardGoodChainSurvival (7.2s)
+✔ [4015/4040] Built Freezing1.CanonicalComponentGeometry (7.0s)
+✔ [4017/4087] Built Freezing1.MainForwardBlockConcentration (7.6s)
+✔ [4019/4087] Built Freezing1.LocalTreeTopology (7.5s)
+✔ [4020/4087] Built Freezing1.PlaneTree (8.7s)
+✔ [4021/4088] Built Freezing1.ForwardInfiniteHistory (9.4s)
+✔ [4024/4088] Built Freezing1.InterleavedChainKernel (7.8s)
+✔ [4025/4088] Built Freezing1.MainLinearMaximumLower (10s)
+✔ [4026/4088] Built Freezing1.ProbabilityLawConvergence (6.3s)
+✔ [4027/4088] Built Freezing1.MainConditionalGoodChain (8.0s)
+✔ [4028/4118] Built Freezing1.ForwardLocalTree (7.7s)
+✔ [4031/4118] Built Freezing1.PlaneTreePruning (6.6s)
+✔ [4032/4118] Built Freezing1.ForwardLifetimeEvents (7.1s)
+✔ [4033/4118] Built Freezing1.InterleavedChainExtraction (5.7s)
+✔ [4034/4118] Built Freezing1.ForwardSchedulePrefix (7.5s)
+✔ [4035/4118] Built Freezing1.CountableMarkovObservations (6.5s)
+✔ [4036/4118] Built Freezing1.InterleavedChainCylinders (6.0s)
+✔ [4037/4118] Built Freezing1.ForwardLocalGraph (9.1s)
+✔ [4039/4118] Built Freezing1.LocalTreeCylinders (9.0s)
+✔ [4040/4118] Built Freezing1.LocalTreeRootDegree (8.8s)
+✔ [4041/4118] Built Freezing1.GeometricBranching (5.5s)
+✔ [4042/4118] Built Freezing1.PlaneTreeOffspringCylinders (7.3s)
+⚠ [4043/4118] Built Freezing1.SIRCounts (6.7s)
+warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRCounts.lean:86:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [4044/4118] Built Freezing1.SIRProbability (8.2s)
+✔ [4045/4118] Built Freezing1.PlaneTreeGeometry (7.2s)
+✔ [4046/4118] Built Freezing1.ForwardLifetimeLimit (6.9s)
+✔ [4047/4118] Built Freezing1.InterleavedSelectionCounts (5.3s)
+✔ [4048/4118] Built Freezing1.CountableMarkovShift (31s)
+✔ [4049/4118] Built Freezing1.ForwardAnnealed (6.4s)
+✔ [4050/4118] Built Freezing1.InterleavedChainObservations (4.8s)
+✔ [4051/4118] Built Freezing1.ForwardDegreeMonotonicity (6.1s)
+✔ [4053/4118] Built Freezing1.InterleavedWordResolution (5.1s)
+✔ [4054/4118] Built Freezing1.CountablePathLaw (5.7s)
+✔ [4055/4118] Built Freezing1.LocalTreeGraph (6.9s)
+✔ [4056/4118] Built Freezing1.ForwardLocalStability (7.1s)
+✔ [4057/4118] Built Freezing1.LocalDegreeTightness (6.8s)
+✔ [4058/4118] Built Freezing1.FirstChildFixedPoint (4.5s)
+✔ [4059/4118] Built Freezing1.SIRCountLaw (6.6s)
+✔ [4060/4119] Built Freezing1.PlaneTreeLocalTopology (6.1s)
+✔ [4061/4119] Built Freezing1.PlaneFiniteState (6.4s)
+⚠ [4062/4119] Built Freezing1.CountableMarkovAvoidance (5.2s)
+warning: Freezing1/CountableMarkovAvoidance.lean:70:8: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.avoidanceProbability_zero`:
+  [MeasurableSingletonClass E]
+  [Countable E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass E] [Countable E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Freezing1/CountableMarkovAvoidance.lean:102:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/CountableMarkovAvoidance.lean:109:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [4063/4119] Built Freezing1.InterleavedWordExtraction (4.0s)
+✔ [4064/4119] Built Freezing1.ForwardAnnealedSigns (6.5s)
+✔ [4065/4119] Built Freezing1.PlaneBienaymeLaw (6.2s)
+✔ [4066/4119] Built Freezing1.OffspringFieldGroups (6.2s)
+✔ [4067/4119] Built Freezing1.CountableMarkovCylinders (5.1s)
+✔ [4068/4119] Built Freezing1.LocalTreeChildren (6.3s)
+✔ [4069/4120] Built Freezing1.ForwardDiagonalBalls (6.8s)
+✔ [4071/4120] Built Freezing1.ForwardLocalLimit (6.8s)
+✔ [4072/4120] Built Freezing1.PlaneTreeBranching (7.7s)
+✔ [4073/4120] Built Freezing1.PlaneTreeCylinders (7.8s)
+✔ [4074/4120] Built Freezing1.PlaneStateValidity (7.6s)
+⚠ [4075/4120] Built Freezing1.ForwardPlaneKernel (8.0s)
+warning: Freezing1/ForwardPlaneKernel.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:118:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:135:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:175:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [4076/4120] Built Freezing1.InterleavedLimitTransfer (7.2s)
+✔ [4077/4120] Built Freezing1.InterleavedChainLaw (8.1s)
+✔ [4079/4121] Built Freezing1.SIRSignWords (9.5s)
+✔ [4080/4121] Built Freezing1.ChronologicalPlaneTree (9.3s)
+✔ [4081/4121] Built Freezing1.ForwardDiagonalLocalLimit (10s)
+✔ [4082/4121] Built Freezing1.MainLocalNecessity (9.6s)
+✔ [4083/4121] Built Freezing1.ForwardLocalExtinction (9.3s)
+✔ [4084/4121] Built Freezing1.PlaneBienaymeBranching (8.7s)
+✔ [4085/4121] Built Freezing1.PlaneBienaymeUniqueness (8.4s)
+✔ [4086/4124] Built Freezing1.PlaneStateUpdates (7.7s)
+✔ [4088/4126] Built Freezing1.InterleavedChainsIndependent (6.3s)
+✔ [4089/4126] Built Freezing1.ForwardAnnealedHistory (34s)
+✔ [4090/4126] Built Freezing1.PlaneInterleavingFairness (9.4s)
+✔ [4091/4126] Built Freezing1.MainLocalLimit (8.7s)
+⚠ [4092/4126] Built Freezing1.PlaneGeometricBienayme (7.8s)
+warning: Freezing1/PlaneGeometricBienayme.lean:30:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4093/4126] Built Freezing1.SIRTreeState (7.5s)
+✔ [4095/4134] Built Freezing1.PlaneFrozenBalls (7.8s)
+⚠ [4101/4135] Built Freezing1.ForwardPlaneAddress (8.1s)
+warning: Freezing1/ForwardPlaneAddress.lean:64:7: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/ForwardPlaneAddress.lean:68:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:12: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:25: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [4104/4136] Built Freezing1.PlaneStateGraft (7.6s)
+✔ [4109/4136] Built Freezing1.SIRSourceChecks (6.0s)
+✔ [4111/4215] Built Freezing1.ForwardAnnealedLifetime (8.6s)
+✔ [4157/4215] Built Freezing1.ForwardPlaneUpdates (7.1s)
+✔ [4158/4215] Built Freezing1.PlaneStateGraftRight (6.5s)
+⚠ [4159/4215] Built Freezing1.SIRExponentialRace (7.2s)
+warning: Freezing1/SIRExponentialRace.lean:28:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:59:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:71:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:78:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:79:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:86:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:123:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:126:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:166:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRExponentialRace.lean:169:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRExponentialRace.lean:166:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Freezing1/SIRExponentialRace.lean:169:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Freezing1/SIRExponentialRace.lean:182:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:183:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4161/4216] Built Freezing1.SIRFluidProfile (8.3s)
+✔ [4162/4285] Built Freezing1.SIRBiasedWalk (8.8s)
+✔ [4163/4306] Built Freezing1.SIRClockPopulation (8.0s)
+✔ [4164/4306] Built Freezing1.SIRStrongCounts (12s)
+✔ [4165/4306] Built Freezing1.ForwardPlaneLaw (8.0s)
+✔ [4166/4306] Built Freezing1.PlaneGraftShape (6.8s)
+⚠ [4167/4306] Built Freezing1.PlaneGraftTransition (6.7s)
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [4169/4306] Built Freezing1.SIRExponentialWinner (8.3s)
+✔ [4171/4306] Built Freezing1.SIRPathSpace (7.7s)
+✔ [4173/4306] Built Freezing1.SIRLambertW (8.0s)
+✔ [4174/4306] Built Freezing1.CountableMarkovPotential (6.3s)
+✔ [4175/4306] Built Freezing1.SIRFluidApproximation (11s)
+✔ [4176/4306] Built Freezing1.SIRBiasedWalkExtinction (9.0s)
+✔ [4177/4306] Built Freezing1.ForwardCutHeightMoments (8.5s)
+✔ [4178/4306] Built Freezing1.BalancedSchedule (8.1s)
+✔ [4179/4306] Built Freezing1.ForwardPrefixGeometry (8.8s)
+✔ [4180/4306] Built Freezing1.FiniteUniformRestriction (10s)
+✔ [4181/4306] Built Freezing1.ListSortByKey (4.0s)
+✔ [4182/4306] Built Freezing1.SIRGeometryRescale (11s)
+✔ [4183/4306] Built Freezing1.SIRPoissonFirstArrival (10s)
+✔ [4184/4306] Built Freezing1.BinaryTreeRotation (10s)
+✔ [4185/4306] Built Freezing1.FreezingDensityCriterion (7.7s)
+✔ [4186/4306] Built Freezing1.SIRClockPopulationUpdates (7.8s)
+✔ [4187/4306] Built Freezing1.PlaneRecursiveRootDegree (7.8s)
+✔ [4188/4306] Built Freezing1.ForwardChronologicalPlaneBridge (7.1s)
+✔ [4190/4322] Built Freezing1.ForwardPlaneHistory (6.9s)
+✔ [4192/4322] Built Freezing1.PlaneFirstStep (6.8s)
+⚠ [4193/4322] Built Freezing1.PlaneGraftHistory (6.0s)
+warning: Freezing1/PlaneGraftHistory.lean:37:0: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.map_fullLaw_of_ae_intertwining`:
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4194/4322] Built Freezing1.SIRExponentialMemoryless (7.8s)
+✔ [4195/4322] Built Freezing1.ForwardCutHeightMGF (8.3s)
+✔ [4196/4322] Built Freezing1.SIRRandomEnvironmentTransferUniform (8.1s)
+⚠ [4198/4322] Built Freezing1.FiniteUniformPairs (8.8s)
+warning: Freezing1/FiniteUniformPairs.lean:33:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:34:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:30:35: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:30:53: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:39:54: This simp argument is unused:
+  Finset.mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Measure.uniformOfFinset_apply_singleton]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [4199/4322] Built Freezing1.IncreasingBinaryBijection (9.6s)
+✔ [4201/4322] Built Freezing1.SIRClockNextCoordinates (8.5s)
+✔ [4202/4326] Built Freezing1.ForwardPlaneLimit (9.1s)
+✔ [4203/4326] Built Freezing1.PlaneFrozenLimit (9.1s)
+✔ [4204/4326] Built Freezing1.PrefixMarkovProjection (6.4s)
+✔ [4205/4326] Built Freezing1.UniformBirthBernoulliParameters (8.5s)
+✔ [4206/4326] Built Freezing1.SIRLateHarmonic (8.4s)
+✔ [4207/4326] Built Freezing1.SIRBiasedWalkMonotone (8.7s)
+✔ [4208/4326] Built Freezing1.SIRTreeLaw (7.1s)
+✔ [4210/4326] Built Freezing1.ForwardCutMaximum (8.5s)
+✔ [4211/4326] Built Freezing1.SIRRandomEnvironmentUniformNat (7.3s)
+✔ [4212/4334] Built Freezing1.SIRRandomEnvironmentTransferProfiles (8.2s)
+✔ [4213/4334] Built Freezing1.ForwardUniformRestriction (7.8s)
+✔ [4215/4334] Built Freezing1.SIRPreassignedClocks (20s)
+⚠ [4216/4334] Built Freezing1.PlaneFiniteGraph (8.1s)
+warning: Freezing1/PlaneFiniteGraph.lean:48:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4218/4334] Built Freezing1.BinaryTreeSourceDomain (8.4s)
+✔ [4219/4334] Built Freezing1.PlaneChainLimit (8.7s)
+✔ [4220/4334] Built Freezing1.ForwardPlaneLeafMass (9.1s)
+✔ [4221/4334] Built Freezing1.FullBinaryActiveLeaves (8.0s)
+✔ [4222/4334] Built Freezing1.UniformBirthConditionalMean (8.0s)
+✔ [4223/4334] Built Freezing1.UniformBirthBernoulli (8.1s)
+✔ [4224/4334] Built Freezing1.SIRLateReciprocalBudget (7.7s)
+✔ [4225/4334] Built Freezing1.SIRPopulationUniformActor (7.3s)
+✔ [4226/4334] Built Freezing1.SIRAbsorption (6.3s)
+✔ [4228/4334] Built Freezing1.SIRTreeWordMixture (6.0s)
+✔ [4230/4334] Built Freezing1.SIRRandomEnvironmentTransferNearBulk (7.0s)
+✔ [4232/4334] Built Freezing1.PoissonContactOptional (7.4s)
+✔ [4233/4334] Built Freezing1.SIRPoissonClockArray (7.1s)
+✔ [4234/4334] Built Freezing1.SIRPreassignedResiduals (6.5s)
+✔ [4235/4334] Built Freezing1.PlaneGraphGeometry (6.2s)
+✔ [4236/4335] Built Freezing1.ForwardPlaneDistance (6.6s)
+✔ [4237/4335] Built Freezing1.RootedUnorderedTrees (6.4s)
+✔ [4238/4335] Built Freezing1.PlaneGraftLimit (6.0s)
+✔ [4239/4335] Built Freezing1.SIRSusceptibleLaw (25s)
+✔ [4240/4335] Built Freezing1.UniformBirthTail (7.1s)
+✔ [4241/4335] Built Freezing1.UniformBirthRandomMean (6.8s)
+✔ [4242/4335] Built Freezing1.SIRLateAttachmentBudget (7.2s)
+✔ [4243/4335] Built Freezing1.SIRZeroRateLaw (6.8s)
+✔ [4244/4340] Built Freezing1.SIRFrozenBalls (7.1s)
+✔ [4245/4340] Built Freezing1.TangentDerivativePolynomial (6.9s)
+✔ [4246/4340] Built Freezing1.SIRTerminalWordMixture (7.5s)
+✔ [4247/4340] Built Freezing1.SIRIidCountProjection (8.5s)
+✔ [4249/4340] Built Freezing1.IidScheduleDrift (8.8s)
+✔ [4250/4340] Built Freezing1.SIRPreassignedChronology (9.6s)
+✔ [4251/4340] Built Freezing1.SIRRaceWithUnused (9.8s)
+✔ [4252/4340] Built Freezing1.RootedNormalization (8.9s)
+✔ [4253/4340] Built Freezing1.MainGeometricLimit (9.1s)
+✔ [4254/4340] Built Freezing1.SIRSusceptibleConcentration (9.2s)
+✔ [4255/4341] Built Freezing1.UniformBirthLogTail (8.1s)
+✔ [4257/4341] Built Freezing1.UniformBirthMeanLimit (9.1s)
+✔ [4258/4341] Built Freezing1.SIRStrongLocalNonTightness (7.2s)
+✔ [4259/4341] Built Freezing1.SIRFixedWordBridge (6.6s)
+✔ [4260/4356] Built Freezing1.SIRStoppedCoupling (25s)
+✔ [4261/4356] Built Freezing1.IidScheduleLocalCriterion (6.0s)
+✔ [4262/4356] Built Freezing1.SIREarlyExtinction (9.8s)
+✔ [4263/4356] Built Freezing1.SIRPoissonFullContacts (6.9s)
+✔ [4264/4356] Built Freezing1.SIRClockRaceStep (6.2s)
+✔ [4265/4356] Built Freezing1.UnorderedBinaryBijection (6.2s)
+✔ [4266/4356] Built Freezing1.PlaneFiniteExtinction (6.0s)
+⚠ [4267/4356] Built Freezing1.MainSIRLocalLimit (7.3s)
+warning: Freezing1/MainSIRLocalLimit.lean:81:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+✔ [4270/4356] Built Freezing1.SIRRelativeNoise (8.7s)
+✔ [4271/4356] Built Freezing1.GeometricBranchingTails (8.8s)
+✔ [4273/4356] Built Freezing1.SIRSusceptibleFluid (10s)
+✔ [4274/4356] Built Freezing1.SIRLateInfectionProbability (11s)
+✔ [4275/4356] Built Freezing1.FullBinaryMaxLabel (9.4s)
+✔ [4276/4356] Built Freezing1.UniformBirthHarmonicTail (11s)
+✔ [4277/4356] Built Freezing1.SIROptionalContactProtocol (9.6s)
+✔ [4278/4356] Built Freezing1.SIRClockRaceSemantics (8.3s)
+✔ [4279/4356] Built Freezing1.SIRClockRelevantProduct (7.3s)
+✔ [4281/4356] Built Freezing1.RootedLabelMap (6.0s)
+✔ [4282/4356] Built Freezing1.FiniteFullBinaryTrees (7.1s)
+✔ [4283/4356] Built Freezing1.SIRBiasedWalkCritical (7.9s)
+✔ [4285/4356] Built Freezing1.SIRGeometricSurvivalPath (6.8s)
+✔ [4286/4356] Built Freezing1.MainSIREmbedded (6.6s)
+✔ [4287/4356] Built Freezing1.SIRStartup (11s)
+✔ [4288/4356] Built Freezing1.SIROptionalContactCompatibility (10s)
+✔ [4289/4356] Built Freezing1.SIRLateAttachmentSum (12s)
+✔ [4290/4356] Built Freezing1.SIRStoppedFluidTransfer (17s)
+✔ [4291/4356] Built Freezing1.SIRPhysicalZeroRate (7.0s)
+✔ [4292/4357] Built Freezing1.SIRRelevantClockChoice (7.1s)
+✔ [4293/4357] Built Freezing1.BernoulliLowerMeanMoments (6.2s)
+✔ [4294/4357] Built Freezing1.IncreasingBinaryGrowth (7.2s)
+✔ [4295/4357] Built Freezing1.IncreasingRelabelling (7.7s)
+✔ [4296/4357] Built Freezing1.BennettMomentIntegral (6.3s)
+✔ [4297/4357] Built Freezing1.IidScheduleExtinction (7.9s)
+✔ [4298/4357] Built Freezing1.SIRSublinearExtinction (7.7s)
+✔ [4299/4357] Built Freezing1.SIRRandomEnvironmentTransferCounts (7.0s)
+✔ [4300/4357] Built Freezing1.MainSIRFluidMixture (10s)
+✔ [4302/4357] Built Freezing1.SIRStartupQuantitative (12s)
+✔ [4303/4357] Built Freezing1.SIRFiniteRateCapture (10s)
+✔ [4304/4357] Built Freezing1.UniformBirthRelativeMomentLaw (9.0s)
+✔ [4305/4360] Built Freezing1.TreeGrowthPolynomial (9.2s)
+✔ [4306/4360] Built Freezing1.SIRClockEventWords (16s)
+✔ [4307/4360] Built Freezing1.UniformBirthMeanEscape (8.0s)
+✔ [4308/4360] Built Freezing1.SIRRandomEnvironmentTransferPrefix (6.6s)
+✔ [4309/4360] Built Freezing1.SIRTreePrefixWordMixture (8.8s)
+✔ [4310/4363] Built Freezing1.SIRRandomEnvironmentTransferStrong (7.8s)
+✔ [4311/4363] Built Freezing1.SIRLateMaximumWord (7.7s)
+✔ [4312/4363] Built Freezing1.MainSIRFluid (7.0s)
+✔ [4313/4363] Built Freezing1.TwoPointMixtureLimit (8.0s)
+✔ [4314/4363] Built Freezing1.SIRSurvivalGateComparison (9.5s)
+✔ [4316/4363] Built Freezing1.UniformBirthConditionalMoments (10s)
+✔ [4317/4363] Built Freezing1.SIRFiniteRateNearBulk (16s)
+✔ [4318/4363] Built Freezing1.SIRFiniteRateSamplingCapture (12s)
+✔ [4319/4363] Built Freezing1.SIRClockChoiceTransition (10s)
+✔ [4320/4363] Built Freezing1.SIRTreePrefixWordObservations (8.2s)
+✔ [4321/4363] Built Freezing1.UniformBirthRelativeMomentLimit (9.0s)
+✔ [4323/4367] Built Freezing1.MainSIRUniformHeightStrong (8.6s)
+✔ [4324/4367] Built Freezing1.SIRLateMaximum (9.0s)
+✔ [4325/4367] Built Freezing1.SIRClockPrefixLaw (7.8s)
+✔ [4328/4367] Built Freezing1.SIRGeometricSurvivalScalar (8.6s)
+✔ [4329/4367] Built Freezing1.SIRForwardPrefixBridge (8.3s)
+✔ [4330/4367] Built Freezing1.UniformBirthMomentConclusions (7.0s)
+✔ [4331/4367] Built Freezing1.SIREarlyTerminalHeight (8.5s)
+✔ [4332/4367] Built Freezing1.PlaneSamplingBounds (8.8s)
+✔ [4335/4370] Built Freezing1.MainSIRUniformDistanceStrong (8.3s)
+✔ [4336/4370] Built Freezing1.SIRTerminalPrefixMaximum (8.3s)
+✔ [4338/4370] Built Freezing1.SIRClockWordKernel (7.7s)
+✔ [4341/4370] Built Freezing1.UniformBirthRealBennettIntegral (7.3s)
+✔ [4343/4370] Built Freezing1.UniformBirthSourceHeightLimit (7.0s)
+✔ [4344/4406] Built Freezing1.SIREarlyTerminalSampling (7.7s)
+✔ [4369/4406] Built Freezing1.MainSIRStrongMaximum (9.8s)
+✔ [4370/4406] Built Freezing1.SIRClockTreeProjection (10s)
+✔ [4371/4406] Built Freezing1.SIRRandomEnvironmentTransferSampling (12s)
+✔ [4372/4406] Built Freezing1.SIRZeroRateForwardPrefix (9.9s)
+✔ [4374/4407] Built Freezing1.PlaneTreeLabelledTopology (8.4s)
+✔ [4375/4407] Built Freezing1.UnorderedFiniteTruncation (7.3s)
+✔ [4376/4407] Built Freezing1.AttachmentDensity (7.2s)
+✔ [4377/4407] Built Freezing1.ForwardVertexDegree (8.0s)
+✔ [4378/4407] Built Freezing1.SIRClockTreeFullLaw (7.3s)
+✔ [4379/4408] Built Freezing1.SIRFiniteRateEnvironmentProfiles (8.4s)
+✔ [4381/4431] Built Freezing1.MainSIRUniformSamplesStrong (8.1s)
+✔ [4382/4431] Built Freezing1.PlaneTreeLabellings (6.7s)
+✔ [4383/4431] Built Freezing1.LocalTopologyVariants (6.2s)
+✔ [4384/4431] Built Freezing1.TangentBernoulliAlgebra (6.1s)
+✔ [4385/4460] Built Freezing1.TangentFormalSeries (7.1s)
+✔ [4388/4460] Built Freezing1.ForwardAttachmentPatterns (8.0s)
+✔ [4389/4460] Built Freezing1.ForwardDegreeLocalCriterion (7.3s)
+✔ [4390/4460] Built Freezing1.SIRPoissonFullContactLaw (6.9s)
+✔ [4391/4460] Built Freezing1.ForwardSelectionSourceChecks (7.4s)
+✔ [4392/4460] Built Freezing1.CanonicalActiveSampling (7.6s)
+✔ [4393/4460] Built Freezing1.ForwardForestCutState (10s)
+✔ [4394/4460] Built Freezing1.FiniteRootSlots (9.1s)
+✔ [4395/4485] Built Freezing1.ForwardForestRelabel (11s)
+✔ [4396/4485] Built Freezing1.ForwardBlockHeightAncestor (9.3s)
+✔ [4397/4485] Built Freezing1.HeightScaleAdjacentSwap (8.5s)
+✔ [4398/4485] Built Freezing1.TangentBernoulliSeries (8.4s)
+✔ [4400/4485] Built Freezing1.SIRFiniteRateEnvironmentTransfer (10s)
+✔ [4401/4485] Built Freezing1.SIRJointSampleLaw (9.4s)
+✔ [4402/4485] Built Freezing1.TangentFormalDerivatives (6.7s)
+✔ [4403/4485] Built Freezing1.ConditionalInvariantAverage (4.0s)
+✔ [4404/4485] Built Freezing1.RootedPlaneCoding (6.1s)
+✔ [4406/4585] Built Freezing1.UnorderedCoherentBalls (6.4s)
+✔ [4407/4585] Built Freezing1.FirstChildConditionalIntegrals (4.0s)
+✔ [4408/4585] Built Freezing1.PlaneTreeGraph (6.4s)
+✔ [4409/4585] Built Freezing1.UniformPermutationFiniteAverage (6.1s)
+✔ [4410/4585] Built Freezing1.SIRPhysicalLaws (6.7s)
+✔ [4412/4585] Built Freezing1.UniformActiveBernoulli (6.7s)
+✔ [4413/4585] Built Freezing1.ForwardForestStarConvention (7.5s)
+✔ [4414/4585] Built Freezing1.ForwardForestCutLaw (6.8s)
+✔ [4415/4585] Built Freezing1.ForwardDegreeDivergence (7.1s)
+✔ [4416/4585] Built Freezing1.LocalBallTightness (6.8s)
+✔ [4417/4585] Built Freezing1.ExponentialMomentTail (6.3s)
+✔ [4418/4585] Built Freezing1.HeightScaleSorting (7.2s)
+✔ [4419/4585] Built Freezing1.SIRTerminalSamplingRestriction (8.8s)
+✔ [4420/4585] Built Freezing1.SIRSampleMarginals (7.4s)
+✔ [4421/4585] Built Freezing1.SIRJointSampleConcentration (7.0s)
+✔ [4422/4585] Built Freezing1.MainSIRUniformSamplesFinitePrefix (11s)
+✔ [4424/4585] Built Freezing1.TangentEnumeration (7.5s)
+✔ [4425/4585] Built Freezing1.ConditionalInvariantBounds (5.1s)
+✔ [4426/4585] Built Freezing1.RootedPlaneLabelledCoding (6.1s)
+✔ [4428/4585] Built Freezing1.IntervalFreezingCounts (6.2s)
+✔ [4429/4585] Built Freezing1.ForwardTerminalGoodPredicate (6.2s)
+✔ [4430/4585] Built Freezing1.ForwardCutAncestorPath (6.3s)
+✔ [4431/4585] Built Freezing1.ForwardHeightChainTelescoping (6.6s)
+✔ [4432/4585] Built Freezing1.ConditionalRelativeChebyshev (5.9s)
+✔ [4433/4585] Built Freezing1.ProbabilityMeasureClosedEmbedding (5.1s)
+✔ [4434/4585] Built Freezing1.ChronologicalPlaneVertices (6.8s)
+✔ [4435/4585] Built Freezing1.ForwardPositiveExtension (6.3s)
+✔ [4436/4585] Built Freezing1.SignedUrnPositiveExtensionPath (6.6s)
+✔ [4437/4585] Built Freezing1.PoissonSourcePolynomial (7.7s)
+✔ [4438/4585] Built Freezing1.PoissonSourcePolynomialChecks (5.7s)
+✔ [4439/4585] Built Freezing1.PoissonSourcePolynomialSlackChecks (6.6s)
+✔ [4440/4585] Built Freezing1.SIRReversedHeightIdentity (6.6s)
+✔ [4441/4585] Built Freezing1.BernoulliPairCouplingSourceChecks (7.4s)
+✔ [4442/4585] Built Freezing1.IidHalfSlope (8.3s)
+✔ [4443/4585] Built Freezing1.InterleavedSourceFirstSelection (5.6s)
+✔ [4444/4585] Built Freezing1.BernoulliPairCouplingKernel (7.9s)
+✔ [4445/4585] Built Freezing1.BernoulliPairCouplingWords (5.4s)
+✔ [4446/4585] Built Freezing1.SIRCountsExtinctionIndex (6.8s)
+✔ [4447/4585] Built Freezing1.SIRReverseCouplingWord (7.5s)
+✔ [4448/4585] Built Freezing1.CanonicalReverseBirthClock (6.9s)
+✔ [4449/4585] Built Freezing1.RateFunctionAsymptotics (5.0s)
+✔ [4450/4585] Built Freezing1.SIRCaptureCoefficientCounts (7.2s)
+✔ [4451/4585] Built Freezing1.ConditionalSurvivalCouplingMixture (4.4s)
+✔ [4452/4585] Built Freezing1.SIRCaptureCoefficientAnalytic (6.0s)
+✔ [4453/4585] Built Freezing1.ConditionalSurvivalCouplingUniform (5.6s)
+✔ [4454/4585] Built Freezing1.FirstChildInductionIntegrals (5.1s)
+✔ [4455/4585] Built Freezing1.IidLinearAssumptions (7.3s)
+✔ [4456/4585] Built Freezing1.SIROneSusceptibleLaw (7.1s)
+✔ [4457/4585] Built Freezing1.PlaneLabelledGraphIso (6.9s)
+✔ [4458/4585] Built Freezing1.SIRPhysicalForwardPrefixBridge (6.8s)
+✔ [4459/4585] Built Freezing1.SIRPhysicalOptionalRate (6.3s)
+✔ [4460/4610] Built Freezing1.SIRPhysicalLimits (6.7s)
+✔ [4461/4610] Built Freezing1.UniformActiveBennett (6.3s)
+✔ [4462/4610] Built Freezing1.ForwardForestReconstruction (6.3s)
+✔ [4463/4610] Built Freezing1.ForwardForestSlots (6.4s)
+✔ [4464/4610] Built Freezing1.ForwardDegreeCoupling (6.5s)
+✔ [4465/4610] Built Freezing1.MaximumUniformTail (7.8s)
+✔ [4466/4610] Built Freezing1.SIRFiniteRateTerminalAverage (9.3s)
+✔ [4467/4610] Built Freezing1.GeometricHeightBlocks (8.8s)
+✔ [4468/4610] Built Freezing1.UnorderedPlaneRealization (8.3s)
+✔ [4469/4610] Built Freezing1.RootedPlaneHeightBound (8.8s)
+✔ [4470/4610] Built Freezing1.PlaneFiniteRooted (8.7s)
+✔ [4471/4610] Built Freezing1.ForwardConditionalAttachments (9.4s)
+✔ [4472/4610] Built Freezing1.ForwardGoodGraphAncestorChain (9.3s)
+✔ [4473/4610] Built Freezing1.ChronologicalPlaneLabels (8.3s)
+✔ [4474/4610] Built Freezing1.ChronologicalPlaneVertexEquiv (7.9s)
+✔ [4475/4610] Built Freezing1.PoissonSourcePolynomialBound (7.5s)
+✔ [4476/4610] Built Freezing1.SignedUrnPositiveExtension (8.3s)
+✔ [4477/4610] Built Freezing1.InterleavedSourceFirstSelectionLaw (7.2s)
+✔ [4478/4610] Built Freezing1.BernoulliPairCouplingActual (8.9s)
+✔ [4479/4610] Built Freezing1.SIRReverseCouplingFormulation (7.0s)
+✔ [4480/4610] Built Freezing1.SIRReverseCouplingWindowGap (9.3s)
+✔ [4481/4610] Built Freezing1.SIRReverseHalfWindow (10s)
+✔ [4482/4610] Built Freezing1.BennettSmallMean (7.5s)
+✔ [4483/4610] Built Freezing1.ConditionalSurvivalCoupling (6.7s)
+✔ [4484/4610] Built Freezing1.SIRCaptureCoefficientWordBirth (10s)
+✔ [4485/4610] Built Freezing1.FirstChildSourceInduction (6.0s)
+✔ [4486/4610] Built Freezing1.SIRCaptureCoefficientProbability (11s)
+✔ [4488/4610] Built Freezing1.IidLinearMaximumRatio (7.0s)
+✔ [4489/4610] Built Freezing1.RootedUnorderedGraphIso (8.9s)
+✔ [4490/4610] Built Freezing1.PlaneLabelledIsoDistance (6.5s)
+✔ [4491/4610] Built Freezing1.RecursiveTreeLaw (6.9s)
+✔ [4492/4610] Built Freezing1.SIROneSusceptibleFirstTime (7.2s)
+✔ [4493/4610] Built Freezing1.FinitePlaneConditionalGeometry (6.8s)
+✔ [4494/4610] Built Freezing1.KingmanPartition (6.8s)
+✔ [4495/4611] Built Freezing1.ForwardIntrinsicSupport (6.8s)
+✔ [4496/4611] Built Freezing1.ForwardActiveHeightMgf (7.6s)
+✔ [4497/4611] Built Freezing1.UniformActiveMoments (7.3s)
+✔ [4498/4611] Built Freezing1.LinearBushSamplingMatrix (8.1s)
+✔ [4499/4611] Built Freezing1.ForwardForestBareGeometry (7.2s)
+✔ [4500/4611] Built Freezing1.ForwardForestTaggedProjection (7.1s)
+✔ [4501/4611] Built Freezing1.ForwardForestRootOrbit (6.6s)
+✔ [4502/4611] Built Freezing1.ForwardForestRootMatchingEquiv (6.9s)
+✔ [4503/4611] Built Freezing1.MainLocalDegreeNecessity (6.5s)
+✔ [4504/4611] Built Freezing1.MainSIRUniformSamplesFiniteTerminal (7.1s)
+✔ [4505/4611] Built Freezing1.GeometricHeightSourceChecks (6.9s)
+✔ [4506/4611] Built Freezing1.PlaneFiniteRootedLookup (7.4s)
+✔ [4507/4611] Built Freezing1.ForwardFreezingDegrees (12s)
+✔ [4508/4611] Built Freezing1.GeometricHeightBlockBounds (17s)
+✔ [4509/4611] Built Freezing1.PoissonSourcePolynomialScale (9.8s)
+✔ [4510/4611] Built Freezing1.GeometricChainPositiveCutoff (11s)
+✔ [4511/4611] Built Freezing1.InterleavedSourceFactorization (6.5s)
+✔ [4512/4611] Built Freezing1.ForwardComponentUrnPath (8.5s)
+✔ [4513/4611] Built Freezing1.SignedUrnPositiveExtensionBounds (9.2s)
+✔ [4514/4611] Built Freezing1.BernoulliPairCouplingThinning (9.0s)
+✔ [4515/4611] Built Freezing1.BernoulliPairCouplingBlock (8.1s)
+✔ [4516/4611] Built Freezing1.SIRReverseCouplingNecessary (7.4s)
+✔ [4517/4611] Built Freezing1.SIRReverseCouplingSourceGap (6.8s)
+✔ [4519/4611] Built Freezing1.SIRLateBennett (7.1s)
+✔ [4520/4611] Built Freezing1.IidLinearSurvivalSystem (6.7s)
+✔ [4521/4611] Built Freezing1.SIRCaptureCoefficientLaw (6.8s)
+✔ [4522/4611] Built Freezing1.PlaneRootedGraphIso (7.1s)
+✔ [4523/4611] Built Freezing1.RootedUnorderedGraphIsoConverse (10s)
+✔ [4524/4613] Built Freezing1.FinitePlaneExtinctionTime (9.4s)
+✔ [4526/4613] Built Freezing1.FinitePlaneConditionalBounds (9.6s)
+✔ [4527/4613] Built Freezing1.PlaneBallIso (12s)
+✔ [4528/4613] Built Freezing1.ReverseKingman (9.4s)
+✔ [4529/4613] Built Freezing1.LinearBushSamplingSeparated (9.9s)
+✔ [4530/4613] Built Freezing1.ForwardForestPopulationLaw (8.3s)
+✔ [4531/4613] Built Freezing1.ActiveHeightTailIntegral (9.2s)
+✔ [4532/4613] Built Freezing1.TaggedPopulationSlotMoments (7.9s)
+✔ [4533/4613] Built Freezing1.ForwardForestStarOrbit (6.5s)
+✔ [4534/4613] Built Freezing1.ForwardForestUniformMatching (6.2s)
+✔ [4535/4613] Built Freezing1.MainSIRUniformSamplesFiniteJoint (6.6s)
+✔ [4536/4613] Built Freezing1.PlaneFiniteRootedEdges (6.5s)
+✔ [4537/4613] Built Freezing1.GeometricHeightWindowBounds (6.5s)
+✔ [4538/4613] Built Freezing1.ForwardComponentUrnPathInfinite (7.7s)
+✔ [4539/4613] Built Freezing1.SignedUrnPositiveExtensionMaximal (8.0s)
+✔ [4541/4613] Built Freezing1.GeometricHeightEnvelopes (12s)
+✔ [4542/4613] Built Freezing1.BernoulliPairCouplingThinningBounds (8.5s)
+✔ [4543/4613] Built Freezing1.BernoulliPairCouplingSeparated (7.2s)
+✔ [4545/4633] Built Freezing1.IidLinearConditionedRows (6.9s)
+✔ [4546/4633] Built Freezing1.SIRCaptureCoefficientNative (7.6s)
+✔ [4547/4633] Built Freezing1.SIRCaptureCoefficientObserved (7.4s)
+✔ [4548/4633] Built Freezing1.FinitePlaneShuffleDef (7.3s)
+✔ [4549/4633] Built Freezing1.FinitePlaneAtomMass (7.6s)
+✔ [4550/4633] Built Freezing1.PlaneCoherentIso (7.0s)
+✔ [4551/4633] Built Freezing1.ReverseKingmanHistory (6.7s)
+✔ [4552/4633] Built Freezing1.TailIntegralSeven (7.2s)
+✔ [4553/4633] Built Freezing1.TaggedPopulationSlotCenteredMoments (6.5s)
+✔ [4554/4633] Built Freezing1.ForwardForestTallStatistics (6.5s)
+✔ [4555/4633] Built Freezing1.ForwardForestUpperPrefix (6.3s)
+✔ [4556/4633] Built Freezing1.ForwardForestRematchingAction (6.3s)
+✔ [4557/4633] Built Freezing1.ForwardForestBareMatching (6.2s)
+✔ [4558/4633] Built Freezing1.MainSIRUniformSamplesFinite (6.5s)
+✔ [4559/4633] Built Freezing1.PlaneFiniteRootedCorrectness (6.2s)
+✔ [4560/4633] Built Freezing1.ForwardComponentUrnPathPositive (6.2s)
+✔ [4561/4633] Built Freezing1.SourceUrnComponentTailScalar (9.2s)
+✔ [4562/4633] Built Freezing1.SIROneSusceptibleLastNegative (7.4s)
+✔ [4565/4633] Built Freezing1.GeometricHeightUniform (12s)
+✔ [4566/4633] Built Freezing1.BernoulliPairCouplingError (10s)
+✔ [4567/4633] Built Freezing1.BernoulliPairCouplingTails (10s)
+✔ [4568/4633] Built Freezing1.RootedForwardEncoding (10s)
+✔ [4569/4633] Built Freezing1.BernoulliPairCouplingComplete (9.6s)
+✔ [4570/4633] Built Freezing1.SIRCaptureCoefficientBirthBridge (9.5s)
+✔ [4571/4633] Built Freezing1.SIRFirstContactIrrelevance (9.3s)
+✔ [4572/4633] Built Freezing1.SIRPoissonExistenceSums (10s)
+✔ [4573/4633] Built Freezing1.SIRCaptureCoefficientObservedPairs (8.3s)
+✔ [4574/4633] Built Freezing1.SIRCaptureCoefficientSource (8.2s)
+✔ [4575/4633] Built Freezing1.FinitePlaneShuffleLaw (7.7s)
+✔ [4576/4633] Built Freezing1.FinitePlaneUniformLaw (6.0s)
+✔ [4577/4633] Built Freezing1.MaximumTailMoments (7.3s)
+✔ [4578/4633] Built Freezing1.PlaneBallIsoExtensions (7.6s)
+✔ [4579/4633] Built Freezing1.ForwardForestVertexObservations (6.9s)
+✔ [4580/4633] Built Freezing1.ForwardForestMaximumStatistics (6.8s)
+✔ [4581/4633] Built Freezing1.ForwardForestConditionalExchangeability (6.6s)
+✔ [4582/4633] Built Freezing1.SIRPhysicalFiniteLimits (7.1s)
+✔ [4583/4633] Built Freezing1.PlaneFiniteBallIso (6.7s)
+✔ [4585/4633] Built Freezing1.ForwardComponentUrnPathMaximal (6.9s)
+✔ [4586/4633] Built Freezing1.SIROneSusceptibleTimeCoupling (8.6s)
+✔ [4587/4633] Built Freezing1.SourceUrnComponentTail (11s)
+✔ [4588/4633] Built Freezing1.BernoulliPairCouplingConclusions (10s)
+✔ [4589/4633] Built Freezing1.RootedForwardEncodingIncreasing (10s)
+✔ [4590/4633] Built Freezing1.SIRPoissonExistenceProcess (10s)
+✔ [4591/4633] Built Freezing1.FinitePlaneShuffleUnordered (9.7s)
+✔ [4592/4639] Built Freezing1.FinitePlaneConditionedUniform (9.8s)
+✔ [4593/4639] Built Freezing1.UnorderedFiniteIsoBridge (8.8s)
+✔ [4595/4639] Built Freezing1.MaximumTailBoundedness (8.7s)
+✔ [4596/4639] Built Freezing1.ForwardForestVertexMatchingMoments (8.6s)
+✔ [4597/4639] Built Freezing1.ForwardForestConditionalMean (9.6s)
+✔ [4598/4639] Built Freezing1.SIROneSusceptibleCouplingMarginals (9.7s)
+✔ [4599/4639] Built Freezing1.SourceUrnComponentMaximum (10s)
+✔ [4600/4639] Built Freezing1.RootedForwardEncodingMain (9.4s)
+✔ [4601/4639] Built Freezing1.SIRPoissonExistence (9.2s)
+✔ [4602/4639] Built Freezing1.FinitePlaneShuffleMain (9.3s)
+⚠ [4603/4639] Built Challenge.Sir (11s)
+warning: Challenge/Sir.lean:640:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:858:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:868:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:888:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:897:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:907:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:916:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:926:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:935:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:944:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:965:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:978:8: declaration uses `sorry`
+warning: Challenge/Sir.lean:984:8: declaration uses `sorry`
+⚠ [4604/4639] Built Challenge.Heights (10s)
+warning: Challenge/Heights.lean:59:8: declaration uses `sorry`
+warning: Challenge/Heights.lean:314:8: declaration uses `sorry`
+warning: Challenge/Heights.lean:322:8: declaration uses `sorry`
+warning: Challenge/Heights.lean:332:8: declaration uses `sorry`
+warning: Challenge/Heights.lean:343:8: declaration uses `sorry`
+warning: Challenge/Heights.lean:356:8: declaration uses `sorry`
+warning: Challenge/Heights.lean:372:8: declaration uses `sorry`
+warning: Challenge/Heights.lean:387:8: declaration uses `sorry`
+⚠ [4605/4639] Built Challenge.SameLaw (10s)
+warning: Challenge/SameLaw.lean:67:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:162:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:169:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:174:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:179:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:316:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:332:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:395:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:400:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:433:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:483:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:523:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:532:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:576:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:603:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:608:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:616:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:624:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:638:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:643:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:648:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:655:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:662:8: declaration uses `sorry`
+warning: Challenge/SameLaw.lean:676:8: declaration uses `sorry`
+✔ [4606/4639] Built Challenge (14s)
+✔ [4607/4639] Built Freezing1.LinearBushGHPacking (5.2s)
+✔ [4608/4639] Built Freezing1.UnorderedTreeQuotientCore (7.3s)
+⚠ [4609/4639] Built Challenge.LocalLimits (9.5s)
+warning: Challenge/LocalLimits.lean:72:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:169:9: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:186:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:245:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:280:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:287:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:298:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:356:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:382:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:396:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:431:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:442:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:543:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:552:9: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:568:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:619:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:628:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:633:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:694:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:698:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:749:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:771:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:778:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:784:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:818:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:824:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:830:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:839:8: declaration uses `sorry`
+✔ [4611/4639] Built Freezing1.ForwardForestConditionalVertexMean (9.1s)
+✔ [4612/4639] Built Freezing1.ForwardForestConditionalChainMean (10s)
+✔ [4613/4639] Built Freezing1.ForwardForestConditionalVariance (13s)
+✔ [4614/4639] Built Freezing1.ForwardStateDecodingTree (10s)
+✔ [4615/4639] Built Freezing1.LinearBushGHTree (12s)
+✔ [4617/4645] Built Freezing1.UnorderedTreeTopology (11s)
+✔ [4618/4645] Built Freezing1.ForwardForestMarkedVertexGeometry (12s)
+✔ [4619/4645] Built Freezing1.ForwardForestConditionalVertexCovariance (13s)
+✔ [4620/4645] Built Freezing1.ForwardForestConditionalChainVariance (13s)
+✔ [4621/4645] Built Freezing1.ForwardStateDecodingCount (16s)
+✔ [4622/4645] Built Freezing1.UnorderedTreeProjection (15s)
+✔ [4623/4645] Built Freezing1.ForwardForestChainVertexEvents (16s)
+✔ [4624/4645] Built Freezing1.ForwardForestConditionalChebyshev (17s)
+✔ [4625/4645] Built Freezing1.ForwardStateDecodingMain (12s)
+✔ [4626/4645] Built Freezing1.ChronologicalPlaneGeometry (11s)
+✔ [4627/4645] Built Freezing1.ForwardForestConditionalChainCovariance (11s)
+✔ [4628/4645] Built Freezing1.ForwardForestChainComponentMarks (9.0s)
+✔ [4629/4645] Built Freezing1.ForwardStateDecodingUnique (7.7s)
+✔ [4630/4645] Built Freezing1.ForwardForestConditionalGrowth (9.4s)
+✔ [4631/4645] Built Freezing1.ChronologicalBallRecords (6.6s)
+✔ [4632/4645] Built Freezing1.ChronologicalBallIso (5.6s)
+✔ [4633/4645] Built Freezing1.MainConditionalGoodChainForest (6.6s)
+✔ [4634/4645] Built Freezing1.ChronologicalAmbientEmbedding (5.3s)
+✔ [4635/4645] Built Freezing1.ChronologicalAmbientLaws (5.4s)
+✔ [4636/4645] Built Freezing1.MainLocalAmbient (5.0s)
+✔ [4637/4645] Built Freezing1.MainLocalAmbientDegreeNecessity (5.8s)
+✔ [4638/4645] Built Freezing1 (5.9s)
+✔ [4640/4645] Built Solution.SameLaw (8.2s)
+✔ [4641/4645] Built Solution.Sir (8.6s)
+✔ [4642/4645] Built Solution.LocalLimits (8.0s)
+✔ [4643/4645] Built Solution.Heights (9.1s)
+✔ [4644/4645] Built Solution (6.1s)
+Build completed successfully (4645 jobs).
+real 1391.80
+user 2466.10
+sys 2127.67
+exit=0
+end 2026-10-30T15:47:55Z

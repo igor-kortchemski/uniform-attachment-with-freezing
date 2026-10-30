@@ -45,6 +45,16 @@ scripts/local-kernel-replay.sh comparator/heights.json OUT/heights/solution.ndjs
 and likewise for `locallimits`, `samelaw` and `sir`. On Linux with the Palomar bubblewrap build the official
 command is `lake comparator --config comparator/heights.json` (workflow `.github/workflows/comparator.yml`).
 
+## Results for the stabilized candidate (local runs, details in `candidate/SUMMARY.md`)
+
+Local commit `ab3d936089e44a44ec3e13cc5f354b29b6ed92c1` (tree `b0cf2f15ca3e2ad7b06693dc20f1ca842067fd30`, no remote), built from an
+empty `.lake/build` against the pinned Mathlib v4.35.0 packages: 4645 jobs, success, no hole outside the Challenge targets;
+8683 `Freezing1` declarations and the 26 exported names have only the three standard axioms; for each of the four interfaces
+the local comparison reports `statements and reachable constants match` and `only permitted axioms`, and the Solution export is
+accepted by Lean's `leanchecker`, NanoDa (`nanoda_bin`) and the four other bundled checkers (exit 0). The logs are
+`<interface>/{compare,run,leanchecker,kernels}.log`. The commit after it adds only scripts, documentation and these logs
+(no Lean file); no rebuild was needed.
+
 ## Four levels of evidence — kept distinct
 
 1. **Verified in Lean (build + axioms).** `lake build` of `Freezing1`, `Challenge`, `Solution` and the

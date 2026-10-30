@@ -1,0 +1,39 @@
+start 2026-10-30T16:17:11Z
+845be3b9664f49e9acecc9ba9995119c00cc51ee559b6337445a7141d24b039d  /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/solution.ndjson
+== leanchecker: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker --silent --from-export /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/solution.ndjson
+
+real	0m47.816s
+user	0m25.894s
+sys	0m1.106s
+leanchecker exit=0
+== nanoda: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/nanoda_bin /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/kernels/nanoda-config.json
+
+real	0m10.865s
+user	0m13.287s
+sys	0m0.539s
+nanoda exit=0
+== leanchecker-paranoid: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker-paranoid --silent --from-export /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/solution.ndjson
+
+real	0m55.033s
+user	0m28.953s
+sys	0m0.841s
+leanchecker-paranoid exit=0
+== lean4lean: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean4lean --import /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/solution.ndjson
+
+real	0m58.253s
+user	0m28.704s
+sys	0m1.093s
+lean4lean exit=0
+== con-leche: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-leche /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/solution.ndjson
+
+real	0m27.106s
+user	0m23.850s
+sys	0m0.642s
+con-leche exit=0
+== con-ron: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-ron /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/solution.ndjson
+
+real	0m13.387s
+user	0m10.964s
+sys	0m0.377s
+con-ron exit=0
+(local replay outside the sandbox; official mandatory checkers: Lean and NanoDa)

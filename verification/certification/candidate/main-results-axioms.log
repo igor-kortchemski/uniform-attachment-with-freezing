@@ -1,0 +1,42 @@
+'Freezing1.local_convergence_equivalences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.local_convergence_common_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_isBienayme' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_eq_geometricBienaymeLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_offspring_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_active_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.maximum_height_window_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.maximum_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_heightScale_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_uniform_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_uniform_distance_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_maximum_deviation_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linearHeightFactor_existsUnique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linearHeightFactor_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.construction_laws_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.physical_sir_geometric_local_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_not_tight_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.physical_sir_fluid_limit_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.physical_sir_uniform_height_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_uniform_distance_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_strong_uniform_fluid_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_strong_terminal_uniform_height_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_strong_terminal_uniform_distance_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_strong_terminal_maximum_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.PoissonSIRData.exists_data' depends on axioms: [propext, Classical.choice, Quot.sound]

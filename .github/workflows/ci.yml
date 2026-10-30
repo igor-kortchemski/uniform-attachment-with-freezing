@@ -36,6 +36,5 @@ jobs:
       - name: Axiom closures of the exported main results (T01-T07)
         run: |
           lake env lean scripts/MainResultsAxioms.lean | tee main-results-axioms.log
-          # every line must report exactly the three standard axioms
-          ! grep -E "depends on axioms" main-results-axioms.log | grep -vE "\[propext, Classical.choice, Quot.sound\]"
-          test "$(grep -c "depends on axioms" main-results-axioms.log)" -eq 26
+          # exactly the three standard axioms for each of the 26 exported names
+          python3 scripts/check-axiom-log.py main-results-axioms.log 26
