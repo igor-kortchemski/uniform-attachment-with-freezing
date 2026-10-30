@@ -52,8 +52,8 @@ empty `.lake/build` against the pinned Mathlib v4.35.0 packages: 4645 jobs, succ
 8683 `Freezing1` declarations and the 26 exported names have only the three standard axioms; for each of the four interfaces
 the local comparison reports `statements and reachable constants match` and `only permitted axioms`, and the Solution export is
 accepted by Lean's `leanchecker`, NanoDa (`nanoda_bin`) and the four other bundled checkers (exit 0). The logs are
-`<interface>/{compare,run,leanchecker,kernels}.log`. The commit after it adds only scripts, documentation and these logs
-(no Lean file); no rebuild was needed.
+`<interface>/{compare,run,leanchecker,kernels}.log`. The later local commits add only scripts, documentation and these logs
+(no Lean file changes, checked with `git diff --stat`); no rebuild was needed.
 
 ## Four levels of evidence — kept distinct
 
