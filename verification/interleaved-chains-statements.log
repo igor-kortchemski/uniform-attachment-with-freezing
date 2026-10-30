@@ -1,0 +1,13 @@
+'Freezing1.InterleavedChain.transition_left_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.transition_right_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.measurable_extracted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.lintegral_pairCompletion_observations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.completion_observed_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.fullLaw_pathFair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.extractedWord_pair_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CountableMarkovChain.futureWord_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CountablePathLaw.pair_eq_of_word_probabilities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.extracted_pair_map_eq_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.extracted_pair_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

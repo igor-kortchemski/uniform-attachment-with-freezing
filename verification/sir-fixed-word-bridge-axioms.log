@@ -1,0 +1,4 @@
+'Freezing1.SIR.map_fixedWord_treeLaw_to_planeWordLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.planeWordTreeLaw_eq_original_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_plane_original_word_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embeddedTerminalTreeLaw_original_word_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]

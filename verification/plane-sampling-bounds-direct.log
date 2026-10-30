@@ -1,0 +1,31 @@
+Freezing1/PlaneSamplingBounds.lean:40:9: error: Function expected at
+  if s.vertices.Nonempty then ?m.133 else ?m.134
+but this term has type
+  ?m.131
+
+Note: Expected a function because this term is being applied to the argument
+  _
+Freezing1/PlaneSamplingBounds.lean:54:32: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OrderBot ℝ
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+Freezing1/PlaneSamplingBounds.lean:54:47: error: Application type mismatch: The argument
+  List.length
+has type
+  List ?m.9 → ℕ
+but is expected to have type
+  PlaneTree.Address → ℝ
+in the application
+  s.vertices.sup List.length
+Freezing1/PlaneSamplingBounds.lean:63:19: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OrderBot ℝ
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+Freezing1/PlaneSamplingBounds.lean:63:34: error: Application type mismatch: The argument
+  List.length
+has type
+  List ?m.11 → ℕ
+but is expected to have type
+  PlaneTree.Address → ℝ
+in the application
+  s.vertices.sup List.length

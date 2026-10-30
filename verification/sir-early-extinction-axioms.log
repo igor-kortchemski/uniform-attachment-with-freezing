@@ -1,0 +1,8 @@
+'Freezing1.SIR.countsFullLaw_extinction_probability_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_early_extinction_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.biasedWalk_sir_extinction_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_early_extinction_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_early_extinction_two_stage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_survival_probability_eq_one_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_early_extinction_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_early_survival_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]

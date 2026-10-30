@@ -1,0 +1,182 @@
+⚠ [3220/3297] Replayed Freezing1.SIRCounts
+warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRCounts.lean:86:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3756/3849] Replayed Freezing1.ForwardPlaneKernel
+warning: Freezing1/ForwardPlaneKernel.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:118:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:135:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:175:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3759/3849] Replayed Freezing1.PlaneGraftTransition
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3763/3849] Replayed Freezing1.PlaneGraftHistory
+warning: Freezing1/PlaneGraftHistory.lean:37:0: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.map_fullLaw_of_ae_intertwining`:
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3770/3849] Replayed Freezing1.ForwardPlaneAddress
+warning: Freezing1/ForwardPlaneAddress.lean:64:7: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/ForwardPlaneAddress.lean:68:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:12: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:25: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [4083/4120] Replayed Freezing1.FiniteUniformPairs
+warning: Freezing1/FiniteUniformPairs.lean:33:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:34:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:30:35: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:30:53: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:39:54: This simp argument is unused:
+  Finset.mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Measure.uniformOfFinset_apply_singleton]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4084/4120] Replayed Freezing1.PlaneFiniteGraph
+warning: Freezing1/PlaneFiniteGraph.lean:48:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4112/4120] Replayed Freezing1.CountableMarkovAvoidance
+warning: Freezing1/CountableMarkovAvoidance.lean:70:8: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.avoidanceProbability_zero`:
+  [MeasurableSingletonClass E]
+  [Countable E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass E] [Countable E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Freezing1/CountableMarkovAvoidance.lean:102:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/CountableMarkovAvoidance.lean:109:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✖ [4120/4120] Building Freezing1.SIRSampleMarginals (14s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/SIRSampleMarginals.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/SIRSampleMarginals.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/SIRSampleMarginals.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/SIRSampleMarginals.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/SIRSampleMarginals.setup.json --json
+error: Freezing1/SIRSampleMarginals.lean:32:4: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ((⇑K ∘ fun H => (H (2 * n + 1)).tree) ∘ₘ ?m.225) (f ⁻¹' A)
+in the target expression
+  ∫⁻ (H : ℕ → TreeState),
+      (K (H (2 * n + 1)).tree) {v | (decide (0 < (H a).counts.infectious), f v) ∈ Prod.snd ⁻¹' A} ∂treeFullLaw rate n =
+    ((fun a => K (a (2 * n + 1)).tree) ∘ₘ treeFullLaw rate n) (f ⁻¹' A)
+
+α : Type u_1
+inst✝³ : MeasurableSpace α
+inst✝² : Countable α
+inst✝¹ : MeasurableSingletonClass α
+rate : ℝ≥0
+n a : ℕ
+K : Kernel PlaneForward.State α
+inst✝ : IsMarkovKernel K
+f : α → ℝ
+hg : Measurable fun H => (H (2 * n + 1)).tree
+A : Set ℝ
+hA : MeasurableSet A
+⊢ ∫⁻ (H : ℕ → TreeState),
+      (K (H (2 * n + 1)).tree) {v | (decide (0 < (H a).counts.infectious), f v) ∈ Prod.snd ⁻¹' A} ∂treeFullLaw rate n =
+    ((fun a => K (a (2 * n + 1)).tree) ∘ₘ treeFullLaw rate n) (f ⁻¹' A)
+error: Freezing1/SIRSampleMarginals.lean:44:6: Application type mismatch: The argument
+  sirUniformHeightLaw rate n (2 * n + 1)
+has type
+  Measure ℕ
+but is expected to have type
+  Measure ℝ
+in the application
+  Measure.map (fun h => h / Real.log ↑n) (sirUniformHeightLaw rate n (2 * n + 1))
+Some required targets logged failures:
+- Freezing1.SIRSampleMarginals
+error: build failed

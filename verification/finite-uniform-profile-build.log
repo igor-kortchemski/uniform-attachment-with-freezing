@@ -1,0 +1,64 @@
+⚠ [3919/3920] Built Freezing1.FiniteUniformPairs (8.3s)
+warning: Freezing1/FiniteUniformPairs.lean:33:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:34:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:30:35: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:30:53: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:39:54: This simp argument is unused:
+  Finset.mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Measure.uniformOfFinset_apply_singleton, Finset.card_product, Nat.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Freezing1/FiniteUniformPairs.lean:40:4: This simp argument is unused:
+  Finset.card_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Measure.uniformOfFinset_apply_singleton, Finset.mem_product, Nat.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Freezing1/FiniteUniformPairs.lean:40:25: This simp argument is unused:
+  Nat.cast_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Measure.uniformOfFinset_apply_singleton, Finset.mem_product, Finset.card_product]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Freezing1/FiniteUniformPairs.lean:44:50: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:44:63: Variable name `huv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _huv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [3920/3920] Built Freezing1.SIRRandomEnvironmentTransferProfiles (9.3s)
+Build completed successfully (3920 jobs).

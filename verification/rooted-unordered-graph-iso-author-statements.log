@@ -1,0 +1,10 @@
+'Freezing1.BinaryBijection.Rooted.nodeVertexEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.nodeGluedIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.position_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.permPositionEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.nodePermIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.nodeIso_of_forall₂' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.UnorderedEq.nonempty_unorderedIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneLabelled.UnorderedIso.graphIso' depends on axioms: [propext, Classical.choice, Quot.sound]

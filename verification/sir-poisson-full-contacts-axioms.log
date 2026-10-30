@@ -1,0 +1,4 @@
+'Freezing1.SIR.PoissonContact.nextArrival_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.nextContactDelayArray_eq_on_live' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.clockFrameStep_congr_on_live' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.poissonFullContactRun_eq_preassigned' depends on axioms: [propext, Classical.choice, Quot.sound]

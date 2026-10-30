@@ -1,0 +1,32 @@
+'Freezing1.GeometricHeight.intervalSum_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.index_count_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.complete_block_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.initial_partial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.final_partial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.heightInterval_geometric_unnormalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.GeometricHeight.heightInterval_geometric_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.lowerBlock_source_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.exists_beta_zero_envelopes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.exists_diagonal_tolerance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.eventually_source_lowerBlock_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.GeometricHeight.uniformLogIntervals_of_nearOriginLinear_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.GeometricHeight.logIntervalLimsup_of_nearOriginLimsup_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.GeometricHeight.printed_partition_height_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.GeometricHeight.printed_last_count_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.GeometricHeight.printed_last_denominator_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.intervalPlusCount_sub_intervalMinusCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.intervalPlusCount_and_intervalMinusCount_identities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

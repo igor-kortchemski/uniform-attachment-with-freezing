@@ -1,0 +1,24 @@
+'Freezing1.Forward.fullLaw_prefix_positiveExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtensionPopulation_signed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.urn_traj_map_record' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.infiniteUrnLaw_hasPathLaws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.infiniteUrnLaw_map_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_infinite_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_original_component_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_square_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_square_budget_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_maximum_eq_sourceEpsilon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SignedUrn.reciprocal_tail_square_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_infinite_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_component_endpoint_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_marked_component_endpoint_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SignedUrn.uniform_positiveExtension_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.linear_positiveExtension_source_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]

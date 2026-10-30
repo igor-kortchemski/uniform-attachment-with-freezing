@@ -1,0 +1,32 @@
+'Freezing1.Forward.vertexSurvivalFactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.vertexSurvivalFactor_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.step_active_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.transitionLaw_old_active_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.transitionLaw_vertex_survival' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_vertex_survival_measure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_vertex_survival' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.freezingHazard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.printedFreezingReciprocal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.freezing_reciprocal_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.freezingHazard_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.printedFreezingReciprocal_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.freezingHazard_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.freezingHazard_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.freezingHazard_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.summable_freezingHazard_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.survivalProduct_le_exp_neg_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_survivalProduct_of_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_survivalProduct_zero_iff_not_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_survivalProduct_tail_zero_iff_not_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.vertexSurvivalFactor_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.vertexSurvivalFactor_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_vertex_survival_tendsto_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_eq_continuation_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_root_survival_tendsto_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_root_survival_tendsto_zero_iff_sum_atTop' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,14 @@
+'Freezing1.map_uniformFinset_eq_multisetUniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.TaggedPopulation.continuationLaw_initial_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.TaggedPopulation.goodTall_eq_weightedPermutationCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.integral_permutation_action_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.TaggedPopulation.continuationLaw_goodTall_growth_failure_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.continuationLaw_taggedPopulation_at_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.totalTall_taggedPopulation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_goodSet_growth_failure_le' depends on axioms: [propext, Classical.choice, Quot.sound]

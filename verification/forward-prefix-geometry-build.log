@@ -1,0 +1,28 @@
+✖ [3741/3741] Building Freezing1.ForwardPrefixGeometry (6.1s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/ForwardPrefixGeometry.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/ForwardPrefixGeometry.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/ForwardPrefixGeometry.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/ForwardPrefixGeometry.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/ForwardPrefixGeometry.setup.json --json
+error: Freezing1/ForwardPrefixGeometry.lean:47:16: `simp` made no progress
+error: Freezing1/ForwardPrefixGeometry.lean:47:16: `simp` made no progress
+warning: Freezing1/ForwardPrefixGeometry.lean:47:22: This simp argument is unused:
+  attach
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [freeze, hne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Freezing1/ForwardPrefixGeometry.lean:47:30: This simp argument is unused:
+  freeze
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [attach, hne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Freezing1/ForwardPrefixGeometry.lean:47:38: This simp argument is unused:
+  hne
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [attach, freeze]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Some required targets logged failures:
+- Freezing1.ForwardPrefixGeometry
+error: build failed

@@ -1,0 +1,7 @@
+'Freezing1.SIR.Susceptible.noise_linear_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.noise_abs_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.noise_uniform_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.linear_exp_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.noise_uniform_div_population_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

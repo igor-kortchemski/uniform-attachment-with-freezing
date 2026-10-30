@@ -1,0 +1,41 @@
+'Freezing1.BinaryBijection.decodeTree_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.decodeTree_heapIncreasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.decodeTree_increasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.decodeTree_encodes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.decode_count_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.decodeTree_ids' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.decodeTree_isEncoding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.decodeTree_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.card_param' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.label_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.exists_rooted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.exists_rooted_increasing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.exists_rootedClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.exists_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.of_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.increasingLabelled_iff_exists_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.increasingLabelled_iff_exists_paper_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.exists_support_iff_exists_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_support_exists_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_ae_exists_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_ae_exists_paper_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.DecHyp.le_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.DecHyp.unorderedEq_decode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.IsEncoding.unorderedEq_decodeTree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.Rooted.IsEncoding.unorderedEq_of_encoding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.UnorderedIncreasingClass.eq_of_isEncoding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.UnorderedIncreasingClass.existsUnique_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.existsUnique_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.intrinsicClassEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_support_existsUnique_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_ae_existsUnique_class' depends on axioms: [propext, Classical.choice, Quot.sound]

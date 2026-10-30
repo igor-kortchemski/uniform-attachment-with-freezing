@@ -1,0 +1,14 @@
+'Freezing1.log_le_maximumRateSlack_mul_rate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeHeight_unshifted_bennett_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeHeight_uniform_bennett_upper_of_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_maximum_uniform_bennett_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_maximum_error_tail_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.moment_le_seven_of_bennett_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.integrable_maximum_error_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_maximum_error_moment_le_source_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.eventually_maximum_error_eLpNorm_le_source_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.maximum_height_tendsto_Lp_via_tail_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

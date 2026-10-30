@@ -1,0 +1,6 @@
+'Freezing1.linear_geometric_componentMaximum_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_componentMaximum_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_componentPopulation_of_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_cutAncestor_eq_root_iff_reachable' depends on axioms: [propext, Classical.choice, Quot.sound]

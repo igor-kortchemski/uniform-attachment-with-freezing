@@ -1,0 +1,6 @@
+'Freezing1.uniform_active_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.exists_tree_walk_length_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.height_eq_tree_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+'Freezing1.maximum_height_window_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.maximum_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]

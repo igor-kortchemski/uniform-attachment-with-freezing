@@ -1,0 +1,6 @@
+Freezing1/GeometricBranchingTails.lean:62:2: error: Type mismatch: After simplification, term
+  hh
+ has type
+  @Eq ℝ≥0∞ (↑(planeLimitLaw p) {t | k ≤ PlaneTree.firstChildStructure.degree t}) (ENNReal.ofReal ↑p ^ k)
+but is expected to have type
+  @Eq ℝ≥0∞ (↑(planeLimitLaw p) {T | k ≤ PlaneTree.degree T}) (ENNReal.ofReal ↑p ^ k)

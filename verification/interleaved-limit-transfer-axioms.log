@@ -1,0 +1,8 @@
+'Freezing1.InterleavedChain.coordinate_eq_extracted_selectionCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.coordinate_eq_extracted_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.tendsto_coordinate_of_extracted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.ae_tendsto_coordinate_of_extracted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

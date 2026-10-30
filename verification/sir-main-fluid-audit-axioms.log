@@ -1,0 +1,7 @@
+'Freezing1.SIR.embedded_sir_fluid_mixture_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_fluid_limit_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometricSurvivalPathLaw_eq_fluidMixtureLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIRMainFluidStatements.source_limit_path_one_shared_event' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIRMainFluidStatements.concrete_rate_two_over_n' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'Freezing1.bennettRate_div_mul_log_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bennettRate_isEquivalent_mul_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bennettRate_div_self_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.smallMean_bennettExponent_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bennett_unionBound_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

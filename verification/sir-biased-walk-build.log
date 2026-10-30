@@ -1,0 +1,18 @@
+⚠ [3115/3203] Replayed Freezing1.CountableMarkovAvoidance
+warning: Freezing1/CountableMarkovAvoidance.lean:70:8: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.avoidanceProbability_zero`:
+  [MeasurableSingletonClass E]
+  [Countable E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass E] [Countable E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Freezing1/CountableMarkovAvoidance.lean:102:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/CountableMarkovAvoidance.lean:109:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [3679/3679] Built Freezing1.SIRBiasedWalk (5.7s)
+Build completed successfully (3679 jobs).

@@ -1,0 +1,4 @@
+'Freezing1.SIR.clockChoiceLaw_project_actor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeKernel_signed_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.clock_projection_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.clockChoiceLaw_project' depends on axioms: [propext, Classical.choice, Quot.sound]

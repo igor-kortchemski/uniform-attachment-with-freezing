@@ -1,0 +1,8 @@
+'Freezing1.linear_heightScale_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_heightScale_div_log_of_uniformIntervals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformLogIntervals_of_nearOriginLinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.heightInterval_log_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.nearOriginLimsup_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bulkLiminf_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_log_floor_div_ceil_div_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_ceil_floor_cutoff_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

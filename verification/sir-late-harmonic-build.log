@@ -1,0 +1,10 @@
+⚠ [3676/3680] Replayed Freezing1.SIRCounts
+warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRCounts.lean:86:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3762/3763] Built Freezing1.CountableMarkovPotential (5.5s)
+✔ [3763/3763] Built Freezing1.SIRLateHarmonic (8.8s)
+Build completed successfully (3763 jobs).

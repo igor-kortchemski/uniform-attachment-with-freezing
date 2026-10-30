@@ -1,0 +1,9 @@
+ℹ [3287/3304] Replayed Freezing1.TangentBernoulliSeries
+info: Freezing1/TangentBernoulliSeries.lean:27:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [3304/3304] Built Freezing1.TangentEnumeration (5.0s)
+Build completed successfully (3304 jobs).

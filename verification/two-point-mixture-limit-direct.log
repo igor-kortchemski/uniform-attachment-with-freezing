@@ -1,0 +1,4 @@
+Freezing1/TwoPointMixtureLimit.lean:86:87: error(lean.invalidField): Invalid field `abs`: The environment does not contain `Function.abs`, so it is not possible to project the field `abs` from an expression
+  Measurable.sub measurable_snd (measurable_gatedValue c)
+of type
+  ∀ ⦃t : Set ℝ⦄, MeasurableSet t → MeasurableSet ((Prod.snd - gatedValue c) ⁻¹' t)

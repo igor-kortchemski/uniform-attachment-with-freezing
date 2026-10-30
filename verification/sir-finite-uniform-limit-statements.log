@@ -1,0 +1,18 @@
+'_private.verification.SIRFiniteUniformLimitStatements.0.Verification.SIRFiniteUniformLimits.height_is_actual_terminal_sample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRFiniteUniformLimitStatements.0.Verification.SIRFiniteUniformLimits.distance_is_actual_terminal_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRFiniteUniformLimitStatements.0.Verification.SIRFiniteUniformLimits.height_limit_expanded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRFiniteUniformLimitStatements.0.Verification.SIRFiniteUniformLimits.distance_limit_expanded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRFiniteUniformLimitStatements.0.Verification.SIRFiniteUniformLimits.source_ratio_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRFiniteUniformLimitStatements.0.Verification.SIRFiniteUniformLimits.source_ratio_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

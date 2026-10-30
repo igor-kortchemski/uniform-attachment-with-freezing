@@ -1,0 +1,2 @@
+'Freezing1.eventually_geometricChainError_le_inv_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_geometricChainError_inv_sq_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

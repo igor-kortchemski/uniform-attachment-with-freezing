@@ -1,0 +1,204 @@
+⚠ [3679/3710] Replayed Freezing1.SIRCounts
+warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRCounts.lean:86:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3926/3951] Replayed Freezing1.ForwardPlaneKernel
+warning: Freezing1/ForwardPlaneKernel.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:118:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:135:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:175:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3927/3951] Replayed Freezing1.PlaneGraftTransition
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3928/3951] Replayed Freezing1.PlaneGraftHistory
+warning: Freezing1/PlaneGraftHistory.lean:37:0: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.map_fullLaw_of_ae_intertwining`:
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3945/3951] Replayed Freezing1.SIRExponentialRace
+warning: Freezing1/SIRExponentialRace.lean:28:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:59:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:71:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:78:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:79:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:86:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:123:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:126:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:166:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRExponentialRace.lean:169:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRExponentialRace.lean:166:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Freezing1/SIRExponentialRace.lean:169:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Freezing1/SIRExponentialRace.lean:182:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:183:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3949/3951] Built Freezing1.SIRPreassignedResiduals (17s)
+✖ [3950/3951] Building Freezing1.ForwardCutHeightMGF (18s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/ForwardCutHeightMGF.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/ForwardCutHeightMGF.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/ForwardCutHeightMGF.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/ForwardCutHeightMGF.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/ForwardCutHeightMGF.setup.json --json
+error: Freezing1/ForwardCutHeightMGF.lean:145:31: unexpected token '('; expected ')', ',' or ':'
+error: Freezing1/ForwardCutHeightMGF.lean:144:10: Type mismatch
+  mul_le_mul_of_nonneg_right ?m.485
+has type
+  0 ≤ ?m.481 → ?m.482 * ?m.481 ≤ ?m.483 * ?m.481
+but is expected to have type
+  (1 + p * (Real.exp theta - 1)) * Real.exp ((heightScale x n - heightScale x a) * (Real.exp theta - 1)) ≤
+    Real.exp (p * (Real.exp theta - 1)) * Real.exp ((heightScale x n - heightScale x a) * (Real.exp theta - 1))
+
+Note: The following definitions were not unfolded because their definition is not exposed:
+  Real.instLE ↦ 2
+error: Freezing1/ForwardCutHeightMGF.lean:144:41: Type mismatch: After simplification, term
+  Real.add_one_le_exp
+ has type
+  ∀ (x : ℝ), x + 1 ≤ Real.exp x
+but is expected to have type
+  ?m.482 ≤ ?m.483
+error: Freezing1/ForwardCutHeightMGF.lean:117:4: unsolved goals
+case succ.true.calc.step
+x : SignSequence
+a n✝ : ℕ
+theta : ℝ
+n : ℕ
+hna : a ≤ n
+ih✝ :
+  ↑n < extinctionTime x →
+    ∫ (s : State), cutActiveMean s a fun k => Real.exp (theta * ↑k) ∂treeLaw x n ≤
+      Real.exp ((heightScale x n - heightScale x a) * (Real.exp theta - 1))
+hτ : ↑(n + 1) < extinctionTime x
+hnτ : ↑n < extinctionTime x
+ih :
+  ∫ (s : State), cutActiveMean s a fun k => Real.exp (theta * ↑k) ∂treeLaw x n ≤
+    Real.exp ((heightScale x n - heightScale x a) * (Real.exp theta - 1))
+hx : x (n + 1) = true
+p : ℝ := 1 / ↑(activeCount x (n + 1))
+hs : 1 ≤ activeCount x (n + 1)
+hsR : 1 ≤ ↑(activeCount x (n + 1))
+hp0 : 0 ≤ p
+hp1 : p ≤ 1
+hfac : 0 ≤ 1 + p * (Real.exp theta - 1)
+hshift :
+  ∫ (s : State), cutActiveMean s a fun k => Real.exp (theta * ↑(k + 1)) ∂treeLaw x n =
+    Real.exp theta * ∫ (s : State), cutActiveMean s a fun k => Real.exp (theta * ↑k) ∂treeLaw x n
+⊢ Real.exp (p * (Real.exp theta - 1)) * Real.exp ((heightScale x n - heightScale x a) * (Real.exp theta - 1)) ≤
+    Real.exp ((heightScale x n + 1 / ↑(activeCount x (n + 1)) - heightScale x a) * (Real.exp theta - 1))
+✔ [3951/3951] Built Freezing1.SIRLateAttachmentSum (19s)
+Some required targets logged failures:
+- Freezing1.ForwardCutHeightMGF
+error: build failed

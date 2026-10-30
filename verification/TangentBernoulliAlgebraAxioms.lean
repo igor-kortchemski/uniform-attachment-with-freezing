@@ -1,0 +1,9 @@
+module
+
+public import Freezing1.TangentBernoulliAlgebra
+
+open Freezing1.BinaryBijection
+
+#print axioms tangent_even_power_difference_norm
+#print axioms tangent_coefficient_absolute_formula
+#print axioms tangent_bernoulli_absolute_formula

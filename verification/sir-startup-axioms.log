@@ -1,0 +1,16 @@
+'Freezing1.SIR.Susceptible.infectious_relative_drift_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.relative_startup_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.relative_startup_strong_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.StoppedCoupling.fullLaw_agree_at_alive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_alive_startup_event_le_unstopped' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_alive_relative_startup_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_strong_fraction_extinction_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_strong_relative_startup_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_strong_relative_until_n_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.logLogStartupCutoff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_alive_logLog_startup_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_strong_logLog_until_n_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

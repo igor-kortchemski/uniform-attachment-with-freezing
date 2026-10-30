@@ -1,0 +1,5 @@
+'Freezing1.PlaneForward.fullLaw_exists_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.fullLaw_tendsto_chainLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.aemeasurable_chainLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.chainLimit_planeHistory_eq_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.map_fullLaw_chainLimit' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+'Freezing1.CanonicalTree.forward_uniformActiveHeightLaw_eq_reverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.uniformActiveHeightLaw_eq_bernoulli_array' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bernoulliProductLaw_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.truncatedMean_eq_heightScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_closed_deviation_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_strict_deviation_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_closed_deviation_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.activeHeightError_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.activeHeightError_eLpNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_tendsto_Lp_via_bernoulli' depends on axioms: [propext, Classical.choice, Quot.sound]

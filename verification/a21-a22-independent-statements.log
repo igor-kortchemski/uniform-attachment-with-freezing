@@ -1,0 +1,14 @@
+'Freezing1.ForwardInfiniteHistory.exists_local_limit_iff_degree_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.conditional_postBirthAttachment_iIndepSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.restrict_survival_vertexDegree_tendsto_atTop' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_local_limit_iff_all_eventually_frozen_all_schedules' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.attachment_density_ge_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.printed_attachment_reciprocal_sum_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

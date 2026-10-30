@@ -1,0 +1,243 @@
+module
+
+import Freezing1
+meta import Lean.Elab.Command
+meta import Lean.Util.CollectAxioms
+
+/-!
+Check all declarations in the project's public mathematical namespace.
+This is an axiom-closure check, not independent kernel replay or a source audit.
+The reference Challenge is intentionally outside this import closure.
+-/
+
+open Lean Elab Command in
+run_cmd do
+  let env ← getEnv
+  let allowed : Array Name := #[``propext, ``Classical.choice, ``Quot.sound]
+  let mut checked : Nat := 0
+  for (name, _) in env.constants.toList do
+    if (`Freezing1).isPrefixOf name then
+      let axioms ← Lean.collectAxioms name
+      for axiomName in axioms do
+        unless allowed.contains axiomName do
+          throwError "Forbidden axiom {axiomName} in {name}"
+      checked := checked + 1
+  logInfo m!"Checked {checked} Freezing1 declarations; all transitive axioms belong to propext, Classical.choice, Quot.sound."
+
+#print axioms Freezing1.heightScale_lower_bound
+#print axioms Freezing1.local_convergence_equivalences
+#print axioms Freezing1.local_convergence_common_limit
+#print axioms Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit
+#print axioms Freezing1.ForwardAnnealed.planeLimitLaw_isBienayme
+#print axioms Freezing1.ForwardAnnealed.planeLimitLaw_offspring_mass
+#print axioms Freezing1.SIR.embedded_sir_geometric_local_limit_of_source_ratio
+#print axioms Freezing1.SIR.embedded_sir_not_tight_of_source_ratio
+#print axioms Freezing1.SIR.Susceptible.uniform_fluid_on_time_interval_tendsto
+#print axioms Freezing1.SIR.Susceptible.uniform_infectious_fluid_tendsto
+#print axioms Freezing1.SIR.fluidProfile_unique_positive
+#print axioms Freezing1.SIR.fluidExtinctionTime_spec
+#print axioms Freezing1.SIR.StoppedCoupling.map_fullLaw_counts
+#print axioms Freezing1.SIR.StoppedCoupling.map_fullLaw_unstopped
+#print axioms Freezing1.SIR.StoppedCoupling.fullLaw_agree_until_extinction
+#print axioms Freezing1.SIR.individualClock_race
+#print axioms Freezing1.SIR.individualClock_selected_kind_independent
+#print axioms Freezing1.SIR.principalLambertW_hasDerivAt
+#print axioms Freezing1.SIR.fluidProfile_lambertW
+#print axioms Freezing1.SIR.sir_terminal_uniform_height_tendsto
+#print axioms Freezing1.SIR.sir_terminal_uniform_distance_tendsto
+#print axioms Freezing1.SIR.sir_terminal_maximum_of_source_ratio
+#print axioms Freezing1.SIR.treeFullLaw_logLog_extinction_tendsto
+#print axioms Freezing1.SIR.treeFullLaw_early_uniform_distance_negligible
+#print axioms Freezing1.SIR.RandomEnvironment.uniform_bound_of_sequential_nat
+#print axioms Freezing1.SIR.embedded_sir_uniform_height_limit_of_source_ratio
+#print axioms Freezing1.SIR.embedded_sir_uniform_distance_limit_of_source_ratio
+#print axioms Freezing1.SIR.independent_poisson_fullContact_tree_fullLaw
+#print axioms Freezing1.SIR.independent_poisson_fullContact_counts_fullLaw
+#print axioms Freezing1.SIR.physical_sir_geometric_local_limit_of_source_ratio
+#print axioms Freezing1.SIR.physical_sir_uniform_height_limit_of_source_ratio
+#print axioms Freezing1.SIR.physical_sir_uniform_distance_limit_of_source_ratio
+#print axioms Freezing1.BinaryBijection.paperEquiv
+#print axioms Freezing1.BinaryBijection.unorderedPaperEquiv
+#print axioms Freezing1.SIR.treeFullLaw_countsPrefix_original_treePrefix_word_mixture
+#print axioms Freezing1.SIR.PoissonSIRData.countsPrefix_original_treePrefix_word_mixture
+#print axioms Freezing1.UniformBirth.actualBirthHeightLaw_eq_auxiliary
+#print axioms Freezing1.UniformBirth.randomMean_condExp
+#print axioms Freezing1.UniformBirth.randomMean_normalized_tendsto_Lp
+#print axioms Freezing1.ForwardAnnealed.iid_extinction_of_le_half
+#print axioms Freezing1.ForwardAnnealed.iid_nonextinction_local_criterion
+#print axioms Freezing1.BinaryBijection.existsUnique_paper_consecutive_relabelling
+#print axioms Freezing1.BinaryBijection.source_fullyFrozen_card_tangent
+#print axioms Freezing1.BinaryBijection.source_fullyFrozen_card_formula
+#print axioms Freezing1.BinaryBijection.tangentFormalSeries_coefficient
+#print axioms Freezing1.UniformBirth.randomRelativeError_real_moment_tendsto
+#print axioms Freezing1.UniformBirth.linear_uniform_height_via_random_mean
+#print axioms Freezing1.SIR.zeroRate_physical_tree_fullLaw
+#print axioms Freezing1.SIR.zeroRate_physical_counts_fullLaw
+#print axioms Freezing1.ForwardInfiniteHistory.exists_local_limit_iff_all_degrees_stabilize
+#print axioms Freezing1.ForwardInfiniteHistory.conditional_postBirthAttachment_iIndepSet
+#print axioms Freezing1.ForwardInfiniteHistory.fullLaw_local_limit_iff_all_eventually_frozen_all_schedules
+#print axioms Freezing1.Forward.attachment_density_ge_half
+#print axioms Freezing1.Forward.printed_attachment_reciprocal_sum_tendsto
+#print axioms Freezing1.Forward.selectionIndexSchedule_actual_never_frozen_probability
+#print axioms Freezing1.uniformActiveHeightLaw_eq_bernoulli_array
+#print axioms Freezing1.uniformActiveHeight_closed_deviation_le
+#print axioms Freezing1.uniformActiveHeight_closed_deviation_tendsto
+#print axioms Freezing1.activeHeightError_moment_le
+#print axioms Freezing1.uniformActiveHeight_tendsto_Lp_via_bernoulli
+#print axioms Freezing1.LocalTopologyVariants.plane_labelled_metric
+#print axioms Freezing1.PlaneLabelled.tendsto_iff_positive_balls
+#print axioms Freezing1.PlaneLabelled.decorate_surjective
+#print axioms Freezing1.Forward.treeLaw_prefix_slotForest
+#print axioms Freezing1.Forward.treeLaw_uniform_root_matching
+#print axioms Freezing1.Forward.indepFun_prefix_erasedForest
+#print axioms Freezing1.heightScale_sorted_by_adjacent_swaps
+#print axioms Freezing1.exists_sorted_schedule_by_adjacent_swaps
+#print axioms Freezing1.heightScale_lower_bound_by_adjacent_swaps
+#print axioms Freezing1.activeHeight_moment_le_split_seven
+#print axioms Freezing1.exponentialMomentTail_isBigO
+#print axioms Freezing1.uniformActiveHeight_tendsto_Lp_via_tail_integral
+#print axioms Freezing1.condExp_finite_invariant_average
+#print axioms Freezing1.Forward.indepFun_prefix_bareForest
+#print axioms Freezing1.Forward.treeLaw_uniform_root_matching_bare
+#print axioms Freezing1.Forward.bareForestComponentMaximum_actual
+#print axioms Freezing1.eventually_maximum_uniform_bennett_upper
+#print axioms Freezing1.maximum_height_tendsto_Lp_via_tail_integral
+#print axioms Freezing1.FirstChildStructure.source_induction_expectation_identities
+#print axioms Freezing1.condExp_eq_of_finite_invariant_average
+#print axioms Freezing1.condExp_le_of_finite_invariant_average
+#print axioms Freezing1.Forward.condExp_goodSet_succ_given_forest
+#print axioms Freezing1.Forward.condVar_goodSet_succ_given_forest
+#print axioms Freezing1.SIR.zeroRate_physical_absorption
+#print axioms Freezing1.SIR.optionalContactRun_arrivals
+#print axioms Freezing1.ForwardAnnealed.planeLimitLaw_offspring_tail_recurrence
+#print axioms Freezing1.SIR.countsFullLaw_strong_uniform_tendsto
+#print axioms Freezing1.SIR.StoppedCoupling.gated_stopped_real_fluid_tendsto
+#print axioms Freezing1.SIR.countsFullLaw_early_extinction_two_stage
+#print axioms Freezing1.SIR.geometric_sir_survival_probability
+#print axioms Freezing1.SIR.BiasedWalk.zero_probability_tendsto
+#print axioms Freezing1.SIR.independent_exponential_winner_minimum_residual_law
+#print axioms Freezing1.SIR.populationPath_tendsto_iff_on_compacts
+#print axioms Freezing1.SIR.scaledPopulationPath_ae
+#print axioms Freezing1.SIR.embedded_sir_fluid_limit_of_source_ratio
+#print axioms Freezing1.SIR.geometricSurvivalPathLaw_eq_fluidMixtureLaw
+#print axioms Freezing1.SIR.Susceptible.noise_relative_tendsto
+#print axioms Freezing1.SIR.treeFullLaw_plane_word_mixture_all
+#print axioms Freezing1.SIR.embeddedTerminalTreeLaw_original_word_mixture
+#print axioms Freezing1.SIR.countsFullLaw_infection_pressure_after_three_halves_tendsto_zero
+#print axioms Freezing1.SIR.countsPath_lintegral_birthHistoryCharge_le
+#print axioms Freezing1.SIRSourceChecks.printed_global_max_criterion_counterexample
+#print axioms Freezing1.ForwardAnnealed.fullLaw_all_vertices_eventually_frozen
+#print axioms Freezing1.PlaneForward.interleaving_fair
+#print axioms Freezing1.ForwardInfiniteHistory.all_vertices_eventually_frozen_iff
+#print axioms Freezing1.ForwardInfiniteHistory.localLimitLaw_eq_extinction_treeLaw
+#print axioms Freezing1.linear_conditional_goodChain_failure_bound
+#print axioms Freezing1.uniform_birthTime_lt_of_le_extinctionTime
+#print axioms Freezing1.card_vertexLabels_real
+#print axioms Freezing1.tendsto_heightScale_atTop
+#print axioms Freezing1.linearHeightFactor_existsUnique
+#print axioms Freezing1.linearHeightFactor_spec
+#print axioms Freezing1.linearHeightFactor_one
+#print axioms Freezing1.bennettRate_linearHeightFactor
+#print axioms Freezing1.bennettRate_linearHeightFactor_add
+#print axioms Freezing1.one_lt_bennettRate_exp_one_sub_one_add
+#print axioms Freezing1.self_le_bennettRate
+#print axioms Freezing1.bernoulli_sum_upper_tail
+#print axioms Freezing1.bernoulli_sum_lower_tail
+#print axioms Freezing1.intervalPlusCount_eq_activeCount
+#print axioms Freezing1.intervalPlusCount_bounds
+#print axioms Freezing1.height_upper_bound_rhs_at_one_lt_one
+#print axioms Freezing1.uniform_active_height_tendsto_Lp
+#print axioms Freezing1.maximum_height_window_tendsto_one
+#print axioms Freezing1.maximum_height_tendsto_Lp
+#print axioms Freezing1.nearOriginLimsup_iff
+#print axioms Freezing1.bulkLiminf_iff
+#print axioms Freezing1.heightInterval_log_error_le
+#print axioms Freezing1.logIntervalLimsup_of_nearOriginLimsup
+#print axioms Freezing1.linear_heightScale_tendsto
+#print axioms Freezing1.linear_uniform_height_tendsto_Lp
+#print axioms Freezing1.linear_maximum_upper_tendsto_zero
+#print axioms Freezing1.Forward.uniformHeightLaw_integral_mixture
+#print axioms Freezing1.Forward.uniformHeightLaw_mgf_upper
+#print axioms Freezing1.Forward.uniformHeightLaw_lower_tail_le
+#print axioms Freezing1.Forward.treeLaw_schedule_support
+#print axioms Freezing1.Forward.treeLaw_real_singleton_ae
+#print axioms Freezing1.Forward.treeLaw_singleton_ne_zero_iff_hasHistory
+#print axioms Freezing1.CanonicalTree.construction_laws_eq
+#print axioms Freezing1.CanonicalTree.reverseStateLaw_eq_forward_treeLaw
+#print axioms Freezing1.CanonicalTree.terminalFiber_eq_activeOrbit
+#print axioms Freezing1.Forward.corrected_forward_tree_probability
+#print axioms Freezing1.Forward.treeLaw_singleton_ne_zero_iff_historyShape
+#print axioms Freezing1.Forward.HistoryShape.hasHistory
+#print axioms Freezing1.ReverseHistory.uniform_coalescence_div_log_tendsto_zero
+#print axioms Freezing1.linear_geometricBlock_tallRoot_expectation_lower
+#print axioms Freezing1.ReverseHistory.fullLaw_root_pair_tail_le
+#print axioms Freezing1.RootedForest.joinLaw_coalescence
+#print axioms Freezing1.Forward.treeLaw_isTree
+#print axioms Freezing1.Forward.ValidAt.height_eq_tree_dist
+#print axioms Freezing1.Forward.treeLaw_counts
+#print axioms Freezing1.Forward.treeLaw_constant_after_extinction
+#print axioms Freezing1.Forward.uniformActiveHeightLaw_integral_succ
+#print axioms Freezing1.Forward.treeHeight_upper_tail
+#print axioms Freezing1.Forward.treeHeight_lower_tail
+#print axioms Freezing1.RootedForest.depth_eq_dist
+#print axioms Freezing1.Reverse.treeLaw_isTree
+#print axioms Freezing1.Reverse.transitionLaw_height_increment
+#print axioms Freezing1.Reverse.treeLaw_depth_hasLaw
+#print axioms Freezing1.ReverseHistory.height_increment_conditional_probability
+#print axioms Freezing1.ReverseHistory.phaseIncrements_independent
+#print axioms Freezing1.ReverseHistory.fullLaw_depth_eq_sum_phaseIncrements
+#print axioms Freezing1.ReverseHistory.fullLaw_depth_difference_hasLaw
+#print axioms Freezing1.ReverseHistory.integral_blockTallRootCount
+#print axioms Freezing1.ReverseHistory.fullLaw_coalescenceTime_eq
+#print axioms Freezing1.ReverseHistory.fullLaw_coalescenceTime_self
+#print axioms Freezing1.ReverseHistory.uniformCoalescenceLaw_eq_conditional
+#print axioms Freezing1.ReverseHistory.uniformCoalescenceLaw_tail_le
+#print axioms Freezing1.ReverseHistory.linear_uniform_coalescence_tendsto_zero
+#print axioms Freezing1.reverseMaximum_corrected_upper_tail_source
+#print axioms Freezing1.reverseMaximum_lower_tail_source
+#print axioms Freezing1.ReverseStamped.treeLaw_times_valid
+#print axioms Freezing1.ReverseStamped.treeLaw_timestamp_order
+#print axioms Freezing1.ReverseStamped.history_eq_of_terminal_eq
+#print axioms Freezing1.ReverseStamped.transitionLaw_attachment_singleton
+#print axioms Freezing1.ReverseStamped.treeLaw_real_singleton_factorial_ae
+#print axioms Freezing1.ReverseStamped.treeLaw_singleton_ne_zero_iff_hasHistory
+#print axioms Freezing1.CanonicalTree.treeLaw_reverse_graph_isomorphic
+#print axioms Freezing1.exists_linear_poisson_tail_scale
+#print axioms Freezing1.bernoulliPartialSumLaw_poisson_parameter_event
+#print axioms Freezing1.uniform_geometricBlock_enlarged_parameter_error
+#print axioms Freezing1.Reverse.uniform_birthTime_lt
+#print axioms Freezing1.reverseHistoryWeight_eq_factorial_inv_mul_forward
+#print axioms Freezing1.uniformRootPair_coalescence
+#print axioms Freezing1.printed_height_upper_bound_counterexample
+#print axioms Freezing1.source_local_convergence_equivalences
+#print axioms Freezing1.source_local_convergence_common_limit
+#print axioms Freezing1.ForwardAnnealed.iid_signs_source_ambient_local_limit
+#print axioms Freezing1.source_local_limit_of_diagonal_tendsto_via_degrees
+#print axioms Freezing1.LocalTree.isClosedEmbedding_toUnordered
+#print axioms Freezing1.SignedUrn.positiveExtension_infinite_maximal
+#print axioms Freezing1.SignedUrn.positiveExtension_marked_component_endpoint_upper
+#print axioms Freezing1.poisson_strict_tail_cubic_lower
+#print axioms Freezing1.exists_linear_poisson_polynomial_scale_all_margins
+#print axioms Freezing1.printed_real_ceiling_factorial_counterexample
+#print axioms Freezing1.printed_all_margin_rate_slack_counterexample
+#print axioms Freezing1.SIR.printed_reverse_attachment_identity_counterexample
+#print axioms Freezing1.ForwardInfiniteHistory.positiveExtension_original_component_pathLaws
+#print axioms Freezing1.ForwardInfiniteHistory.positiveExtension_actual_component_infinite_maximal
+#print axioms Freezing1.BernoulliPairCoupling.uniform_geometric_actual_pair_tail
+#print axioms Freezing1.BernoulliPairCoupling.actual_separated_tail_le_enlarged_square
+#print axioms Freezing1.SIR.countsFullLaw_late_charge_reduced_to_lastHalf
+#print axioms Freezing1.ForwardAnnealed.HalfSlope.auxiliary_halfSlope_probability_tendsto_one
+#print axioms Freezing1.ForwardAnnealed.HalfSlope.expected_auxiliary_harmonic_failures
+#print axioms Freezing1.InterleavedChain.source_right_factorization_absorbing
+#print axioms Freezing1.linear_geometric_componentMaximum_tail_via_positiveExtension
+#print axioms Freezing1.bennettRate_div_mul_log_tendsto_one
+#print axioms Freezing1.bennett_unionBound_tendsto_zero
+#print axioms Freezing1.CanonicalTree.forward_uniformReverseBirthLaw_eq_reverse
+#print axioms Freezing1.CanonicalTree.forward_terminal_reverseBirthLaw
+#print axioms Freezing1.ForwardAnnealed.exists_conditioned_iid_linear_coupling
+#print axioms Freezing1.SIR.source_same_epsilon_two_reverse_births
+#print axioms Freezing1.SIR.source_same_epsilon_two_uniform_captures
+#print axioms Freezing1.SIR.terminal_word_cutMaximum_bennett
+#print axioms Freezing1.SIR.terminal_word_cutMaximum_zero_charge
+#print axioms Freezing1.Forward.treeLaw_allAttachment_eq_recursive
+#print axioms Freezing1.RecursiveTree.newest_parent_law

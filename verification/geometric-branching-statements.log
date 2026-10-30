@@ -1,0 +1,20 @@
+'Freezing1.FirstChildStructure.measurableSet_childrenEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.FirstChildStructure.graft_preimage_childrenEvent_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.childrenEvent_measure_of_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.degree_measure_of_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.FirstChildStructure.conditional_childrenLaw_of_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.fixedPoint_of_conditional_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneTree.firstChildStructure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.IsBienayme' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.isBienayme_geometric_of_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.isBienayme_geometric_of_conditional_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

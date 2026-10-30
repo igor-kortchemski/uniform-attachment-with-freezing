@@ -1,0 +1,5 @@
+'Freezing1.UniformBirth.birthLaw_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.birthLaw_lt_le_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.birthLaw_sublinear_cutoff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.auxiliary_sublinear_birth_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.auxiliary_birth_below_sublog_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

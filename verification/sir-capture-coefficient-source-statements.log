@@ -1,0 +1,37 @@
+'Freezing1.SIR.fluidProfile_at_extinction_lt_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.twice_survival_lt_fluidExtinctionTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.exists_same_epsilon_capture_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_alive_small_terminal_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_reverseMissing_same_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.captureWordExtinction_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.captureWord_reverse_birth_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_reverseMissing_integral_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminalReverseBirthLaw_same_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualTerminalReverseBirthLaw_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualTerminalReverseBirthLaw_same_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualTerminalVertexBirthLaw_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualTerminalVertexBirthLaw_forward_capture_same_epsilon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.prefixCaptureKernel_prod_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualPrefixCaptureLaw_true_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualPrefixCaptureLaw_same_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualPrefixCapturePairLaw_true_marginals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualPrefixCapturePairLaw_same_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.source_same_epsilon_reverse_birth_capture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.source_same_epsilon_forward_capture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.source_same_epsilon_two_uniform_captures' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.reverse_birth_captures_forward_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.reverse_birth_probability_le_forward_capture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.reverseState_reverseBirthClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.forward_uniformReverseBirthLaw_eq_reverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.CanonicalTree.forward_terminal_reverseBirthLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.wordObservedBirthPairKernel_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualTerminalReverseBirthPairLaw_map_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualTerminalReverseBirthPairLaw_map_snd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.actualTerminalReverseBirthPairLaw_same_epsilon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.source_same_epsilon_two_reverse_births' depends on axioms: [propext, Classical.choice, Quot.sound]

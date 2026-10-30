@@ -1,0 +1,17 @@
+'Freezing1.BinaryBijection.Rooted.normalize_related' depends on axioms: [propext, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.exists_unique_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.UnorderedEq.normalize_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.UnorderedEq.heapIncreasing_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.unorderedCanonicalEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingCanonicalEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedPaperEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.phi_paper_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingEquiv_edgeLabels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingEquiv_vertexLabels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.unordered_figure_parameter_error' depends on axioms: [propext, Classical.choice, Quot.sound]

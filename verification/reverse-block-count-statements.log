@@ -1,0 +1,5 @@
+'Freezing1.ReverseHistory.blockSum_indep_past' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.depth_difference_indep_past' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.depth_difference_event_and_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.blockTallRootCount_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.integral_blockTallRootCount' depends on axioms: [propext, Classical.choice, Quot.sound]

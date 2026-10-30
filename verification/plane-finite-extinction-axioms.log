@@ -1,0 +1,15 @@
+'Freezing1.PlaneTree.finiteVertices_iff_heightBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.measurableSet_finiteVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.Valid.lengths_le_of_ball_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.fullLaw_finite_chainLimit_iff_absorbed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneForward.fullLaw_ever_absorbed_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.planeLimitLaw_finite_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.geometricBienayme_finite_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.geometricBienayme_survival_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.geometric_sir_finite_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometric_sir_survival_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometric_sir_survival_real' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'Freezing1.ReverseHistory.phaseIncrement_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.phaseIncrements_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.phaseIncrements_hasLaw_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_depth_eq_sum_phaseIncrements' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_depth_difference_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

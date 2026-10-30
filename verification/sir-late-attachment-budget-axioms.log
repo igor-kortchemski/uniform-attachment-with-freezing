@@ -1,0 +1,5 @@
+'Freezing1.SIR.countsKernel_integral_birthCharge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsKernel_birth_harmonic_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.accumulate_birthBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsKernel_accumulated_birth_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsPath_lintegral_birthHistoryCharge_le' depends on axioms: [propext, Classical.choice, Quot.sound]

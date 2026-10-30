@@ -1,0 +1,25 @@
+'Freezing1.InterleavedChain.firstSelectionValue_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.completion_observed_singleton_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.firstSelectionValue_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.everSelected_probability_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.source_right_prefix_transition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.source_left_prefix_transition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.source_right_factorization_nonabsorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_left_factorization_nonabsorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_right_factorization_absorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_left_factorization_absorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.first_right_value_literal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.never_right_selected_literal' depends on axioms: [propext]
+'Freezing1.InterleavedChain.fullLaw_selectedTime_strict_of_nonabsorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

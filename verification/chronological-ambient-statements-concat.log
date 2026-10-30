@@ -1,0 +1,19 @@
+'Freezing1.LocalTree.chronologicalAddressEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.chronologicalBallVertexEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.ballIso_record' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.ballIsoOfRawBallEq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.finiteBall_toUnordered_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.toUnordered_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.exists_chronological_of_finite_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.isClosedEmbedding_toUnordered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.exists_localLimit_iff_ambient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.isClosedEmbedding_probabilityLaw_toUnordered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.LocalTree.exists_weakLimit_iff_ambient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.ambient_weakLimit_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.source_local_convergence_equivalences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.source_local_convergence_common_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_signs_source_ambient_local_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

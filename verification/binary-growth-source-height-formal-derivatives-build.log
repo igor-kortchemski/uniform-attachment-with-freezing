@@ -1,0 +1,25 @@
+✔ [3889/3892] Built Freezing1.IncreasingBinaryGrowth (13s)
+✖ [3890/3892] Building Freezing1.TangentFormalDerivatives (12s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/TangentFormalDerivatives.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/TangentFormalDerivatives.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/TangentFormalDerivatives.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/TangentFormalDerivatives.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/TangentFormalDerivatives.setup.json --json
+error: Freezing1/TangentFormalDerivatives.lean:18:31: Unknown constant `Derivation.comp_aeval_eq`
+error: Freezing1/TangentFormalDerivatives.lean:17:92: unsolved goals
+n : ℕ
+⊢ d⁄dX ((Polynomial.aeval tangentFormalSeries) (Polynomial.map (algebraMap ℚ ℂ) (tangentDerivativePolynomial n))) =
+    tangentPolynomialSeries (n + 1)
+error: Freezing1/TangentFormalDerivatives.lean:42:2: Type mismatch: After simplification, term
+  hh
+ has type
+  @Eq ℂ
+    (PowerSeries.constantCoeff
+      ((Polynomial.aeval tangentFormalSeries) (Polynomial.map (algebraMap ℚ ℂ) (tangentDerivativePolynomial n))))
+    ((algebraMap ℂ ℂ) ((algebraMap ℚ ℂ) ((tangentDerivativePolynomial n).coeff 0)))
+but is expected to have type
+  @Eq ℂ
+    (PowerSeries.constantCoeff
+      ((Polynomial.aeval tangentFormalSeries) (Polynomial.map (algebraMap ℚ ℂ) (tangentDerivativePolynomial n))))
+    ↑((tangentDerivativePolynomial n).coeff 0)
+✔ [3891/3892] Built Freezing1.UniformBirthRealBennettIntegral (14s)
+✔ [3892/3892] Built Freezing1.UniformBirthSourceHeightLimit (14s)
+Some required targets logged failures:
+- Freezing1.TangentFormalDerivatives
+error: build failed

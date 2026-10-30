@@ -1,0 +1,243 @@
+import took 26.5s
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 25, num: 3):
+    [reduction] LT.lt ↦ 25
+    [reduction] LE.le ↦ 23
+    [reduction] OfNat.ofNat ↦ 23
+  [reduction] unfolded reducible declarations (max: 242, num: 5):
+    [reduction] inferInstance ↦ 242
+    [reduction] Nat.cast ↦ 177
+    [reduction] FunLike ↦ 111
+    [reduction] Int.cast ↦ 109
+    [reduction] outParam ↦ 81
+  [def_eq] heuristic for solving `f a =?= f b` (max: 45, num: 3):
+    [def_eq] instHAdd ↦ 45
+    [def_eq] Nat.cast ↦ 40
+    [def_eq] instOfNatAtLeastTwo ↦ 21
+  [reduction] Axioms (possibly imported non-exposed defs) that were tried to be unfolded (max: 21, num: 1):
+    [reduction] Real.instAdd ↦ 21
+  [kernel] unfolded declarations (max: 83, num: 16):
+    [kernel] HMul.hMul ↦ 83
+    [kernel] Mul.mul ↦ 83
+    [kernel] OfNat.ofNat ↦ 81
+    [kernel] Add.add ↦ 69
+    [kernel] HAdd.hAdd ↦ 69
+    [kernel] AddMonoid.toAdd ↦ 50
+    [kernel] NatCast.natCast ↦ 46
+    [kernel] AddCommMonoid.toAddMonoid ↦ 45
+    [kernel] Monoid.toMul ↦ 43
+    [kernel] Distrib.toMul ↦ 40
+    [kernel] NonUnitalNonAssocSemiring.toMul ↦ 40
+    [kernel] inferInstance ↦ 36
+    [kernel] AddMonoid.toZero ↦ 31
+    [kernel] Semiring.toNatCast ↦ 30
+    [kernel] LT.lt ↦ 28
+    [kernel] Monoid.toOne ↦ 24
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 57, num: 1):
+    [reduction] outParam ↦ 57
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 37, num: 5):
+    [reduction] LT.lt ↦ 37
+    [reduction] Add.add ↦ 28
+    [reduction] HAdd.hAdd ↦ 28
+    [reduction] OfNat.ofNat ↦ 28
+    [reduction] Zero.zero ↦ 22
+  [reduction] unfolded reducible declarations (max: 216, num: 4):
+    [reduction] inferInstance ↦ 216
+    [reduction] outParam ↦ 59
+    [reduction] Function.swap ↦ 28
+    [reduction] AddRightMono ↦ 21
+  [def_eq] heuristic for solving `f a =?= f b` (max: 61, num: 5):
+    [def_eq] instHAdd ↦ 61
+    [def_eq] LT.lt ↦ 40
+    [def_eq] LE.le ↦ 37
+    [def_eq] Zero.toOfNat0 ↦ 34
+    [def_eq] OfNat.ofNat ↦ 25
+  [reduction] Axioms (possibly imported non-exposed defs) that were tried to be unfolded (max: 22, num: 1):
+    [reduction] Real.instAdd ↦ 22
+  [kernel] unfolded declarations (max: 100, num: 17):
+    [kernel] HAdd.hAdd ↦ 100
+    [kernel] Add.add ↦ 98
+    [kernel] OfNat.ofNat ↦ 72
+    [kernel] HMul.hMul ↦ 58
+    [kernel] Mul.mul ↦ 58
+    [kernel] AddMonoid.toAdd ↦ 42
+    [kernel] LT.lt ↦ 42
+    [kernel] AddCommMonoid.toAddMonoid ↦ 41
+    [kernel] Int.casesOn ↦ 36
+    [kernel] Int.rec ↦ 36
+    [kernel] Neg.neg ↦ 34
+    [kernel] inferInstance ↦ 32
+    [kernel] NatCast.natCast ↦ 31
+    [kernel] AddMonoid.toZero ↦ 28
+    [kernel] Monoid.toMul ↦ 24
+    [kernel] HSub.hSub ↦ 22
+    [kernel] Sub.sub ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 86, num: 1):
+    [reduction] outParam ↦ 86
+  [type_class] used instances (max: 22, num: 1):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 178, num: 7):
+    [reduction] LE.le ↦ 178
+    [reduction] LT.lt ↦ 87
+    [reduction] CoeHTCT.coe ↦ 41
+    [reduction] CoeT.coe ↦ 41
+    [reduction] Add.add ↦ 25
+    [reduction] HAdd.hAdd ↦ 25
+    [reduction] OfNat.ofNat ↦ 21
+  [reduction] unfolded reducible declarations (max: 323, num: 8):
+    [reduction] outParam ↦ 323
+    [reduction] inferInstance ↦ 308
+    [reduction] Nat.cast ↦ 110
+    [reduction] Ne ↦ 93
+    [reduction] Function.swap ↦ 93
+    [reduction] FunLike ↦ 35
+    [reduction] AddLeftMono ↦ 23
+    [reduction] SignSequence ↦ 22
+  [type_class] used instances (max: 40, num: 6):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 40
+    [type_class] Real.instNatCast ↦ 31
+    [type_class] instCoeT ↦ 28
+    [type_class] instCoeTOfCoeDep ↦ 28
+    [type_class] instCoeTOfCoeHTCT ↦ 28
+    [type_class] instCoeHTCTNatOfNatCast ↦ 26
+  [def_eq] heuristic for solving `f a =?= f b` (max: 46, num: 2):
+    [def_eq] instHAdd ↦ 46
+    [def_eq] LE.le ↦ 28
+  [reduction] Axioms (possibly imported non-exposed defs) that were tried to be unfolded (max: 53, num: 4):
+    [reduction] Real.instLE ↦ 53
+    [reduction] Real.instAdd ↦ 33
+    [reduction] Real.instMul ↦ 23
+    [reduction] Real.instLT ↦ 22
+  [kernel] unfolded declarations (max: 108, num: 30):
+    [kernel] OfNat.ofNat ↦ 108
+    [kernel] List.rec ↦ 91
+    [kernel] Add.add ↦ 84
+    [kernel] HAdd.hAdd ↦ 84
+    [kernel] Int.casesOn ↦ 82
+    [kernel] Int.rec ↦ 73
+    [kernel] List.casesOn ↦ 56
+    [kernel] HMul.hMul ↦ 48
+    [kernel] Mul.mul ↦ 48
+    [kernel] LT.lt ↦ 40
+    [kernel] LE.le ↦ 39
+    [kernel] Nat.casesOn ↦ 35
+    [kernel] Neg.neg ↦ 34
+    [kernel] inferInstance ↦ 33
+    [kernel] HSub.hSub ↦ 33
+    [kernel] Sub.sub ↦ 33
+    [kernel] AddMonoid.toAdd ↦ 31
+    [kernel] AddCommMonoid.toAddMonoid ↦ 30
+    [kernel] Int.add.match_1 ↦ 29
+    [kernel] Int.negOfNat.match_1 ↦ 29
+    [kernel] Nat.rec ↦ 28
+    [kernel] instDecidableEqList.match_1 ↦ 26
+    [kernel] List.map._f ↦ 26
+    [kernel] Monoid.toOne ↦ 24
+    [kernel] NatCast.natCast ↦ 24
+    [kernel] Int.neg.match_1 ↦ 24
+    [kernel] List.brecOn ↦ 23
+    [kernel] Div.div ↦ 22
+    [kernel] HDiv.hDiv ↦ 22
+    [kernel] Monoid.toMul ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+aesop took 115ms
+tactic execution of Mathlib.Tactic.FieldSimp.fieldSimp took 104ms
+before-bulk
+before-nat-limit
+before-mult-limit
+before-bound-limit
+before-squeeze
+before-filter
+before-instance
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 27044, num: 8):
+    [reduction] LT.lt ↦ 27044
+    [reduction] LE.le ↦ 11481
+    [reduction] Set.Subset ↦ 11417
+    [reduction] Set.range ↦ 3592
+    [reduction] iInf ↦ 215
+    [reduction] sInf ↦ 215
+    [reduction] ENNReal.instCompleteLinearOrder._aux_4 ↦ 212
+    [reduction] Tendsto ↦ 25
+  [reduction] unfolded reducible declarations (max: 210, num: 5):
+    [reduction] Bool.casesOn ↦ 210
+    [reduction] outParam ↦ 181
+    [reduction] inferInstance ↦ 113
+    [reduction] Nat.cast ↦ 102
+    [reduction] sets ↦ 24
+  [type_class] used instances (max: 80906, num: 3):
+    [type_class] LinOrd.str ↦ 80906
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 39
+    [type_class] instHDiv ↦ 26
+  [def_eq] heuristic for solving `f a =?= f b` (max: 5718, num: 13):
+    [def_eq] LE.le ↦ 5718
+    [def_eq] Membership.mem ↦ 5714
+    [def_eq] Set.Mem ↦ 5707
+    [def_eq] Set.Subset ↦ 5707
+    [def_eq] Set.ofPred ↦ 1797
+    [def_eq] Set.range ↦ 1797
+    [def_eq] dite ↦ 106
+    [def_eq] iInf ↦ 106
+    [def_eq] ite ↦ 106
+    [def_eq] sInf ↦ 106
+    [def_eq] ENNReal.instCompleteLinearOrder._aux_4 ↦ 106
+    [def_eq] Not ↦ 105
+    [def_eq] Tendsto ↦ 25
+  [reduction] Axioms (possibly imported non-exposed defs) that were tried to be unfolded (max: 26986, num: 2):
+    [reduction] Real.instLT ↦ 26986
+    [reduction] Classical.choice ↦ 1254
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+/tmp/freezing1-coalescence-profile.lean:74:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+typeclass inference took 118ms
+typeclass inference took 132ms
+typeclass inference took 115ms
+typeclass inference took 146ms
+typeclass inference took 117ms
+typeclass inference took 106ms
+typeclass inference took 114ms
+typeclass inference took 116ms
+typeclass inference took 133ms
+typeclass inference took 107ms
+typeclass inference took 122ms
+interpretation of Lean.Elab.Tactic._aux_Mathlib_Tactic_Widget_Calc___elabRules_Lean_calcTactic_1._boxed took 30.8s
+/tmp/freezing1-coalescence-profile.lean:111:8: error: (kernel) unknown constant 'Freezing1.ReverseHistory.uniform_coalescence_div_nat_tendsto_zero'
+cumulative profiling times:
+	aesop 115ms
+	attribute application 0.0742ms
+	blocked (unaccounted) 57.6s
+	compilation (IR) 0.336ms
+	compilation (LCNF base) 4.67ms
+	compilation (LCNF impure) 1.34ms
+	compilation (LCNF mono) 1.94ms
+	congr simp thm 4.13ms
+	declTypeLinter 9.35ms
+	dsimp 5.83ms
+	elaboration 76.5ms
+	fix level params 1.06ms
+	import 26.5s
+	initialization 113ms
+	instantiate metavars 1.17ms
+	interpretation 33.3s
+	let-to-have transformation 0.156ms
+	linting 56.3ms
+	module linting 0.0338ms
+	norm_num 66.6ms
+	parsing 16ms
+	process pre-definitions 34.3ms
+	ring 98.4ms
+	share common exprs 9.27ms
+	simp 19.4ms
+	tactic execution 370ms
+	tacticAnalysis 4.1ms
+	type checking 71.6ms
+	typeclass inference 25.5s

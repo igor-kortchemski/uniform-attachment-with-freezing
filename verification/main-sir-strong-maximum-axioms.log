@@ -1,0 +1,9 @@
+'Freezing1.Forward.ValidAt.maximum_deviation_imp_prefix_or_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.terminalForwardLaw_prefix_maximum_event_eq_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.terminalForwardLaw_maximum_deviation_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_maximum_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_maximum_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]

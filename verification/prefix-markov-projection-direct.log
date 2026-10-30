@@ -1,0 +1,20 @@
+Freezing1/PrefixMarkovProjection.lean:19:0: warning: automatically included section variable(s) unused in theorem `Freezing1.PrefixProjection.measurable_mapPrefix`:
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Freezing1/PrefixMarkovProjection.lean:22:0: warning: automatically included section variable(s) unused in theorem `Freezing1.PrefixProjection.mapPrefix_append`:
+  [MeasurableSpace A]
+  [MeasurableSingletonClass A]
+  [Countable A]
+  [MeasurableSpace B]
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace
+  A] [MeasurableSingletonClass
+  A] [Countable A] [MeasurableSpace B] [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

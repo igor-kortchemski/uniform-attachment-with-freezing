@@ -1,0 +1,4 @@
+'Freezing1.uniform_geometricBlock_variance_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.probability_below_four_le_of_mean_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_geometricBlock_fewTallRoots_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_geometricBlock_fewTallRoots_probability' depends on axioms: [propext, Classical.choice, Quot.sound]

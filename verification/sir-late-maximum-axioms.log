@@ -1,0 +1,20 @@
+'Freezing1.Forward.treeLaw_cutVertexSum_exp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.cutMaximum_exponential_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.treeHeight_le_truncate_add_cutMaximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.wordCountsAt_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_word_first_extinction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_word_late_heightScale_le_charge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_wordLateBirthCharge_event_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_wordLateBirthCharge_over_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.terminal_word_cutMaximum_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminalForwardLaw_cutMaximum_over_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.terminalForwardLaw_map_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminalForwardLaw_prefix_maximum_event_eq_earlier_word' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

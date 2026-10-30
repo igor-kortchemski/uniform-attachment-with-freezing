@@ -1,0 +1,18 @@
+'Freezing1.BinaryBijection.Rooted.rootChildEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.rootChildrenIsoEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.rootChildIndexEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.labelledIso_rootLabel_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.rootChildIndexEquiv_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.image_branch_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.childVertexEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.childIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.unorderedEq_node_of_indexEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.Rooted.unorderedEq_of_nonempty_unorderedIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.Rooted.unorderedEq_iff_nonempty_unorderedIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneLabelled.UnorderedIso.graphIso' depends on axioms: [propext, Classical.choice, Quot.sound]

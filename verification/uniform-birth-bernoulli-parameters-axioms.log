@@ -1,0 +1,6 @@
+'Freezing1.UniformBirth.reciprocalParameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.maskedCoordinates_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.truncatedSum_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.truncatedMean_eq_heightScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.truncatedMean_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.truncatedMean_le_heightScale' depends on axioms: [propext, Classical.choice, Quot.sound]

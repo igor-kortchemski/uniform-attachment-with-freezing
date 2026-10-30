@@ -1,0 +1,12 @@
+'Freezing1.SIR.Susceptible.infectionProbability_linear_window_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.Susceptible.infectionProbability_linear_window_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.Susceptible.relative_startup_same_epsilon_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.Susceptible.logLog_startup_same_epsilon_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

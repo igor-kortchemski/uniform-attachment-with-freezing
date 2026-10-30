@@ -1,0 +1,41 @@
+'Freezing1.Forward.treeLaw_prefix_slotForest_at_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.indepFun_prefix_bareForest_at_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.condExp_rematchState_given_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.condExp_rematchState_given_past_forest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.condExp_rematching_event_given_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.fullLaw_treeHeight_chain_telescopes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.cutAncestor_truncate_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodSet_truncate_eq_source_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.cutAncestor_path_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.dist_cutAncestor_eq_cutHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.HistoryShape.cutAncestor_historically_active' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_good_graph_ancestor_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.mem_positiveChainInterval_iff_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_positiveChainLowerIndex_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodSet_truncate_eq_source_filter_positiveCutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_source_good_graph_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_goodSet_succ_eq_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodVertexIndicator_succ_zero_before_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_oldBlockTests_star_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.oldBlockTests_star_same_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodVertices_next_same_component_iff_oldRoot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.condExp_markedVertexIndicators_pair_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodVertices_conditionally_negatively_correlated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.condExp_relativeLowerIndicator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.condExp_growthIndicator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodSet_condExp_square_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.condExp_goodSet_relative_lower_given_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.condExp_goodSet_doubling_on_favorable_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.condExp_goodSet_doubling_on_source_event' depends on axioms: [propext, Classical.choice, Quot.sound]

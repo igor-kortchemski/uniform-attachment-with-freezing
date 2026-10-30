@@ -1,0 +1,19 @@
+'Freezing1.Forward.real_inter_le_of_observed_condExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_favorable_goodChain_failure_le_from_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_goodChain_failure_inter_le_from_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_cond_goodChain_failure_le_from_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_cond_goodChain_failure_le_terminal_from_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.exists_uniform_conditional_goodChain_failure_bound_from_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.linear_conditional_goodChain_failure_bound_from_forest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

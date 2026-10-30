@@ -1,0 +1,5 @@
+✔ [3875/3878] Built Freezing1.ConditionalInvariantBounds (5.2s)
+✔ [3876/3878] Built Freezing1.FirstChildSourceInduction (5.7s)
+✔ [3877/3878] Built Freezing1.ForwardForestConditionalChainVariance (7.6s)
+✔ [3878/3878] Built Freezing1.PlaneFiniteBallIso (7.8s)
+Build completed successfully (3878 jobs).

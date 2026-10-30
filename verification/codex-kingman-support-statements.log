@@ -1,0 +1,13 @@
+'Freezing1.Kingman.mergeLaw_unordered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Kingman.joinLaw_map_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Kingman.map_blockHistory_lawAfter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.increasingLabelled_iff_exists_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.UnorderedIncreasingClass.exists_forward_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.exists_support_iff_exists_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.IsEncoding.unorderedEq_of_encoding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.intrinsicClassEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_ae_existsUnique_class' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,14 @@
+'Freezing1.BinaryBijection.Rooted.relabel_node' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.finset_orderIso_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedRelabelEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedRelabelEquiv_edgeLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedRelabelEquiv_vertexLabels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.unorderedRelabelEquiv_numericSkeleton' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.existsUnique_paper_consecutive_relabelling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.paper_label_condition' depends on axioms: [propext, Classical.choice, Quot.sound]

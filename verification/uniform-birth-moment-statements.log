@@ -1,0 +1,33 @@
+'Freezing1.UniformBirth.relativeMoment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.relativeMoment_condExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.relativeMoment_condExp_layercake' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.relativeTail_condExp_bennett' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomRelativeError_bennett_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.randomRelativeError_moment_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomRelativeError_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.centeredScaleError_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomRelativeError_real_moment_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.centeredScaleError_real_moment_le_relative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.centeredScaleError_real_moment_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.randomSum_normalized_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.expected_bennettMomentIntegral_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.realBennettIntegral_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomRelativeError_real_bennett_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.expected_realBennettIntegral_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.eventual_mean_tail_normalized_le_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.auxiliary_uniformHeight_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.linear_uniform_height_via_random_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

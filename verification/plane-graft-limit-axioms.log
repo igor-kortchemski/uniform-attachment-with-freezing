@@ -1,0 +1,4 @@
+'Freezing1.PlaneForward.map_extractedLimitPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.interleaved_fullLaw_tendsto_graft' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.aemeasurable_extractedLimitPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.tendsto_graftProbabilityLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

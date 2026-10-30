@@ -1,0 +1,25 @@
+'Freezing1.BinaryBijection.Rooted.encodes_node_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.exists_isEncoding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.IsEncoding.unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.UnorderedEq.isEncoding_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.IsEncoding.increasingLabelled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.Rooted.IsEncoding.forward_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.IsEncoding.schedule_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.Rooted.exists_forward_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.RootedClass.exists_forward_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.UnorderedIncreasingClass.exists_forward_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.UnorderedIncreasingClass.exists_forward_support_of_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.UnorderedIncreasingClass.increasingLabelled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.UnorderedSourceClass.existsUnique_isEncoding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

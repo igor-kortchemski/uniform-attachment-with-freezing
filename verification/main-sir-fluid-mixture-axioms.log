@@ -1,0 +1,10 @@
+'Freezing1.SIR.coupledPopulationPath_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.integral_populationPathLaw_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.integral_fluidMixtureLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.integral_test_bad_event_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.test_two_path_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.gated_test_integral_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_fluid_mixture_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_fluid_mixture_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

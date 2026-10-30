@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Cite the source paper for its mathematical results; this citation identifies the incomplete Lean formalization."
+title: "Uniform attachment with freezing: Lean formalization (in progress)"
+type: software
+authors:
+  - family-names: Kortchemski
+    given-names: Igor
+license: Apache-2.0
+abstract: >-
+  A Lean 4 and Mathlib development of supporting results for Uniform attachment
+  with freezing. The source-wide coverage record explicitly distinguishes proved
+  results, missing model bridges, unresolved main results, and source errors.
+  Developed with automated proof and statement-audit assistance.
+references:
+  - type: article
+    title: "Uniform attachment with freezing"
+    authors:
+      - family-names: Bellin
+        given-names: Étienne
+      - family-names: Blanc-Renaudie
+        given-names: Arthur
+      - family-names: Kammerer
+        given-names: Emmanuel
+      - family-names: Kortchemski
+        given-names: Igor
+    notes: "Supplied manuscript attachement-uniforme-1-final.tex; exact source SHA-256 is recorded in FORMALIZATION_REPORT.md."

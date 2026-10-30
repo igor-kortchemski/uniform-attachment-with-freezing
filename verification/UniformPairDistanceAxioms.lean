@@ -1,0 +1,24 @@
+module
+
+import Freezing1.MainLinearDistance
+
+#print axioms Freezing1.ae_bind_of_ae
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_probability
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_map_triple
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_map_coalescence
+#print axioms Freezing1.CanonicalTree.history_uniform_height
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_map_first
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_map_second
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_geometry
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_height_bounds
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_distance_bound
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_integrable_exp_distance
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_integrable_first
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_integrable_second
+#print axioms Freezing1.CanonicalTree.exp_add_le_exp_double
+#print axioms Freezing1.CanonicalTree.pairCoalescenceLaw_distance_mgf_le
+#print axioms Freezing1.linear_pair_distance_deviation_tendsto_zero
+#print axioms Freezing1.linear_uniform_distance_tendsto_Lp_of_scale
+#print axioms Freezing1.linear_uniform_distance_deviation_tendsto_zero
+#print axioms Freezing1.linear_uniform_distance_tendsto_Lp

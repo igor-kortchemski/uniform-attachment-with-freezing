@@ -1,0 +1,17 @@
+module
+
+import Freezing1.SIRLateMaximum
+import Freezing1.SIRTerminalPrefixMaximum
+
+#print axioms Freezing1.Forward.treeLaw_cutVertexSum_exp_le
+#print axioms Freezing1.Forward.cutMaximum_exponential_tail
+#print axioms Freezing1.Forward.ValidAt.treeHeight_le_truncate_add_cutMaximum
+#print axioms Freezing1.SIR.wordCountsAt_succ
+#print axioms Freezing1.SIR.terminal_word_first_extinction
+#print axioms Freezing1.SIR.terminal_word_late_heightScale_le_charge
+#print axioms Freezing1.SIR.signWordLaw_wordLateBirthCharge_event_eq
+#print axioms Freezing1.SIR.signWordLaw_wordLateBirthCharge_over_log_tendsto_zero
+#print axioms Freezing1.SIR.terminal_word_cutMaximum_tail
+#print axioms Freezing1.SIR.terminalForwardLaw_cutMaximum_over_log_tendsto_zero
+#print axioms Freezing1.SIR.terminalForwardLaw_map_plane
+#print axioms Freezing1.SIR.terminalForwardLaw_prefix_maximum_event_eq_earlier_word

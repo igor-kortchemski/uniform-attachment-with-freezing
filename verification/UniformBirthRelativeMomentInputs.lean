@@ -1,0 +1,17 @@
+module
+
+public import Freezing1.UniformBirthRelativeMomentLaw
+public import Freezing1.UniformBirthMeanEscape
+
+@[expose] public section
+
+#print axioms Freezing1.bernoulli_normalized_closed_deviation_le
+#print axioms Freezing1.bernoulli_centered_lower_mean_moment_le
+#print axioms Freezing1.bennettMomentIntegral_ne_top
+#print axioms Freezing1.bennettMomentIntegral_add_nat_tendsto
+#print axioms Freezing1.UniformBirth.fixedRelativeError_layercake
+#print axioms Freezing1.UniformBirth.fixedRelativeError_closed_tail
+#print axioms Freezing1.UniformBirth.fixedRelativeError_bennett_moment_bound
+#print axioms Freezing1.UniformBirth.fixedRelativeError_moment_le
+#print axioms Freezing1.UniformBirth.randomMean_bounded_probability_tendsto
+#print axioms Freezing1.UniformBirth.expected_bennettMomentIntegral_tendsto

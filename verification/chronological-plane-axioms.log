@@ -1,0 +1,7 @@
+'Freezing1.Forward.childIDs_localTreeOfState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.sorted_getElem?_iff_card_filter_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.follow_planeAddress' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.follow_eq_some_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.shape_toPlaneState_eq_toPlaneTree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.fullLaw_shape_eq_toPlaneTree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.map_treeLaw_toPlaneTree' depends on axioms: [propext, Classical.choice, Quot.sound]

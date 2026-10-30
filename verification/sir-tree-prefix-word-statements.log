@@ -1,0 +1,12 @@
+'_private.verification.SIRTreePrefixWordStatements.0.Verification.SIRTreePrefixWords.full_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRTreePrefixWordStatements.0.Verification.SIRTreePrefixWords.all_count_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRTreePrefixWordStatements.0.Verification.SIRTreePrefixWords.earlier_gate_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.verification.SIRTreePrefixWordStatements.0.Verification.SIRTreePrefixWords.earlier_gate_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

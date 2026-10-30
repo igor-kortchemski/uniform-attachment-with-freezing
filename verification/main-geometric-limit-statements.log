@@ -1,0 +1,18 @@
+'Freezing1.ForwardAnnealed.fullLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.geometricBienaymeLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.prune' depends on axioms: [propext]
+'Freezing1.ForwardAnnealed.map_fullLaw_toPlaneState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.interleaving_fair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.extracted_pair_map_eq_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.map_fullLaw_chainLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.map_interleaved_fullLaw_graft' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.map_extractedLimitPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_isBienayme' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_eq_geometricBienaymeLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_offspring_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit' depends on axioms: [propext, Classical.choice, Quot.sound]

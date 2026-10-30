@@ -1,0 +1,7 @@
+'Freezing1.Forward.vertexSurvivalFactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.vertexSurvivalFactor_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.step_active_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.transitionLaw_old_active_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.transitionLaw_vertex_survival' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_vertex_survival_measure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_vertex_survival' depends on axioms: [propext, Classical.choice, Quot.sound]

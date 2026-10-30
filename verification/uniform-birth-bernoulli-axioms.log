@@ -1,0 +1,4 @@
+'Freezing1.UniformBirth.auxiliary_coordinate_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.auxiliary_coordinates_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.auxiliary_birth_indep_array' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.actualBirthHeightLaw_eq_auxiliary' depends on axioms: [propext, Classical.choice, Quot.sound]

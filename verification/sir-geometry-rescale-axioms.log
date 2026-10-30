@@ -1,0 +1,2 @@
+'Freezing1.SIR.deviation_rescale_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.eventually_log_prefix_rescale_subset' depends on axioms: [propext, Classical.choice, Quot.sound]

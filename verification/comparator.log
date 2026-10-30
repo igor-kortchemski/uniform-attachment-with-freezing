@@ -1,0 +1,4 @@
+Command: lake comparator --config comparator.json
+Platform: macOS (Darwin), Lean v4.35.0
+Exit status: 2
+error: `lake comparator` sandboxes the code it checks with `bwrap`, which needs Linux namespaces.

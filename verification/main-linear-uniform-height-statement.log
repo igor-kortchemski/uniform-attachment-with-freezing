@@ -1,0 +1,4 @@
+'Freezing1.linear_uniform_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.centered_tendsto_Lp_of_eventual_exp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.uniformHeightLaw_integral_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.uniformHeightLaw_lower_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]

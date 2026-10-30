@@ -1,0 +1,110 @@
+⚠ [3212/3339] Replayed Freezing1.SIRCounts
+warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRCounts.lean:86:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3756/3836] Replayed Freezing1.ForwardPlaneKernel
+warning: Freezing1/ForwardPlaneKernel.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:118:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:135:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:175:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3759/3836] Replayed Freezing1.PlaneGraftTransition
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3763/3836] Replayed Freezing1.PlaneGraftHistory
+warning: Freezing1/PlaneGraftHistory.lean:37:0: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.map_fullLaw_of_ae_intertwining`:
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3770/3836] Replayed Freezing1.ForwardPlaneAddress
+warning: Freezing1/ForwardPlaneAddress.lean:64:7: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/ForwardPlaneAddress.lean:68:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:12: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:25: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [4080/4081] Built Freezing1.SIRRandomEnvironmentTransferNearBulk (9.6s)
+✖ [4081/4081] Building Freezing1.SIRTreePrefixWordMixture (10s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/SIRTreePrefixWordMixture.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/SIRTreePrefixWordMixture.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/SIRTreePrefixWordMixture.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/SIRTreePrefixWordMixture.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/SIRTreePrefixWordMixture.setup.json --json
+error: Freezing1/SIRTreePrefixWordMixture.lean:198:10: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Measure.map ?m.352 (Measure.map (fun f => f ?m.356) ?m.343)
+in the target expression
+  Measure.map (fun P => (countsPrefixWord n w, (P ⟨k, ⋯⟩).tree)) (conditionalTreePrefixWordLaw n w) =
+    Measure.map (fun z => (countsPrefixWord n w, z.tree))
+      (Measure.map (fun P => P ⟨k, ⋯⟩) (conditionalTreePrefixWordLaw n w))
+
+rate : ℝ≥0
+n k : ℕ
+hf :
+  (fun H => (fun i => (H ↑i).counts, (H k).tree)) =
+    (fun P => (fun i => (P i).counts, (P ⟨k, ⋯⟩).tree)) ∘ Preorder.frestrictLe k
+hG : Measurable fun P => (fun i => (P i).counts, (P ⟨k, ⋯⟩).tree)
+w : Fin k → Bool
+hw : SignWordFeasible n w
+⊢ Measure.map (fun P => (countsPrefixWord n w, (P ⟨k, ⋯⟩).tree)) (conditionalTreePrefixWordLaw n w) =
+    Measure.map (fun z => (countsPrefixWord n w, z.tree))
+      (Measure.map (fun P => P ⟨k, ⋯⟩) (conditionalTreePrefixWordLaw n w))
+Some required targets logged failures:
+- Freezing1.SIRTreePrefixWordMixture
+error: build failed

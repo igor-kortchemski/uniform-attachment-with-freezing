@@ -1,0 +1,73 @@
+# Certification interface for the main results T01–T07
+
+**Scope.** This directory documents the Challenge/Solution interfaces and the local evidence for the seven
+main theorems T01–T07 of `attachement-uniforme-1-final.tex` (twenty conclusions, see
+`MAIN_RESULTS_CORRESPONDENCE.md`). It is **not** a certification of every assertion of the manuscript: the
+inventory of what is not covered is `OPEN_OBLIGATIONS.md`.
+
+## Interfaces (one Comparator configuration each)
+
+Palomar accepts a single comparator configuration per submission, so the main results are split explicitly
+into four interfaces, with no result omitted:
+
+| Interface | Config | Challenge module | Main results |
+| --- | --- | --- | --- |
+| Local limits | `comparator/locallimits.json` | `Challenge/LocalLimits.lean` | T01 `thm:cvlocale`, T02 `thm:BGW` |
+| Heights | `comparator/heights.json` | `Challenge/Heights.lean` | T03 `thm:height`, T04 `thm:lineaire` |
+| Same law | `comparator/samelaw.json` | `Challenge/SameLaw.lean` | T05 `thm:samelaw` |
+| SIR | `comparator/sir.json` | `Challenge/Sir.lean` | T06 `thm:SIRlocallimit`, T07 `thm:SIR` |
+
+Each Challenge is a single self-contained module importing only Mathlib: it reproduces verbatim every
+definition (and every theorem reachable through a definition body) of the development that the statements
+use, and states the main results with `sorry` bodies (the only `sorry`s in the Challenge are the targets,
+plus two pinning theorems proved inside `Challenge/Heights.lean`). The matching `Solution/X.lean` imports
+`Freezing1`, whose theorems have the same names and types. The Comparator checks that every reachable
+constant is structurally identical and that the targets have the same statements. Extra targets in each config
+are pinning statements (that the model objects are what their names say, that probability measures are
+genuine) and non-vacuity witnesses; they are not manuscript statements. The old `comparator.json`
+(16 auxiliary results, `Challenge.lean`/`Solution.lean`) remains as a separate auxiliary configuration; it
+does not state any main result.
+
+Build the interface modules with `lake build Challenge Solution`. Direct check of one Challenge:
+`lake env lean -DautoImplicit=false Challenge/Heights.lean` (only `declaration uses sorry` warnings on the
+targets). The recipe followed is `CHALLENGE_RECIPE.md`.
+
+## Reproduction commands (in the candidate checkout)
+
+```bash
+lake build Freezing1 Challenge Solution
+lake env lean scripts/AxiomAudit.lean              # whole Freezing1 namespace, standard axioms only
+lake env lean scripts/MainResultsAxioms.lean       # the 26 exported names (20 conclusions, 5 pins, 1 non-vacuity theorem)
+scripts/local-comparator-diagnostic.sh comparator/heights.json OUT/heights
+scripts/local-kernel-replay.sh comparator/heights.json OUT/heights/solution.ndjson OUT/heights/kernels
+```
+
+and likewise for `locallimits`, `samelaw` and `sir`. On Linux with the Palomar bubblewrap build the official
+command is `lake comparator --config comparator/heights.json` (workflow `.github/workflows/comparator.yml`).
+
+## Four levels of evidence — kept distinct
+
+1. **Verified in Lean (build + axioms).** `lake build` of `Freezing1`, `Challenge`, `Solution` and the
+   `#print axioms` closure of each of the 26 exported names (20 conclusions, 5 pinning theorems, 1 non-vacuity theorem)
+   (`scripts/MainResultsAxioms.lean`): only `propext`, `Classical.choice`, `Quot.sound`.
+2. **Local comparison and replay (not official).** `scripts/local-comparator-diagnostic.sh` exports the
+   Challenge and Solution with the toolchain's `leanexport`, applies Lake's own `compareAt` and `checkAxioms`
+   (`Lake/Check/Compare.lean`) from a compiled executable, and replays the Solution export with
+   `leanchecker`. `scripts/local-kernel-replay.sh` additionally runs NanoDa (`nanoda_bin`) and the other
+   bundled checkers with Lake's invocation protocol. All of this runs outside the Linux sandbox.
+   Negative controls: `negative-controls/README.md`.
+3. **Palomar mechanical conformity.** Not obtained: no official `lake comparator` run (it needs the Linux
+   bubblewrap sandbox; on macOS it exits with status 2 before any comparison), no `mechanical-report.json`,
+   no public commit. The workflows `.github/workflows/{ci,comparator,palomar}.yml` are prepared and have
+   **not** been run.
+4. **Whole-manuscript coverage.** Not claimed; see `OPEN_OBLIGATIONS.md`.
+
+Independent statement reviews of each Challenge (written without reading the proofs):
+`heights/INDEPENDENT_REVIEW.md`, `locallimits/INDEPENDENT_REVIEW.md`, `samelaw/INDEPENDENT_REVIEW.md`,
+`sir/INDEPENDENT_REVIEW.md`. These are automated reviews; no human review is claimed.
+
+## Candidate and manifest
+
+`scripts/export_candidate.py DEST` copies an explicit allowlist from the development tree into an isolated
+directory (the development tree is untouched). `MANIFEST.sha256` in the candidate lists the hash of every
+file. The candidate is a local git repository with one local commit (no remote, no push).

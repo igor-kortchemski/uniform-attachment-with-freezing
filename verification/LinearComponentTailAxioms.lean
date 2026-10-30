@@ -1,0 +1,18 @@
+module
+
+import Freezing1.MainLinearComponentMaximum
+
+#print axioms Freezing1.linearUrnBudget
+#print axioms Freezing1.linearUrnExponent
+#print axioms Freezing1.linearUrnMoment
+#print axioms Freezing1.linearUrnBudget_pos
+#print axioms Freezing1.linearUrnExponent_pos
+#print axioms Freezing1.squareBudget_le_of_linear_lower
+#print axioms Freezing1.continuationLaw_exp_le_of_linear_lower
+#print axioms Freezing1.continuationLaw_root_augmented_tail_le
+#print axioms Freezing1.eventually_geometric_exp_cube_le_inv_sq
+#print axioms Freezing1.eventually_geometric_index_ge
+#print axioms Freezing1.uniform_geometric_urn_exponential_moment
+#print axioms Freezing1.uniform_geometric_urn_tail_union
+#print axioms Freezing1.uniform_geometric_componentMaximum_tail
+#print axioms Freezing1.linear_geometric_componentMaximum_tail

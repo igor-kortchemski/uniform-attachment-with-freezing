@@ -1,0 +1,4 @@
+'Freezing1.UniformBirth.condExp_prod_fst_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.integral_truncatedSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.heightScale_sub_truncatedMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.printed_inclusive_birth_tail_false' depends on axioms: [propext, Classical.choice, Quot.sound]

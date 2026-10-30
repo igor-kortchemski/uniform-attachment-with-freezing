@@ -1,0 +1,31 @@
+'Freezing1.SIR.RandomEnvironment.uniform_bound_of_sequential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_profile_height_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_profile_distance_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_profile_maximum_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.strong_average_score_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.sir_time_n_uniform_height_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_time_n_uniform_distance_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_time_n_maximum_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_post_population_birth_charge_over_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.terminalForwardLaw_cutMaximum_over_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.terminalForwardLaw_prefix_maximum_event_eq_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.sir_terminal_maximum_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_maximum_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_word_uniform_samples_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.strong_terminal_average_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_uniform_height_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_uniform_distance_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

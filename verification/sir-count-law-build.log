@@ -1,0 +1,34 @@
+⚠ [3217/3325] Replayed Freezing1.SIRCounts
+warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRCounts.lean:86:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3679/3680] Built Freezing1.SIRSourceChecks (7.3s)
+✖ [3680/3680] Building Freezing1.SIRCountLaw (7.6s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/SIRCountLaw.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/SIRCountLaw.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/SIRCountLaw.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/SIRCountLaw.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/SIRCountLaw.setup.json --json
+error: Freezing1/SIRCountLaw.lean:61:2: unsolved goals
+case neg.hf
+rate : ℝ≥0
+c : Counts
+hi : 0 < c.infectious
+hu : ¬c.susceptible = 0
+⊢ AEMeasurable (countsStep c) (Measure.dirac false)
+
+case neg.hf
+rate : ℝ≥0
+c : Counts
+hi : 0 < c.infectious
+hu : ¬c.susceptible = 0
+⊢ AEMeasurable (countsStep c) (Measure.dirac true)
+
+case neg.hf
+rate : ℝ≥0
+c : Counts
+hi : 0 < c.infectious
+hu : ¬c.susceptible = 0
+⊢ Measurable (countsStep c)
+Some required targets logged failures:
+- Freezing1.SIRCountLaw
+error: build failed

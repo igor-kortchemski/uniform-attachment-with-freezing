@@ -1,0 +1,13 @@
+'Freezing1.SIR.RandomEnvironment.lintegral_le_small_add_bad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.strong_average_score_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.logLogStartupCutoff_sublog' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.original_pair_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.strong_environment_uniform_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.strong_environment_uniform_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.strong_environment_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]

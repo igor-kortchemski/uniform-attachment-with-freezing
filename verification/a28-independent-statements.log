@@ -1,0 +1,3 @@
+'Freezing1.ForwardAnnealed.iid_extinction_of_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_nonextinction_local_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_schedules_local_converge' depends on axioms: [propext, Classical.choice, Quot.sound]

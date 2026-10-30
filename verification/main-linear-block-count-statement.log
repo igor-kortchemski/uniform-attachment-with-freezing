@@ -1,0 +1,4 @@
+'Freezing1.linear_geometricBlock_tallRoot_expectation_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_geometricBlock_tallRoot_expectation_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_uniform_geometricBlock_weighted_tail_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.integral_blockTallRootCount' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'Freezing1.SIR.RandomEnvironment.linear_inputs_of_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_profile_height_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_profile_distance_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_profile_maximum_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

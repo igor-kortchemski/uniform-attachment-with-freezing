@@ -1,0 +1,14 @@
+'Freezing1.BinaryBijection.unorderedCanonicalEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedPaperEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.phi_paper_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedSourcePhi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingEquiv_mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingEquiv_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingEquiv_edgeLabels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.unorderedIncreasingEquiv_vertexLabels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.unordered_figure_parameter_error' depends on axioms: [propext, Classical.choice, Quot.sound]

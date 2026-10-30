@@ -1,0 +1,11 @@
+'Freezing1.SIR.conditionalTreePrefixWordLaw_map_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.originalForwardPrefix_map_tree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_original_treePrefix_word_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_countsPrefix_original_treePrefix_word_mixture' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.PoissonSIRData.countsPrefix_original_treePrefix_word_mixture' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.mixed_counts_match_tree_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.bounded_count_index_observation' depends on axioms: [propext, Classical.choice, Quot.sound]

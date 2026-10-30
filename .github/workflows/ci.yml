@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Scan the Lean sources (module headers, sizes, forbidden constructs)
+        run: python3 scripts/check-sources.py
+      - name: Free disk space
+        uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
+        with:
+          android: true
+          dotnet: true
+          haskell: true
+          docker-images: true
+          tool-cache: false
+          large-packages: false
+          swap-storage: false
+      - uses: leanprover/lean-action@fe408643ea7367d8c0404a8be3975bb145f5fb64
+        with:
+          auto-config: false
+          build: true
+      - name: Audit axiom closures of the whole Freezing1 namespace
+        run: lake env lean scripts/AxiomAudit.lean
+      - name: Axiom closures of the exported main results (T01-T07)
+        run: |
+          lake env lean scripts/MainResultsAxioms.lean | tee main-results-axioms.log
+          # every line must report exactly the three standard axioms
+          ! grep -E "depends on axioms" main-results-axioms.log | grep -vE "\[propext, Classical.choice, Quot.sound\]"
+          test "$(grep -c "depends on axioms" main-results-axioms.log)" -eq 26

@@ -1,0 +1,7 @@
+'Freezing1.SIR.preassignedRun_susceptible_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.contactStep_recipient_not_susceptible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PopulationState.Removed.step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.recoverPopulation_source_removed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonContact.later_contacts_ineffective_of_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

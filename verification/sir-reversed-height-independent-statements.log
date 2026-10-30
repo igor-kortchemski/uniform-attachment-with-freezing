@@ -1,0 +1,7 @@
+'Freezing1.SIR.reverse_preStep_attachment_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.reverse_activeCount_partialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.reverseIdentityExample_feasible' depends on axioms: [propext]
+'Freezing1.SIR.reverseIdentityExample_wordSchedule' depends on axioms: [propext, Quot.sound]
+'Freezing1.SIR.printed_reverse_attachment_identity_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

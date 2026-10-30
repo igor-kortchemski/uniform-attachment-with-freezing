@@ -1,0 +1,14 @@
+'Freezing1.poisson_strict_log_singleton_rounding_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.poisson_strict_tail_rounding_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.poisson_three_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.poisson_strict_tail_cubic_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.logarithmicPoisson_polynomial_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_nat_mul_log_polynomial_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_poisson_polynomial_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_source_rate_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_linear_poisson_polynomial_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_linear_poisson_polynomial_scale_all_margins' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.printed_real_ceiling_factorial_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.printed_all_margin_rate_slack_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,16 @@
+'Freezing1.SIR.PoissonContact.count_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonContact.positive_count_times' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonContact.arrival_le_iff_lt_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonContact.first_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.independent_firstArrivalArray_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.preassigned_clock_prefix_residual_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.preassigned_clock_word_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.poissonFullContactRun_eq_preassigned' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.independent_poisson_fullContact_tree_fullLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.independent_poisson_fullContact_counts_fullLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.independent_poisson_fullContact_absorbed_by' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.independent_poisson_fullContact_terminal_tree_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

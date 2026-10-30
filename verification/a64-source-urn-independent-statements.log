@@ -1,0 +1,12 @@
+'Freezing1.source_urn_exponent_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_cubic_ge_marked_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_geometric_exp_square_le_inv_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.positiveExtension_component_cubic_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_positiveExtension_component_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.positiveExtension_continuation_maximum_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.positiveExtension_treeLaw_root_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_geometric_componentMaximum_tail_via_positiveExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

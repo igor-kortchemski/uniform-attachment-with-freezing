@@ -1,0 +1,19 @@
+'Freezing1.InterleavedChain.firstSelectionValue_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.InterleavedChain.firstSelectionValue_probability_of_nonabsorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_right_factorization_nonabsorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_left_factorization_nonabsorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_right_factorization_absorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_left_factorization_absorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.fullLaw_selectedTime_strict_of_nonabsorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

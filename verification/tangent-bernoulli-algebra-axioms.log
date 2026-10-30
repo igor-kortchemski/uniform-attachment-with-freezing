@@ -1,0 +1,9 @@
+'Freezing1.BinaryBijection.tangent_even_power_difference_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangent_coefficient_absolute_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangent_bernoulli_absolute_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

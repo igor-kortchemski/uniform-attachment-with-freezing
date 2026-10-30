@@ -1,0 +1,7 @@
+'Freezing1.SIR.infectiousProfile_chord_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.finiteRateBulkFloor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.finiteRateBulkFloor_le_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.finiteRate_horizon_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.exists_finiteRate_near_windows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.finiteRate_bulk_bad_implies_fluid_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_finiteRate_bulk_failure_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'Freezing1.CanonicalTree.construction_laws_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.reverseStateLaw_eq_forward_treeLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.reverseStateLaw_hasForwardHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.reverseState_historyShape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.reverseStateLaw_real_singleton_of_hasHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.CanonicalTree.terminalFiber_eq_activeOrbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.HistoryShape.hasHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.probability_eq_of_ae_singleton_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

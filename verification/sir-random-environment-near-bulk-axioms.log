@@ -1,0 +1,11 @@
+'Freezing1.SIR.RandomEnvironment.balanced_nearBulkGood' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.nearOrigin_of_nearBulk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.bulk_of_nearBulk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.linear_inputs_of_nearBulk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_nearBulk_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_nearBulk_height_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_nearBulk_distance_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

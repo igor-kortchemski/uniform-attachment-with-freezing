@@ -1,0 +1,20 @@
+⚠ [3425/3427] Built Freezing1.ProbabilityMeasureClosedEmbedding (4.4s)
+warning: Freezing1/ProbabilityMeasureClosedEmbedding.lean:43:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ProbabilityMeasureClosedEmbedding.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3426/3427] Built Freezing1.IntervalFreezingCounts (5.7s)
+✔ [3427/3427] Built Freezing1.GeometricHeightUniform (8.3s)
+Build completed successfully (3427 jobs).

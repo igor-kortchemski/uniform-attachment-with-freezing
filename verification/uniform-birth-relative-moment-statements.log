@@ -1,0 +1,17 @@
+'Freezing1.bernoulli_normalized_closed_deviation_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bennettMomentIntegral_add_nat_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.relativeMoment_condExp_layercake' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.relativeTail_condExp_bennett' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.expected_bennettMomentIntegral_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.randomRelativeError_real_moment_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.centeredScaleError_real_moment_le_relative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.centeredScaleError_real_moment_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.randomSum_normalized_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]

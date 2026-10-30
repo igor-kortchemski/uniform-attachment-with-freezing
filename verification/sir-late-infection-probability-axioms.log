@@ -1,0 +1,14 @@
+'Freezing1.SIR.countsFullLaw_susceptible_at_population_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_late_extinction_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.susceptible_interval_pressure_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.coupled_late_probability_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_late_infection_probability_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.lateIndex_eq_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_late_infection_uniform_event_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_infection_pressure_after_three_halves_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

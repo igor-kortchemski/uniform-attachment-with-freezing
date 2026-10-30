@@ -1,0 +1,24 @@
+'Freezing1.ae_bind_of_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_map_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_map_coalescence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.history_uniform_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_map_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_map_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_height_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_distance_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_integrable_exp_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_integrable_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_integrable_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.CanonicalTree.exp_add_le_exp_double' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_distance_mgf_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_pair_distance_deviation_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_uniform_distance_tendsto_Lp_of_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_uniform_distance_deviation_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_uniform_distance_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]

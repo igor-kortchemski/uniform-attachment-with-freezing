@@ -1,0 +1,5 @@
+'Freezing1.linear_uniform_distance_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_uniform_distance_deviation_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.forwardPairDataLaw_eq_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.pairCoalescenceLaw_distance_mgf_le' depends on axioms: [propext, Classical.choice, Quot.sound]

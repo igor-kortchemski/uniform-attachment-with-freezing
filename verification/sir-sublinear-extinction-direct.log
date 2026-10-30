@@ -1,0 +1,60 @@
+Freezing1/SIRSublinearExtinction.lean:37:13: error: don't know how to synthesize implicit argument `b`
+  @Tendsto.mul ℝ PseudoMetricSpace.toUniformSpace.toTopologicalSpace Real.instMul
+    instIsTopologicalRingReal.toContinuousMul ℕ (fun n => ↑n * ↑(rate n)) (fun x => ?m.62 - ↑(cutoff x) / ↑x) atTop
+    (↑lam) (?m.62 - 0) hscaled (Tendsto.sub tendsto_const_nhds hsmall)
+context:
+rate : ℕ → ℝ≥0
+lam : ℝ≥0
+hscaled : Tendsto (fun n => ↑n * ↑(rate n)) atTop (𝓝 ↑lam)
+cutoff : ℕ → ℕ
+hsmall : Tendsto (fun n => ↑(cutoff n) / ↑n) atTop (𝓝 0)
+⊢ ℝ
+Freezing1/SIRSublinearExtinction.lean:37:13: error: don't know how to synthesize implicit argument `g`
+  @Tendsto.mul ℝ PseudoMetricSpace.toUniformSpace.toTopologicalSpace Real.instMul
+    instIsTopologicalRingReal.toContinuousMul ℕ (fun n => ↑n * ↑(rate n)) (fun x => ?m.62 - ↑(cutoff x) / ↑x) atTop
+    (↑lam) (?m.62 - 0) hscaled (Tendsto.sub tendsto_const_nhds hsmall)
+context:
+rate : ℕ → ℝ≥0
+lam : ℝ≥0
+hscaled : Tendsto (fun n => ↑n * ↑(rate n)) atTop (𝓝 ↑lam)
+cutoff : ℕ → ℕ
+hsmall : Tendsto (fun n => ↑(cutoff n) / ↑n) atTop (𝓝 0)
+⊢ ℕ → ℝ
+Freezing1/SIRSublinearExtinction.lean:37:26: error: don't know how to synthesize implicit argument `a`
+  @Tendsto.sub ℝ ℕ PseudoMetricSpace.toUniformSpace.toTopologicalSpace Real.instSub
+    IsTopologicalAddGroup.to_continuousSub (fun x => ?m.62) (fun n => ↑(cutoff n) / ↑n) atTop ?m.62 0 tendsto_const_nhds
+    hsmall
+context:
+rate : ℕ → ℝ≥0
+lam : ℝ≥0
+hscaled : Tendsto (fun n => ↑n * ↑(rate n)) atTop (𝓝 ↑lam)
+cutoff : ℕ → ℕ
+hsmall : Tendsto (fun n => ↑(cutoff n) / ↑n) atTop (𝓝 0)
+⊢ ℝ
+Freezing1/SIRSublinearExtinction.lean:37:26: error: don't know how to synthesize implicit argument `f`
+  @Tendsto.sub ℝ ℕ PseudoMetricSpace.toUniformSpace.toTopologicalSpace Real.instSub
+    IsTopologicalAddGroup.to_continuousSub (fun x => ?m.62) (fun n => ↑(cutoff n) / ↑n) atTop ?m.62 0 tendsto_const_nhds
+    hsmall
+context:
+rate : ℕ → ℝ≥0
+lam : ℝ≥0
+hscaled : Tendsto (fun n => ↑n * ↑(rate n)) atTop (𝓝 ↑lam)
+cutoff : ℕ → ℕ
+hsmall : Tendsto (fun n => ↑(cutoff n) / ↑n) atTop (𝓝 0)
+⊢ ℕ → ℝ
+Freezing1/SIRSublinearExtinction.lean:37:45: error: don't know how to synthesize placeholder
+context:
+rate : ℕ → ℝ≥0
+lam : ℝ≥0
+hscaled : Tendsto (fun n => ↑n * ↑(rate n)) atTop (𝓝 ↑lam)
+cutoff : ℕ → ℕ
+hsmall : Tendsto (fun n => ↑(cutoff n) / ↑n) atTop (𝓝 0)
+⊢ ℝ
+Freezing1/SIRSublinearExtinction.lean:37:7: error: failed to infer `have` declaration type
+Freezing1/SIRSublinearExtinction.lean:36:84: error: unsolved goals
+rate : ℕ → ℝ≥0
+lam : ℝ≥0
+hscaled : Tendsto (fun n => ↑n * ↑(rate n)) atTop (𝓝 ↑lam)
+cutoff : ℕ → ℕ
+hsmall : Tendsto (fun n => ↑(cutoff n) / ↑n) atTop (𝓝 0)
+⊢ Tendsto (fun n => ↑(rate n) * ↑(n - cutoff n)) atTop (𝓝 ↑lam)

@@ -1,0 +1,7 @@
+'Freezing1.Forward.treeLaw_prefix_slotForest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.indepFun_prefix_bareForest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.reconstructSlotForest_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_uniform_root_matching_bare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.rootMatchingParametrization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.blockHeight_eq_cutHeight_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.star_activity_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'Freezing1.chainLowerIndex_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.mem_chainInterval_iff_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.chainInterval_eq_source_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodSet_eq_source_filter' depends on axioms: [propext, Classical.choice, Quot.sound]

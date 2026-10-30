@@ -1,0 +1,17 @@
+'Freezing1.FirstChildStructure.source_induction_expectation_identities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.source_first_split_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.FirstChildStructure.sourceInductionIntegrand_expectation_eq_cond' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.induction_normalizing_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.FirstChildStructure.positive_degree_measure_of_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.lintegral_children_product_cond' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.restrict_childrenLaw_of_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,14 @@
+'Freezing1.UnorderedLocal.finiteIsoReflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.localTreeEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.complete_separable_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.localMetricSpace_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.localMetricSpace_topology' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.localMetricSpace_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.finiteBall_ofPlane_eq_iff_actualIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UnorderedLocal.ofPlane_eq_iff_graphIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.tree_tendsto_iff_balls' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.tree_tendsto_iff_positive_balls' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.tree_sequence_tendsto_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UnorderedLocal.exists_actual_graph_representative' depends on axioms: [propext, Classical.choice, Quot.sound]

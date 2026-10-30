@@ -1,0 +1,17 @@
+'Freezing1.ForwardAnnealed.iid_signs_conditioned_extinction_uniform_plane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.iid_signs_conditioned_extinction_uniform_plane_at_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.measure_extinctionTimeIs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.measure_extinctionTimeIs_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.measure_extinctionTimeIs_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_atom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.ae_extinctionTimeIs_iff_finiteVertexCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneForward.ae_vertex_active_time_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.finitePlaneUniform_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.finitePlaneClass_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+lake env lean -DautoImplicit=false   4.45s user 15.30s system 68% cpu 28.651 total

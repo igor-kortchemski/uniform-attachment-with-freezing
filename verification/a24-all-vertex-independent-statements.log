@@ -1,0 +1,28 @@
+'Freezing1.exists_strictMono_matching_prefixes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.exists_matching_degree_couplings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.prefixCoupling_vertexDegree_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.degreeUnbounded_iff_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.degree_tails_positive_of_unbounded_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.LocalTree.continuous_ballCard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.natObservable_tail_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.eventually_natObservable_tail_lt_of_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.ValidAt.vertexDegree_le_ballCard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.diagonal_ballCard_not_tight_of_degree_unbounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.degreeUnbounded_null_of_diagonal_local_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.ae_local_limit_of_diagonal_tendsto_via_degrees' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

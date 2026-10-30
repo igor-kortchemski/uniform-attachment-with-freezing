@@ -1,0 +1,11 @@
+module
+
+import Freezing1.SIRFiniteRateCapture
+
+#print axioms Freezing1.SIR.countsFullLaw_alive_after_fluid_zero_tendsto
+#print axioms Freezing1.SIR.countsFullLaw_late_births_between_times_tendsto
+#print axioms Freezing1.SIR.countsFullLaw_late_births_near_fluid_zero_tendsto
+#print axioms Freezing1.SIR.countsFullLaw_gated_prefix_extinct_tendsto
+#print axioms Freezing1.SIR.legalHistory_alive_prefix_vertices
+#print axioms Freezing1.SIR.countsFullLaw_gated_prefix_small_tendsto
+#print axioms Freezing1.SIR.countsFullLaw_gated_capture_tendsto

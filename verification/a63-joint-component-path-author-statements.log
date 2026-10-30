@@ -1,0 +1,29 @@
+'Freezing1.SignedUrn.pathLaw_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.pathLaw_congr_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.continuationLaw_componentPrefixRecord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.positiveExtension_componentPrefixRecord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_bind_continuationHistoryLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.measurable_actualComponentRecord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.continuationHistoryLaw_preserves_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.actual_partial_map_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.continuationHistoryLaw_component_record' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.positiveExtension_bind_original_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.positiveExtension_actual_component_hasPathLaws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.positiveExtension_original_component_pathLaws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.positiveExtension_actual_component_infinite_maximal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

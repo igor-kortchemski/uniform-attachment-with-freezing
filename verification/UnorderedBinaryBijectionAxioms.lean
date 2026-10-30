@@ -1,0 +1,14 @@
+module
+
+import Freezing1.UnorderedBinaryBijection
+
+#print axioms Freezing1.BinaryBijection.unorderedCanonicalEquiv
+#print axioms Freezing1.BinaryBijection.unorderedIncreasingEquiv
+#print axioms Freezing1.BinaryBijection.unorderedPaperEquiv
+#print axioms Freezing1.BinaryBijection.phi_paper_bijective
+#print axioms Freezing1.BinaryBijection.unorderedSourcePhi
+#print axioms Freezing1.BinaryBijection.unorderedIncreasingEquiv_mk
+#print axioms Freezing1.BinaryBijection.unorderedIncreasingEquiv_symm
+#print axioms Freezing1.BinaryBijection.unorderedIncreasingEquiv_edgeLabels
+#print axioms Freezing1.BinaryBijection.unorderedIncreasingEquiv_vertexLabels
+#print axioms Freezing1.BinaryBijection.unordered_figure_parameter_error

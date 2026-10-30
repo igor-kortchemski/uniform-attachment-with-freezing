@@ -1,0 +1,3 @@
+'Freezing1.UniformBirth.bulk_late_scale_over_full_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomMean_normalized_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomMean_normalized_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]

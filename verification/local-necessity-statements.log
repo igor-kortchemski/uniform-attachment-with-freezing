@@ -1,0 +1,23 @@
+'Freezing1.Forward.rootDegree_le_of_legalOrHeld' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_rootDegree_monotone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_rootDegree_tail_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_rootDegree_tail_real_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.rootDegree_tail_isClopen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.rootDegree_tail_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTree.eventually_rootDegree_tail_lt_of_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.diagonal_rootDegree_not_tight_of_summable_freezing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.localProbabilityLaw_rootDegree_tail_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.not_summable_freezing_of_diagonal_local_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.not_summable_freezing_of_local_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

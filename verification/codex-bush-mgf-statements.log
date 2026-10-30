@@ -1,0 +1,9 @@
+'Freezing1.LinearBush.sampleLaw_pair_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_sampled_distance_matrix_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.LinearBush.exists_packingNumberLE_of_isCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.instMetricSpaceScaledVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_not_isTightMeasureSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.lintegral_activeHMean_pow_treeLawFrom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.newVertex_height_pow_le' depends on axioms: [propext, Classical.choice, Quot.sound]

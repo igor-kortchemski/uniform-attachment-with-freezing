@@ -1,0 +1,11 @@
+'Freezing1.SIR.signWordLaw_map_countsPrefixWord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.activeCount_eq_of_schedulesAgreeThrough' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.feasible_alive_countsPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_countsPrefix_event_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_map_countsRunWord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_not_regular_le_absorption' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_regular_profile_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_not_regular_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_strong_regular_profile_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'Freezing1.SIR.gatedPlaneSampleKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminalJointSampleLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminalJointSampleLaw_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminalJointSampleLaw_gate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminalJointSampleLaw_bad_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sirTerminalJointHeightLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sirTerminalJointDistanceLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

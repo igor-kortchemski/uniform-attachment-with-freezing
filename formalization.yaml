@@ -1,0 +1,428 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: v0.4
+project:
+  name: "Uniform attachment with freezing — partial formalization"
+  description: >-
+    An incomplete Lean formalization of Uniform attachment with freezing.
+    All three parts of the Introduction's universal height theorem are proved
+    for the actual forward random-tree distribution, including every real Lp
+    exponent. The linear-regime height scale and uniform-all-vertex height
+    and pair-distance limits are proved, as is its maximum-height limit in probability. Forward and reverse graph
+    constructions, coherent reverse histories, independent height increments,
+    corrected coalescence-time and maximum-tail laws, uniform-pair coalescence
+    limits, actual history point masses, and Poisson approximation are checked.
+    The full local-convergence criterion and common limit law in T01 are proved. The actual iid-sign geometric Bienaymé identification T02 is proved, including chronological ordering and p=0. All SIR local, fluid and terminal geometry conclusions are proved, including finite-rate shared-survival height/distance mixtures. The actual full contact protocol is identified with the embedded model from supplied independent recovery and Poisson process data. The rate asymptotics imply eventual positive intensity. Construction equivalence (T05) is
+    proved, with the exact active-label fibres and corrected forward support.
+    The degree/local-convergence criterion, corrected conditional attachment
+    independence and Borel-Cantelli argument, and exact uniform-active Bernoulli
+    concentration are also checked. Remaining intermediate source claims and
+    the final publication verification are explicitly unresolved in the report.
+  authors: [Igor Kortchemski]
+  responsible_maintainers: [Igor Kortchemski]
+  license: Apache-2.0
+classification:
+  arxiv: [math.PR, math.CO]
+  msc2020: [60C05, 05C80, 60F05]
+sources:
+  - title: Uniform attachment with freezing
+    authors: [Étienne Bellin, Arthur Blanc-Renaudie, Emmanuel Kammerer, Igor Kortchemski]
+    type: article
+    relationship: formalizes
+    id: "sha256:88953dd87165a14b0e643c5b3d0075d8ce5ec39cdcfc0c25d313570fc3ab00df"
+    location: "attachement-uniforme-1-final.tex, supplied 2590-line source"
+    license: unknown
+    note: >-
+      The source is unchanged. Full inventory, locators, known false assertions
+      and missing proof steps are retained in FORMALIZATION_REPORT.md.
+      The code license does not relicense the manuscript.
+related_formalizations: []
+status:
+  scope: >-
+    All named and substantive source claims remain in scope. Current proofs
+    include the three parts of thm:height, thm:lineaire I and both II
+    assertions, the full maximum-height limit in III, and supporting results including the
+    exact uniform logarithmic block estimate. The birth-time law is linked
+    to uniform vertex selection in the actual reverse tree. The full-history
+    conditional increment law and fixed-vertex Bernoulli representation are
+    proved; corrected coalescence and maximum-tail statements are distinguished
+    from the source's false literal assertions. T05 and corrected L04 support are
+    proved, including the extinction endpoint. L09 includes diagonal and active
+    labels; a stronger logarithmic coalescence estimate is also proved. The L12
+    first-moment estimate, L10 concentration and L11 component maximum are proved for the actual
+    forward cut-forest count, via the verified timestamp-preserving cut law.
+    Source defects and all remaining obligations are explicit in the report.
+    T01 is proved for the actual infinite trajectory and diagonal laws, with no
+    survival hypothesis on the approximating schedules. T02 is proved on the actual iid-sign history, with its concrete geometric
+    offspring law and full joint branching property, including p=0 and extinction.
+    Every T06 and T07 conclusion is proved for the embedded model and the given
+    full-contact source model. This includes the finite-rate height/distance weak
+    mixtures and all strong-regime geometry limits. Complete physical tree/count
+    history and terminal laws are derived, with source process data only eventually.
+    Complete fixed-word original-forward histories and the physical count/tree
+    prefixes are now identified jointly. P01 is proved on the actual unordered
+    rooted-tree quotient, with constructed unique canonical representatives.
+    The A40 independent birth/Bernoulli representation and conditional mean are
+    proved, as are the A41 logarithmic birth-tail and all-real-Lp mean limits.
+    A28 includes unique consecutive relabelling, raw iid extinction/drift and
+    the source local criterion. A40–A43 include the literal conditional
+    Bennett/layer-cake argument, the expected integral and final height limit.
+    Both SIR physical rate branches and complete joint histories are proved.
+    C01 is proved on the actual unordered class with the full tangent and
+    Bernoulli formulas. The full unordered local topology A20 and repaired
+    geometric-block route A37–A38 are proved. The chronological-main-model
+    closed embedding and faithful weak-law transport are now proved; T01/T02
+    also have full source-ambient consumers and scoped independent review. Actual full-forest conditional covariance and normalized
+    Chebyshev growth are proved; the exact final uniform source consumer is independently reviewed.
+    The actual positive infinite urn extension, complete path laws and exact
+    budgets are proved, as is the quantitative cubic Poisson lower bound and
+    repaired polynomial scale. Two additional false scalar auxiliaries are
+    formally refuted. The exact scalar interleaved-chain factorizations and source infinite-urn
+    component union route are also checked, with proof-order and marked-root
+    corrections retained. The standalone auxiliary iid half-slope probability
+    and harmonic expectation are checked. Actual complete component paths and
+    the full auxiliary Bernoulli coupling/thinning route are proved. The exact
+    finite-survival-conditioned iid row coupling supplies both literal linear
+    assumptions. The SIR same-epsilon capture estimate is proved for actual
+    reverse clocks, native prefix membership and two conditional uniform samples.
+    The Bennett-rate asymptotic and corrected fixed-word conditional tail,
+    including its zero-charge branch, are checked. Genuine reversed epidemic
+    domination remains open. Remaining intermediate claims are retained explicitly;
+    no whole-paper completion is claimed.
+    The requested T01–T02 milestone is complete; CLAUDE_HANDOFF.md records
+    current checks and the remaining whole-paper obligations.
+    This is not a verified whole-paper publication candidate. A scoped
+    certification interface for the seven main theorems T01-T07 (twenty
+    conclusions) is prepared in Challenge/, Solution/ and comparator/*.json,
+    split into four configurations (local limits T01-T02, heights T03-T04,
+    same law T05, SIR T06-T07) because Palomar accepts one configuration per
+    submission. It is not a certification of every assertion of the
+    manuscript: verification/certification/OPEN_OBLIGATIONS.md lists what
+    remains open (A85-A86, literal L13, A06 GHP/dendron, A87 stochastic
+    domination, A24/A67/A73 couplings) and the statements that are false as
+    printed (L03, L04, P03 upper). The official Comparator, the Linux
+    sandbox, independent kernel checks other than the toolchain's local
+    replays, and the Palomar mechanical report have not been run. Nothing has
+    been uploaded and no visibility was changed. The counts of proof holes
+    below concern the implementation (Freezing1) and the Solution modules; the
+    Challenge modules contain deliberate theorem holes exactly at the
+    Comparator targets and nowhere else.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+automation:
+  methods:
+    - method: agent
+      models: []
+      framework: Codex
+      tool_setup: >-
+        Local Lean and Mathlib, source-file search, tactics, parallel proof
+        workers, and separate automated statement reviewers. Model build
+        identifiers are not recorded. No native evaluation proof axioms used.
+      cost:
+        wall_time: not tracked
+        spend_usd: not tracked
+        hardware: local macOS machine
+      prompting_notes: >-
+        Formalize every named and substantive assertion, prioritize Introduction
+        results, preserve unresolved obligations, and audit source fidelity.
+    - method: agent
+      models: [claude-sonnet-5-5]
+      framework: Claude Code
+      tool_setup: >-
+        Local Lean and Mathlib v4.35.0, leanexport/leanchecker/nanoda_bin of the
+        toolchain, parallel sub-agents for Challenge construction and
+        independent statement review. No native evaluation proof axioms used.
+      cost:
+        wall_time: not tracked
+        spend_usd: not tracked
+        hardware: local macOS machine
+      prompting_notes: >-
+        Prepare a verifiable certification interface for the main results
+        T01-T07 without presenting it as whole-manuscript certification.
+  spend_usd: not tracked
+  notes: >-
+    The user selected Apache-2.0, Igor Kortchemski as contributor and responsible
+    maintainer, and a new private repository uniform-attachment-with-freezing.
+    A private repository is not eligible for Palomar's public-commit intake.
+    The main-result Challenge/Solution interfaces were prepared and reviewed by
+    Claude Code agents (see verification/certification/); no human review.
+fidelity:
+  divergences: >-
+    The original height-scale bound uses direct count comparison; the actual
+    adjacent-swap iteration and sorted harmonic proof are now checked separately. Bernoulli concentration is proved by
+    a Chernoff/MGF argument. The universal height theorem uses direct forward
+    averaging, MGF estimates, Jensen and Holder/truncation, bypassing the reverse
+    representation and construction equivalence. The reverse representation has
+    since been proved separately, including actual-history independence. The actual finite
+    maximum upper bound retains a one-edge shift and the n+1 factor, then absorbs
+    them asymptotically. The paper's real-power integration-by-parts argument is
+    replaced by a proved logarithmic envelope; actual real layer-cake, the split
+    at seven, exact dilation and the tail asymptotic are checked. The finite
+    adjacent-swap iteration and sorted harmonic proof are also checked separately.
+    The original uniform block estimate uses Abel summation. The source
+    geometric strategy is now checked separately, with the proved restriction
+    beta<C and a vanishing last-endpoint integer-rounding correction. Three
+    false printed finite steps are formally refuted. Uniform-all-vertex height uses an
+    exact forward birth mixture and active-height stochastic monotonicity;
+    the reverse random-mean representation, conditional expectation and mean
+    normalization have since been checked separately. The mean limit uses a
+    fixed fractional birth cutoff and bulk tail bound, while the corrected
+    harmonic calculation is checked separately. The literal conditional
+    Bennett/layer-cake and random-mean domination argument is now proved.
+    C01 replaces the cited external tangent count by an actual largest-label
+    growth bijection and formal exponential/Bernoulli coefficient argument.
+    Poisson lower tails originally use a strict floor-plus-one/Stirling
+    argument. The exact printed cubic probability bound and polynomial scale
+    are now checked separately, with explicit small-threshold handling. The
+    printed real ceiling-factorial and all-margin positive-slack claims are
+    refuted; safe thresholds repair the all-margin witness. Le Cam event estimates are proved directly by
+    convolution comparison, including parameter drift. Reverse block counts are
+    identified with the actual forward cut-forest counts. Pair tails and
+    variance use a direct product supersolution of the actual kernel; the
+    actual auxiliary Bernoulli augmentation, entire independent driver words
+    and genuine monotone thinning are now proved; final mismatch/tail assembly
+    and independent review are active. The incorrect current-merge prose is
+    formally refuted. The maximum lower
+    bound originally uses the true tagged continuation and finite-permutation second moments,
+    integrates joint failure events, and sums the exact errors. The initial good
+    population uses coefficient c/4 and the true bound S_a at most a+1. The full
+    past/bare-forest conditional mean and variance bypassed by this route have
+    since been proved separately from actual supported uniform rematching.
+    Distinct-component conditional covariance, same-component marks and the
+    complete Chebyshev/tower/normalized uniform consumer are now proved
+    separately, retaining the true population bound and exact positive indices.
+    T01 uses the true pre-step freezing hazards and a proved comparison with the
+    printed post-step reciprocal series. Frozen-ball stabilization and a genuine
+    prefix coupling give sufficiency; a direct exponential root-degree estimate
+    and marginal non-tightness give necessity. The corrected actual conditional
+    attachment independence and second Borel-Cantelli argument have since been
+    checked separately, with pre-step hazards and strictly post-birth indices.
+    The increasing matching-prefix extraction, actual pair couplings and
+    all-vertex degree obstruction are now checked separately. The final
+    manuscript union-event inference for the nonmonotone diagonal sequence
+    is replaced by marginal finite-ball tail tightness. The subtree expectation identities
+    of the branching proof, including its exact normalizing function, are now
+    checked from the actual finite-child law; the rectangle-induction proof order
+    is retained. Full augmented-forest exchangeability,
+    past independence and true uniform root matching are proved; the source bare
+    star convention erases root freezing clocks and its full-state interpretation
+    is explicitly corrected. SIR local limits use exact
+    adaptive finite-word mixtures and frozen-ball transfer, while strong-rate
+    non-tightness uses root-degree escape, avoiding the source Skorokhod route.
+    Unstopped SIR fluid convergence uses proved exponential noise bounds and
+    an adapted Gronwall reduction with the general-rate error retained. The
+    source's future-maximum Gronwall criterion is false and is refuted separately.
+    Finite-rate SIR geometry uses finite-constraint diagonal uniformization of
+    T04 and exact terminal subset sampling, replacing the printed Skorokhod and
+    birth-time shortcut. Strong late-height control uses forward harmonic charge
+    budgets and a cut-height exponential sum, replacing the unverified reversed
+    walk coupling. Physical history is derived from one original independent
+    clock array and the actual whole-contact next-point protocol; exponential
+    first delays and history residual products are conclusions, not premises.
+    Birth labels implement the missing shift in one
+    sentence of the source proof. Several printed claims are false without
+    correction; none is silently weakened or marked proved.
+review:
+  status: independent automated statement audits; no human mathematical review claimed
+  reviewers: [Codex source-inventory and statement-audit agents, Claude Code independent statement reviewers of the four Challenge interfaces]
+  notes: >-
+    The inventory was read independently of implementation. Separate agents
+    reviewed changed statements and definitions. Proof-bearing Challenge copies
+    the implementation and is not an independent proof. Current build/axiom
+    evidence and missing Comparator/Palomar evidence are in the report. Each of
+    the four main-result Challenge files was reviewed against the manuscript by
+    a separate agent that had not written it and did not read the proofs
+    (verification/certification/*/INDEPENDENT_REVIEW.md): no unfaithful or
+    vacuous statement was found, and the documented caveats are in
+    verification/certification/MAIN_RESULTS_CORRESPONDENCE.md.
+alignment:
+  namespace: Freezing1
+  statements:
+    - source: "Unlabelled proposition P01, lines858–865"
+      lean: Freezing1.BinaryBijection.unorderedPaperEquiv
+      module: Freezing1.UnorderedBinaryBijection
+      status: proved
+      note: Actual unordered quotient, constructed unique canonical representative, intrinsic increasing labels and explicit Phi/Psi inverses.
+    - source: "Unlabelled corollary C01, lines869–875"
+      lean: Freezing1.BinaryBijection.source_fullyFrozen_card_formula
+      module: Freezing1.TangentEnumeration
+      status: proved
+      note: Actual finite unordered source cardinality, both exact tangent and Bernoulli identities for positive n, no enumeration premise.
+    - source: "thm:BGW, lines277–280"
+      lean: Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit
+      module: Freezing1.MainGeometricLimit
+      status: proved
+      note: Actual iid-sign history, concrete geometric offspring law, chronological plane ordering, p=0 and extinction included.
+    - source: "thm:SIRlocallimit I, source-model conclusion, lines2047–2054"
+      lean: Freezing1.SIR.physical_sir_geometric_local_limit_of_source_ratio
+      module: Freezing1.SIRPhysicalLimits
+      status: proved
+      note: Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence estimate is assumed.
+    - source: "thm:SIRlocallimit II, source-model conclusion, lines2047–2054"
+      lean: Freezing1.SIR.physical_sir_not_tight_of_source_ratio
+      module: Freezing1.SIRPhysicalLimits
+      status: proved
+      note: Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence estimate is assumed.
+    - source: "thm:SIR I(a), source-model conclusion, lines2080–2087"
+      lean: Freezing1.SIR.physical_sir_fluid_limit_of_source_ratio
+      module: Freezing1.SIRPhysicalLimits
+      status: proved
+      note: Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence estimate is assumed.
+    - source: "thm:SIR II(a), source-model conclusion, lines2095–2101"
+      lean: Freezing1.SIR.physical_sir_strong_uniform_fluid_limit_of_source_ratio
+      module: Freezing1.SIRPhysicalLimits
+      status: proved
+      note: Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence estimate is assumed.
+    - source: "thm:SIR II(b), uniform height, source-model conclusion, lines2102–2104"
+      lean: Freezing1.SIR.physical_sir_strong_terminal_uniform_height_of_source_ratio
+      module: Freezing1.SIRPhysicalLimits
+      status: proved
+      note: Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence estimate is assumed.
+    - source: "thm:SIR II(b), independent-pair distance, source-model conclusion, lines2102–2104"
+      lean: Freezing1.SIR.physical_sir_strong_terminal_uniform_distance_of_source_ratio
+      module: Freezing1.SIRPhysicalLimits
+      status: proved
+      note: Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence estimate is assumed.
+    - source: "thm:SIR II(b), maximum height, source-model conclusion, lines2102–2104"
+      lean: Freezing1.SIR.physical_sir_strong_terminal_maximum_of_source_ratio
+      module: Freezing1.SIRPhysicalLimits
+      status: proved
+      note: Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence estimate is assumed.
+    - source: "thm:SIR I(b), uniform height, lines2088–2093"
+      lean: Freezing1.SIR.physical_sir_uniform_height_limit_of_source_ratio
+      module: Freezing1.SIRPhysicalFiniteLimits
+      status: proved
+      note: Complete terminal conditional uniform height divided by log n; concrete geometric Bienayme survival target, exact rate ratio and eventual source process data.
+    - source: "thm:SIR I(b), independent-pair distance, lines2088–2093"
+      lean: Freezing1.SIR.physical_sir_uniform_distance_limit_of_source_ratio
+      module: Freezing1.SIRPhysicalFiniteLimits
+      status: proved
+      note: Actual graph metric, independent conditional uniform pair including diagonal, complete terminal tree and shared concrete geometric survival target.
+    - source: "thm:cvlocale, lines 257–268"
+      lean: Freezing1.local_convergence_equivalences
+      module: Freezing1.MainLocalLimit
+      status: proved
+      note: All three equivalences, literal reciprocal sum, genuine fixed and diagonal laws; no survival condition on approximating schedules.
+    - source: "thm:cvlocale, common limit assertion, lines 266–267"
+      lean: Freezing1.local_convergence_common_limit
+      module: Freezing1.MainLocalLimit
+      status: proved
+      note: The same almost-everywhere measurable pathwise limit supplies both weak limit laws.
+    - source: "thm:height I, lines 293–301"
+      lean: Freezing1.uniform_active_height_tendsto_Lp
+      module: Freezing1.MainHeight
+      status: proved
+      note: Actual conditional uniform active-vertex law, every real p at least one.
+    - source: "thm:height II, lines 302–305"
+      lean: Freezing1.maximum_height_window_tendsto_one
+      module: Freezing1.MainMaximum
+      status: proved
+      note: Actual forward maximum and the exact universal window.
+    - source: "thm:height III, lines 306–309"
+      lean: Freezing1.maximum_height_tendsto_Lp
+      module: Freezing1.MainMaximum
+      status: proved
+      note: Actual maximum, paper logarithmic-ratio assumption, every real p at least one.
+    - source: "thm:lineaire I, lines 316–325"
+      lean: Freezing1.linear_heightScale_tendsto
+      module: Freezing1.MainLinearHeightScale
+      status: proved
+      note: Exact nested-limit source hypotheses and real cutoff; Abel proof for the central block.
+    - source: "thm:lineaire II, height assertion, lines 326–334"
+      lean: Freezing1.linear_uniform_height_tendsto_Lp
+      module: Freezing1.MainLinearUniformHeight
+      status: proved
+      note: Actual uniform sampling among all vertices, including frozen vertices, every real p at least one.
+    - source: "thm:lineaire II, distance assertion, lines 326–334"
+      lean: Freezing1.linear_uniform_distance_tendsto_Lp
+      module: Freezing1.MainLinearDistance
+      status: proved
+      note: Two genuine conditional independent uniform vertices including the diagonal; every real p at least one.
+    - source: "thm:lineaire III, lines 335–339"
+      lean: Freezing1.linear_maximum_deviation_tendsto_zero
+      module: Freezing1.MainLinearMaximumLower
+      status: proved
+      note: Exact maximum-height limit in probability under literal source hypotheses; genuine forward good chains and corrected initial population.
+    - source: "lem:estimee uniforme sur h_n+, lines 1311–1319"
+      lean: Freezing1.logIntervalLimsup_of_nearOriginLimsup
+      module: Freezing1.LinearRegimeUniform
+      status: proved
+      note: Exact finite maximum, strict interval ratio and nested limits; alternative Abel-summation proof.
+    - source: "lemme minoration h_n^+, lines 1235–1238"
+      lean: Freezing1.heightScale_lower_bound
+      module: Freezing1.PaperResults
+      status: proved
+      note: Exact stopping condition and lower bound; alternative harmonic comparison.
+    - source: "lem:bunif, lines 601–607"
+      lean: Freezing1.Reverse.uniform_birthTime_lt
+      module: Freezing1.ReverseForest
+      status: proved
+      note: Uniform vertex chosen conditional on the constructed reverse tree; phase presence identifies birth.
+    - source: "lem:accroissementH, lines 584–590"
+      lean: Freezing1.ReverseHistory.height_increment_conditional_probability
+      module: Freezing1.ReverseHistoryHeight
+      status: proved
+      note: Actual conditional expectation given the entire predecessor history, not an assumed kernel law.
+    - source: "loi du temps de coalescence, lines 620–626, corrected distinct-vertex statement"
+      lean: Freezing1.ReverseHistory.fullLaw_coalescenceTime_eq
+      module: Freezing1.ReverseCoalescenceTime
+      status: proved
+      note: Printed statement is false without distinctness; actual diagonal law is proved separately.
+    - source: "thm:samelaw, lines 661–664"
+      lean: Freezing1.CanonicalTree.construction_laws_eq
+      module: Freezing1.ConstructionEquivalence
+      status: proved
+      note: Full labelled rooted observable after erasing active names; n at extinction included.
+    - source: "lem:loiTn, lines 670–674, corrected schedule-compatible support"
+      lean: Freezing1.Forward.corrected_forward_tree_probability
+      module: Freezing1.ForwardSupportCharacterization
+      status: proved
+      note: Exact indexed product on the characterized increasing shape; literal broader support remains false.
+    - source: "prop:bounds, lower half, lines 1200–1211"
+      lean: Freezing1.reverseMaximum_lower_tail_source
+      module: Freezing1.ReverseHeightBounds
+      status: proved
+      note: Literal lower bound for the actual reverse maximum, using a full-birth active vertex.
+    - source: "lemme ça coalesce en zéro, lines 1450–1455"
+      lean: Freezing1.ReverseHistory.linear_uniform_coalescence_tendsto_zero
+      module: Freezing1.CoalescenceLimits
+      status: proved
+      note: Genuine conditional independent uniform vertices, including active labels and the diagonal; the weaker bulk hypothesis suffices.
+    - source: "prop:bounds, corrected upper half, lines 1200–1211"
+      lean: Freezing1.reverseMaximum_corrected_upper_tail_source
+      module: Freezing1.ReverseHeightBounds
+      status: proved
+      note: True vertex-count factor replaces the refuted n factor; threshold has no edge shift.
+    - source: "Forestjump, lines 1681–1686"
+      lean: Freezing1.linear_geometric_componentMaximum_tail
+      module: Freezing1.MainLinearComponentMaximum
+      status: proved
+      note: Actual forward component maximum, marked-root correction included; finite MGF proof.
+    - source: "Forestier, lines 1670–1676"
+      lean: Freezing1.linear_forward_geometricBlock_fewTallRoots_probability
+      module: Freezing1.MainForwardBlockConcentration
+      status: proved
+      note: Actual forward cut count, non-strict event and uniform C,L,epsilon; auxiliary coupling bypassed.
+    - source: "lem:minoration, lines 1798–1804"
+      lean: Freezing1.linear_forward_geometricBlock_expectation_lower
+      module: Freezing1.MainForwardBlockConcentration
+      status: proved
+      note: Actual forward cut count, exact geometric window and common uniform constants.
+    - source: "thm:lineaire III, definition of f(c), line 338"
+      lean: Freezing1.linearHeightFactor_existsUnique
+      module: Freezing1.RateFunction
+      status: proved
+      note: Characterizes the coefficient; the maximum-height limit is proved separately in MainLinearMaximumLower.
+    - source: "EqProp9, lines 1334–1337"
+      lean: Freezing1.intervalPlusCount_bounds
+      module: Freezing1.IntervalCounts
+      status: proved
+      note: Exact finite estimate; the uniform limit is proved separately by the documented Abel route.
+    - source: "prop:bennett, lines 1180–1185"
+      lean: Freezing1.bernoulli_sum_upper_tail
+      module: Freezing1.BernoulliConcentration
+      status: proved
+      note: Companion bernoulli_sum_lower_tail proves the other tail.
+acknowledgements: >-
+  Lean, Mathlib and their contributors; source-paper authors; Codex proof and
+  audit assistance. Local workflow skills retain their bundled attribution.

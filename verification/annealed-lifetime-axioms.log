@@ -1,0 +1,10 @@
+'Freezing1.ForwardAnnealed.transitionLaw_old_active_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.treeLaw_old_active_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.fullLaw_all_vertices_eventually_frozen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.fullLaw_tendsto_localLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.aemeasurable_localLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.tendsto_localProbabilityLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

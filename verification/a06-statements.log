@@ -1,0 +1,18 @@
+'Freezing1.LinearBush.linear_sampled_distance_matrix_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.LinearBush.longDendronSampleLaw_dirac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_separated_sample_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_packingAtLeast_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.exists_packingNumberLE_of_isCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.packingAtMost_of_scaledGH_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_packingAtMost_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_scaledGH_mem_isCompact_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.LinearBush.linear_event_in_compact_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_not_tight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.linear_not_isTightMeasureSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.starMatrix_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LinearBush.sampleLaw_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT 0

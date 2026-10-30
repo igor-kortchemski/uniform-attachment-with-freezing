@@ -1,0 +1,12 @@
+'Freezing1.SIR.susceptible_gap_pressure_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_sublinear_extinction_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_maximum_le_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_absorbed_persists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_logLog_extinction_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_logLog_early_terminal_height_negligible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneForward.Valid.parentGraph_root_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.Valid.pairDataKernel_metric_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_early_uniform_height_negligible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_early_uniform_distance_negligible' depends on axioms: [propext, Classical.choice, Quot.sound]

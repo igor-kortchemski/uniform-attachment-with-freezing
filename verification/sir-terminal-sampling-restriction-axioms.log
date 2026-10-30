@@ -1,0 +1,6 @@
+'Freezing1.SIR.wordCountsAt_takeSigns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.longer_word_gated_height_projectivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.longer_word_gated_pair_projectivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.word_relative_later_vertex_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.word_uniform_samples_relative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.signWordLaw_relative_late_births_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

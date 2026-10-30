@@ -1,0 +1,25 @@
+{
+  "challenge_module": "Challenge.Sir",
+  "solution_module": "Solution.Sir",
+  "theorem_names": [
+    "Freezing1.SIR.physical_sir_geometric_local_limit_of_source_ratio",
+    "Freezing1.SIR.physical_sir_not_tight_of_source_ratio",
+    "Freezing1.SIR.physical_sir_fluid_limit_of_source_ratio",
+    "Freezing1.SIR.physical_sir_uniform_height_limit_of_source_ratio",
+    "Freezing1.SIR.physical_sir_uniform_distance_limit_of_source_ratio",
+    "Freezing1.SIR.physical_sir_strong_uniform_fluid_limit_of_source_ratio",
+    "Freezing1.SIR.physical_sir_strong_terminal_uniform_height_of_source_ratio",
+    "Freezing1.SIR.physical_sir_strong_terminal_uniform_distance_of_source_ratio",
+    "Freezing1.SIR.physical_sir_strong_terminal_maximum_of_source_ratio",
+    "Freezing1.SIR.PoissonContact.first_law",
+    "Freezing1.SIR.PoissonSIRData.treePathLaw_eq",
+    "Freezing1.SIR.PoissonSIRData.exists_data",
+    "Freezing1.SIR.PoissonSIRData.exists_family"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

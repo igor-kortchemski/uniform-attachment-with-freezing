@@ -1,0 +1,34 @@
+interpretation of _private.Mathlib.Tactic.Abel.0.Mathlib.Tactic.Abel.initFn._@.Mathlib.Tactic.Abel.1000861767._hygCtx._hyg.2._boxed took 145ms
+import took 19s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 112ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 115ms
+aesop took 130ms
+cumulative profiling times:
+	aesop 154ms
+	attribute application 0.0853ms
+	compilation (IR) 0.26ms
+	compilation (LCNF base) 2.03ms
+	compilation (LCNF impure) 0.73ms
+	compilation (LCNF mono) 1.2ms
+	congr simp thm 5.18ms
+	declTypeLinter 12.5ms
+	dsimp 16.2ms
+	elaboration 58.6ms
+	fix level params 0.917ms
+	import 19s
+	initialization 60ms
+	instantiate metavars 1.48ms
+	interpretation 2.73s
+	let-to-have transformation 0.216ms
+	linting 24.3ms
+	module linting 0.0274ms
+	norm_num 100ms
+	parsing 21.1ms
+	process pre-definitions 9.5ms
+	ring 118ms
+	share common exprs 11ms
+	simp 21.2ms
+	tactic execution 316ms
+	tacticAnalysis 7.68ms
+	type checking 94.2ms
+	typeclass inference 500ms

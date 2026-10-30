@@ -1,0 +1,3 @@
+'Freezing1.UniformBirth.powerBirthCutoff_sublinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.auxiliary_log_birth_exact_CDF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.auxiliary_log_birth_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

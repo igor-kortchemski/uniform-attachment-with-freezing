@@ -1,0 +1,19 @@
+Exact-source concatenation check; no artifact files written.
+Command: lake env lean -DautoImplicit=false /tmp/ChronologicalAmbientStatementsConcat.lean
+Result: exit 0; 9 expanded examples; 15 closures exactly [propext, Classical.choice, Quot.sound].
+Historical development snapshot; actual imported verification subsequently passed.
+Current actual import log: verification/chronological-ambient-statements.log (9 examples, 15 standard-three closures).
+Root artifact log: verification/ambient-positive-urn-poisson-reverse-build.log (PASS 4142 jobs).
+Independent root probe: verification/chronological-ambient-independent-statements.log (6 statements, 7 standard-three closures).
+SHA-256 checked sources:
+86c8437c5407bcfc36428459df83da7fc8d1a136123d080a7898cd9cd5b802a2  Freezing1/ChronologicalPlaneVertices.lean
+ec95ef4d4acac5590ecb984e23ca87c09c28fa2643929034ec14198e544ecd32  Freezing1/ChronologicalPlaneVertexEquiv.lean
+2645e92fa30cfac4eba0c2721507a96d64c3b96572d445097d845b4eaa08f2c9  Freezing1/ChronologicalPlaneLabels.lean
+9b5bf5f0f740540e234dac7f541cac82aca270a5cd08ebb817dd3c8442cbec5a  Freezing1/UnorderedTreeProjection.lean
+e470f457a30d158cd00d7163ec11964c53610e8af6d5c2668eadc06ea75df711  Freezing1/ChronologicalPlaneGeometry.lean
+06ec5da78d3627edd224c00900ac874d8ff3db39b23b41b574d46260597eb46b  Freezing1/ChronologicalBallRecords.lean
+4bd7446d5871dc5f50d95948ee53ee2a531d803ce3d83abb50d93ba5c750eb7b  Freezing1/ChronologicalBallIso.lean
+9ded2c97b04211ed7a3c41d13186073455004af2d3fe150e7de18e280eb84496  Freezing1/ChronologicalAmbientEmbedding.lean
+91e88b1bf76aaec76fccdcad1992c34de4c2a7c5132e2bafff6c6d8e64f15ab2  Freezing1/ChronologicalAmbientLaws.lean
+8d2378ed79372b56faa3e1884544d091527995bd0c0105b74411d657f9b97b21  Freezing1/MainLocalAmbient.lean
+3b416713c7012dce7d04f08306dad300d3877c797d8c9921c52a37e1c8ff5846  verification/ChronologicalAmbientStatements.lean

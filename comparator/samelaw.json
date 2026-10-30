@@ -1,0 +1,36 @@
+{
+  "challenge_module": "Challenge.SameLaw",
+  "solution_module": "Solution.SameLaw",
+  "theorem_names": [
+    "Freezing1.CanonicalTree.construction_laws_eq",
+    "Freezing1.CanonicalTree.forwardLaw_probability",
+    "Freezing1.CanonicalTree.reverseLaw_probability",
+    "Freezing1.CanonicalTree.forwardLaw_vertices",
+    "Freezing1.CanonicalTree.reverseLaw_vertices",
+    "Freezing1.CanonicalTree.treeLaw_reverse_graph_isomorphic",
+    "Freezing1.CanonicalTree.forward_frozen_iff",
+    "Freezing1.CanonicalTree.reverse_frozen_iff",
+    "Freezing1.CanonicalTree.reverse_adj_iff",
+    "Freezing1.CanonicalTree.forward_edge_time",
+    "Freezing1.CanonicalTree.transportGraph_adj_iff",
+    "Freezing1.Forward.transitionLaw_apply",
+    "Freezing1.Forward.treeLaw_valid",
+    "Freezing1.Forward.treeLaw_isTree",
+    "Freezing1.Forward.treeLaw_counts",
+    "Freezing1.ReverseStamped.joinChoice_edgeTime",
+    "Freezing1.ReverseStamped.treeLaw_canonical_ids",
+    "Freezing1.ReverseStamped.treeLaw_forest_isTree",
+    "Freezing1.RootedForest.join_roots",
+    "Freezing1.RootedForest.join_graph",
+    "Freezing1.RootedForest.adjoin_roots",
+    "Freezing1.RootedForest.adjoin_graph",
+    "Freezing1.uniformRootPair_isProbabilityMeasure",
+    "Freezing1.extinctionTime_le_iff"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

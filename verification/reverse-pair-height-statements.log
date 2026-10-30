@@ -1,0 +1,7 @@
+'Freezing1.Reverse.transitionLaw_exclusive_depth_increments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.transitionLaw_killed_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.blockLaw_killed_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.blockAverage_eq_integral_partialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.blockLaw_pair_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.map_blockHistoryLaw_current' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_root_pair_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]

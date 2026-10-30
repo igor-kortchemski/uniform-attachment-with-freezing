@@ -1,0 +1,5 @@
+'Freezing1.Forward.newVertex_height_pow_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.lintegral_activeHMean_pow_treeLawFrom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.increasingLabelled_iff_exists_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.IncreasingLabelled.exists_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+lake env lean -DautoImplicit=false verification/A87A14StateStatements.lean  3.82s user 15.22s system 59% cpu 32.165 total

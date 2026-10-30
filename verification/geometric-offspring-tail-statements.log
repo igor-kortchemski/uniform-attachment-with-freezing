@@ -1,0 +1,8 @@
+'Freezing1.FirstChildStructure.degree_tail_recurrence_of_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.FirstChildStructure.degree_tail_of_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_offspring_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_offspring_tail_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

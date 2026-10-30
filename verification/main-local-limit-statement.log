@@ -1,0 +1,12 @@
+'Freezing1.local_convergence_equivalences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.local_convergence_common_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.tendsto_diagonal_localProbabilityLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_tendsto_localLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.not_summable_freezing_of_diagonal_local_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.all_vertices_eventually_frozen_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

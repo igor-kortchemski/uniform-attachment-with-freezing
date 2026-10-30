@@ -1,0 +1,95 @@
+⚠ [3754/3758] Replayed Freezing1.ForwardPlaneKernel
+warning: Freezing1/ForwardPlaneKernel.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:118:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:135:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:175:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3756/3758] Replayed Freezing1.CountableMarkovAvoidance
+warning: Freezing1/CountableMarkovAvoidance.lean:70:8: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.avoidanceProbability_zero`:
+  [MeasurableSingletonClass E]
+  [Countable E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass E] [Countable E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Freezing1/CountableMarkovAvoidance.lean:102:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/CountableMarkovAvoidance.lean:109:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✖ [3757/3758] Building Freezing1.PlaneGraftTransition (10s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/PlaneGraftTransition.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/PlaneGraftTransition.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/PlaneGraftTransition.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/PlaneGraftTransition.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/PlaneGraftTransition.setup.json --json
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Freezing1/PlaneGraftTransition.lean:143:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: Freezing1/PlaneGraftTransition.lean:134:53: unsolved goals
+p : ↑unitInterval
+s : State
+hs : [] ∈ s.vertices
+t : State
+A : Set State
+hA : MeasurableSet A
+⊢ ↑(unitInterval.toNNReal p) *
+            unitInterval.toNNReal (selectionParameter (s, t)) •
+              (signedTransitionLaw s true) ((fun z => graft z t) ⁻¹' A) +
+          ↑(unitInterval.toNNReal p) *
+            unitInterval.toNNReal (unitInterval.symm (selectionParameter (s, t))) •
+              (signedTransitionLaw t true) ((fun z => graft s z) ⁻¹' A) +
+        ↑(unitInterval.toNNReal (unitInterval.symm p)) *
+          unitInterval.toNNReal (selectionParameter (s, t)) •
+            (signedTransitionLaw s false) ((fun z => graft z t) ⁻¹' A) +
+      ↑(unitInterval.toNNReal (unitInterval.symm p)) *
+        unitInterval.toNNReal (unitInterval.symm (selectionParameter (s, t))) •
+          (signedTransitionLaw t false) ((fun z => graft s z) ⁻¹' A) =
+    unitInterval.toNNReal (selectionParameter (s, t)) •
+        (↑(unitInterval.toNNReal p) * (signedTransitionLaw s true) ((fun z => graft z t) ⁻¹' A) +
+          ↑(unitInterval.toNNReal (unitInterval.symm p)) * (signedTransitionLaw s false) ((fun z => graft z t) ⁻¹' A)) +
+      unitInterval.toNNReal (unitInterval.symm (selectionParameter (s, t))) •
+        (↑(unitInterval.toNNReal p) * (signedTransitionLaw t true) ((fun z => graft s z) ⁻¹' A) +
+          ↑(unitInterval.toNNReal (unitInterval.symm p)) * (signedTransitionLaw t false) ((fun z => graft s z) ⁻¹' A))
+warning: Freezing1/PlaneGraftTransition.lean:142:54: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Measure.add_apply, Measure.smul_apply, Measure.map_apply (measurable_of_countable _) hA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3758/3758] Built Freezing1.PlaneInterleavingFairness (11s)
+Some required targets logged failures:
+- Freezing1.PlaneGraftTransition
+error: build failed

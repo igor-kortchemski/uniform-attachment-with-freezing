@@ -1,0 +1,4 @@
+'Freezing1.TwoPointMixture.test_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.TwoPointMixture.integral_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.TwoPointMixture.marginal_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometricSurvivalScalarLaw_eq_twoPoint' depends on axioms: [propext, Classical.choice, Quot.sound]

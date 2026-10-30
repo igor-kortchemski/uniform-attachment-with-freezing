@@ -1,0 +1,18 @@
+'Freezing1.SIR.countsFullLaw_lintegral_future' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_masked_future_birth_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_future_birth_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_late_birth_charge_over_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.Counts.LegalNext.birthCharge_mul_le_drop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.legalHistory_birth_charge_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_middle_birth_charge_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_middle_birth_charge_over_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_post_population_birth_charge_over_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.Counts.LegalNext.post_birth_reciprocal_le' depends on axioms: [propext, Classical.choice, Quot.sound]

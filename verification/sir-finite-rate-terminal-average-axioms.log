@@ -1,0 +1,1 @@
+'Freezing1.SIR.finiteRate_terminal_average_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

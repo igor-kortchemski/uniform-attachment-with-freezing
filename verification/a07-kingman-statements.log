@@ -1,0 +1,7 @@
+'Freezing1.Kingman.mergeLaw_unordered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Kingman.mergeLaw_ae_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Kingman.ofForest_isPartitionOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Kingman.joinLaw_map_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Kingman.map_blockHistory_lawAfter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Kingman.ae_kingmanLawAfter_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+lake env lean -DautoImplicit=false verification/A07KingmanStatements.lean  3.73s user 12.84s system 75% cpu 21.922 total

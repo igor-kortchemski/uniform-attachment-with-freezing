@@ -1,0 +1,19 @@
+'Freezing1.SIR.BiasedWalk.coupledFullLaw_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.BiasedWalk.coupledFullLaw_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.BiasedWalk.everZero_probability_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.fullLaw_ever_absorbed_ae_of_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.geometricBienayme_finite_probability_of_le_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.iidSignLaw_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_activeCount_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_freezing_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_extinction_of_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_nonextinction_probability_supercritical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.not_summable_printedFreezingReciprocal_of_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.iid_nonextinction_local_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_schedules_local_converge' depends on axioms: [propext, Classical.choice, Quot.sound]

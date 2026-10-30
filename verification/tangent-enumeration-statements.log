@@ -1,0 +1,30 @@
+'Freezing1.BinaryBijection.tangentDerivativePolynomial_realization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangentDerivativePolynomial_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangentDenominatorInverse_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangentFormalSeries_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.tangentFormalSeries_riccati' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.tangentFormalSeries_iterate_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangentPolynomialSeries_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.tangentFormalSeries_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.rescaledBernoulliSeries_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.tangentExponential_sub_one_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.bernoulliSeries_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.X_mul_tangentFormalSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.tangentFormalSeries_coeff_bernoulli' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangent_derivative_bernoulli_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.tangent_derivative_bernoulli' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.source_fullyFrozen_card_formula' depends on axioms: [propext, Classical.choice, Quot.sound]

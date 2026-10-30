@@ -1,0 +1,7 @@
+'Freezing1.integral_permutationIndicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.integral_permutationIndicator_pair_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.integral_permutationIndicator_pair_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.integral_weightedPermutationCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.variance_weightedPermutationCount_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformPermutation_growth_failure_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_failure_chain_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

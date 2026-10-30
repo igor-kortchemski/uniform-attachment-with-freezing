@@ -1,0 +1,8 @@
+'Freezing1.SIR.countsFullLaw_early_extinction_two_stage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_early_survival_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.fullLaw_finite_chainLimit_iff_absorbed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneForward.fullLaw_ever_absorbed_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometric_sir_survival_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometricSurvivalPathLaw_eq_fluidMixtureLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

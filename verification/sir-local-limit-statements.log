@@ -1,0 +1,24 @@
+'Freezing1.SIR.countsKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.map_treeFullLaw_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_absorbed_by' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embeddedTerminalTreeLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_plane_word_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_plane_events_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_cylinder_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.tendsto_embeddedTerminalTreeLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_geometric_local_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.scaled_rate_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.scaled_rate_atTop_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_geometric_local_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.root_children_mono_of_updates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_bounded_degree_le_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_bounded_degree_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.not_tight_of_bounded_degree_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.embeddedTerminalTreeLaw_not_tight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_not_tight_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]

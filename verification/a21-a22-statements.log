@@ -1,0 +1,40 @@
+'Freezing1.ForwardInfiniteHistory.exists_local_limit_iff_all_degrees_stabilize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_local_limit_iff_all_degrees_stabilize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.degree_constant_after_freezing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.old_record_eventually_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_survival_attachmentPattern' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.conditional_postBirthAttachment_iIndepSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.conditional_infinitely_many_attachments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.conditional_vertexDegree_tendsto_atTop' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.restrict_survival_vertexDegree_tendsto_atTop' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_degrees_stabilize_iff_all_eventually_frozen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_local_limit_iff_all_eventually_frozen_all_schedules' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.selectionIndexSchedule_refutes_printed_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.selectionIndexSchedule_actual_never_frozen_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.birth_step_not_selection_of_newborn' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'Freezing1.eventually_chain_base_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.PhaseData.goodSet_base_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.eventually_treeLaw_goodSet_base' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,11 @@
+'Freezing1.PlaneForward.vertexHeightKernel_markov' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.toPlaneState_treeHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.toPlaneState_vertexHeightKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.environmentTreeLaw_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.environmentTreeLaw_map_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sirUniformHeightLaw_at_n_eq_environment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_time_n_maximum_event_eq_environment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.sir_time_n_uniform_height_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_time_n_maximum_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

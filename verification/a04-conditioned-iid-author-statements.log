@@ -1,0 +1,21 @@
+'Freezing1.UniformTailRatio.sourceAssumptions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformTailRatio_of_eventually_eq_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformTailRatio_iff_maximum_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.sourceAssumptions_of_uniformMaximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ConditionalSurvival.conditional_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ConditionalSurvival.weight_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ConditionalSurvival.map_chooseRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ConditionalSurvival.System.map_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ConditionalSurvival.System.eventually_row_eq_survivor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ConditionalSurvival.System.rows_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_survival_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.conditionedIidRow_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.commonIidSurvivor_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.conditionedIidRows_sourceAssumptions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.exists_conditioned_iid_linear_coupling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

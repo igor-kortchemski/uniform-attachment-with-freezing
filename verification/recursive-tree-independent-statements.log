@@ -1,0 +1,7 @@
+'Freezing1.RecursiveTree.uniformParentLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.RecursiveTree.law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.RecursiveTree.law_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_allAttachment_vertex_sets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_allAttachment_eq_recursive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.RecursiveTree.newest_parent_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+lake env lean -DautoImplicit=false   3.73s user 12.55s system 94% cpu 17.287 total

@@ -1,0 +1,6 @@
+module
+
+import Freezing1.SIRFiniteRateSamplingCapture
+
+#print axioms Freezing1.SIR.countsFullLaw_relative_late_births_tendsto
+#print axioms Freezing1.SIR.exists_finite_rate_capture_time

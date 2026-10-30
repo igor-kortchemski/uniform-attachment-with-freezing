@@ -1,0 +1,4 @@
+'Freezing1.block_bernoulli_poisson_event_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.geometricBlock_le_horizon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_geometricBlock_poisson_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_uniform_geometricBlock_weighted_tail_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

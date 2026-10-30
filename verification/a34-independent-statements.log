@@ -1,0 +1,8 @@
+'Freezing1.exp_two_sub_one_le_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exponentialMomentTail_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exponentialMomentTail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.activeHeight_moment_layercake' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.integrable_activeHeightTailDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.activeHeight_moment_le_split_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.activeHeight_moment_le_split_seven_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_tendsto_Lp_via_tail_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

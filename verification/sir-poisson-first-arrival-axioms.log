@@ -1,0 +1,4 @@
+'Freezing1.SIR.PoissonContact.measurable_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonContact.positive_count_times' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonContact.arrival_le_iff_lt_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.PoissonContact.first_law' depends on axioms: [propext, Classical.choice, Quot.sound]

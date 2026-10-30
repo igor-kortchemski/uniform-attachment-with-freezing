@@ -1,0 +1,7 @@
+'Freezing1.SIR.Susceptible.normalized_path_fluid_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.uniform_fluid_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.uniform_fluid_on_time_interval_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.Susceptible.normalized_infectious_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.uniform_infectious_fluid_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

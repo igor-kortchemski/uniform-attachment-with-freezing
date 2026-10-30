@@ -1,0 +1,24 @@
+'Freezing1.ReverseHistory.forest_heightIncrement_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.transitionLaw_previous_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.lawAfter_previous_increment_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.lawAfter_heightIncrement_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.lawAfter_heightIncrement_indep_previous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ReverseHistory.height_increment_conditional_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Reverse.transitionLaw_trackedDepth_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.lawAfter_trackedDepth_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.treeLaw_depth_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.treeLaw_height_identDistrib_bernoulli' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.heightBernoulli_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.heightBernoulli_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.sum_attachmentParameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_eq_finiteHeightMax' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_eq_finiteHeightMax_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_corrected_upper_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_upper_tail_nat_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_lower_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_corrected_upper_tail_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_lower_tail_source' depends on axioms: [propext, Classical.choice, Quot.sound]

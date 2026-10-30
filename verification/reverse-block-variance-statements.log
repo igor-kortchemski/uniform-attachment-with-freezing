@@ -1,0 +1,6 @@
+'Freezing1.ReverseHistory.blockTallRootCount_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.integral_blockTallRootCount_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.integral_blockTallRootCount_eq_blockTail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ReverseHistory.variance_blockTallRootCount_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+✖ [3783/3784] Building Freezing1.ConditionalInvariantAverage (5.0s)
+trace: .> LEAN_PATH=/Users/igor/LeanFormalization/freezing1/.lake/packages/Cli/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/batteries/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/Qq/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/aesop/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/importGraph/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/plausible/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/packages/mathlib/.lake/build/lib/lean:/Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean /Users/igor/LeanFormalization/freezing1/Freezing1/ConditionalInvariantAverage.lean -o /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/ConditionalInvariantAverage.olean -i /Users/igor/LeanFormalization/freezing1/.lake/build/lib/lean/Freezing1/ConditionalInvariantAverage.ilean -c /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/ConditionalInvariantAverage.c --setup /Users/igor/LeanFormalization/freezing1/.lake/build/ir/Freezing1/ConditionalInvariantAverage.setup.json --json
+error: Freezing1/ConditionalInvariantAverage.lean:81:2: 'change' tactic failed, pattern
+  μ[(↑s.card)⁻¹ • ∑ i ∈ s, fun ω => f (T i ω) | MeasurableSpace.comap φ inst✝¹] ω =
+    μ[f | MeasurableSpace.comap φ inst✝¹] ω
+is not definitionally equal to target
+  μ[fun ω => (↑s.card)⁻¹ * ∑ i ∈ s, f (T i ω) | MeasurableSpace.comap φ inst✝¹] ω =
+    μ[f | MeasurableSpace.comap φ inst✝¹] ω
+✔ [3784/3784] Built Freezing1.ForwardForestMaximumStatistics (7.5s)
+Some required targets logged failures:
+- Freezing1.ConditionalInvariantAverage
+error: build failed

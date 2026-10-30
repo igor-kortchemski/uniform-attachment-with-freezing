@@ -1,0 +1,17 @@
+'Freezing1.PlaneTree.shufflePMF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.shufflePMF_of_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.piFin_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.ofChildren_child_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.shufflePMF_apply_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.finiteVertices_of_shufflePMF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.shufflePMF_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.sum_shuffleMatrix_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.sum_shuffleMatrix_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.measurable_shuffleLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.SameUnordered.shufflePMF_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.shufflePMF_ofChildren_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneTree.finitePlaneUniform_bind_shuffleLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_signs_conditioned_extinction_uniform_plane_shuffled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+lake env lean -DautoImplicit=false verification/A03ShuffleStatements.lean  4.23s user 18.20s system 39% cpu 56.576 total

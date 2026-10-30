@@ -1,0 +1,11 @@
+'Freezing1.SIR.countsFullLaw_alive_after_fluid_zero_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_late_births_between_times_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_late_births_near_fluid_zero_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_gated_prefix_extinct_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.legalHistory_alive_prefix_vertices' depends on axioms: [propext, Quot.sound]
+'Freezing1.SIR.countsFullLaw_gated_prefix_small_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_gated_capture_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

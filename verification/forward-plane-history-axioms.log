@@ -1,0 +1,2 @@
+'Freezing1.ForwardAnnealed.map_prefix_toPlaneState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.map_fullLaw_toPlaneState' depends on axioms: [propext, Classical.choice, Quot.sound]

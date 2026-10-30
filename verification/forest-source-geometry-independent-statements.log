@@ -1,0 +1,12 @@
+'Freezing1.Forward.goodSet_eq_source_filter_positiveCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodSet_truncate_eq_source_filter_positiveCutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.treeLaw_source_good_graph_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_good_graph_ancestor_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_prefix_slotForest_at_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.indepFun_prefix_bareForest_at_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.goodVertices_conditionally_negatively_correlated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.goodVertexIndicators_same_component' depends on axioms: [propext, Classical.choice, Quot.sound]

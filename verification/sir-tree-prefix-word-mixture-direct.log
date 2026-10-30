@@ -1,0 +1,13 @@
+Freezing1/SIRTreePrefixWordMixture.lean:180:10: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Measure.map (?m.105 ∘ Preorder.frestrictLe k) ?m.96
+in the target expression
+  Measure.map ((fun P => (fun i => (P i).counts, (P ⟨k, ⋯⟩).tree)) ∘ Preorder.frestrictLe k) (treeFullLaw rate n) =
+    (fun w => Measure.map (fun s => (countsPrefixWord n w, s)) (planeWordLaw w)) ∘ₘ signWordLaw rate n k
+
+rate : ℝ≥0
+n k : ℕ
+hf :
+  (fun H => (fun i => (H ↑i).counts, (H k).tree)) =
+    (fun P => (fun i => (P i).counts, (P ⟨k, ⋯⟩).tree)) ∘ Preorder.frestrictLe k
+⊢ Measure.map ((fun P => (fun i => (P i).counts, (P ⟨k, ⋯⟩).tree)) ∘ Preorder.frestrictLe k) (treeFullLaw rate n) =
+    (fun w => Measure.map (fun s => (countsPrefixWord n w, s)) (planeWordLaw w)) ∘ₘ signWordLaw rate n k

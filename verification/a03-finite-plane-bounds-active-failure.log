@@ -1,0 +1,19 @@
+Freezing1/FinitePlaneConditionalBounds.lean:24:24: error: don't know how to synthesize placeholder for argument `T`
+context:
+T : Tree
+hT : FiniteVertices T
+j : ℕ
+hj : 1 ≤ j ∧ j ≤ degree T
+C : Set (List ℕ) := ⋯
+hfin : C.Finite
+hroot : [] ∉ C
+⊢ Tree
+Freezing1/FinitePlaneConditionalBounds.lean:43:8: error: Invalid rewrite argument: Expected an equality or iff proof or definition name, but `C` is a value of type
+  Finset Address
+Freezing1/FinitePlaneConditionalBounds.lean:98:52: warning: This simp argument is unused:
+  Nat.lt_succ_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [boundedAddresses, ih, List.length_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

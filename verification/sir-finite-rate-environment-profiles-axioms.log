@@ -1,0 +1,6 @@
+'Freezing1.SIR.feasible_alive_wordCountsAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.CountsNearBulkGood.to_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.measurableSet_countsNearBulkGood' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_finite_constraints_failure_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

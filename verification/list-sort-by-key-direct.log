@@ -1,0 +1,24 @@
+Freezing1/ListSortByKey.lean:24:2: error: Type mismatch: After simplification, term
+  h
+ has type
+  List.Pairwise (fun a b => decide (key a ≤ key b) = true) (l.mergeSort fun a b => decide (key a ≤ key b))
+but is expected to have type
+  List.Pairwise (fun a b => key a ≤ key b) (sort key l)
+Freezing1/ListSortByKey.lean:31:33: error: Invalid projection: Type of
+  h
+is not known; cannot resolve projection `1`
+Freezing1/ListSortByKey.lean:31:37: error: Invalid projection: Type of
+  h
+is not known; cannot resolve projection `2`
+Freezing1/ListSortByKey.lean:31:5: error: Type mismatch
+  fun x x_1 h => lt_of_le_of_ne ?m.60 ?m.61
+has type
+  ∀ (x : key a✝ ≤ key b✝ ∧ key a✝ ≠ key b✝) (x_1 : ?m.62 x) (h : ?m.63 x x_1), ?m.66 x x_1 h < ?m.67 x x_1 h
+but is expected to have type
+  key a✝ ≤ key b✝ ∧ key a✝ ≠ key b✝ → key a✝ < key b✝
+Freezing1/ListSortByKey.lean:35:70: error: Type mismatch
+  fun x x_1 h => ne_of_lt h
+has type
+  ∀ (x : key a✝ < key b✝) (x_1 : ?m.33 x), ?m.36 x x_1 < ?m.37 x x_1 → ?m.36 x x_1 ≠ ?m.37 x x_1
+but is expected to have type
+  key a✝ < key b✝ → key a✝ ≠ key b✝

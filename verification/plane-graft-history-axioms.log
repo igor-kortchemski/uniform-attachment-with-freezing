@@ -1,0 +1,12 @@
+/tmp/PlaneGraftHistoryAxioms.lean:37:0: warning: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.map_fullLaw_of_ae_intertwining`:
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'Freezing1.CountableMarkovChain.map_fullLaw_of_ae_intertwining' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneForward.interleaved_fullLaw_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneForward.map_interleaved_fullLaw_graft' depends on axioms: [propext, Classical.choice, Quot.sound]

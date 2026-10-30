@@ -1,0 +1,41 @@
+verification/A64SourceUrnComponentTailStatements.lean:74:2: error: Type mismatch: After simplification, term
+  linear_geometric_componentMaximum_tail_via_positiveExtension x A hc hc1 hA hAinf hτ hnear hbulk C hC
+ has type
+  @Filter.Eventually ℕ
+    (fun n =>
+      ∀ (k : ℕ),
+        A n ≤ ↑(C ^ k) →
+          ↑(C ^ k) ≤ ↑n / ↑C →
+            (treeLaw (x n) (C ^ (k + 1))).real
+                {q | ↑k ^ 3 < ↑((cutRoots q (C ^ k)).sup (componentPopulationWithRoot q (C ^ k)))} ≤
+              1 / ↑k ^ 2)
+    atTop
+but is expected to have type
+  @Filter.Eventually ℕ
+    (fun n =>
+      ∀ (k : ℕ),
+        A n ≤ ↑(C ^ k) →
+          ↑(C ^ k) ≤ ↑n / ↑C →
+            (treeLaw (x n) (C ^ (k + 1))).real
+                {q |
+                  ↑k ^ 3 <
+                    ↑((cutRoots q (C ^ k)).sup fun r =>
+                        (insert r ({v ∈ q.active | cutAncestor q (C ^ k) v = r})).card)} ≤
+              1 / ↑k ^ 2)
+    atTop
+'Freezing1.source_urn_exponent_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_cubic_ge_marked_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_geometric_exp_square_le_inv_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_square_budget_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.positiveExtension_urn_cubic_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.positiveExtension_component_cubic_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_positiveExtension_component_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_positiveExtension_urn_cubic_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.positiveExtension_continuation_maximum_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.positiveExtension_treeLaw_maximum_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.positiveExtension_treeLaw_root_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_geometric_componentMaximum_tail_via_positiveExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

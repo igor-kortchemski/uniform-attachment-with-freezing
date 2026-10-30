@@ -1,0 +1,42 @@
+'Freezing1.BernoulliPairCoupling.augmentLaw_map_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.augmentLaw_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.step_parameters_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.stepLaw_map_drivers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.stepLaw_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.pairWordLaw_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.coupledBlockLaw_map_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.coupledBlockLaw_map_drivers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.coupledBlockLaw_increment_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.coupledBlockLaw_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.thinningLaw_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.thinningLaw_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.thinningLaw_discrepancy_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.thinningLaw_tail_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.thinningLaw_tail_difference_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.completeLaw_map_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.completeLaw_map_drivers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.completeLaw_map_first_thinned' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.completeLaw_thinning_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BernoulliPairCoupling.actual_pair_tail_le_product_add_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.auxiliaryError_eq_reciprocal_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.actual_separated_tail_le_enlarged_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.uniform_geometric_actual_pair_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.source_current_merge_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
