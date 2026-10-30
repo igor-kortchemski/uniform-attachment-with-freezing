@@ -1,0 +1,2 @@
+# Preserve captured verifier output byte-for-byte, including emitted whitespace.
+/verification/certification/linux/**/*.log -text -whitespace

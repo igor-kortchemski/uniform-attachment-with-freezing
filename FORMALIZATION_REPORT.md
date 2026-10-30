@@ -2,7 +2,7 @@
 
 ## Source, scope, and audit identity
 
-- **Paper:** *Uniform attachment with freezing*, supplied as [attachement-uniforme-1-final.tex](attachement-uniforme-1-final.tex).
+- **Paper:** *Uniform attachment with freezing*, supplied as `attachement-uniforme-1-final.tex`; the unchanged manuscript is intentionally omitted from this candidate export.
 - **Source SHA-256:** `88953dd87165a14b0e643c5b3d0075d8ce5ec39cdcfc0c25d313570fc3ab00df` (2,590 lines).
 - **Scope:** every theorem, proposition, lemma, corollary, and substantive mathematical assertion in the supplied source. The Introduction supplies the main results. No mathematical section is excluded. Explicit conjectures and research questions are catalogued separately.
 - **Project:** `freezing1`; entry point [Freezing1.lean](Freezing1.lean). Lean and Mathlib remain pinned to `v4.35.0`, with exact dependencies in `lake-manifest.json`.
@@ -17,7 +17,13 @@ The source has **24 named result environments**: 7 theorems, 13 lemmas, 3 propos
 
 At the current milestone, **all three parts of the Introduction's universal height theorem T03 are proved**, together with **all parts of T04, L01, L02, L05, L06, L07, L08, L09, L10, L11, L12, T05 and P02**. The **lower half of P03** is proved. Corrected distinct-vertex L03 and corrected P03 upper bounds are proved separately from the false literal statements. A05, A09, A11, A17, A39, A44 and A46 are covered. **T01 is proved, including its three equivalences and common limit law. T02 is proved for the actual iid-sign history and chronological plane limit. Every T06 and T07 conclusion is proved for the embedded model and transferred to the actual full-contact protocol under the source's eventually valid independent process data. Both finite-rate terminal weak mixtures and all strong-regime terminal geometry limits are proved. P01 and C01, unique consecutive reindexing and the source random-mean height proof A40–A43 are also proved. Both physical rate branches and the complete joint history identity A65–A66 are checked. The retained intermediate obligations remain open.** L02 and L09 use actual conditional uniform sampling. The literal source contains false assertions identified below; they are not marked proved by adding hypotheses or changing indices.
 
-No paper-wide coverage, independent kernel replay, Comparator pass, or Palomar deposit verification is claimed. Current integration evidence appears below. This is an ongoing local formalization, **not a verified complete publication candidate**.
+The isolated main-results candidate at `54253ce` now has a successful clean
+Linux build, axiom audits, and official sandboxed Comparator/NanoDa/Lean
+acceptance for all four main interfaces plus the auxiliary one. See
+[the Linux evidence](verification/certification/linux/SUMMARY.md). This verifies
+the audited interface scope, not paper-wide coverage or a complete Palomar
+publication candidate. No full Palomar mechanical report or publication is
+claimed. Earlier dated checkpoints below are retained as history.
 
 The resumed local development constructs both actual graph laws, their structural invariants, and a coherent reverse history. L01's conditional probability given the entire preceding history is now proved, as is the birth-truncated independent Bernoulli law of each reverse vertex height. The reverse maximum lower tail in P03 and a corrected upper tail with the true vertex count are proved. Stamped reverse forests retain every edge time and frozen label; their increasing-label invariant, canonical graph coordinates, legal-history uniqueness and actual one-step probabilities are checked. Equality in law of the two constructions is now proved on the full canonical states and on their rooted, edge-timestamped, frozen-label-preserving observable. T03 uses a direct forward MGF argument with arbitrary real powers and varying probability spaces; all of its probabilistic premises are discharged from the actual constructed laws.
 
@@ -976,3 +982,35 @@ was performed. All whole-manuscript gaps remain retained.
 Details and exact logs: [Codex takeover](verification/certification/CODEX_TAKEOVER.md),
 [script review](verification/certification/SCRIPT_REVIEW.md), and the four
 `CODEX_AUDIT.md` interface records.
+
+## Official standalone Linux verification — 30 October 2026
+
+The isolated candidate at `54253ce4046e1314cf5af6aedb19a278200d168d` passed
+`scripts/run-linux-checks.sh` in a private Ubuntu 24.04 VM with the pinned
+Lean/Mathlib environment and Bubblewrap 0.12.0. The fresh project build passed
+4,645 jobs in 1,315.705 seconds using the public dependency cache. The source
+scan passed 826 Lean files; all 8,683 library declarations and the exact 26
+main/support exports had only permitted axioms. All four main configurations
+and the old auxiliary configuration passed the official sandboxed Comparator,
+including NanoDa and Lean kernel replay. The driver confirmed the same clean
+source commit/tree at the end; all nine locked dependency worktrees were clean.
+
+This closes the standalone Linux Comparator/replay obligation for the audited
+interfaces. It does not produce a full Palomar mechanical report, certify the
+whole manuscript, or alter the chronological-carrier/canonical-observable
+qualifications. The source, mathematical statements, semantic dependencies,
+proof routes and inventory are unchanged; the prior independent source audits
+remain applicable. No new manuscript argument or open mathematical obligation
+is marked checked or proved by this infrastructure milestone.
+
+The complete run took 38 minutes 55 seconds. Seventeen script tests passed on
+Linux, with one expected non-Linux-host guard test skipped. An initial cache
+retrieval failed for eight files and stopped preparation; a separately logged
+retry succeeded. No failure was suppressed. Nothing was pushed, published or
+dispatched, and no candidate remote was added. The full Palomar report and all
+whole-manuscript gaps remain explicit in
+[OPEN_OBLIGATIONS.md](verification/certification/OPEN_OBLIGATIONS.md).
+
+Current identity, verdicts, reproduction commands and raw logs:
+[Linux evidence](verification/certification/linux/SUMMARY.md). Documentation
+and evidence added after the run do not retroactively change its checked commit.

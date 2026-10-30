@@ -5,8 +5,9 @@
 
 **All Introduction theorem conclusions T01–T07, the unordered binary bijection P01 and tangent/Bernoulli enumeration C01 are proved; whole-paper coverage remains incomplete.** This project develops Lean proofs for *Uniform attachment with
 freezing*, by Étienne Bellin, Arthur Blanc-Renaudie, Emmanuel Kammerer, and Igor
-Kortchemski. The supplied [manuscript](attachement-uniforme-1-final.tex) is preserved
-unchanged. The [coverage report](FORMALIZATION_REPORT.md) retains all 24 named result
+Kortchemski. The source manuscript is unchanged and is intentionally omitted
+from this candidate export. The [coverage report](FORMALIZATION_REPORT.md)
+records its identity and retains all 24 named result
 environments, substantive unnamed claims, open questions, and source issues.
 
 The badges refer to an earlier partial snapshot in the private repository and
@@ -14,8 +15,8 @@ to the same aggregate CI workflow. The current local proofs are ahead of that
 snapshot and nothing has been uploaded; the badges do not verify the local
 development or a Palomar candidate. See the report for current evidence.
 
-**Certification interface for T01–T07 (prepared locally, not yet verified by the
-official tools).** `Challenge/` and `Solution/` state the seven main theorems
+**Certification interface for T01–T07 (official Linux Comparator passed).**
+`Challenge/` and `Solution/` state the seven main theorems
 (twenty conclusions) in four self-contained interfaces, one Comparator
 configuration each (`comparator/{locallimits,heights,samelaw,sir}.json`):
 T01–T02, T03–T04, T05, T06–T07. This is **not** a certification of the whole
@@ -24,9 +25,10 @@ reviews, the local comparison and kernel-replay evidence, and the exhaustive lis
 limits are in [verification/certification/](verification/certification/README.md)
 ([correspondence](verification/certification/MAIN_RESULTS_CORRESPONDENCE.md),
 [open obligations](verification/certification/OPEN_OBLIGATIONS.md)). The official
-`lake comparator` (Linux sandbox) and the Palomar mechanical report have not been
-run; the workflows `.github/workflows/{comparator,palomar}.yml` are prepared and
-unrun.
+sandboxed `lake comparator`, including NanoDa and Lean's kernel, passed all four
+interfaces and the auxiliary configuration at commit `54253ce`. See the
+[Linux evidence](verification/certification/linux/SUMMARY.md). The full Palomar
+mechanical report remains unobtained; the GitHub workflows remain unrun.
 
 For the actual forward random-tree law, the development proves the normalized
 uniform-active height limit in every real $L^p$, the universal maximum-height
@@ -176,8 +178,9 @@ remain open. See the coverage report and continuation checkpoint for current
 proof evidence; this remains a partial development rather than a verified
 whole-paper publication candidate.
 
-The local candidate has since received an independent four-interface audit
-and verification-script repairs. See
+The local candidate has since received an independent four-interface audit,
+verification-script repairs, and successful official Linux comparison with
+NanoDa and Lean's kernel. See
 [the Codex takeover record](verification/certification/CODEX_TAKEOVER.md)
-for the exact scope, failure-injection tests and prepared Linux checks.
-No official Linux/Palomar run or publication is claimed.
+and [Linux evidence](verification/certification/linux/SUMMARY.md) for the exact
+scope and checked snapshot. No full Palomar report or publication is claimed.

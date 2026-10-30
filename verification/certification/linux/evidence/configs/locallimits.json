@@ -1,0 +1,41 @@
+{
+  "challenge_module": "Challenge.LocalLimits",
+  "solution_module": "Solution.LocalLimits",
+  "theorem_names": [
+    "Freezing1.local_convergence_equivalences",
+    "Freezing1.local_convergence_common_limit",
+    "Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit",
+    "Freezing1.ForwardAnnealed.planeLimitLaw_isBienayme",
+    "Freezing1.ForwardAnnealed.planeLimitLaw_eq_geometricBienaymeLaw",
+    "Freezing1.ForwardAnnealed.planeLimitLaw_offspring_mass",
+    "Freezing1.Forward.transitionLaw_probability",
+    "Freezing1.Forward.treeLaw_valid",
+    "Freezing1.LocalTree.tendsto_iff_balls",
+    "Freezing1.Forward.ValidAt.localBall_graph_distance",
+    "Freezing1.Forward.ValidAt.localBalls_valid",
+    "Freezing1.Forward.ValidAt.localTreeOfState_balls",
+    "Freezing1.ForwardInfiniteHistory.map_eval",
+    "Freezing1.ForwardInfiniteHistory.tendsto_localLimit_of_exists",
+    "Freezing1.ForwardInfiniteHistory.map_eval_localTree",
+    "Freezing1.PlaneTree.bienaymeLaw_map_degree",
+    "Freezing1.PlaneTree.geometricBienaymeLaw_probability",
+    "Freezing1.PlaneTree.exists_unique_bienaymeLaw",
+    "Freezing1.LocalTree.canonical_planeOffspring",
+    "Freezing1.LocalTree.degree_toPlaneTree",
+    "Freezing1.LocalTree.continuous_toPlaneTree",
+    "Freezing1.ForwardAnnealed.treeLaw_zero_parameter",
+    "Freezing1.ForwardAnnealed.treeLaw_one_parameter",
+    "Freezing1.ForwardAnnealed.map_eval",
+    "Freezing1.ForwardAnnealed.transitionLaw_apply_split",
+    "Freezing1.ForwardAnnealed.fullLaw_tendsto_localLimit",
+    "Freezing1.ForwardAnnealed.aemeasurable_localLimit",
+    "Freezing1.extinctionTime_le_iff"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

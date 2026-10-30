@@ -1,0 +1,303 @@
+Resolving dependencies
+Building Challenge.LocalLimits
+⚠ [3735/3735] Replayed Challenge.LocalLimits
+warning: Challenge/LocalLimits.lean:72:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:169:9: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:186:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:245:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:280:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:287:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:298:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:356:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:382:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:396:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:431:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:442:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:543:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:552:9: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:568:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:619:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:628:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:633:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:694:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:698:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:749:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:771:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:778:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:784:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:818:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:824:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:830:8: declaration uses `sorry`
+warning: Challenge/LocalLimits.lean:839:8: declaration uses `sorry`
+Build completed successfully (3735 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Freezing1.local_convergence_equivalences, Freezing1.local_convergence_common_limit, Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit, Freezing1.ForwardAnnealed.planeLimitLaw_isBienayme, Freezing1.ForwardAnnealed.planeLimitLaw_eq_geometricBienaymeLaw, Freezing1.ForwardAnnealed.planeLimitLaw_offspring_mass, Freezing1.Forward.transitionLaw_probability, Freezing1.Forward.treeLaw_valid, Freezing1.LocalTree.tendsto_iff_balls, Freezing1.Forward.ValidAt.localBall_graph_distance, Freezing1.Forward.ValidAt.localBalls_valid, Freezing1.Forward.ValidAt.localTreeOfState_balls, Freezing1.ForwardInfiniteHistory.map_eval, Freezing1.ForwardInfiniteHistory.tendsto_localLimit_of_exists, Freezing1.ForwardInfiniteHistory.map_eval_localTree, Freezing1.PlaneTree.bienaymeLaw_map_degree, Freezing1.PlaneTree.geometricBienaymeLaw_probability, Freezing1.PlaneTree.exists_unique_bienaymeLaw, Freezing1.LocalTree.canonical_planeOffspring, Freezing1.LocalTree.degree_toPlaneTree, Freezing1.LocalTree.continuous_toPlaneTree, Freezing1.ForwardAnnealed.treeLaw_zero_parameter, Freezing1.ForwardAnnealed.treeLaw_one_parameter, Freezing1.ForwardAnnealed.map_eval, Freezing1.ForwardAnnealed.transitionLaw_apply_split, Freezing1.ForwardAnnealed.fullLaw_tendsto_localLimit, Freezing1.ForwardAnnealed.aemeasurable_localLimit, Freezing1.extinctionTime_le_iff, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Challenge.LocalLimits
+Building Solution.LocalLimits
+⚠ [4051/4101] Replayed Freezing1.ForwardPlaneKernel
+warning: Freezing1/ForwardPlaneKernel.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:118:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:135:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/ForwardPlaneKernel.lean:175:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [4052/4101] Replayed Freezing1.PlaneGraftTransition
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/PlaneGraftTransition.lean:94:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4057/4101] Replayed Freezing1.PlaneGraftHistory
+warning: Freezing1/PlaneGraftHistory.lean:37:0: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.map_fullLaw_of_ae_intertwining`:
+  [MeasurableSingletonClass B]
+  [Countable B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass B] [Countable B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4059/4101] Replayed Freezing1.ForwardPlaneAddress
+warning: Freezing1/ForwardPlaneAddress.lean:64:7: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/ForwardPlaneAddress.lean:68:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:73:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:132:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:12: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Freezing1/ForwardPlaneAddress.lean:135:25: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [4071/4101] Replayed Freezing1.CountableMarkovAvoidance
+warning: Freezing1/CountableMarkovAvoidance.lean:70:8: automatically included section variable(s) unused in theorem `Freezing1.CountableMarkovChain.avoidanceProbability_zero`:
+  [MeasurableSingletonClass E]
+  [Countable E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSingletonClass E] [Countable E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Freezing1/CountableMarkovAvoidance.lean:102:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Freezing1/CountableMarkovAvoidance.lean:109:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [4098/4101] Replayed Freezing1.PlaneGeometricBienayme
+warning: Freezing1/PlaneGeometricBienayme.lean:30:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4101/4235] Replayed Freezing1.SIRCounts
+warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRCounts.lean:86:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4114/4235] Replayed Freezing1.MainSIRLocalLimit
+warning: Freezing1/MainSIRLocalLimit.lean:81:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [4132/4235] Replayed Freezing1.SIRExponentialRace
+warning: Freezing1/SIRExponentialRace.lean:28:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:59:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:71:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:78:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:79:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:86:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:95:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:123:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:126:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:166:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRExponentialRace.lean:169:4: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Freezing1/SIRExponentialRace.lean:166:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Freezing1/SIRExponentialRace.lean:169:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Freezing1/SIRExponentialRace.lean:182:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/SIRExponentialRace.lean:183:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4238/4382] Replayed Freezing1.FiniteUniformPairs
+warning: Freezing1/FiniteUniformPairs.lean:33:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:34:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Freezing1/FiniteUniformPairs.lean:30:35: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:30:53: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Freezing1/FiniteUniformPairs.lean:39:54: This simp argument is unused:
+  Finset.mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Measure.uniformOfFinset_apply_singleton]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4239/4382] Replayed Freezing1.PlaneFiniteGraph
+warning: Freezing1/PlaneFiniteGraph.lean:48:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (4633 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Freezing1.local_convergence_equivalences, Freezing1.local_convergence_common_limit, Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit, Freezing1.ForwardAnnealed.planeLimitLaw_isBienayme, Freezing1.ForwardAnnealed.planeLimitLaw_eq_geometricBienaymeLaw, Freezing1.ForwardAnnealed.planeLimitLaw_offspring_mass, Freezing1.Forward.transitionLaw_probability, Freezing1.Forward.treeLaw_valid, Freezing1.LocalTree.tendsto_iff_balls, Freezing1.Forward.ValidAt.localBall_graph_distance, Freezing1.Forward.ValidAt.localBalls_valid, Freezing1.Forward.ValidAt.localTreeOfState_balls, Freezing1.ForwardInfiniteHistory.map_eval, Freezing1.ForwardInfiniteHistory.tendsto_localLimit_of_exists, Freezing1.ForwardInfiniteHistory.map_eval_localTree, Freezing1.PlaneTree.bienaymeLaw_map_degree, Freezing1.PlaneTree.geometricBienaymeLaw_probability, Freezing1.PlaneTree.exists_unique_bienaymeLaw, Freezing1.LocalTree.canonical_planeOffspring, Freezing1.LocalTree.degree_toPlaneTree, Freezing1.LocalTree.continuous_toPlaneTree, Freezing1.ForwardAnnealed.treeLaw_zero_parameter, Freezing1.ForwardAnnealed.treeLaw_one_parameter, Freezing1.ForwardAnnealed.map_eval, Freezing1.ForwardAnnealed.transitionLaw_apply_split, Freezing1.ForwardAnnealed.fullLaw_tendsto_localLimit, Freezing1.ForwardAnnealed.aemeasurable_localLimit, Freezing1.extinctionTime_le_iff, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution.LocalLimits
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

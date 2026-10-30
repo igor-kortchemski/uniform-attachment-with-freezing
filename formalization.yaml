@@ -34,6 +34,7 @@ sources:
     note: >-
       The source is unchanged. Full inventory, locators, known false assertions
       and missing proof steps are retained in FORMALIZATION_REPORT.md.
+      The supplied manuscript is not redistributed in this candidate export.
       The code license does not relicense the manuscript.
 related_formalizations: []
 status:
@@ -92,16 +93,21 @@ status:
     current checks and the remaining whole-paper obligations.
     This is not a verified whole-paper publication candidate. A scoped
     certification interface for the seven main theorems T01-T07 (twenty
-    conclusions) is prepared in Challenge/, Solution/ and comparator/*.json,
+    conclusions) is supplied in Challenge/, Solution/ and comparator/*.json,
     split into four configurations (local limits T01-T02, heights T03-T04,
     same law T05, SIR T06-T07) because Palomar accepts one configuration per
     submission. It is not a certification of every assertion of the
     manuscript: verification/certification/OPEN_OBLIGATIONS.md lists what
     remains open (A85-A86, literal L13, A06 GHP/dendron, A87 stochastic
     domination, A24/A67/A73 couplings) and the statements that are false as
-    printed (L03, L04, P03 upper). The official Comparator, the Linux
-    sandbox, independent kernel checks other than the toolchain's local
-    replays, and the Palomar mechanical report have not been run. Nothing has
+    printed (L03, L04, P03 upper). The official standalone Linux Comparator,
+    with Bubblewrap isolation and NanoDa explicitly enabled, passed all four
+    main configurations and the auxiliary configuration at clean commit
+    54253ce4046e1314cf5af6aedb19a278200d168d. Both NanoDa and Lean's kernel
+    accepted every Solution; the full build and axiom audits also passed.
+    Current evidence is in verification/certification/linux/SUMMARY.md.
+    The full Palomar mechanical report and GitHub workflow execution remain
+    unobtained. This is not Palomar acceptance or whole-paper certification. Nothing has
     been uploaded and no visibility was changed. The counts of proof holes
     below concern the implementation (Freezing1) and the Solution modules; the
     Challenge modules contain deliberate theorem holes exactly at the
@@ -116,12 +122,14 @@ automation:
       framework: Codex
       tool_setup: >-
         Local Lean and Mathlib, source-file search, tactics, parallel proof
-        workers, and separate automated statement reviewers. Model build
+        workers, and separate automated statement reviewers. The pinned official
+        Comparator, NanoDa and Lean were also run in an isolated local Ubuntu
+        VM with Bubblewrap 0.12.0. Model build
         identifiers are not recorded. No native evaluation proof axioms used.
       cost:
         wall_time: not tracked
         spend_usd: not tracked
-        hardware: local macOS machine
+        hardware: local macOS machine; local Ubuntu VM for Linux verification
       prompting_notes: >-
         Formalize every named and substantive assertion, prioritize Introduction
         results, preserve unresolved obligations, and audit source fidelity.
@@ -229,7 +237,8 @@ review:
     The inventory was read independently of implementation. Separate agents
     reviewed changed statements and definitions. Proof-bearing Challenge copies
     the implementation and is not an independent proof. Current build/axiom
-    evidence and missing Comparator/Palomar evidence are in the report. Each of
+    evidence, official standalone Linux Comparator/NanoDa/Lean acceptance and
+    the missing full Palomar report are recorded separately. Each of
     the four main-result Challenge files was reviewed against the manuscript by
     a separate agent that had not written it and did not read the proofs
     (verification/certification/*/INDEPENDENT_REVIEW.md): no unfaithful or

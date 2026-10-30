@@ -1,0 +1,320 @@
+Checked 8683 Freezing1 declarations; all transitive axioms belong to propext, Classical.choice, Quot.sound.
+'Freezing1.heightScale_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.local_convergence_equivalences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.local_convergence_common_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_isBienayme' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_offspring_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_geometric_local_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.embedded_sir_not_tight_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.uniform_fluid_on_time_interval_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.Susceptible.uniform_infectious_fluid_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.fluidProfile_unique_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.fluidExtinctionTime_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.StoppedCoupling.map_fullLaw_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.StoppedCoupling.map_fullLaw_unstopped' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.StoppedCoupling.fullLaw_agree_until_extinction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.individualClock_race' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.individualClock_selected_kind_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.principalLambertW_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.fluidProfile_lambertW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_uniform_height_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_uniform_distance_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.sir_terminal_maximum_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_logLog_extinction_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_early_uniform_distance_negligible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.RandomEnvironment.uniform_bound_of_sequential_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.embedded_sir_uniform_height_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.embedded_sir_uniform_distance_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.independent_poisson_fullContact_tree_fullLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.independent_poisson_fullContact_counts_fullLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_geometric_local_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_uniform_height_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.physical_sir_uniform_distance_limit_of_source_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.paperEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.unorderedPaperEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_countsPrefix_original_treePrefix_word_mixture' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.PoissonSIRData.countsPrefix_original_treePrefix_word_mixture' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.actualBirthHeightLaw_eq_auxiliary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomMean_condExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomMean_normalized_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_extinction_of_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_nonextinction_local_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.existsUnique_paper_consecutive_relabelling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BinaryBijection.source_fullyFrozen_card_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.source_fullyFrozen_card_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.BinaryBijection.tangentFormalSeries_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.UniformBirth.randomRelativeError_real_moment_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.UniformBirth.linear_uniform_height_via_random_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.zeroRate_physical_tree_fullLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.zeroRate_physical_counts_fullLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.exists_local_limit_iff_all_degrees_stabilize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.conditional_postBirthAttachment_iIndepSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.fullLaw_local_limit_iff_all_eventually_frozen_all_schedules' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.attachment_density_ge_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.printed_attachment_reciprocal_sum_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.selectionIndexSchedule_actual_never_frozen_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.uniformActiveHeightLaw_eq_bernoulli_array' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_closed_deviation_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_closed_deviation_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.activeHeightError_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_tendsto_Lp_via_bernoulli' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.LocalTopologyVariants.plane_labelled_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneLabelled.tendsto_iff_positive_balls' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.PlaneLabelled.decorate_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_prefix_slotForest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_uniform_root_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.indepFun_prefix_erasedForest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.heightScale_sorted_by_adjacent_swaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_sorted_schedule_by_adjacent_swaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.heightScale_lower_bound_by_adjacent_swaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.activeHeight_moment_le_split_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exponentialMomentTail_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformActiveHeight_tendsto_Lp_via_tail_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.condExp_finite_invariant_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.indepFun_prefix_bareForest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_uniform_root_matching_bare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.bareForestComponentMaximum_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.eventually_maximum_uniform_bennett_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.maximum_height_tendsto_Lp_via_tail_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.FirstChildStructure.source_induction_expectation_identities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.condExp_eq_of_finite_invariant_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.condExp_le_of_finite_invariant_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.condExp_goodSet_succ_given_forest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.condVar_goodSet_succ_given_forest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.zeroRate_physical_absorption' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.optionalContactRun_arrivals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.planeLimitLaw_offspring_tail_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_strong_uniform_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.StoppedCoupling.gated_stopped_real_fluid_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_early_extinction_two_stage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometric_sir_survival_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.BiasedWalk.zero_probability_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.independent_exponential_winner_minimum_residual_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.populationPath_tendsto_iff_on_compacts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.scaledPopulationPath_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embedded_sir_fluid_limit_of_source_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.geometricSurvivalPathLaw_eq_fluidMixtureLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.Susceptible.noise_relative_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.treeFullLaw_plane_word_mixture_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.embeddedTerminalTreeLaw_original_word_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.countsFullLaw_infection_pressure_after_three_halves_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsPath_lintegral_birthHistoryCharge_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIRSourceChecks.printed_global_max_criterion_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.fullLaw_all_vertices_eventually_frozen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.PlaneForward.interleaving_fair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardInfiniteHistory.all_vertices_eventually_frozen_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.localLimitLaw_eq_extinction_treeLaw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.linear_conditional_goodChain_failure_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_birthTime_lt_of_le_extinctionTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.card_vertexLabels_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.tendsto_heightScale_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linearHeightFactor_existsUnique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linearHeightFactor_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linearHeightFactor_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bennettRate_linearHeightFactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bennettRate_linearHeightFactor_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.one_lt_bennettRate_exp_one_sub_one_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.self_le_bennettRate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bernoulli_sum_upper_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bernoulli_sum_lower_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.intervalPlusCount_eq_activeCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.intervalPlusCount_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.height_upper_bound_rhs_at_one_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_active_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.maximum_height_window_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.maximum_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.nearOriginLimsup_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bulkLiminf_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.heightInterval_log_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.logIntervalLimsup_of_nearOriginLimsup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_heightScale_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_uniform_height_tendsto_Lp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.linear_maximum_upper_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.uniformHeightLaw_integral_mixture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.uniformHeightLaw_mgf_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.uniformHeightLaw_lower_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_schedule_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_real_singleton_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_singleton_ne_zero_iff_hasHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.construction_laws_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.reverseStateLaw_eq_forward_treeLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.terminalFiber_eq_activeOrbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.corrected_forward_tree_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_singleton_ne_zero_iff_historyShape' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.Forward.HistoryShape.hasHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.uniform_coalescence_div_log_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.linear_geometricBlock_tallRoot_expectation_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_root_pair_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.RootedForest.joinLaw_coalescence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_isTree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.ValidAt.height_eq_tree_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_constant_after_extinction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.uniformActiveHeightLaw_integral_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeHeight_upper_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeHeight_lower_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.RootedForest.depth_eq_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.treeLaw_isTree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.transitionLaw_height_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.treeLaw_depth_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.height_increment_conditional_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ReverseHistory.phaseIncrements_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_depth_eq_sum_phaseIncrements' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_depth_difference_hasLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.integral_blockTallRootCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_coalescenceTime_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.fullLaw_coalescenceTime_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.uniformCoalescenceLaw_eq_conditional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ReverseHistory.uniformCoalescenceLaw_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseHistory.linear_uniform_coalescence_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.reverseMaximum_corrected_upper_tail_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseMaximum_lower_tail_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseStamped.treeLaw_times_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseStamped.treeLaw_timestamp_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseStamped.history_eq_of_terminal_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseStamped.transitionLaw_attachment_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ReverseStamped.treeLaw_real_singleton_factorial_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ReverseStamped.treeLaw_singleton_ne_zero_iff_hasHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.CanonicalTree.treeLaw_reverse_graph_isomorphic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_linear_poisson_tail_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bernoulliPartialSumLaw_poisson_parameter_event' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniform_geometricBlock_enlarged_parameter_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Reverse.uniform_birthTime_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.reverseHistoryWeight_eq_factorial_inv_mul_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.uniformRootPair_coalescence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.printed_height_upper_bound_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.source_local_convergence_equivalences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.source_local_convergence_common_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.iid_signs_source_ambient_local_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.source_local_limit_of_diagonal_tendsto_via_degrees' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.LocalTree.isClosedEmbedding_toUnordered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_infinite_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SignedUrn.positiveExtension_marked_component_endpoint_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.poisson_strict_tail_cubic_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.exists_linear_poisson_polynomial_scale_all_margins' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.printed_real_ceiling_factorial_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.printed_all_margin_rate_slack_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.printed_reverse_attachment_identity_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.positiveExtension_original_component_pathLaws' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardInfiniteHistory.positiveExtension_actual_component_infinite_maximal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.uniform_geometric_actual_pair_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.BernoulliPairCoupling.actual_separated_tail_le_enlarged_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.countsFullLaw_late_charge_reduced_to_lastHalf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.HalfSlope.auxiliary_halfSlope_probability_tendsto_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.ForwardAnnealed.HalfSlope.expected_auxiliary_harmonic_failures' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.InterleavedChain.source_right_factorization_absorbing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.linear_geometric_componentMaximum_tail_via_positiveExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.bennettRate_div_mul_log_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.bennett_unionBound_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.CanonicalTree.forward_uniformReverseBirthLaw_eq_reverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.CanonicalTree.forward_terminal_reverseBirthLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.ForwardAnnealed.exists_conditioned_iid_linear_coupling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Freezing1.SIR.source_same_epsilon_two_reverse_births' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.source_same_epsilon_two_uniform_captures' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_word_cutMaximum_bennett' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.SIR.terminal_word_cutMaximum_zero_charge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.Forward.treeLaw_allAttachment_eq_recursive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Freezing1.RecursiveTree.newest_parent_law' depends on axioms: [propext, Classical.choice, Quot.sound]

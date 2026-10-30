@@ -1,0 +1,33 @@
+test_duplicate_missing_error_and_forbidden_reports (test_verification.AxiomLogTests.test_duplicate_missing_error_and_forbidden_reports) ... ok
+test_wrapped_and_axiom_free_reports (test_verification.AxiomLogTests.test_wrapped_and_axiom_free_reports) ... ok
+test_wrong_names_cannot_replace_expected_queries (test_verification.AxiomLogTests.test_wrong_names_cannot_replace_expected_queries) ... ok
+test_summary_cannot_promote_failed_or_missing_evidence (test_verification.SummaryTests.test_summary_cannot_promote_failed_or_missing_evidence) ... ok
+test_actual_non_linux_host_is_rejected_without_commands (test_verification.VerificationTests.test_actual_non_linux_host_is_rejected_without_commands) ... skipped 'host is Linux'
+test_checkout_change_during_run_cannot_be_certified (test_verification.VerificationTests.test_checkout_change_during_run_cannot_be_certified) ... ok
+test_collector_stops_on_failed_required_checks (test_verification.VerificationTests.test_collector_stops_on_failed_required_checks) ... ok
+test_compare_stops_at_each_failed_boundary (test_verification.VerificationTests.test_compare_stops_at_each_failed_boundary) ... ok
+test_compare_success_separates_export_stderr (test_verification.VerificationTests.test_compare_success_separates_export_stderr) ... ok
+test_dirty_checkout_is_rejected_before_build (test_verification.VerificationTests.test_dirty_checkout_is_rejected_before_build) ... ok
+test_every_selected_kernel_failure_propagates (test_verification.VerificationTests.test_every_selected_kernel_failure_propagates) ... ok
+test_export_change_during_checking_is_failure (test_verification.VerificationTests.test_export_change_during_checking_is_failure) ... ok
+test_forbidden_axiom_config_is_rejected_before_commands (test_verification.VerificationTests.test_forbidden_axiom_config_is_rejected_before_commands) ... ok
+test_linux_official_failure_stops_later_interfaces (test_verification.VerificationTests.test_linux_official_failure_stops_later_interfaces) ... == build (log: /tmp/verification tests vw5g86hh/linux/build.log)
+== source-scan (log: /tmp/verification tests vw5g86hh/linux/source-scan.log)
+== axiom-audit (log: /tmp/verification tests vw5g86hh/linux/axiom-audit.log)
+== main-results-axioms (log: /tmp/verification tests vw5g86hh/linux/main-results-axioms.log)
+== check-axiom-log (log: /tmp/verification tests vw5g86hh/linux/axiom-log-check.log)
+== heights official comparator (log: /tmp/verification tests vw5g86hh/linux/heights.comparator.log)
+== locallimits official comparator (log: /tmp/verification tests vw5g86hh/linux/locallimits.comparator.log)
+== samelaw official comparator (log: /tmp/verification tests vw5g86hh/linux/samelaw.comparator.log)
+ERROR: samelaw official comparator failed (exit 7); /tmp/verification tests vw5g86hh/linux/samelaw.comparator.log
+injected failure: official samelaw
+ok
+test_missing_kernel_is_failure (test_verification.VerificationTests.test_missing_kernel_is_failure) ... ok
+test_stale_output_is_preserved_and_rejected (test_verification.VerificationTests.test_stale_output_is_preserved_and_rejected) ... ok
+test_successful_collector_finishes_all_interfaces (test_verification.VerificationTests.test_successful_collector_finishes_all_interfaces) ... ok
+test_zero_exit_without_success_confirmation_is_failure (test_verification.VerificationTests.test_zero_exit_without_success_confirmation_is_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 28.748s
+
+OK (skipped=1)

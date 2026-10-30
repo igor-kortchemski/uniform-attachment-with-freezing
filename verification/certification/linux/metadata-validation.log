@@ -1,0 +1,6 @@
+PASS: formalization.yaml validates against the refreshed official schema dispatcher and v0.4 schema (offline references).
+Dispatcher Git blob: 3c82c7f4580685888ce1719bfc394530c98ebb49
+v0.4 Git blob: 19f4a46a1bc0e4798dca7bcb7ed57281b1c8c996
+Policy head: 28bd48b9b71bbb2a82c718ce761d5a4220ef8e60
+Pipeline head: 14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+This is metadata schema validation, not a Palomar mechanical report.

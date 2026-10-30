@@ -49,6 +49,12 @@ in copies of all five configurations; the toolchain default is off.
 
 ## Codex takeover from `4b3e78c`
 
+**Current Linux evidence:** the official sandboxed Comparator, NanoDa and Lean
+accepted all four main interfaces plus the auxiliary configuration at clean
+commit `54253ce`. The 4,645-job build and both axiom audits passed. See
+[linux/SUMMARY.md](linux/SUMMARY.md) and its raw logs. This was a private local
+Linux VM run; no GitHub workflow or full Palomar pipeline was executed.
+
 The four interfaces have a new independent audit in each interface directory
 (`CODEX_AUDIT.md`). The selected statements pass within the disclosed chronological
 and canonical-observable representations. This does not certify the unrestricted
@@ -81,7 +87,7 @@ accepted by Lean's `leanchecker`, NanoDa (`nanoda_bin`) and the four other bundl
 `<interface>/{compare,run,leanchecker,kernels}.log`. The Claude evidence commits `7546bcf` and `4b3e78c` add only scripts, documentation and these logs
 (no Lean file changes, checked with `git diff --stat`); no rebuild was needed.
 
-## Four levels of evidence — kept distinct
+## Evidence levels — kept distinct
 
 1. **Verified in Lean (build + axioms).** `lake build` of `Freezing1`, `Challenge`, `Solution` and the
    `#print axioms` closure of each of the 26 exported names (20 conclusions, 5 pinning theorems, 1 non-vacuity theorem)
@@ -92,11 +98,13 @@ accepted by Lean's `leanchecker`, NanoDa (`nanoda_bin`) and the four other bundl
    `leanchecker`. `scripts/local-kernel-replay.sh` additionally runs NanoDa (`nanoda_bin`) and the other
    bundled checkers with Lake's invocation protocol. All of this runs outside the Linux sandbox.
    Negative controls: `negative-controls/README.md`.
-3. **Palomar mechanical conformity.** Not obtained: no official `lake comparator` run (it needs the Linux
-   bubblewrap sandbox; on macOS it exits with status 2 before any comparison), no `mechanical-report.json`,
-   no public commit. The workflows `.github/workflows/{ci,comparator,palomar}.yml` are prepared and have
-   **not** been run.
-4. **Whole-manuscript coverage.** Not claimed; see `OPEN_OBLIGATIONS.md`.
+3. **Official standalone Linux comparison and kernel replay.** Passed for all
+   five configurations at `54253ce`, with Bubblewrap isolation and NanoDa
+   explicitly enabled. See [linux/SUMMARY.md](linux/SUMMARY.md).
+4. **Palomar mechanical conformity.** Not obtained: no `mechanical-report.json`
+   or public candidate commit. The GitHub workflows remain prepared and unrun;
+   the standalone official Comparator does not replace the full pipeline.
+5. **Whole-manuscript coverage.** Not claimed; see `OPEN_OBLIGATIONS.md`.
 
 Independent statement reviews of each Challenge (written without reading the proofs):
 `heights/INDEPENDENT_REVIEW.md`, `locallimits/INDEPENDENT_REVIEW.md`, `samelaw/INDEPENDENT_REVIEW.md`,

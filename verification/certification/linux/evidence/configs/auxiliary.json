@@ -1,0 +1,29 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Freezing1.heightScale_lower_bound",
+    "Freezing1.uniform_birthTime_lt_of_le_extinctionTime",
+    "Freezing1.card_vertexLabels_real",
+    "Freezing1.tendsto_heightScale_atTop",
+    "Freezing1.linearHeightFactor_existsUnique",
+    "Freezing1.linearHeightFactor_spec",
+    "Freezing1.linearHeightFactor_one",
+    "Freezing1.bennettRate_linearHeightFactor",
+    "Freezing1.bennettRate_linearHeightFactor_add",
+    "Freezing1.one_lt_bennettRate_exp_one_sub_one_add",
+    "Freezing1.self_le_bennettRate",
+    "Freezing1.bernoulli_sum_upper_tail",
+    "Freezing1.bernoulli_sum_lower_tail",
+    "Freezing1.intervalPlusCount_eq_activeCount",
+    "Freezing1.intervalPlusCount_bounds",
+    "Freezing1.height_upper_bound_rhs_at_one_lt_one"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

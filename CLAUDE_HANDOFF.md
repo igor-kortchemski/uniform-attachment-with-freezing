@@ -1,4 +1,36 @@
-# Current Codex takeover checkpoint — 30 October 2026
+# Current Linux verification checkpoint — 30 October 2026
+
+The user authorized a private local Linux run while continuing to prohibit
+push/publication. The exact candidate `54253ce4046e1314cf5af6aedb19a278200d168d`
+passed the full Linux build (4,645 jobs), source scan (826 files), namespace
+axiom audit (8,683 declarations), exact-name export audit (26 names), and all
+five official sandboxed `lake comparator` invocations. NanoDa and Lean accepted
+every Solution. The clean source commit/tree was verified unchanged at the end;
+all nine locked dependency checkouts were also checked clean afterward.
+
+Read [the Linux summary](verification/certification/linux/SUMMARY.md) and its
+raw logs. The script suite executed seventeen passing tests and one expected
+non-Linux-host test skip. Eight initial cache-download failures stopped
+preparation; their separate retry passed. Both logs are retained.
+
+The run was entirely local in an Ubuntu VM. No GitHub workflow was dispatched,
+no remote was added, and nothing was pushed or published. The full Palomar
+mechanical report, public candidate commit, intake and registration are still
+pending. The existing chronological/observable scope qualifications and every
+whole-manuscript obligation remain in force. No proof, mathematical interface,
+comparison target, version pin or verifier script changed in this milestone;
+only documentation, verification-status metadata, evidence and Git attributes preserving the raw logs were
+added after the checked commit.
+
+The VM was stopped after evidence collection. Its reusable workspace is
+`../.freezing1-linux/`; its README records setup
+and lifecycle commands. Do not include its SSH keys, VM disk or binary downloads
+in a publication. Repository evidence contains only the selected text logs.
+Earlier sections below are historical checkpoints, superseded by this one.
+
+---
+
+# Initial Codex takeover checkpoint — 30 October 2026
 
 The user authorized takeover of `freezing1-candidate` from local commit
 `4b3e78c6b9cd9db80f1b63fd85046e2805589123`, four-interface audit, repairs
