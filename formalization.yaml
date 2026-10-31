@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
 version: v0.4
 project:
-  name: "Uniform attachment with freezing — partial formalization"
+  name: "Uniform attachment with freezing"
   description: >-
     An incomplete Lean formalization of Uniform attachment with freezing.
     All three parts of the Introduction's universal height theorem are proved

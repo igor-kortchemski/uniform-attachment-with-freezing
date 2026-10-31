@@ -1089,3 +1089,19 @@ The mechanical preflight gap is closed for the four selected interfaces only.
 No registry intake, editorial decision or registration has occurred. Whole-paper
 obligations, corrected false printed statements, representation qualifications and
 substantive proof departures remain explicitly unresolved as previously recorded.
+
+
+## User-selected publication title — 31 October 2026
+
+The user selected the exact title **Uniform attachment with freezing**.
+`project.name` in `formalization.yaml` and the software title in `CITATION.cff`
+now use that title. The descriptions, source inventory, twenty selected main
+conclusions, representation qualifications, proof departures and unresolved
+whole-paper obligations are unchanged. A project title is not a claim that
+all source assertions have been formalized.
+
+The existing four full mechanical reports continue to identify their exact
+checked source commit `82f0ad45a60ec785a725fc419082c7d1d779b222`; this metadata
+change does not retroactively change those reports. The existing registry intake is also bound to that old-title snapshot. The remaining
+old-title intakes are held while preparing the replacement snapshot. No proof,
+statement, semantic dependency, toolchain pin or verifier configuration changes.

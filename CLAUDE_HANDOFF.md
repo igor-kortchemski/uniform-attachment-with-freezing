@@ -1,3 +1,14 @@
+# Publication title updated — 31 October 2026
+
+The user requested the exact publication title **Uniform attachment with freezing**.
+The metadata and citation titles are updated; all scope qualifications remain.
+The first registry request (Heights) is frozen to source `82f0ad4`
+and retains its old title. The remaining old-source intakes are held. The
+private intake checkpoint outside this checkout records the replacement guard;
+never resume the old sequencer against `82f0ad4` without resolving that guard.
+This title change does not change any mathematical statement or proof, and does
+not give a new source SHA the status of the existing four mechanical reports.
+
 # Four full Palomar mechanical checks passed — 31 October 2026
 
 The reviewed candidate is public at `igor-kortchemski/uniform-attachment-with-freezing`.
