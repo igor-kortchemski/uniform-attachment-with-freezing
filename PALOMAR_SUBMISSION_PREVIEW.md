@@ -1,15 +1,19 @@
-# Four approved titles: candidate for the user's action check
+# Four approved titles: corrected metadata paths for the user's check
 
-The user approved these four titles on 31 October 2026. These files are local
-preparation. No new workflow dispatch, registry intake, withdrawal, replacement
-or registration is authorized by this preview itself.
+The user approved these four titles and the earlier batch at commit `174e765`.
+Those four checks stopped before Lean because the metadata filenames were
+rejected. This corrected local candidate preserves their exact contents and
+titles under the required basename `formalization.yaml`. It awaits the user's
+check before the retry batch. No registry request was changed or created.
+The [failed reports](verification/certification/palomar/path-correction-174e765/SUMMARY.md)
+are retained.
 
 | Selected source results | Approved title | Metadata path | Comparator configuration |
 | --- | --- | --- | --- |
-| T03–T04; seven conclusions | **Uniform attachment with freezing: height and distance asymptotics** | [metadata/heights.yaml](metadata/heights.yaml) | `comparator/heights.json` |
-| T01–T02; three conclusions | **Uniform attachment with freezing: local limits and geometric Bienaymé trees** | [metadata/locallimits.yaml](metadata/locallimits.yaml) | `comparator/locallimits.json` |
-| T05; one conclusion | **Uniform attachment with freezing: equivalence in law of the forward and reversed constructions** | [metadata/samelaw.yaml](metadata/samelaw.yaml) | `comparator/samelaw.json` |
-| T06–T07; nine conclusions | **Uniform attachment with freezing: SIR epidemic and infection-tree limits** | [metadata/sir.yaml](metadata/sir.yaml) | `comparator/sir.json` |
+| T03–T04; seven conclusions | **Uniform attachment with freezing: height and distance asymptotics** | [metadata/heights/formalization.yaml](metadata/heights/formalization.yaml) | `comparator/heights.json` |
+| T01–T02; three conclusions | **Uniform attachment with freezing: local limits and geometric Bienaymé trees** | [metadata/locallimits/formalization.yaml](metadata/locallimits/formalization.yaml) | `comparator/locallimits.json` |
+| T05; one conclusion | **Uniform attachment with freezing: equivalence in law of the forward and reversed constructions** | [metadata/samelaw/formalization.yaml](metadata/samelaw/formalization.yaml) | `comparator/samelaw.json` |
+| T06–T07; nine conclusions | **Uniform attachment with freezing: SIR epidemic and infection-tree limits** | [metadata/sir/formalization.yaml](metadata/sir/formalization.yaml) | `comparator/sir.json` |
 
 All four entries use the same candidate commit of
 `igor-kortchemski/uniform-attachment-with-freezing`. The source commit is fixed
@@ -22,7 +26,7 @@ The request for each entry must include its matching
 `palomar.yml` maps each configuration to its matching metadata file. No
 Challenge, Solution, compared target, proof or dependency pin was changed.
 
-## Proposed next actions, awaiting the user's check
+## Proposed corrected retry batch, awaiting the user's check
 
 1. Publish the prepared candidate commit to the existing public GitHub repository.
 2. Dispatch the four full mechanical preflights at that commit, selecting the

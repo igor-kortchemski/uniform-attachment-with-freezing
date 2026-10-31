@@ -50,7 +50,7 @@ coverage report; they are not automatically part of these four comparisons.
 
 The four user-approved entry titles and their matching metadata files are listed
 in the [submission preview](PALOMAR_SUBMISSION_PREVIEW.md). The root
-`formalization.yaml` describes the whole project; each file in `metadata/`
+`formalization.yaml` describes the whole project; each `metadata/<entry>/formalization.yaml` file
 describes one entry. The new metadata variants require full preflight on their
 own exact source commit before registry intake.
 

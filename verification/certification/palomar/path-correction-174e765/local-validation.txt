@@ -1,0 +1,7 @@
+Local metadata/path validation only; this is not a full Palomar preflight.
+Pinned metadata validator: PalomarRegistry/PalomarSubmission@14aa8d6b3c2f14a8540605e37144560b9a00e7e7 scripts.submission_contract.load_formalization_metadata.
+heights: mandatory basename and matching path PASS; metadata byte-identical to 174e765; exact pinned validator and official v0.4 schema PASS; selected-source mappings and workflow options PASS.
+locallimits: mandatory basename and matching path PASS; metadata byte-identical to 174e765; exact pinned validator and official v0.4 schema PASS; selected-source mappings and workflow options PASS.
+samelaw: mandatory basename and matching path PASS; metadata byte-identical to 174e765; exact pinned validator and official v0.4 schema PASS; selected-source mappings and workflow options PASS.
+sir: mandatory basename and matching path PASS; metadata byte-identical to 174e765; exact pinned validator and official v0.4 schema PASS; selected-source mappings and workflow options PASS.
+Every Lean/definition/proof/target/pin byte and every source inventory row unchanged from 174e765.

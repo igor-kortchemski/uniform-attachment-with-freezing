@@ -1129,3 +1129,20 @@ candidate and action batch for that check. No new dispatch, intake, withdrawal,
 replacement, registration or publication of private review content was performed
 at this local preparation milestone. The stale first registry request remains
 bound to its earlier source until a separately approved replacement action.
+
+
+## Metadata filename correction prepared locally — 31 October 2026
+
+The user approved the exact `174e765` batch. Its four full checks all failed
+at intake, before Lean, with `Formalization metadata path must name
+formalization.yaml`. The scoped files had been named `metadata/<entry>.yaml`.
+The raw [failed reports](verification/certification/palomar/path-correction-174e765/SUMMARY.md)
+are retained. The conditional withdrawal/replacement and registry intakes did
+not proceed, since no check passed.
+
+The local correction moves each file to `metadata/<entry>/formalization.yaml`
+and updates the workflow and preview paths. The four metadata contents and
+approved titles are byte-identical to the rejected snapshot. No mathematical
+statement, definition, proof, target, pin or inventory row changes. No new
+mathematical obligation or paper argument is certified. This corrected source
+awaits the user's action check before publication and fresh full preflights.

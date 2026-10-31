@@ -1,3 +1,18 @@
+# Corrected metadata filenames: local candidate awaiting user check
+
+All four full checks of approved source `174e765` stopped at intake, before
+Lean, because the metadata basename must be `formalization.yaml`. Raw reports
+are in `verification/certification/palomar/path-correction-174e765/`.
+The old Heights registry request was not withdrawn and no replacement intake
+was created. The full-pass condition in the approved batch was not met.
+
+The corrected local layout is `metadata/<entry>/formalization.yaml`. File
+contents, the four approved titles and every mathematical source/pin are
+unchanged. The workflow and action preview use the corrected paths. Follow
+`PALOMAR_SUBMISSION_PREVIEW.md` and obtain the user's check of this corrected
+candidate before further external changes. Keep existing registration and
+private-review-publication restrictions in force.
+
 # Four approved entry titles: local candidate awaiting action check
 
 The four user-approved titles now have separate metadata files under `metadata/`.

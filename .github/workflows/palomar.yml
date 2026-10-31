@@ -8,7 +8,7 @@ name: Palomar full mechanical preflight
 #   comparator/samelaw.json    (T05)
 #   comparator/sir.json        (T06, T07)
 # Exact-source run status and reports are tracked in verification/certification/palomar/.
-# Per-entry titles and scopes come from the matching metadata/*.yaml file.
+# Per-entry titles and scopes come from the matching metadata/<entry>/formalization.yaml file.
 # Obtain the user's check of the exact proposed actions before dispatching this workflow.
 on:
   workflow_dispatch:
@@ -49,6 +49,6 @@ jobs:
         ${{ format(
           '{{"comparator_config_path":{0},"formalization_metadata_path":{1},"authorization_relationship":{2}}}',
           toJSON(inputs.comparator_config),
-          toJSON(fromJSON('{"comparator/heights.json":"metadata/heights.yaml","comparator/locallimits.json":"metadata/locallimits.yaml","comparator/samelaw.json":"metadata/samelaw.yaml","comparator/sir.json":"metadata/sir.yaml"}')[inputs.comparator_config]),
+          toJSON(fromJSON('{"comparator/heights.json":"metadata/heights/formalization.yaml","comparator/locallimits.json":"metadata/locallimits/formalization.yaml","comparator/samelaw.json":"metadata/samelaw/formalization.yaml","comparator/sir.json":"metadata/sir/formalization.yaml"}')[inputs.comparator_config]),
           toJSON(inputs.authorization_relationship)
         ) }}
