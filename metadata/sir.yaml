@@ -1,0 +1,191 @@
+# Per-entry metadata; prepared locally with the user-approved title.
+version: v0.4
+project:
+  name: 'Uniform attachment with freezing: SIR epidemic and infection-tree limits'
+  description: >-
+    Lean proofs of the local, fluid and terminal geometric limits of the SIR epidemic and its infection
+    tree. The selected results include the finite-rate geometric Bienaymé limit, strong-rate non-tightness,
+    the finite-rate fluid and height/distance survival mixtures, and the strong-rate fluid, height, distance
+    and maximum-height limits. The physical model uses independent exponential recoveries and infection-age
+    contact paths; existence for positive rates and the relevant clock-law identifications are proved.
+    This entry covers T06–T07 and shares its proof repository with the other main-result groups.
+  authors:
+  - Igor Kortchemski
+  responsible_maintainers:
+  - Igor Kortchemski
+  license: Apache-2.0
+classification:
+  arxiv:
+  - math.PR
+  - math.CO
+  msc2020:
+  - 60C05
+  - 05C80
+  - 60F05
+sources:
+- title: Uniform attachment with freezing
+  authors:
+  - Étienne Bellin
+  - Arthur Blanc-Renaudie
+  - Emmanuel Kammerer
+  - Igor Kortchemski
+  type: article
+  relationship: formalizes
+  id: sha256:88953dd87165a14b0e643c5b3d0075d8ce5ec39cdcfc0c25d313570fc3ab00df
+  location: https://arxiv.org/abs/2308.00493
+  license: unknown
+  note: >-
+    The source is unchanged. Full inventory, locators, known false assertions and missing proof steps
+    are retained in FORMALIZATION_REPORT.md. The supplied manuscript is not redistributed in this candidate
+    export. The arXiv location identifies the paper; version equality with the supplied 2590-line TeX
+    source identified by the SHA-256 above has not been established. The code license does not relicense
+    the manuscript.
+related_formalizations: []
+status:
+  scope: >-
+    The exact selected targets are in comparator/sir.json: nine main conclusions of T06–T07 and four supporting
+    physical-model and existence pins, thirteen comparison targets in total. Rate assumptions, uniform
+    sampling of all terminal vertices, the pair diagonal, constants and convergence modes retain their
+    source meanings. The model is non-vacuous for every positive rate, with eventual positivity derived
+    from the asymptotic assumptions. Chronological plane-tree and locally uniform path-carrier representations
+    remain explicit qualifications. The reversed iid coupling A85–A86 and other whole-paper obligations
+    remain open despite alternative proofs of the main conclusions. The historical full mechanical report
+    at 82f0ad45a60ec785a725fc419082c7d1d779b222 verifies the unchanged interface; the new metadata snapshot
+    requires its own full preflight.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+automation:
+  methods:
+  - method: agent
+    models: []
+    framework: Codex
+    tool_setup: >-
+      Local Lean and Mathlib, source-file search, tactics, parallel proof workers, and separate automated
+      statement reviewers. The pinned official Comparator, NanoDa and Lean were also run in an isolated
+      local Ubuntu VM with Bubblewrap 0.12.0. Model build identifiers are not recorded. No native evaluation
+      proof axioms used.
+    cost:
+      wall_time: not tracked
+      spend_usd: not tracked
+      hardware: local macOS machine; local Ubuntu VM for Linux verification
+    prompting_notes: Formalize every named and substantive assertion, prioritize Introduction results,
+      preserve unresolved obligations, and audit source fidelity.
+  - method: agent
+    models: []
+    framework: Claude Code
+    tool_setup: >-
+      Local Lean and Mathlib v4.35.0, leanexport/leanchecker/nanoda_bin of the toolchain, parallel sub-agents
+      for Challenge construction and independent statement review. The exact Claude model identifier is
+      not verified by the retained execution records. No native evaluation proof axioms used.
+    cost:
+      wall_time: not tracked
+      spend_usd: not tracked
+      hardware: local macOS machine
+    prompting_notes: Prepare a verifiable certification interface for the main results T01-T07 without
+      presenting it as whole-manuscript certification.
+  spend_usd: not tracked
+  notes: >-
+    The user selected Apache-2.0, Igor Kortchemski as contributor and responsible maintainer. The reviewed
+    candidate is prepared for the public repository igor-kortchemski/uniform-attachment-with-freezing.
+    The old development repository and its manuscript history are preserved privately under a different
+    name. The main-result Challenge/Solution interfaces were prepared and reviewed by Claude Code agents
+    (see verification/certification/); no human review.
+fidelity:
+  divergences: >-
+    The limits use exact finite-word mixtures, frozen-ball transfer, forward fluid estimates and harmonic-charge
+    bounds, bypassing the manuscript's Skorokhod and reversed iid-coupling arguments. The physical full-contact
+    protocol and its tree/count histories are derived from genuine independent clock data; positive-rate
+    existence is proved. Counts directly measure susceptible and infectious individuals. The translation
+    between chronological plane trees or all-function locally uniform paths and the article's alternate
+    carrier language remains a reviewed representation qualification where not separately formalized.
+    Proving the nine conclusions does not certify the skipped reversed-coupling argument; the full correspondence
+    and remaining obligations are in the shared reports.
+review:
+  status: independent automated statement audits; no human mathematical review claimed
+  reviewers:
+  - Codex source-inventory and statement-audit agents
+  - Claude Code independent statement reviewers of the four Challenge interfaces
+  notes: >-
+    The existing independent automated statement audits for sir are reused because the Lean statements,
+    defining dependencies, proofs, toolchain and comparator targets are unchanged. Review records are
+    in verification/certification/sir/INDEPENDENT_REVIEW.md and CODEX_AUDIT.md, with the shared manuscript
+    correspondence and representation qualifications. This metadata preparation is not a new mathematical
+    review or a full preflight, and no human mathematical review is claimed.
+alignment:
+  namespace: Freezing1
+  statements:
+  - source: thm:SIRlocallimit I, source-model conclusion, lines2047–2054
+    lean: Freezing1.SIR.physical_sir_geometric_local_limit_of_source_ratio
+    module: Freezing1.SIRPhysicalLimits
+    status: proved
+    note: >-
+      Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact
+      source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence
+      estimate is assumed.
+  - source: thm:SIRlocallimit II, source-model conclusion, lines2047–2054
+    lean: Freezing1.SIR.physical_sir_not_tight_of_source_ratio
+    module: Freezing1.SIRPhysicalLimits
+    status: proved
+    note: >-
+      Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact
+      source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence
+      estimate is assumed.
+  - source: thm:SIR I(a), source-model conclusion, lines2080–2087
+    lean: Freezing1.SIR.physical_sir_fluid_limit_of_source_ratio
+    module: Freezing1.SIRPhysicalLimits
+    status: proved
+    note: >-
+      Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact
+      source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence
+      estimate is assumed.
+  - source: thm:SIR II(a), source-model conclusion, lines2095–2101
+    lean: Freezing1.SIR.physical_sir_strong_uniform_fluid_limit_of_source_ratio
+    module: Freezing1.SIRPhysicalLimits
+    status: proved
+    note: >-
+      Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact
+      source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence
+      estimate is assumed.
+  - source: thm:SIR II(b), uniform height, source-model conclusion, lines2102–2104
+    lean: Freezing1.SIR.physical_sir_strong_terminal_uniform_height_of_source_ratio
+    module: Freezing1.SIRPhysicalLimits
+    status: proved
+    note: >-
+      Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact
+      source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence
+      estimate is assumed.
+  - source: thm:SIR II(b), independent-pair distance, source-model conclusion, lines2102–2104
+    lean: Freezing1.SIR.physical_sir_strong_terminal_uniform_distance_of_source_ratio
+    module: Freezing1.SIRPhysicalLimits
+    status: proved
+    note: >-
+      Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact
+      source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence
+      estimate is assumed.
+  - source: thm:SIR II(b), maximum height, source-model conclusion, lines2102–2104
+    lean: Freezing1.SIR.physical_sir_strong_terminal_maximum_of_source_ratio
+    module: Freezing1.SIRPhysicalLimits
+    status: proved
+    note: >-
+      Actual full-contact protocol with supplied independent recovery and Poisson counting laws; exact
+      source rate ratio, eventual data and derived eventual positivity. No embedded law or convergence
+      estimate is assumed.
+  - source: thm:SIR I(b), uniform height, lines2088–2093
+    lean: Freezing1.SIR.physical_sir_uniform_height_limit_of_source_ratio
+    module: Freezing1.SIRPhysicalFiniteLimits
+    status: proved
+    note: >-
+      Complete terminal conditional uniform height divided by log n; concrete geometric Bienayme survival
+      target, exact rate ratio and eventual source process data.
+  - source: thm:SIR I(b), independent-pair distance, lines2088–2093
+    lean: Freezing1.SIR.physical_sir_uniform_distance_limit_of_source_ratio
+    module: Freezing1.SIRPhysicalFiniteLimits
+    status: proved
+    note: Actual graph metric, independent conditional uniform pair including diagonal, complete terminal
+      tree and shared concrete geometric survival target.
+acknowledgements: Lean, Mathlib and their contributors; source-paper authors; Codex proof and audit assistance.
+  Local workflow skills retain their bundled attribution.

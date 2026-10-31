@@ -1,0 +1,137 @@
+# Per-entry metadata; prepared locally with the user-approved title.
+version: v0.4
+project:
+  name: 'Uniform attachment with freezing: local limits and geometric Bienaymé trees'
+  description: >-
+    Lean proofs of the local-limit criterion and geometric Bienaymé limit for uniform attachment trees
+    with freezing. The selected conclusions characterize convergence by the divergence of the freezing
+    reciprocal sum, identify the common limit for approximating schedules, and identify the iid-sign limit
+    as a Bienaymé tree with offspring probabilities (1-p)p^k for 0 <= p < 1. The compared carrier is chronological;
+    the full ambient transport is proved in the library outside these selected targets. This entry covers
+    T01–T02 and shares its proof repository with the other result groups.
+  authors:
+  - Igor Kortchemski
+  responsible_maintainers:
+  - Igor Kortchemski
+  license: Apache-2.0
+classification:
+  arxiv:
+  - math.PR
+  - math.CO
+  msc2020:
+  - 60C05
+  - 05C80
+  - 60F05
+sources:
+- title: Uniform attachment with freezing
+  authors:
+  - Étienne Bellin
+  - Arthur Blanc-Renaudie
+  - Emmanuel Kammerer
+  - Igor Kortchemski
+  type: article
+  relationship: formalizes
+  id: sha256:88953dd87165a14b0e643c5b3d0075d8ce5ec39cdcfc0c25d313570fc3ab00df
+  location: https://arxiv.org/abs/2308.00493
+  license: unknown
+  note: >-
+    The source is unchanged. Full inventory, locators, known false assertions and missing proof steps
+    are retained in FORMALIZATION_REPORT.md. The supplied manuscript is not redistributed in this candidate
+    export. The arXiv location identifies the paper; version equality with the supplied 2590-line TeX
+    source identified by the SHA-256 above has not been established. The code license does not relicense
+    the manuscript.
+related_formalizations: []
+status:
+  scope: >-
+    The exact selected targets are in comparator/locallimits.json: three main conclusions of T01–T02 and
+    supporting model and measurability pins, twenty-eight comparison targets in total. Only the limiting
+    deterministic schedule must survive forever in T01; approximating schedules may be absorbed. T02 integrates
+    out iid signs, includes p=0, and uses birth-ordered plane trees. A genuine measurable limit and its
+    probability law are pinned. Full ambient consumers are proved in the library but are not selected
+    in this interface. Whole-paper obligations remain in FORMALIZATION_REPORT.md. The historical full
+    mechanical report at 82f0ad45a60ec785a725fc419082c7d1d779b222 verifies the unchanged mathematical
+    interface; this per-entry metadata snapshot still requires a fresh full preflight.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+automation:
+  methods:
+  - method: agent
+    models: []
+    framework: Codex
+    tool_setup: >-
+      Local Lean and Mathlib, source-file search, tactics, parallel proof workers, and separate automated
+      statement reviewers. The pinned official Comparator, NanoDa and Lean were also run in an isolated
+      local Ubuntu VM with Bubblewrap 0.12.0. Model build identifiers are not recorded. No native evaluation
+      proof axioms used.
+    cost:
+      wall_time: not tracked
+      spend_usd: not tracked
+      hardware: local macOS machine; local Ubuntu VM for Linux verification
+    prompting_notes: Formalize every named and substantive assertion, prioritize Introduction results,
+      preserve unresolved obligations, and audit source fidelity.
+  - method: agent
+    models: []
+    framework: Claude Code
+    tool_setup: >-
+      Local Lean and Mathlib v4.35.0, leanexport/leanchecker/nanoda_bin of the toolchain, parallel sub-agents
+      for Challenge construction and independent statement review. The exact Claude model identifier is
+      not verified by the retained execution records. No native evaluation proof axioms used.
+    cost:
+      wall_time: not tracked
+      spend_usd: not tracked
+      hardware: local macOS machine
+    prompting_notes: Prepare a verifiable certification interface for the main results T01-T07 without
+      presenting it as whole-manuscript certification.
+  spend_usd: not tracked
+  notes: >-
+    The user selected Apache-2.0, Igor Kortchemski as contributor and responsible maintainer. The reviewed
+    candidate is prepared for the public repository igor-kortchemski/uniform-attachment-with-freezing.
+    The old development repository and its manuscript history are preserved privately under a different
+    name. The main-result Challenge/Solution interfaces were prepared and reviewed by Claude Code agents
+    (see verification/certification/); no human review.
+fidelity:
+  divergences: >-
+    T01 uses true pre-step freezing hazards with a proved comparison to the source's post-step reciprocal
+    series. The printed nonmonotone union-event inference is replaced by marginal finite-ball estimates.
+    The chronological carrier is the closed subspace containing the actual trees; the library proves its
+    full ambient weak-law transport, outside the selected comparison targets. The annealed history and
+    birth-order plane convention retain the mathematical content of T02. Explicit joint couplings A24/A67/A73
+    remain separate open obligations where applicable; their required marginal conclusions are proved.
+    See the source correspondence and FORMALIZATION_REPORT.md for the complete proof-route account.
+review:
+  status: independent automated statement audits; no human mathematical review claimed
+  reviewers:
+  - Codex source-inventory and statement-audit agents
+  - Claude Code independent statement reviewers of the four Challenge interfaces
+  notes: >-
+    The existing independent automated statement audits for locallimits are reused because the Lean statements,
+    defining dependencies, proofs, toolchain and comparator targets are unchanged. Review records are
+    in verification/certification/locallimits/INDEPENDENT_REVIEW.md and CODEX_AUDIT.md, with the shared
+    manuscript correspondence and representation qualifications. This metadata preparation is not a new
+    mathematical review or a full preflight, and no human mathematical review is claimed.
+alignment:
+  namespace: Freezing1
+  statements:
+  - source: thm:BGW, lines277–280
+    lean: Freezing1.ForwardAnnealed.iid_signs_geometric_local_limit
+    module: Freezing1.MainGeometricLimit
+    status: proved
+    note: Actual iid-sign history, concrete geometric offspring law, chronological plane ordering, p=0
+      and extinction included.
+  - source: thm:cvlocale, lines 257–268
+    lean: Freezing1.local_convergence_equivalences
+    module: Freezing1.MainLocalLimit
+    status: proved
+    note: All three equivalences, literal reciprocal sum, genuine fixed and diagonal laws; no survival
+      condition on approximating schedules.
+  - source: thm:cvlocale, common limit assertion, lines 266–267
+    lean: Freezing1.local_convergence_common_limit
+    module: Freezing1.MainLocalLimit
+    status: proved
+    note: The same almost-everywhere measurable pathwise limit supplies both weak limit laws.
+acknowledgements: Lean, Mathlib and their contributors; source-paper authors; Codex proof and audit assistance.
+  Local workflow skills retain their bundled attribution.

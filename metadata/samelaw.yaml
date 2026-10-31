@@ -1,0 +1,125 @@
+# Per-entry metadata; prepared locally with the user-approved title.
+version: v0.4
+project:
+  name: 'Uniform attachment with freezing: equivalence in law of the forward and reversed constructions'
+  description: >-
+    Lean proof that the forward uniform-attachment/freezing construction and the reversed growth-coalescent
+    construction give the same distribution of labelled rooted trees, after the prescribed erasure of
+    active reverse labels. The equality includes the extinction endpoint. It is stated on a canonical
+    encoding that retains the complete graph and relevant labels. The dictionary to literal isomorphism-class
+    language is mathematically reviewed but is not an additional Lean quotient-law equivalence theorem.
+    This entry covers T05 and shares its proof repository with the companion asymptotic and SIR entries.
+  authors:
+  - Igor Kortchemski
+  responsible_maintainers:
+  - Igor Kortchemski
+  license: Apache-2.0
+classification:
+  arxiv:
+  - math.PR
+  - math.CO
+  msc2020:
+  - 60C05
+  - 05C80
+  - 60F05
+sources:
+- title: Uniform attachment with freezing
+  authors:
+  - Étienne Bellin
+  - Arthur Blanc-Renaudie
+  - Emmanuel Kammerer
+  - Igor Kortchemski
+  type: article
+  relationship: formalizes
+  id: sha256:88953dd87165a14b0e643c5b3d0075d8ce5ec39cdcfc0c25d313570fc3ab00df
+  location: https://arxiv.org/abs/2308.00493
+  license: unknown
+  note: >-
+    The source is unchanged. Full inventory, locators, known false assertions and missing proof steps
+    are retained in FORMALIZATION_REPORT.md. The supplied manuscript is not redistributed in this candidate
+    export. The arXiv location identifies the paper; version equality with the supplied 2590-line TeX
+    source identified by the SHA-256 above has not been established. The code license does not relicense
+    the manuscript.
+related_formalizations: []
+status:
+  scope: >-
+    The exact selected targets are in comparator/samelaw.json: the main equality-of-laws conclusion of
+    T05 and supporting model/encoding pins, twenty-four comparison targets in total. The time range is
+    n <= tau, including extinction. The canonical observable retains vertex and edge identifiers, adjacency,
+    active status and frozen times; it is not merely a height or distance statistic. The representation
+    dictionary to labelled-tree isomorphism classes remains explicitly qualified in verification/certification/MAIN_RESULTS_CORRESPONDENCE.md.
+    All other manuscript claims remain in the project inventory. The historical full mechanical report
+    at 82f0ad45a60ec785a725fc419082c7d1d779b222 verifies the unchanged interface; this metadata snapshot
+    still needs a fresh full preflight.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+automation:
+  methods:
+  - method: agent
+    models: []
+    framework: Codex
+    tool_setup: >-
+      Local Lean and Mathlib, source-file search, tactics, parallel proof workers, and separate automated
+      statement reviewers. The pinned official Comparator, NanoDa and Lean were also run in an isolated
+      local Ubuntu VM with Bubblewrap 0.12.0. Model build identifiers are not recorded. No native evaluation
+      proof axioms used.
+    cost:
+      wall_time: not tracked
+      spend_usd: not tracked
+      hardware: local macOS machine; local Ubuntu VM for Linux verification
+    prompting_notes: Formalize every named and substantive assertion, prioritize Introduction results,
+      preserve unresolved obligations, and audit source fidelity.
+  - method: agent
+    models: []
+    framework: Claude Code
+    tool_setup: >-
+      Local Lean and Mathlib v4.35.0, leanexport/leanchecker/nanoda_bin of the toolchain, parallel sub-agents
+      for Challenge construction and independent statement review. The exact Claude model identifier is
+      not verified by the retained execution records. No native evaluation proof axioms used.
+    cost:
+      wall_time: not tracked
+      spend_usd: not tracked
+      hardware: local macOS machine
+    prompting_notes: Prepare a verifiable certification interface for the main results T01-T07 without
+      presenting it as whole-manuscript certification.
+  spend_usd: not tracked
+  notes: >-
+    The user selected Apache-2.0, Igor Kortchemski as contributor and responsible maintainer. The reviewed
+    candidate is prepared for the public repository igor-kortchemski/uniform-attachment-with-freezing.
+    The old development repository and its manuscript history are preserved privately under a different
+    name. The main-result Challenge/Solution interfaces were prepared and reviewed by Claude Code agents
+    (see verification/certification/); no human review.
+fidelity:
+  divergences: >-
+    The implementation follows the precise signs and ordered-root merging in Algorithm 2 rather than the
+    sign-swapped introductory sentence. Equality is proved through actual supported canonical states and
+    complete probability masses, using the corrected schedule-compatible support in place of the false
+    printed L04 support claim. The canonical observable retains the complete source tree information,
+    but the full translation to laws on a separately defined quotient of isomorphism classes is a reviewed
+    representation qualification rather than an extra compared theorem. The complete argument and source
+    corrections remain documented in the correspondence and coverage report.
+review:
+  status: independent automated statement audits; no human mathematical review claimed
+  reviewers:
+  - Codex source-inventory and statement-audit agents
+  - Claude Code independent statement reviewers of the four Challenge interfaces
+  notes: >-
+    The existing independent automated statement audits for samelaw are reused because the Lean statements,
+    defining dependencies, proofs, toolchain and comparator targets are unchanged. Review records are
+    in verification/certification/samelaw/INDEPENDENT_REVIEW.md and CODEX_AUDIT.md, with the shared manuscript
+    correspondence and representation qualifications. This metadata preparation is not a new mathematical
+    review or a full preflight, and no human mathematical review is claimed.
+alignment:
+  namespace: Freezing1
+  statements:
+  - source: thm:samelaw, lines 661–664
+    lean: Freezing1.CanonicalTree.construction_laws_eq
+    module: Freezing1.ConstructionEquivalence
+    status: proved
+    note: Full labelled rooted observable after erasing active names; n at extinction included.
+acknowledgements: Lean, Mathlib and their contributors; source-paper authors; Codex proof and audit assistance.
+  Local workflow skills retain their bundled attribution.

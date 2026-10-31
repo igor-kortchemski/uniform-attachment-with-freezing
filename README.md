@@ -48,6 +48,12 @@ the [interface qualifications](verification/certification/OPEN_OBLIGATIONS.md).
 Other proved library results have the build/axiom evidence recorded in the
 coverage report; they are not automatically part of these four comparisons.
 
+The four user-approved entry titles and their matching metadata files are listed
+in the [submission preview](PALOMAR_SUBMISSION_PREVIEW.md). The root
+`formalization.yaml` describes the whole project; each file in `metadata/`
+describes one entry. The new metadata variants require full preflight on their
+own exact source commit before registry intake.
+
 For the actual forward random-tree law, the development proves the normalized
 uniform-active height limit in every real $L^p$, the universal maximum-height
 window, and the maximum-height $L^p$ limit when $\log n=o(h_n^+)$. It constructs

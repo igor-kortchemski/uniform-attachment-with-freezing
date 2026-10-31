@@ -1105,3 +1105,27 @@ checked source commit `82f0ad45a60ec785a725fc419082c7d1d779b222`; this metadata
 change does not retroactively change those reports. The existing registry intake is also bound to that old-title snapshot. The remaining
 old-title intakes are held while preparing the replacement snapshot. No proof,
 statement, semantic dependency, toolchain pin or verifier configuration changes.
+
+
+## Four distinct entry titles approved — 31 October 2026
+
+The user approved the four proposed titles for heights/distances, local limits,
+construction equivalence in law, and SIR limits. The local candidate now contains
+matching `metadata/{heights,locallimits,samelaw,sir}.yaml` files with scoped entry
+abstracts, selected source mappings and explicit representation/proof-route
+qualifications. The root metadata continues to describe the whole project.
+The workflow locally maps each comparator choice to its metadata file.
+
+No Lean statement, definition, proof, comparison target, axiom policy or
+Lean/Mathlib/dependency pin changes. The source inventory rows and all open
+obligations are retained; title approval closes no mathematical obligation and
+certifies no additional paper argument. Existing proof and statement-audit
+findings are reused only for their unchanged mathematical sources. These new
+metadata variants require fresh exact-source full mechanical preflights.
+
+The user requires checking proposed Palomar actions before external changes.
+The [submission preview](PALOMAR_SUBMISSION_PREVIEW.md) prepares a concrete
+candidate and action batch for that check. No new dispatch, intake, withdrawal,
+replacement, registration or publication of private review content was performed
+at this local preparation milestone. The stale first registry request remains
+bound to its earlier source until a separately approved replacement action.

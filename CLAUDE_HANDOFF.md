@@ -1,3 +1,19 @@
+# Four approved entry titles: local candidate awaiting action check
+
+The four user-approved titles now have separate metadata files under `metadata/`.
+Their scopes and request paths are in
+[PALOMAR_SUBMISSION_PREVIEW.md](PALOMAR_SUBMISSION_PREVIEW.md). The workflow
+locally selects the matching file per comparator configuration. All Lean proofs,
+statements, comparison targets and pins are unchanged. Existing mathematical
+audits remain applicable; new metadata requires fresh exact-source preflight.
+
+The user requires checking exact proposed Palomar actions before external changes.
+This milestone prepares locally only. Do not push, dispatch checks, withdraw the
+old Heights request, create replacement intakes or register anything until the
+user checks and approves the concrete candidate/action packet. An approved batch
+can proceed without repeated questions for the same approved steps. Never publish
+private reviews before the user's review-dependent registration decision.
+
 # Publication title updated — 31 October 2026
 
 The user requested the exact publication title **Uniform attachment with freezing**.

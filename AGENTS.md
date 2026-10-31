@@ -60,6 +60,14 @@ them, open the linked files directly.
   Use Apache-2.0 for original code and project documentation; contributor and
   responsible maintainer: Igor Kortchemski. Preserve the manuscript's own rights.
   Palomar intake and review-dependent registration require their own authorized scope.
+- The user requires checking the exact proposed Palomar actions before further
+  external submissions or changes. Prepare locally and allow read-only inspection,
+  then show the source commit, titles, metadata/configuration paths, maintainer
+  relationship and proposed actions for approval. Do not dispatch new checks,
+  withdraw or replace a submission, or register a result before that check.
+  Once an explicit batch is approved, carry out that batch without asking again
+  for its already approved steps. Registration still requires the user's decision
+  on the exact returned review.
 
 ## Markdown mathematics
 
