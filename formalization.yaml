@@ -108,11 +108,13 @@ status:
     54253ce4046e1314cf5af6aedb19a278200d168d. Both NanoDa and Lean's kernel
     accepted every Solution; the full build and axiom audits also passed.
     Current evidence is in verification/certification/linux/SUMMARY.md.
-    The full Palomar mechanical report and GitHub workflow execution remain
-    unobtained at this preflight source snapshot. The user has authorized publication
-    of the reviewed candidate and four full mechanical checks; their exact-source
-    reports are tracked separately. This is not Palomar acceptance or whole-paper
-    certification. The counts of proof holes
+    All four full official Palomar mechanical preflights and ordinary GitHub CI
+    passed at public source commit 82f0ad45a60ec785a725fc419082c7d1d779b222,
+    preserved by tag palomar-checked-2026-10-31. Lean, NanoDa and con-ron accepted
+    all four interfaces. Exact reports, configurations and source identities are
+    archived in verification/certification/palomar/. This later documentation and
+    evidence snapshot contains no proof changes. Registry intake, editorial outcome
+    and registration remain pending; whole-paper certification is not claimed. The counts of proof holes
     below concern the implementation (Freezing1) and the Solution modules; the
     Challenge modules contain deliberate theorem holes exactly at the
     Comparator targets and nowhere else.

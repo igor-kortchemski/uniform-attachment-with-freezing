@@ -8,11 +8,13 @@ authors:
     given-names: Igor
 license: Apache-2.0
 abstract: >-
-  A Lean 4 and Mathlib formalization of the seven Introduction theorems of
+  A Lean 4 and Mathlib formalization of the seven main theorems of
   Uniform attachment with freezing, in four audited Challenge/Solution
   interfaces with documented carrier and model qualifications. The main
   interfaces pass the official sandboxed Linux Comparator, Lean's kernel and
-  NanoDa. Whole-manuscript coverage and full Palomar verification remain incomplete.
+  NanoDa. All four full Palomar mechanical preflights passed at the source commit recorded
+  in verification/certification/palomar/. Whole-manuscript coverage and registry
+  registration remain incomplete.
   Developed with automated proof and statement-audit assistance.
 references:
   - type: article

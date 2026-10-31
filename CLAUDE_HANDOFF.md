@@ -1,3 +1,20 @@
+# Four full Palomar mechanical checks passed — 31 October 2026
+
+The reviewed candidate is public at `igor-kortchemski/uniform-attachment-with-freezing`.
+The old repository and its manuscript/history remain private under the `-private`
+suffix. All four full official mechanical reports pass at source commit
+`82f0ad45a60ec785a725fc419082c7d1d779b222`, preserved by tag
+`palomar-checked-2026-10-31`. Lean, NanoDa and con-ron accepted every interface.
+Ordinary GitHub build/axiom CI also passed. See the
+[archived reports](verification/certification/palomar/README.md).
+
+This subsequent commit archives evidence and updates documentation only; the
+mathematical source/configuration/pin/script bytes remain unchanged. No registry
+intake or registration occurred. Every previously listed mathematical obligation,
+representation qualification and proof departure remains in force. Earlier
+checkpoints below are historical and their pending-publication statements are
+superseded by this section.
+
 # Authorized public-candidate checkpoint — 31 October 2026
 
 The user authorized preserving the existing GitHub repository privately as

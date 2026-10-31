@@ -83,22 +83,25 @@ Challenge interface.
   hand-written matcher/auxiliary-proof declarations in `Challenge/Sir.lean`) so that the names of private
   auxiliary declarations created by `omega`/`simp`/`deriving` agree with those of the multi-module development.
   They change no statement and no kernel term of a reachable constant (checked by the local and pinned official Linux comparisons), but
-  they are metaprogramming inside an interface file and Palomar acceptance is **unconfirmed**. The alternative
+  they are metaprogramming inside an interface file and full mechanical acceptance is now confirmed by the four reports; editorial
+  and registration outcomes remain unconfirmed. The alternative
   is a development refactor so that reachable definitions avoid these internals.
   `Challenge/LocalLimits.lean` also uses `bootstrap.genMatcherCode false` and explicit auxiliary
   proofs. The Codex audit inspected the pinned environment, matcher, exporter and recursive-comparison
-  implementations: these devices do not exempt constants from comparison; this is not a guarantee
-  of official policy or pipeline acceptance.
+  implementations: these devices do not exempt constants from comparison; the subsequent full official mechanical runs accepted the interfaces.
+  No editorial or registration acceptance is inferred.
 
-## 5. Unverified items, stated exactly
+## 5. Verification status and remaining limits
 
-1. **Full Palomar mechanical report:** not obtained. The official standalone
-   Linux Comparator, including NanoDa and Lean's kernel, passed all four main
-   interfaces and the auxiliary configuration at clean commit `54253ce` in a
-   private local Ubuntu VM. See [linux/SUMMARY.md](linux/SUMMARY.md). This closes
-   the standalone Linux verification gap, not the full Palomar pipeline gap.
-   Isolation was enabled. The historical macOS runs remain separately labelled.
-2. No public commit exists and nothing was uploaded; Palomar's pipeline checks a public repository at a commit.
+1. **Full Palomar mechanical reports: obtained and passed.** All four main
+   configurations passed at public commit `82f0ad45a60ec785a725fc419082c7d1d779b222`,
+   with Lean, NanoDa and con-ron acceptance. Source/configuration/target/pipeline
+   identities were inspected; see [palomar/README.md](palomar/README.md). The
+   earlier standalone Linux evidence, including the auxiliary configuration,
+   remains separately identified in [linux/SUMMARY.md](linux/SUMMARY.md).
+2. The reviewed candidate is public, with the exact checked snapshot tagged
+   `palomar-checked-2026-10-31`. The old manuscript/history repository remains
+   private. Registry intake, editorial outcome and registration remain pending.
 3. The local diagnostic (`scripts/local-comparator-diagnostic.sh`) reproduces Lake's own comparison functions
    outside the sandbox on `leanexport` output. It is not the official tool.
 4. Reviews are automated independent reviews; no human mathematical review is claimed.

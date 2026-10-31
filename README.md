@@ -1,9 +1,9 @@
 # Uniform attachment with freezing
 
 [![CI](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml)
-[![Comparator](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/comparator.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/comparator.yml)
+[![Comparator](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/palomar.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/palomar.yml)
 
-**The Introduction results T01–T07 have Lean proofs in four audited interfaces
+**The main results T01–T07 have Lean proofs in four audited interfaces
 (twenty conclusions), with the representation qualifications below.
 Whole-paper coverage remains incomplete.** This project develops Lean proofs for
 [*Uniform attachment with freezing*](https://arxiv.org/abs/2308.00493),
@@ -15,12 +15,14 @@ environments, substantive unnamed claims, open questions, and source issues.
 The arXiv link identifies the paper; byte/version equality with the supplied
 manuscript has not been established.
 
-The badge URLs target the public repository. CI and Comparator are separate
-workflows; the Comparator badge represents the standalone comparison workflow.
-The four full Palomar mechanical checks have their own workflow and reports.
-See the [publication checkpoint](verification/certification/palomar/README.md)
-for the frozen-candidate status. Existing verification is the exact-commit
-local Linux evidence linked below.
+**All four full Palomar mechanical checks passed** at source commit
+[`82f0ad45a60ec785a725fc419082c7d1d779b222`](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/tree/82f0ad45a60ec785a725fc419082c7d1d779b222),
+preserved by tag `palomar-checked-2026-10-31`. Lean, NanoDa and con-ron accepted
+every interface. The [reports and exact scope](verification/certification/palomar/README.md)
+are archived here; subsequent documentation/evidence commits contain no proof changes.
+The CI badge shows ordinary build CI. The Comparator badge shows the latest
+individual full Palomar run; consult the four reports for complete coverage.
+Registry intake and registration remain pending.
 
 **Certification interface for T01–T07 (official Linux Comparator passed).**
 `Challenge/` and `Solution/` state the seven main theorems

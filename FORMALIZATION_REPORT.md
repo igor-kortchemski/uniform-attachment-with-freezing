@@ -1061,3 +1061,31 @@ retained. No new mathematical obligation or paper argument is closed here.
 The scope remains seven selected theorems/twenty conclusions, with every
 whole-paper inventory obligation retained. Intake and registration are separate
 from the authorized mechanical checks.
+
+
+## Four full official Palomar mechanical preflights passed — 31 October 2026
+
+The public source commit `82f0ad45a60ec785a725fc419082c7d1d779b222`, tagged
+`palomar-checked-2026-10-31`, passed all four full mechanical checks using pinned
+pipeline `14aa8d6b3c2f14a8540605e37144560b9a00e7e7` and profile
+`palomar-standard-v1`. Every report has status pass, stage complete, no errors,
+and acceptance by Lean, NanoDa and con-ron. Ordinary build and axiom CI passed.
+The exact source/configuration hashes, selected theorem lists, source provenance,
+profile, workflow/pipeline identities and completed kernel outcomes were inspected.
+Raw reports and workflow metadata are archived in
+[verification/certification/palomar/](verification/certification/palomar/README.md).
+The only warnings concern the preferred Challenge review size, not mandatory limits.
+
+The initial four attempts rejected a free-text authorization input before Lean;
+those reports are retained. Corrected invocations use the accepted approval
+category and the same source commit. The old manuscript/history repository remains
+private under its renamed `-private` suffix; the reviewed export has a distinct
+public repository identity. The published proof and statement bytes, semantic
+dependencies, pins and verification scripts are unchanged from the audited source.
+This subsequent report/documentation commit changes no mathematics. The inherited
+inventory remains intact and no new paper argument or obligation is closed.
+
+The mechanical preflight gap is closed for the four selected interfaces only.
+No registry intake, editorial decision or registration has occurred. Whole-paper
+obligations, corrected false printed statements, representation qualifications and
+substantive proof departures remain explicitly unresolved as previously recorded.
