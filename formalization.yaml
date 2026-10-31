@@ -29,12 +29,14 @@ sources:
     type: article
     relationship: formalizes
     id: "sha256:88953dd87165a14b0e643c5b3d0075d8ce5ec39cdcfc0c25d313570fc3ab00df"
-    location: "attachement-uniforme-1-final.tex, supplied 2590-line source"
+    location: "https://arxiv.org/abs/2308.00493"
     license: unknown
     note: >-
       The source is unchanged. Full inventory, locators, known false assertions
       and missing proof steps are retained in FORMALIZATION_REPORT.md.
       The supplied manuscript is not redistributed in this candidate export.
+      The arXiv location identifies the paper; version equality with the supplied
+      2590-line TeX source identified by the SHA-256 above has not been established.
       The code license does not relicense the manuscript.
 related_formalizations: []
 status:
@@ -134,12 +136,13 @@ automation:
         Formalize every named and substantive assertion, prioritize Introduction
         results, preserve unresolved obligations, and audit source fidelity.
     - method: agent
-      models: [claude-sonnet-5-5]
+      models: []
       framework: Claude Code
       tool_setup: >-
         Local Lean and Mathlib v4.35.0, leanexport/leanchecker/nanoda_bin of the
         toolchain, parallel sub-agents for Challenge construction and
-        independent statement review. No native evaluation proof axioms used.
+        independent statement review. The exact Claude model identifier is not
+        verified by the retained execution records. No native evaluation proof axioms used.
       cost:
         wall_time: not tracked
         spend_usd: not tracked

@@ -2,7 +2,7 @@
 
 ## Project context
 
-- Source: [attachement-uniforme-1-final.tex](attachement-uniforme-1-final.tex), titled *Uniform attachment with freezing*.
+- Source: supplied `attachement-uniforme-1-final.tex`, titled *Uniform attachment with freezing*. The manuscript is intentionally omitted from this candidate export; its exact identity and locators are in [FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md).
 - Library: `Freezing1`; entry point: `Freezing1.lean`. Add modules under
   `Freezing1/` and import completed modules from the entry point.
 - Preserve Lean `leanprover/lean4:v4.35.0`, Mathlib `v4.35.0`, and the locked

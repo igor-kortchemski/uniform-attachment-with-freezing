@@ -1,8 +1,10 @@
 # Manuscript recommendations
 
-Source: [attachement-uniforme-1-final.tex](attachement-uniforme-1-final.tex).
+Source: supplied `attachement-uniforme-1-final.tex`, intentionally omitted from
+this export; exact source identity is recorded in
+[FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md).
 
-The manuscript is unchanged. The complete correctness findings S01–S19 and
+The manuscript is unchanged. The correctness findings, including S01–S23, and
 their evidence are in [FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md).
 
 | Priority | Source | Recommendation and evidence | Status |
@@ -20,7 +22,7 @@ their evidence are in [FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md).
 | Correctness | Random-mean complement, line 1423 | Begin the equality for $h_n^+-M_n$ strictly after the birth cutoff. The term at the cutoff is already included in $M_n$; the larger inclusive sum can still serve as an upper bound. | Correction needed; see S21 |
 | Clarity | Introduction line 311 | Correct the reversed signs in the summary of Algorithm 2 to agree with its precise definition. | Editorial correction needed |
 | Clarity | Birth-law proof line 611 | Conditional frozen birth time is uniform on labels shifted by one, not on the unshifted labels. The Lean law implements the correct shift. | Counting proof checked |
-| Exposition | Lower bound lines 1235–1242 | A direct count comparison gives the harmonic bound without adjacent swaps. This is the implemented proof; the swap argument remains unchecked. | Optional alternative proof |
+| Exposition | Lower bound lines 1235–1242 | A direct count comparison gives the harmonic bound without adjacent swaps. The original adjacent-swap/sorting route is now separately checked under A32 in the coverage report. | Both proof routes recorded |
 | Exposition | Uniform-block estimate, lines 1311–1378 | Abel summation of $S_i-ci$ gives the exact statement with an explicit uniform endpoint error, avoiding geometric subdivisions. | Alternative proof formalized |
 
 The remaining findings include integer rounding in strict Poisson tails,

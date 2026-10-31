@@ -1,4 +1,30 @@
-# Current Linux verification checkpoint — 30 October 2026
+# Current publication-content review checkpoint — 31 October 2026
+
+The user authorized step 1 only: final review of the public-release contents.
+No push, publication, remote addition or visibility change is authorized or
+performed. Read [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md) before any
+external action. It covers the local candidate/history through `d52e74e` and
+the subsequent documentation fixes. No credential-pattern matches or unwanted
+binary/build artifacts were detected; known local paths in raw history remain
+disclosed. Proof/interface/pin/script bytes remain those checked at `54253ce`.
+
+Fixed the Comparator badge target, stale citation scope, two missing-manuscript
+links, the stale A32 recommendation and an unsupported exact Claude model tag.
+Added the verified public paper reference while preserving the supplied TeX's
+SHA-256 identity and explicitly declining to assert version equality.
+No new mathematical result or manuscript argument was certified in this review.
+
+Important destination finding: the existing private GitHub repository's older
+tip `ee1aa1228a49b4df2432b696ee65bd188e482353` includes the manuscript TeX.
+That material is excluded from the reviewed candidate. Keep that repository
+private; decide a public destination for the selected export before publishing.
+Its complete remote history and other repository assets are not covered by the
+local-candidate review. Do not force-push or flip visibility as a substitute.
+The earlier Linux evidence and all whole-manuscript obligations remain valid.
+
+---
+
+# Linux verification checkpoint — 30 October 2026
 
 The user authorized a private local Linux run while continuing to prohibit
 push/publication. The exact candidate `54253ce4046e1314cf5af6aedb19a278200d168d`

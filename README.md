@@ -1,19 +1,24 @@
 # Uniform attachment with freezing
 
 [![CI](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml)
-[![Comparator](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml)
+[![Comparator](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/comparator.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/comparator.yml)
 
-**All Introduction theorem conclusions T01–T07, the unordered binary bijection P01 and tangent/Bernoulli enumeration C01 are proved; whole-paper coverage remains incomplete.** This project develops Lean proofs for *Uniform attachment with
-freezing*, by Étienne Bellin, Arthur Blanc-Renaudie, Emmanuel Kammerer, and Igor
+**The Introduction results T01–T07 have Lean proofs in four audited interfaces
+(twenty conclusions), with the representation qualifications below.
+Whole-paper coverage remains incomplete.** This project develops Lean proofs for
+[*Uniform attachment with freezing*](https://arxiv.org/abs/2308.00493),
+by Étienne Bellin, Arthur Blanc-Renaudie, Emmanuel Kammerer, and Igor
 Kortchemski. The source manuscript is unchanged and is intentionally omitted
 from this candidate export. The [coverage report](FORMALIZATION_REPORT.md)
-records its identity and retains all 24 named result
+records its exact SHA-256 identity and retains all 24 named result
 environments, substantive unnamed claims, open questions, and source issues.
+The arXiv link identifies the paper; byte/version equality with the supplied
+manuscript has not been established.
 
-The badges refer to an earlier partial snapshot in the private repository and
-to the same aggregate CI workflow. The current local proofs are ahead of that
-snapshot and nothing has been uploaded; the badges do not verify the local
-development or a Palomar candidate. See the report for current evidence.
+The badge URLs target the intended GitHub repository, which currently holds an
+earlier private snapshot. CI and Comparator are separate workflows. Neither has
+run for this candidate; the badges do not certify it. Current verification is
+the exact-commit local Linux evidence linked below. Nothing has been uploaded.
 
 **Certification interface for T01–T07 (official Linux Comparator passed).**
 `Challenge/` and `Solution/` state the seven main theorems
@@ -29,6 +34,15 @@ sandboxed `lake comparator`, including NanoDa and Lean's kernel, passed all four
 interfaces and the auxiliary configuration at commit `54253ce`. See the
 [Linux evidence](verification/certification/linux/SUMMARY.md). The full Palomar
 mechanical report remains unobtained; the GitHub workflows remain unrun.
+
+LocalLimits compares the chronological tree carrier; the full ambient bridge
+is proved in the library but is not a selected comparison target. SameLaw
+compares a canonical observable; its dictionary to literal isomorphism classes
+is reviewed rather than an additional Lean theorem. The precise SIR model,
+all assumptions, alternative proof routes and remaining gaps are disclosed in
+the [interface qualifications](verification/certification/OPEN_OBLIGATIONS.md).
+Other proved library results have the build/axiom evidence recorded in the
+coverage report; they are not automatically part of these four comparisons.
 
 For the actual forward random-tree law, the development proves the normalized
 uniform-active height limit in every real $L^p$, the universal maximum-height
@@ -144,14 +158,17 @@ to reproduce this snapshot.
 [comparator.json](comparator.json) retain the earlier 16 supporting-result
 interface. They do not yet include the new main-result declarations. Challenge imports only Mathlib and contains complete proofs to avoid
 introducing any proof holes. Its statements were independently audited; the
-copied proof implementations are **not** independent proofs. On Linux with
-Bubblewrap installed, run:
+copied proof implementations are **not** independent proofs. To check every main
+interface and this auxiliary configuration on Linux, install the pinned
+Bubblewrap using the recipe in
+[comparator.yml](.github/workflows/comparator.yml), then run:
 
 ```sh
-lake comparator --config comparator.json
+scripts/run-linux-checks.sh /tmp/freezing1-linux-evidence-new
 ```
 
-Comparator is not the full Palomar verification. The prepared manual Palomar
+The output directory must be new or empty and outside the checkout. The driver
+explicitly enables NanoDa. Comparator is not the full Palomar verification. The prepared manual Palomar
 workflow is restricted to public repositories; the requested private repository
 cannot currently be deposited. Whole-paper completion, source repairs, and the
 full official mechanical report remain outstanding.

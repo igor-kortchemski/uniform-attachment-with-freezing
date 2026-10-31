@@ -2,7 +2,7 @@ Uniform attachment with freezing — Lean formalization
 Copyright 2026 Igor Kortchemski
 
 The original Lean code and project documentation are licensed under Apache-2.0.
-This work was developed with Codex and collaborating automated proof/audit agents.
+This work was developed with Codex, Claude Code and collaborating automated proof/audit agents.
 No human review or endorsement is asserted by the automated verification evidence.
 
 Mathematical source: Uniform attachment with freezing, by Étienne Bellin,

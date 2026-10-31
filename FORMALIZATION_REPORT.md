@@ -1014,3 +1014,30 @@ whole-manuscript gaps remain explicit in
 Current identity, verdicts, reproduction commands and raw logs:
 [Linux evidence](verification/certification/linux/SUMMARY.md). Documentation
 and evidence added after the run do not retroactively change its checked commit.
+
+## Public-release content review — 31 October 2026
+
+The user authorized a review of the local candidate and its history before
+publication. The input was `d52e74e`: 1,787 tracked text files, five reachable
+commits and 1,590 unique reachable blobs. No credential-pattern matches,
+symlinks, submodules, unwanted build artifacts or manuscript TeX were found
+in that candidate history. Existing absolute local paths remain disclosed as
+provenance. Apache-2.0 and the separate skill-attribution/license notices are
+retained. The exact scope and checks are in
+[PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
+
+The Comparator badge target, citation scope, missing-source links and stale
+A32 recommendation were corrected. The prior report already records the
+proved adjacent-swap/sorting route; this review certifies no new paper argument.
+An unsupported exact Claude model identifier was removed while retaining its
+framework credit. A public paper reference was added without changing the
+formalized source's SHA-256 or asserting equality to the arXiv version.
+Source/target/definition/proof/dependency/toolchain/verifier bytes are unchanged
+from the Linux-checked snapshot; the source inventory and all open rows remain
+intact. Existing statement audits and proof evidence are reused on that basis.
+
+Read-only GitHub inspection found additional manuscript material in the older
+private repository. A visibility change there is not equivalent to publishing
+this selected export. The existing repository stays private and no upload or
+remote change was made. Public destination selection and the full Palomar
+mechanical report remain pending; whole-paper completion is not claimed.
