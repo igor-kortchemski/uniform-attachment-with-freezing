@@ -1041,3 +1041,23 @@ private repository. A visibility change there is not equivalent to publishing
 this selected export. The existing repository stays private and no upload or
 remote change was made. Public destination selection and the full Palomar
 mechanical report remain pending; whole-paper completion is not claimed.
+
+
+## Public-candidate publication checkpoint — 31 October 2026
+
+The user authorized preservation of the old GitHub repository and its manuscript
+history privately as `uniform-attachment-with-freezing-private`, publication of
+the reviewed candidate at `igor-kortchemski/uniform-attachment-with-freezing`,
+and four full Palomar mechanical checks at one frozen source commit. The
+[publication checkpoint](verification/certification/palomar/README.md) records
+this snapshot's status; it does not claim a result before execution.
+
+The current manifest, source scan and official metadata/citation schemas pass.
+All Lean statements, definitions, proofs, dependency/toolchain pins and
+verification scripts remain byte-identical to the Linux-checked `54253ce`.
+The follow-up source-first statement checks found no new mismatch in the main
+results; prior independent findings and all representation qualifications are
+retained. No new mathematical obligation or paper argument is closed here.
+The scope remains seven selected theorems/twenty conclusions, with every
+whole-paper inventory obligation retained. Intake and registration are separate
+from the authorized mechanical checks.

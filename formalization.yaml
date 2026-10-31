@@ -109,8 +109,10 @@ status:
     accepted every Solution; the full build and axiom audits also passed.
     Current evidence is in verification/certification/linux/SUMMARY.md.
     The full Palomar mechanical report and GitHub workflow execution remain
-    unobtained. This is not Palomar acceptance or whole-paper certification. Nothing has
-    been uploaded and no visibility was changed. The counts of proof holes
+    unobtained at this preflight source snapshot. The user has authorized publication
+    of the reviewed candidate and four full mechanical checks; their exact-source
+    reports are tracked separately. This is not Palomar acceptance or whole-paper
+    certification. The counts of proof holes
     below concern the implementation (Freezing1) and the Solution modules; the
     Challenge modules contain deliberate theorem holes exactly at the
     Comparator targets and nowhere else.
@@ -153,8 +155,9 @@ automation:
   spend_usd: not tracked
   notes: >-
     The user selected Apache-2.0, Igor Kortchemski as contributor and responsible
-    maintainer, and a new private repository uniform-attachment-with-freezing.
-    A private repository is not eligible for Palomar's public-commit intake.
+    maintainer. The reviewed candidate is prepared for the public repository
+    igor-kortchemski/uniform-attachment-with-freezing. The old development repository
+    and its manuscript history are preserved privately under a different name.
     The main-result Challenge/Solution interfaces were prepared and reviewed by
     Claude Code agents (see verification/certification/); no human review.
 fidelity:

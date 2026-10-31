@@ -1,3 +1,17 @@
+# Authorized public-candidate checkpoint — 31 October 2026
+
+The user authorized preserving the existing GitHub repository privately as
+`uniform-attachment-with-freezing-private`, creating a fresh public repository
+at `igor-kortchemski/uniform-attachment-with-freezing`, pushing the reviewed
+candidate, and running the four full Palomar mechanical checks at one commit.
+The old manuscript/history must stay in the private repository. Mathematical
+sources, statement interfaces, dependency pins and verification scripts are
+unchanged from the Linux-checked `54253ce`.
+
+The [publication checkpoint](verification/certification/palomar/README.md)
+records the source-snapshot status. Earlier dated checkpoints below are
+historical. Whole-paper gaps and representation qualifications remain in force.
+
 # Current publication-content review checkpoint — 31 October 2026
 
 The user authorized step 1 only: final review of the public-release contents.

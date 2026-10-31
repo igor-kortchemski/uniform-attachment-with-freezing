@@ -53,11 +53,13 @@ them, open the linked files directly.
 - Record useful manuscript observations in
   [MANUSCRIPT_RECOMMENDATIONS.md](MANUSCRIPT_RECOMMENDATIONS.md).
   Manuscript edits and publication follow the user's requested scope.
-  The selected destination is a new private GitHub repository named
-  `uniform-attachment-with-freezing`, with Palomar preparation also requested.
+  The selected publication destination is the public GitHub repository
+  `igor-kortchemski/uniform-attachment-with-freezing`, with four full Palomar
+  mechanical checks requested. The user authorized preserving the old repository
+  privately as `uniform-attachment-with-freezing-private` before reusing its name.
   Use Apache-2.0 for original code and project documentation; contributor and
   responsible maintainer: Igor Kortchemski. Preserve the manuscript's own rights.
-  A private repository cannot yet satisfy Palomar's public-snapshot requirement.
+  Palomar intake and review-dependent registration require their own authorized scope.
 
 ## Markdown mathematics
 

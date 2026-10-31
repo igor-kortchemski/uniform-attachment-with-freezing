@@ -7,7 +7,7 @@ name: Palomar full mechanical preflight
 #   comparator/locallimits.json (T01, T02)
 #   comparator/samelaw.json    (T05)
 #   comparator/sir.json        (T06, T07)
-# Nothing has been run with this workflow yet.
+# Exact-source run status and reports are tracked in verification/certification/palomar/.
 on:
   workflow_dispatch:
     inputs:

@@ -92,7 +92,7 @@ is `2efc59dfdbb4331b624a71cd43fda07bdf72ca63` (Mathlib release tags and their
 pinned manifest closures are admitted). No Lean/Mathlib pin was changed.
 These checks do not replace Palomar's full mechanical report.
 
-## Publication route still to decide
+## Repository inspection at the review checkpoint
 
 Read-only GitHub inspection confirmed that
 `igor-kortchemski/uniform-attachment-with-freezing` exists and is private.
@@ -110,9 +110,15 @@ about its additional assets and history; a visibility switch or force-push
 must not be treated as equivalent to publishing the selected export.
 No remote has been added to the candidate.
 
-The next authorized external step must identify the exact public destination
-and snapshot. Full Palomar mechanical preflight, intake, editorial outcome
-and registration remain separate and unperformed. A85–A86, literal L13,
+The user subsequently authorized preserving the old repository privately as
+`uniform-attachment-with-freezing-private`, then creating a fresh public repository
+at `igor-kortchemski/uniform-attachment-with-freezing`, pushing this reviewed
+candidate and running the four full Palomar mechanical checks. This authorization
+does not expose the old history. See the
+[publication checkpoint](verification/certification/palomar/README.md).
+
+At the content-review checkpoint, full Palomar mechanical preflight, intake,
+editorial outcome and registration were unperformed. A85–A86, literal L13,
 A06's GHP/dendron identifications, A87's stronger source claims and
 A24/A67/A73's explicit couplings remain open; the false printed L03/L04/P03
 versions retain their recorded corrections. Whole-paper certification is not claimed.

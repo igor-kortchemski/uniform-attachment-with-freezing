@@ -15,10 +15,12 @@ environments, substantive unnamed claims, open questions, and source issues.
 The arXiv link identifies the paper; byte/version equality with the supplied
 manuscript has not been established.
 
-The badge URLs target the intended GitHub repository, which currently holds an
-earlier private snapshot. CI and Comparator are separate workflows. Neither has
-run for this candidate; the badges do not certify it. Current verification is
-the exact-commit local Linux evidence linked below. Nothing has been uploaded.
+The badge URLs target the public repository. CI and Comparator are separate
+workflows; the Comparator badge represents the standalone comparison workflow.
+The four full Palomar mechanical checks have their own workflow and reports.
+See the [publication checkpoint](verification/certification/palomar/README.md)
+for the frozen-candidate status. Existing verification is the exact-commit
+local Linux evidence linked below.
 
 **Certification interface for T01–T07 (official Linux Comparator passed).**
 `Challenge/` and `Solution/` state the seven main theorems
@@ -33,7 +35,7 @@ limits are in [verification/certification/](verification/certification/README.md
 sandboxed `lake comparator`, including NanoDa and Lean's kernel, passed all four
 interfaces and the auxiliary configuration at commit `54253ce`. See the
 [Linux evidence](verification/certification/linux/SUMMARY.md). The full Palomar
-mechanical report remains unobtained; the GitHub workflows remain unrun.
+mechanical reports are tracked in the publication checkpoint.
 
 LocalLimits compares the chronological tree carrier; the full ambient bridge
 is proved in the library but is not a selected comparison target. SameLaw
@@ -91,7 +93,7 @@ The arbitrary plane labelled local topology is proved, while the broader
 unordered-labelled realization remains under development.
 
 The three local-convergence equivalences and the common limit are in
-[Freezing1/MainLocalLimit.lean](Freezing1/MainLocalLimit.lean). The iid-sign geometric Bienaymé limit T02 is proved in [Freezing1/MainGeometricLimit.lean](Freezing1/MainGeometricLimit.lean), including chronological ordering, extinction and $p=0$. The source iid extinction/drift and unique increasing reindexing arguments A28 are also proved. The random-birth conditional mean, Bennett/layer-cake moments and corrected harmonic tail now check the paper's own uniform-height proof A40–A43. The requested T01–T02 milestone is complete. See [CLAUDE_HANDOFF.md](CLAUDE_HANDOFF.md) for current evidence and the remaining whole-paper obligations; publication remains suspended.
+[Freezing1/MainLocalLimit.lean](Freezing1/MainLocalLimit.lean). The iid-sign geometric Bienaymé limit T02 is proved in [Freezing1/MainGeometricLimit.lean](Freezing1/MainGeometricLimit.lean), including chronological ordering, extinction and $p=0$. The source iid extinction/drift and unique increasing reindexing arguments A28 are also proved. The random-birth conditional mean, Bennett/layer-cake moments and corrected harmonic tail now check the paper's own uniform-height proof A40–A43. The requested T01–T02 milestone is complete. See [CLAUDE_HANDOFF.md](CLAUDE_HANDOFF.md) for current evidence and the remaining whole-paper obligations; the publication checkpoint records the current deposit status.
 
 For the height results, start with [Freezing1/MainHeight.lean](Freezing1/MainHeight.lean) and
 [Freezing1/MainMaximum.lean](Freezing1/MainMaximum.lean), then
@@ -144,15 +146,15 @@ lake build
 lake env lean scripts/AxiomAudit.lean
 ```
 
-For an authorized user of the private repository, the clone command is:
+Clone the public formalization repository with:
 
 ```sh
 git clone https://github.com/igor-kortchemski/uniform-attachment-with-freezing.git
 cd uniform-attachment-with-freezing
 ```
 
-The repository was created privately on 29 October 2026. Do not use `lake update`
-to reproduce this snapshot.
+Do not use `lake update` to reproduce this snapshot. The earlier development
+repository and its manuscript history are retained separately and privately.
 
 [Challenge.lean](Challenge.lean), [Solution.lean](Solution.lean), and
 [comparator.json](comparator.json) retain the earlier 16 supporting-result
@@ -169,9 +171,9 @@ scripts/run-linux-checks.sh /tmp/freezing1-linux-evidence-new
 
 The output directory must be new or empty and outside the checkout. The driver
 explicitly enables NanoDa. Comparator is not the full Palomar verification. The prepared manual Palomar
-workflow is restricted to public repositories; the requested private repository
-cannot currently be deposited. Whole-paper completion, source repairs, and the
-full official mechanical report remain outstanding.
+workflow is restricted to public repositories. Its four configurations are
+checked separately at one frozen commit; consult the publication checkpoint
+for the actual reports. Whole-paper completion and source repairs remain outstanding.
 
 The code and original project documentation use [Apache-2.0](LICENSE).
 Contributor and responsible maintainer: **Igor Kortchemski**, as requested.
@@ -200,4 +202,4 @@ verification-script repairs, and successful official Linux comparison with
 NanoDa and Lean's kernel. See
 [the Codex takeover record](verification/certification/CODEX_TAKEOVER.md)
 and [Linux evidence](verification/certification/linux/SUMMARY.md) for the exact
-scope and checked snapshot. No full Palomar report or publication is claimed.
+scope and checked snapshot. See the publication checkpoint for the subsequent GitHub and full Palomar checks.

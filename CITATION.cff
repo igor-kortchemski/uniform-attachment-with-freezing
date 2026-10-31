@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "Cite the source paper for its mathematical results; this citation identifies the incomplete Lean formalization."
 title: "Uniform attachment with freezing: Lean formalization of the main results"
 type: software
+repository-code: "https://github.com/igor-kortchemski/uniform-attachment-with-freezing"
 authors:
   - family-names: Kortchemski
     given-names: Igor
