@@ -1,36 +1,36 @@
 start 2026-10-30T15:53:27Z
-b112b3701a08aba0ef88d0945b6d40d2d1320684ca1bcb3121d7312a2b9eccf7  /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/solution.ndjson
-== leanchecker: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker --silent --from-export /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/solution.ndjson
+b112b3701a08aba0ef88d0945b6d40d2d1320684ca1bcb3121d7312a2b9eccf7  <tmp>/final/evidence/heights/solution.ndjson
+== leanchecker: <home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker --silent --from-export <tmp>/final/evidence/heights/solution.ndjson
 
 real	1m24.120s
 user	1m22.824s
 sys	0m0.773s
 leanchecker exit=0
-== nanoda: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/nanoda_bin /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/kernels/nanoda-config.json
+== nanoda: <home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/nanoda_bin <tmp>/final/evidence/heights/kernels/nanoda-config.json
 
 real	0m29.134s
 user	0m49.563s
 sys	0m0.824s
 nanoda exit=0
-== leanchecker-paranoid: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker-paranoid --silent --from-export /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/solution.ndjson
+== leanchecker-paranoid: <home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker-paranoid --silent --from-export <tmp>/final/evidence/heights/solution.ndjson
 
 real	1m45.407s
 user	1m43.411s
 sys	0m0.917s
 leanchecker-paranoid exit=0
-== lean4lean: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean4lean --import /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/solution.ndjson
+== lean4lean: <home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean4lean --import <tmp>/final/evidence/heights/solution.ndjson
 
 real	2m22.664s
 user	1m45.233s
 sys	0m1.750s
 lean4lean exit=0
-== con-leche: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-leche /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/solution.ndjson
+== con-leche: <home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-leche <tmp>/final/evidence/heights/solution.ndjson
 
 real	1m16.445s
 user	1m25.274s
 sys	0m2.398s
 con-leche exit=0
-== con-ron: /Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-ron /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/solution.ndjson
+== con-ron: <home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-ron <tmp>/final/evidence/heights/solution.ndjson
 
 real	0m47.429s
 user	0m41.061s

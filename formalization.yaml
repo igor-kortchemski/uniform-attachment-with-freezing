@@ -91,8 +91,8 @@ status:
     including its zero-charge branch, are checked. Genuine reversed epidemic
     domination remains open. Remaining intermediate claims are retained explicitly;
     no whole-paper completion is claimed.
-    The requested T01–T02 milestone is complete; CLAUDE_HANDOFF.md records
-    current checks and the remaining whole-paper obligations.
+    FORMALIZATION_REPORT.md records current checks and the remaining
+    whole-paper obligations.
     This is not a verified whole-paper publication candidate. A scoped
     certification interface for the seven main theorems T01-T07 (twenty
     conclusions) is supplied in Challenge/, Solution/ and comparator/*.json,
@@ -442,4 +442,5 @@ alignment:
       note: Companion bernoulli_sum_lower_tail proves the other tail.
 acknowledgements: >-
   Lean, Mathlib and their contributors; source-paper authors; Codex proof and
-  audit assistance. Local workflow skills retain their bundled attribution.
+  audit assistance. Report templates are adapted from an adaptation of
+  LeanAutoformalizationSkills by Scott Armstrong (CC BY 4.0).

@@ -11,15 +11,15 @@ test_dirty_checkout_is_rejected_before_build (test_verification.VerificationTest
 test_every_selected_kernel_failure_propagates (test_verification.VerificationTests.test_every_selected_kernel_failure_propagates) ... ok
 test_export_change_during_checking_is_failure (test_verification.VerificationTests.test_export_change_during_checking_is_failure) ... ok
 test_forbidden_axiom_config_is_rejected_before_commands (test_verification.VerificationTests.test_forbidden_axiom_config_is_rejected_before_commands) ... ok
-test_linux_official_failure_stops_later_interfaces (test_verification.VerificationTests.test_linux_official_failure_stops_later_interfaces) ... == build (log: /tmp/verification tests vw5g86hh/linux/build.log)
-== source-scan (log: /tmp/verification tests vw5g86hh/linux/source-scan.log)
-== axiom-audit (log: /tmp/verification tests vw5g86hh/linux/axiom-audit.log)
-== main-results-axioms (log: /tmp/verification tests vw5g86hh/linux/main-results-axioms.log)
-== check-axiom-log (log: /tmp/verification tests vw5g86hh/linux/axiom-log-check.log)
-== heights official comparator (log: /tmp/verification tests vw5g86hh/linux/heights.comparator.log)
-== locallimits official comparator (log: /tmp/verification tests vw5g86hh/linux/locallimits.comparator.log)
-== samelaw official comparator (log: /tmp/verification tests vw5g86hh/linux/samelaw.comparator.log)
-ERROR: samelaw official comparator failed (exit 7); /tmp/verification tests vw5g86hh/linux/samelaw.comparator.log
+test_linux_official_failure_stops_later_interfaces (test_verification.VerificationTests.test_linux_official_failure_stops_later_interfaces) ... == build (log: <tmp>/verification tests vw5g86hh/linux/build.log)
+== source-scan (log: <tmp>/verification tests vw5g86hh/linux/source-scan.log)
+== axiom-audit (log: <tmp>/verification tests vw5g86hh/linux/axiom-audit.log)
+== main-results-axioms (log: <tmp>/verification tests vw5g86hh/linux/main-results-axioms.log)
+== check-axiom-log (log: <tmp>/verification tests vw5g86hh/linux/axiom-log-check.log)
+== heights official comparator (log: <tmp>/verification tests vw5g86hh/linux/heights.comparator.log)
+== locallimits official comparator (log: <tmp>/verification tests vw5g86hh/linux/locallimits.comparator.log)
+== samelaw official comparator (log: <tmp>/verification tests vw5g86hh/linux/samelaw.comparator.log)
+ERROR: samelaw official comparator failed (exit 7); <tmp>/verification tests vw5g86hh/linux/samelaw.comparator.log
 injected failure: official samelaw
 ok
 test_missing_kernel_is_failure (test_verification.VerificationTests.test_missing_kernel_is_failure) ... ok

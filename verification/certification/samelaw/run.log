@@ -9,7 +9,7 @@ real	0m41.024s
 user	0m10.354s
 sys	0m21.845s
 export solution exit=0
--rw-r--r--  1 igor  wheel  83493250 Oct 30 17:15 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/challenge.ndjson
--rw-r--r--  1 igor  wheel  99412961 Oct 30 17:15 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/samelaw/solution.ndjson
+-rw-r--r--  1 <user>  wheel  83493250 Oct 30 17:15 <tmp>/final/evidence/samelaw/challenge.ndjson
+-rw-r--r--  1 <user>  wheel  99412961 Oct 30 17:15 <tmp>/final/evidence/samelaw/solution.ndjson
 leanchecker exit=0
 (nanoda and other bundled checkers are run separately: see the certification notes)

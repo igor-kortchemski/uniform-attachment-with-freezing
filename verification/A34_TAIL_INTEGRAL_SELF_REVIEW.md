@@ -131,13 +131,13 @@ to the limit and is not included in the positive-normalization inequalities.
 ## Proof evidence and coverage status
 
 `ExponentialMomentTail.lean` passed the actual-file direct Lean check with
-exit code zero and no diagnostics (`/tmp/exponential-moment-tail5.log`).
+exit code zero and no diagnostics (a local log, not retained).
 Its artifact build also passed in
 `verification/labelled-coding-exponential-tail-build.log`.
 
 The actual final consumer check for `ActiveHeightTailIntegral.lean` passed
 with exit code zero and no diagnostics in
-`/tmp/active-height-tail-integral3.log`. Its artifact build passed with
+a local log (not retained). Its artifact build passed with
 3832 jobs in `verification/active-height-tail-integral-build.log`.
 
 The actual authored expanded probe
@@ -145,7 +145,7 @@ The actual authored expanded probe
 and no diagnostics. It contains twelve examples and fourteen axiom
 closures, all using only `propext`, `Classical.choice`, and `Quot.sound`.
 The durable log is `verification/a34-active-tail-author-statements.log`,
-also available at `/tmp/a34-active-tail-statements.log`. The two new proof
+also available in a local log (not retained). The two new proof
 modules total 402 lines and contain no proof placeholders or new axioms.
 
 The intended reconciliation is: A34's mathematical claims are proved for

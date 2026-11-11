@@ -108,26 +108,26 @@ provenance and proof routes.
 
 The finite joint-record file passed its actual-file direct check with
 exit code zero and no diagnostics in
-`/tmp/forward-component-urn-path1.log`. Its parent artifact build is
+a local log (not retained). Its parent artifact build is
 PASS3931 in `verification/pair-thinning-separated-component-path-build.log`.
 
 The infinite actual-history file passed its actual-file direct check
 with exit code zero and no diagnostics in
-`/tmp/forward-component-urn-path-infinite4.log`; its parent artifact
+a local log (not retained); its parent artifact
 build is PASS3937 in
 `verification/component-infinite-pair-source-tails-build.log`.
 The positive-extension consumer passed with no diagnostics in
-`/tmp/forward-component-urn-path-positive1.log`, and its parent artifact
+a local log (not retained), and its parent artifact
 is PASS3932 in `verification/component-positive-pair-error-build.log`.
 The actual infinite-maximal consumer passed with no diagnostics in
-`/tmp/forward-component-urn-path-maximal1.log`; its parent artifact
+a local log (not retained); its parent artifact
 is PASS3943 in
 `verification/component-actual-maximal-pair-conclusions-build.log`.
 
 The actual imported expanded probe
 `verification/A63JointComponentPathStatements.lean` passed with exit
 code zero, eight examples, thirteen axiom closures and no diagnostics
-in `/tmp/a63-joint-component-path-statements1.log`. Its durable output
+in a local log (not retained). Its durable output
 is `verification/a63-joint-component-path-author-statements.log`.
 Every closure uses only `propext`, `Classical.choice`, and `Quot.sound`.
 These are authored checks; the independent review is coordinated by

@@ -142,11 +142,11 @@ Three files have individual **actual-file** direct Lean PASS0 checks
 with no diagnostics:
 
 - `Freezing1/PoissonSourcePolynomial.lean`:
-  `/tmp/poisson-source-polynomial1.log`;
+  a local log (not retained);
 - `Freezing1/PoissonSourcePolynomialChecks.lean`:
-  `/tmp/poisson-source-polynomial-checks1.log`;
+  a local log (not retained);
 - `Freezing1/PoissonSourcePolynomialSlackChecks.lean`:
-  `/tmp/poisson-source-polynomial-slack-checks2.log`.
+  a local log (not retained).
 
 `PoissonSourcePolynomialBound.lean` and
 `PoissonSourcePolynomialScale.lean` initially passed a clearly labelled

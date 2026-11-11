@@ -1,8 +1,0 @@
-Freezing1/PlaneBienaymeBranching.lean:33:37: error: Application type mismatch: The argument
-  measurableSet_singleton k
-has type
-  MeasurableSet {k}
-but is expected to have type
-  MeasurableSet ?m.91
-in the application
-  measurable_pi_apply [] (measurableSet_singleton k)

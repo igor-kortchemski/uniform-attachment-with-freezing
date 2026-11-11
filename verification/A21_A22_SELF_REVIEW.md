@@ -152,12 +152,12 @@ single time does not change divergence or the main conclusion.
 The following actual-file direct checks completed with exit code zero and
 no diagnostics:
 
-- `ForwardVertexDegree.lean`: `/tmp/forward-vertex-degree2.log`.
-- `ForwardDegreeLocalCriterion.lean`: `/tmp/forward-degree-local.log`.
-- `ForwardAttachmentPatterns.lean`: `/tmp/forward-attachment-patterns5.log`.
-- `ForwardConditionalAttachments.lean`: `/tmp/forward-conditional-attachments3.log`.
-- `ForwardSelectionSourceChecks.lean`: `/tmp/forward-selection-sourcechecks5.log`.
-- `ForwardFreezingDegrees.lean`: `/tmp/forward-freezing-degrees3.log`.
+- `ForwardVertexDegree.lean`: a local log (not retained).
+- `ForwardDegreeLocalCriterion.lean`: a local log (not retained).
+- `ForwardAttachmentPatterns.lean`: a local log (not retained).
+- `ForwardConditionalAttachments.lean`: a local log (not retained).
+- `ForwardSelectionSourceChecks.lean`: a local log (not retained).
+- `ForwardFreezingDegrees.lean`: a local log (not retained).
 
 The integrating agent has built all six modules. Durable build evidence
 is recorded in:
@@ -173,7 +173,7 @@ The actual expanded statement/axiom probe
 `verification/A21A22Statements.lean` passed with exit code zero and no
 diagnostics. It contains eight expanded examples and fourteen axiom
 closures; every closure uses only `propext`, `Classical.choice`, and
-`Quot.sound`. The author check is `/tmp/a21-a22-statements.log`; the
+`Quot.sound`. The author check is a local log (not retained); the
 integrating agent also ran that authored probe and retained
 `verification/a21-a22-statements.log`. Running the authored probe does not
 by itself constitute independent semantic review.

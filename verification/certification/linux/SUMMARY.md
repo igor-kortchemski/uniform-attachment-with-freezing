@@ -56,7 +56,9 @@ twenty conclusions, with the qualifications below.
 Every command's real exit status is recorded in [evidence.log](evidence/evidence.log).
 Each Comparator log includes both kernel acceptances and `Your solution is okay!`.
 Logs are preserved byte-for-byte, including terminal carriage returns and
-tool-emitted trailing spaces. Git attributes disable newline conversion and
+tool-emitted trailing spaces, except that local home, checkout and temporary
+paths and the local user name were later replaced by the placeholders
+`<home>`, `<repo>`, `<tmp>` and `<user>`. Git attributes disable newline conversion and
 source-formatting whitespace checks for these raw `.log` files only.
 The [executed configurations](evidence/configs) match the source configurations
 except for explicitly setting `enable_nanoda` to `true`. Module names, targets,

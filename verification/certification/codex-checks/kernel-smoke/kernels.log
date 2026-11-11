@@ -1,19 +1,19 @@
 solution SHA-256: 05a72df7b0400914a9dc3f094cc107edd9bbe124ee99fb51002ad2728558d85b
-leanchecker command=/Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker --silent --from-export /private/tmp/freezing1-candidate-codex-kernel-smoke/solution.ndjson
+leanchecker command=<home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker --silent --from-export <tmp>/freezing1-candidate-codex-kernel-smoke/solution.ndjson
 leanchecker exit=0
 leanchecker seconds=0.083
-nanoda command=/Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/nanoda_bin /private/tmp/freezing1-candidate-codex-kernel-smoke/replay/nanoda-config.json
+nanoda command=<home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/nanoda_bin <tmp>/freezing1-candidate-codex-kernel-smoke/replay/nanoda-config.json
 nanoda exit=0
 nanoda seconds=0.020
-leanchecker-paranoid command=/Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker-paranoid --silent --from-export /private/tmp/freezing1-candidate-codex-kernel-smoke/solution.ndjson
+leanchecker-paranoid command=<home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/leanchecker-paranoid --silent --from-export <tmp>/freezing1-candidate-codex-kernel-smoke/solution.ndjson
 leanchecker-paranoid exit=0
 leanchecker-paranoid seconds=0.044
-lean4lean command=/Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean4lean --import /private/tmp/freezing1-candidate-codex-kernel-smoke/solution.ndjson
+lean4lean command=<home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/lean4lean --import <tmp>/freezing1-candidate-codex-kernel-smoke/solution.ndjson
 lean4lean exit=0
 lean4lean seconds=0.120
-con-leche command=/Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-leche /private/tmp/freezing1-candidate-codex-kernel-smoke/solution.ndjson
+con-leche command=<home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-leche <tmp>/freezing1-candidate-codex-kernel-smoke/solution.ndjson
 con-leche exit=0
 con-leche seconds=0.047
-con-ron command=/Users/igor/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-ron /private/tmp/freezing1-candidate-codex-kernel-smoke/solution.ndjson
+con-ron command=<home>/.elan/toolchains/leanprover--lean4---v4.35.0/bin/con-ron <tmp>/freezing1-candidate-codex-kernel-smoke/solution.ndjson
 con-ron exit=0
 con-ron seconds=0.078

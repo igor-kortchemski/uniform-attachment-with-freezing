@@ -113,7 +113,7 @@ law; and the null-event conditioning check. Its thirteen axiom closures
 include the literal integrand, all three main identities, the finite
 product theorem, the unnormalized laws, and the actual limit fixed point.
 The fresh actual-file direct check passed with exit code zero and no
-diagnostics in `/tmp/a27-subtree-integral-independent-statements2.log`.
+diagnostics in a local log (not retained).
 The durable output is
 `verification/a27-subtree-integral-independent-statements.log`. All
 thirteen closures use only `propext`, `Classical.choice`, and `Quot.sound`.

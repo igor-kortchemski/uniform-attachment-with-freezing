@@ -102,7 +102,7 @@ nine expanded examples include reconstruction of both preserved sign
 counts and the literal source harmonic indexing. All ten axiom closures
 use only `propext`, `Classical.choice`, and `Quot.sound`. The durable log is
 `verification/a32-adjacent-swap-independent-statements.log`, also available
-at `/tmp/a32-adjacent-swap-statements2.log`.
+in a local log (not retained).
 
 No semantic mismatch was found in the two audited modules. The source's
 one-swap comparison, finite actual-swap iteration, literal sorted prefix,

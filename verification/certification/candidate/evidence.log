@@ -7,7 +7,7 @@ Lake version 5.0.0-src+eb6cafb (Lean version 4.35.0)
 ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c  lean-toolchain
 e0c8045c1dbf910e9a1cb575269748534232a21b9cf3df1fc36c1c21d001344a  lake-manifest.json
 cb1da717b3fbe81e56c8b3fc25f1c75556dce0681a12376b6fc058864426229d  lakefile.toml
-Darwin imac-de-igor.home 23.6.0 Darwin Kernel Version 23.6.0: Thu Apr 24 20:26:36 PDT 2025; root:xnu-10063.141.1.705.2~1/RELEASE_X86_64 x86_64
+Darwin <host> 23.6.0 Darwin Kernel Version 23.6.0: Thu Apr 24 20:26:36 PDT 2025; root:xnu-10063.141.1.705.2~1/RELEASE_X86_64 x86_64
 == lake build (must report success; artifacts already built)
 ⚠ [4054/4123] Replayed Freezing1.SIRCounts
 warning: Freezing1/SIRCounts.lean:86:39: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
@@ -355,7 +355,7 @@ user	0m3.685s
 sys	0m11.664s
 build exit=0
 == source scan
-scanned 823 Lean files under /Users/igor/LeanFormalization/freezing1-candidate
+scanned 823 Lean files under <repo>
 source-scan exit=0
 == axiom audit of the Freezing1 namespace
 axiom-audit exit=0

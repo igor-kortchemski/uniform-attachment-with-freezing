@@ -120,8 +120,8 @@ found no obstruction on the tested even sizes up to twenty and the rate
 grid $10^{-4},10^{-3},10^{-2},3\cdot10^{-2},10^{-1},3\cdot10^{-1},1,3$.
 These checks have tolerances and are **not Lean proof evidence**. They do
 not justify a generic domination theorem or a completion claim. The
-development scripts are `/tmp/check_sir_reverse.py` and
-`/tmp/check_sir_reverse_flow.py`; the latter uses the exact finite Markov
+development scripts (`check_sir_reverse.py` and `check_sir_reverse_flow.py`)
+were local and are not retained; the latter uses the exact finite Markov
 recurrence but floating-point probabilities and capacities.
 
 ## Current files and evidence boundary
@@ -152,8 +152,9 @@ a viable noncausal coupling. The full stopped-kernel marginal and exact
 iid marginal must both be proved; neither is assumed. The extension to
 multiple susceptible individuals and the source gate remains open.
 
-Work stopped at the user's request on 2026-10-30. The genuine actual-law
-and iid last-negative foundations are now frozen and built. Newer
-first-time and joint-marginal source drafts, their precise evidence
-boundary, and the unwritten domination/history wrapper are recorded in
-`A85_ONE_SUSCEPTIBLE_HANDOVER.md`. A85/A86 remain open.
+Work stopped on 2026-10-30. The genuine actual-law and iid last-negative
+foundations are frozen and built. The later first-time and joint-marginal
+modules (`SIROneSusceptibleFirstTime`, `SIROneSusceptibleTimeCoupling`,
+`SIROneSusceptibleCouplingMarginals`) are imported by `Freezing1.lean`; the
+domination/history wrapper needed for A85 has not been written. A85/A86
+remain open.

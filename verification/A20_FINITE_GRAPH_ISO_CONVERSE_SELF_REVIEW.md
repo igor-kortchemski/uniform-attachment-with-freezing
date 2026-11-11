@@ -74,7 +74,7 @@ relation. The reverse implication is the previously verified
 
 The complete actual proof file passed a fresh direct Lean check with
 exit code zero and no diagnostics in
-`/tmp/rooted-unordered-graph-iso-converse9.log`. Parent artifact evidence
+a local log (not retained). Parent artifact evidence
 is retained in `verification/rooted-unordered-graph-iso-converse-build.log`.
 
 The authored expanded probe
@@ -85,7 +85,7 @@ position equivalence with edge-label and subtree-isomorphism witnesses,
 the complete restricted-isomorphism fields, a repeated-label instance,
 the active-versus-frozen root obstruction, and unrestricted structural
 assembly. Its actual-file direct check passed with exit code zero and no
-diagnostics in `/tmp/rooted-unordered-graph-iso-converse-statements.log`.
+diagnostics in a local log (not retained).
 The durable log is
 `verification/rooted-unordered-graph-iso-converse-author-statements.log`.
 All twelve closures contain only `propext`, `Classical.choice`, and

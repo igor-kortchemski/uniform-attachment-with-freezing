@@ -110,7 +110,7 @@ $(1+c)/2$, hence $h^+_n\approx\frac{1+c}{2c}\ln n$; all-plus gives $1,\,2,\,e$.
 
 ## 4. Non-vacuity (machine-checked by me, scratch only)
 
-Directory `/private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/review/`,
+A local scratch directory (not retained),
 files `NonVac2.lean`, `NonVac3.lean`, `NonVac4.lean` (also `NonVac1.lean`, `Ax.lean`), each elaborated with
 `lake env lean -DautoImplicit=false` against compiled `Challenge.Heights`: no `sorry`, axioms only
 `propext, Classical.choice, Quot.sound`.

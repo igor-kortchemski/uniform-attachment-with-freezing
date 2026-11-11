@@ -108,7 +108,7 @@ topology, one shared geometric-tree event, derived survival weight, uncapped
 stopped path values, and the concrete rate sequence $\lambda_n=2/n$.
 Its actual-file direct command
 `lake env lean -DautoImplicit=false verification/SIRMainFluidStatements.lean`
-passes with no diagnostics, captured in `/tmp/sir-main-fluid-statements.log`.
+passes with no diagnostics, captured in a local log (not retained).
 The independent axiom check is captured separately in
-`/tmp/sir-main-fluid-audit-axioms.log`; all five printed closures use only
+a local log (not retained); all five printed closures use only
 `propext`, `Classical.choice`, and `Quot.sound`.

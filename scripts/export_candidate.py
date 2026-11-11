@@ -27,12 +27,12 @@ def copy(rel):
         shutil.copy2(s, d)
 
 files = ["lakefile.toml", "lean-toolchain", "lake-manifest.json", "LICENSE", "NOTICE", "CITATION.cff",
-         "README.md", "AGENTS.md", "FORMALIZATION_REPORT.md", "MANUSCRIPT_RECOMMENDATIONS.md",
+         "README.md", "FORMALIZATION_REPORT.md", "MANUSCRIPT_RECOMMENDATIONS.md",
          "formalization.yaml", "comparator.json", "Freezing1.lean", "Challenge.lean", "Solution.lean",
          ".gitignore"]
 for f in files:
     copy(f)
-for d in ["Freezing1", "comparator", "scripts", ".github", ".agents"]:
+for d in ["Freezing1", "comparator", "scripts", ".github"]:
     copy(d)
 
 modules = set()

@@ -171,7 +171,7 @@ for the $M$ of B1 with $r=(c+1)/(2c)$) plus `linear_packingAtMost_tendsto_zero`.
 
 ## 3. Evidence
 
-Direct checks (`cd /Users/igor/LeanFormalization/freezing1 && lake env lean -DautoImplicit=false Freezing1/File.lean`),
+Direct checks (`lake env lean -DautoImplicit=false Freezing1/File.lean`, run from the repository root),
 all with exit status 0 and empty output (no warnings, no `sorry`):
 
 | File | direct check | lines |

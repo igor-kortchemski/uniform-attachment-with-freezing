@@ -1,4 +1,4 @@
-29 October 2026 — lake env lean -DautoImplicit=false /tmp/ForwardPlaneKernelAxioms.lean
+29 October 2026 — lake env lean -DautoImplicit=false <tmp>/ForwardPlaneKernelAxioms.lean
 Targeted lake build Freezing1.ForwardPlaneKernel: PASS (3750 jobs).
 Freezing1.PlaneForward.signedTransitionLaw_freeze_self: [propext, Classical.choice, Quot.sound]
 Freezing1.PlaneForward.absorbing_iff_active_empty: [propext, Classical.choice, Quot.sound]

@@ -128,7 +128,7 @@ source bound and the derived whole-sequence moment bound. Its actual-file
 direct check completed with exit code zero and no diagnostics. All ten
 closures use only `propext`, `Classical.choice`, and `Quot.sound`. The
 durable log is `verification/a36-maximum-tail-independent-statements.log`,
-also available at `/tmp/a36-maximum-tail-independent-statements2.log`.
+also available in a local log (not retained).
 
 The subsequent production corollary requested from this reviewer lives
 separately in `MaximumTailBoundedness.lean`; that addition is authored work,

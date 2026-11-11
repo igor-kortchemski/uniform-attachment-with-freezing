@@ -29,8 +29,9 @@ The remaining findings include integer rounding in strict Poisson tails,
 moment estimates for noninteger powers, and missing zero-mean cases. They remain
 visible in the coverage report and have not been silently repaired in the TeX.
 
-See the original [template](.agents/templates/MANUSCRIPT_RECOMMENDATIONS.md)
-and [attribution](.agents/skill-notices/lean-palomar-skills-updated/ATTRIBUTION.md).
+This file adapts a template distributed with an adaptation of
+[LeanAutoformalizationSkills](https://github.com/scottnarmstrong/LeanAutoformalizationSkills)
+by Scott Armstrong, offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 The cut-forest definition should distinguish genuine activity from the marked-root convention. A marked root frozen after the lower cut contributes one to the convention-based count but zero to the urn population. The component-size argument needs explicit slack for this unit correction. The parenthetical characterization of the active set should also include the initial root at time zero, and the matching description should use the active vertices at the lower cut time. Retaining each root's freezing clock makes full labelled-state reconstruction by a fresh uniform matching valid. If those clocks are erased by the bare all-star convention, matching alone loses the true root labels/activity: the strictly surviving schedule $(+1,-1)$ at cuts 1 and 2 gives a formal counterexample. State the full reconstruction for the augmented forest and derive the required bare-forest observable formulas separately. These issues are retained as S17 in the coverage report.
 

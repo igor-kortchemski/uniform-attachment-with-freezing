@@ -68,7 +68,7 @@ transitivity, sibling permutation, and subtree congruence.
 ## Verification and retained obligations
 
 The actual proof file passed its direct Lean check with exit code zero
-and no diagnostics in `/tmp/rooted-unordered-graph-iso7.log`. The root
+and no diagnostics in a local log (not retained). The root
 artifact build is retained in
 `verification/rooted-unordered-graph-iso-build.log`.
 
@@ -78,7 +78,7 @@ examples and eight axiom closures. It reconstructs all witness fields,
 the genuine simple-graph isomorphism, the root/child decomposition,
 unrestricted gluing, and a concrete example with repeated edge and vertex
 labels. Its actual-file direct check completed with exit code zero and no
-diagnostics in `/tmp/rooted-unordered-graph-iso-statements.log`. All eight closures use
+diagnostics in a local log (not retained). All eight closures use
 only `propext`, `Classical.choice`, and `Quot.sound`. The durable log is
 `verification/rooted-unordered-graph-iso-author-statements.log`.
 

@@ -145,11 +145,11 @@ The three frozen production modules have actual-file direct Lean PASS0
 checks with no diagnostics:
 
 - `SourceUrnComponentTailScalar`:
-  `/tmp/source-urn-component-tail-scalar2.log`;
+  a local log (not retained);
 - `SourceUrnComponentTail`:
-  `/tmp/source-urn-component-tail3.log`;
+  a local log (not retained);
 - `SourceUrnComponentMaximum`:
-  `/tmp/source-urn-component-maximum2.log`.
+  a local log (not retained).
 
 Separate parent artifact evidence is retained in
 `verification/pair-coupling-source-urn-first-selection-build.log`
@@ -164,7 +164,7 @@ marked-root component, the exact source-root prefactor, actual root
 counts, the uniform urn-law bound, and the literal final source window
 with the maximum fully expanded. Its fresh actual imported-file check
 passed with exit code zero and no diagnostics in
-`/tmp/a64-source-urn-component-tail-statements2.log`. Durable current
+a local log (not retained). Durable current
 output is `verification/a64-source-urn-component-tail-author-statements.log`.
 All twelve closures use only `propext`, `Classical.choice`, and
 `Quot.sound`. The root independently reviewed the three modules and

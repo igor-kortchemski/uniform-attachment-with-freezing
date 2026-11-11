@@ -3,211 +3,120 @@
 [![CI](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/ci.yml)
 [![Comparator](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/palomar.yml/badge.svg?branch=main)](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/actions/workflows/palomar.yml)
 
-**The main results T01–T07 have Lean proofs in four audited interfaces
-(twenty conclusions), with the representation qualifications below.
-Whole-paper coverage remains incomplete.** This project develops Lean proofs for
-[*Uniform attachment with freezing*](https://arxiv.org/abs/2308.00493),
-by Étienne Bellin, Arthur Blanc-Renaudie, Emmanuel Kammerer, and Igor
-Kortchemski. The source manuscript is unchanged and is intentionally omitted
-from this candidate export. The [coverage report](FORMALIZATION_REPORT.md)
-records its exact SHA-256 identity and retains all 24 named result
-environments, substantive unnamed claims, open questions, and source issues.
-The arXiv link identifies the paper; byte/version equality with the supplied
-manuscript has not been established.
+Lean 4 and Mathlib formalization of *Uniform attachment with freezing* by Étienne Bellin,
+Arthur Blanc-Renaudie, Emmanuel Kammerer and Igor Kortchemski
+([arXiv:2308.00493](https://arxiv.org/abs/2308.00493)).
+**The seven main theorems T01–T07 of the paper (twenty conclusions) are proved in Lean, with the
+qualifications below, using only the axioms `propext`, `Classical.choice` and `Quot.sound`, and with
+no `sorry` outside the deliberate theorem holes of the Challenge files. The rest of the paper is only
+partly formalized, and the results are not yet registered in the Palomar registry.**
+Statements: [`Challenge/`](Challenge) · correspondence with the paper:
+[MAIN_RESULTS_CORRESPONDENCE.md](verification/certification/MAIN_RESULTS_CORRESPONDENCE.md) ·
+verification: [verification/certification/](verification/certification/README.md) ·
+whole-paper coverage: [FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md).
 
-**All four full Palomar mechanical checks passed** at source commit
-[`82f0ad45a60ec785a725fc419082c7d1d779b222`](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/tree/82f0ad45a60ec785a725fc419082c7d1d779b222),
-preserved by tag `palomar-checked-2026-10-31`. Lean, NanoDa and con-ron accepted
-every interface. The [reports and exact scope](verification/certification/palomar/README.md)
-are archived here; subsequent documentation/evidence commits contain no proof changes.
-The CI badge shows ordinary build CI. The Comparator badge shows the latest
-individual full Palomar run; consult the four reports for complete coverage.
-Registry intake and registration remain pending.
+## Main results
 
-**Certification interface for T01–T07 (official Linux Comparator passed).**
-`Challenge/` and `Solution/` state the seven main theorems
-(twenty conclusions) in four self-contained interfaces, one Comparator
-configuration each (`comparator/{locallimits,heights,samelaw,sir}.json`):
-T01–T02, T03–T04, T05, T06–T07. This is **not** a certification of the whole
-manuscript. The correspondence with the manuscript, the independent statement
-reviews, the local comparison and kernel-replay evidence, and the exhaustive list of
-limits are in [verification/certification/](verification/certification/README.md)
-([correspondence](verification/certification/MAIN_RESULTS_CORRESPONDENCE.md),
-[open obligations](verification/certification/OPEN_OBLIGATIONS.md)). The official
-sandboxed `lake comparator`, including NanoDa and Lean's kernel, passed all four
-interfaces and the auxiliary configuration at commit `54253ce`. See the
-[Linux evidence](verification/certification/linux/SUMMARY.md). The full Palomar
-mechanical reports are tracked in the publication checkpoint.
+The paper grows a random tree from a sign sequence $x=(x_i)_{i\ge1}$. Starting from one active
+root, a step with $x_i=+1$ attaches a new active vertex to a uniformly chosen active vertex, and a
+step with $x_i=-1$ freezes a uniformly chosen active vertex. Let $T_n(x)$ be the tree and $S_n$ the
+number of active vertices after $n$ steps, $\tau$ the first time $S$ vanishes, and $h_n^+=\sum_{i\le n}\mathbf 1_{x_i=+1}/S_i$.
+The formalized text is the manuscript `attachement-uniforme-1-final.tex`, identified by its
+SHA-256 in the [report](FORMALIZATION_REPORT.md) and not included here; its equality with a given
+arXiv version has not been checked. All Lean names below are in the namespace `Freezing1`.
 
-LocalLimits compares the chronological tree carrier; the full ambient bridge
-is proved in the library but is not a selected comparison target. SameLaw
-compares a canonical observable; its dictionary to literal isomorphism classes
-is reviewed rather than an additional Lean theorem. The precise SIR model,
-all assumptions, alternative proof routes and remaining gaps are disclosed in
-the [interface qualifications](verification/certification/OPEN_OBLIGATIONS.md).
-Other proved library results have the build/axiom evidence recorded in the
-coverage report; they are not automatically part of these four comparisons.
+| Paper | Lean declarations | Statement |
+| --- | --- | --- |
+| T01 `thm:cvlocale` | [`local_convergence_equivalences`, `local_convergence_common_limit`](Freezing1/MainLocalLimit.lean) | If $x^n\to x$ coordinatewise and $\tau(x)=\infty$: $T_n(x^n)$ converges locally in law $\Leftrightarrow$ $T_n(x)$ converges locally a.s. $\Leftrightarrow$ $\sum_i\mathbf 1_{x_i=-1}/S_i(x)=\infty$; the limit is $T_\infty(x)$. |
+| T02 `thm:BGW` | [`ForwardAnnealed.iid_signs_geometric_local_limit`](Freezing1/MainGeometricLimit.lean) | For iid signs with $P(x_i=+1)=p\in[0,1)$, $T_\infty$ exists a.s. and, as a plane tree, is a Bienaymé tree with offspring law $(1-p)p^k$. |
+| T03 `thm:height` | [`uniform_active_height_tendsto_Lp`](Freezing1/MainHeight.lean), [`maximum_height_window_tendsto_one`, `maximum_height_tendsto_Lp`](Freezing1/MainMaximum.lean) | The height of a uniform active vertex over $h_n^+$ tends to $1$ in every $L^p$; $\mathrm{Height}(T_n)/h_n^+\in[1-\varepsilon,e+\varepsilon]$ with probability tending to $1$, and tends to $1$ in $L^p$ if $\log n=o(h_n^+)$. |
+| T04 `thm:lineaire` | [`linear_heightScale_tendsto`](Freezing1/MainLinearHeightScale.lean), [`linear_uniform_height_tendsto_Lp`](Freezing1/MainLinearUniformHeight.lean), [`linear_uniform_distance_tendsto_Lp`](Freezing1/MainLinearDistance.lean), [`linear_maximum_deviation_tendsto_zero`](Freezing1/MainLinearMaximumLower.lean) | In the linear regime ($S_i\approx ci$, $0<c\le1$), after division by $\log n$: $h_n^+\to\frac{c+1}{2c}$, uniform-vertex height $\to\frac{c+1}{2c}$ and two-vertex distance $\to\frac{c+1}{c}$ in $L^p$, maximum height $\to\frac{c+1}{2c}f(c)$ in probability. |
+| T05 `thm:samelaw` | [`CanonicalTree.construction_laws_eq`](Freezing1/ConstructionEquivalence.lean) | The forward construction and the reverse growth–coalescence construction have the same law for every $0\le n\le\tau$. |
+| T06 `thm:SIRlocallimit` | [`SIR.physical_sir_geometric_local_limit_of_source_ratio`, `SIR.physical_sir_not_tight_of_source_ratio`](Freezing1/SIRPhysicalLimits.lean) | The SIR infection tree converges locally in law to a Bienaymé tree with offspring law $\mathcal G(1/(1+\lambda))$ if $\lambda_n\sim\lambda/n$, and is not tight if $\lambda_n\gg1/n$. |
+| T07 `thm:SIR` | seven `SIR.physical_sir_*` theorems in [`SIRPhysicalLimits`](Freezing1/SIRPhysicalLimits.lean) and [`SIRPhysicalFiniteLimits`](Freezing1/SIRPhysicalFiniteLimits.lean) | Fluid limits of the infectious population; after division by $\log n$, height and distance tend to $\frac{\lambda}{\lambda-1}$ and $\frac{2\lambda}{\lambda-1}$ on the survival event if $\lambda_n\sim\lambda/n$, $\lambda>1$, and height, distance and maximum height tend to $1$, $2$ and $e$ if $\lambda_n\gg1/n$. |
 
-The four user-approved entry titles and their matching metadata files are listed
-in the [submission preview](PALOMAR_SUBMISSION_PREVIEW.md). The root
-`formalization.yaml` describes the whole project; each `metadata/<entry>/formalization.yaml` file
-describes one entry. The new metadata variants require full preflight on their
-own exact source commit before registry intake.
+Here $f(c)>1$ is the unique root of $f(\log f-1)=(c-1)/(c+1)$. The twenty conclusions, their exact
+hypotheses and the extra targets are listed in the
+[correspondence record](verification/certification/MAIN_RESULTS_CORRESPONDENCE.md).
 
-For the actual forward random-tree law, the development proves the normalized
-uniform-active height limit in every real $L^p$, the universal maximum-height
-window, and the maximum-height $L^p$ limit when $\log n=o(h_n^+)$. It constructs
-both forward and reverse graph laws, their invariants and graph heights, and the
-uniform birth-time law on the constructed reverse tree. A coherent reverse
-history now proves the full-history conditional increment law, independent
-increments for each fixed vertex, and the corrected distinct-vertex
-coalescence-time distribution. Equal vertices are handled separately. Uniform-pair
-coalescence tends to zero after division by $n$, and a stronger logarithmic
-estimate is proved under the full linear assumptions. The linear regime now
-has the exact height-scale limit, the uniform-all-vertex limit for every real
-$p\ge1$, the pair-distance limit in every real $L^p$,
-and the maximum-height limit in probability. The local-convergence criterion T01 is proved, with its common limit law. The geometric Bienaymé identification T02 is also proved for the actual iid-sign process. For the constructed embedded SIR model, both local conclusions of T06 are proved. The strong-infection uniform population limit T07.II(a) is also proved for the embedded model. All three terminal geometry limits in T07.II(b) are now proved for the embedded model: uniform height, independent-pair distance and maximum have logarithmic limits $1$, $2$ and $e$. The finite-rate height/distance weak mixtures are also proved, on the same concrete geometric survival event. `SIRPhysicalLimits` and `SIRPhysicalFiniteLimits` transfer every SIR main conclusion to the actual full-contact protocol supplied with the source's independent recovery/Poisson process data; rate positivity is derived eventually.
+Qualifications: T01 and T02 are stated on the closed subspace of chronologically labelled trees
+containing every $T_n(x)$; the unrestricted versions `source_local_convergence_*` are proved in
+[`MainLocalAmbient`](Freezing1/MainLocalAmbient.lean) but not compared. T05 is stated for a canonical
+observable whose correspondence with isomorphism classes is argued in a review, not proved in Lean.
+T06 and T07 concern the full-contact SIR model driven by `SIR.PoissonSIRData`, whose satisfiability is
+proved (`SIR.PoissonSIRData.exists_data`). The proofs of T01, T03, T04, T06 and T07 follow other
+routes than the paper's, whose arguments they do not validate. The report records 25
+[source issues](FORMALIZATION_REPORT.md#source-issues-and-obligations-that-cannot-be-certified-literally):
+three printed results are false as stated (L03, L04, upper half of P03), their corrected versions are
+proved, and none enters T01–T07 ([errata](MANUSCRIPT_RECOMMENDATIONS.md)). Not formalized: A85–A86,
+the literal L13 (proved only under a stronger path-law hypothesis), the GHP and dendron parts of A06,
+the stochastic domination of A87 and the explicit couplings of A24, A67 and A73
+([open obligations](verification/certification/OPEN_OBLIGATIONS.md)).
 
-Supporting results include $h_n^+\ge\log(n/4)$, exact finite counts, the coefficient
-$f(c)$, Bennett concentration and all-real-power moment estimates. A fully
-probabilistic counterexample refutes the printed finite maximum-height upper
-bound; the actual reverse bound is proved with the true number of vertices.
-Stamped reverse histories preserve all edge times and frozen labels, with
-verified reconstruction and probability products. The exact active-label fibres
-and reconstructed forward support now prove construction equivalence (T05),
-including extinction. The corrected fixed-schedule support and mass formula
-of L04 are also proved; its literal overly broad support remains false. Exact
-canonical sampling preserves the joint law of two heights and their distance.
-Timestamped cuts identify the actual forward block counts, proving the mean
-lower bound L12, concentration lemma L10 and component-size bound L11. True tagged continuation, permutation averaging and a corrected initial population now complete the maximum lower bound.
+## Where to start
 
-The SIR development constructs actual population and infection-tree path laws,
-proves their exact count projection and finite absorption, and establishes the
-geometric local limit and strong-infection non-tightness in
-[Freezing1/MainSIREmbedded.lean](Freezing1/MainSIREmbedded.lean).
-[Freezing1/SIRSusceptibleFluid.lean](Freezing1/SIRSusceptibleFluid.lean) proves
-the auxiliary susceptible and integer infectious fluid limits for general
-asymptotic rates. The complete positive-rate physical history bridge is proved from the original independent clock array and the actual whole-contact next-point protocol. The zero-rate branch now has a genuine empty-contact carrier, an actual next-event protocol and complete tree/count laws. Compatibility with the positive-path protocol is proved. Complete tree/count prefixes are also identified jointly with the original adaptive-word forward process; the main asymptotic transfers do not require uniform positivity.
+- [`Challenge/LocalLimits.lean`](Challenge/LocalLimits.lean) (T01–T02),
+  [`Challenge/Heights.lean`](Challenge/Heights.lean) (T03–T04),
+  [`Challenge/SameLaw.lean`](Challenge/SameLaw.lean) (T05), [`Challenge/Sir.lean`](Challenge/Sir.lean)
+  (T06–T07): self-contained files importing only Mathlib, which reproduce with docstrings every
+  definition the statements use and state the results with `sorry`. `Solution/*.lean` imports the
+  proofs; [`comparator/*.json`](comparator) lists the 75 compared targets, namely the twenty
+  conclusions and supporting targets that pin the model and show its hypotheses can be met.
+- [`Freezing1.lean`](Freezing1.lean) imports the proof library; [docs/MODULES.md](docs/MODULES.md)
+  maps the main modules.
+- [`Challenge.lean`](Challenge.lean), [`Solution.lean`](Solution.lean) and
+  [`comparator.json`](comparator.json) form a separate auxiliary interface for 16 supporting results
+  (Bennett concentration, the lower bound on $h_n^+$, counting identities). It states no main result,
+  and its Challenge contains complete proofs copied from the library rather than holes.
 
-The degree/local-convergence equivalence and the corrected conditional
-independence/Borel–Cantelli argument are now checked separately from T01.
-The exact uniform-active Bernoulli representation and its Bennett bounds
-also verify A33 by the paper's strategy. Actual finite adjacent swaps now verify
-the harmonic-bound proof A32; real tail integrals, the split at 7 and exact
-dilation verify A34, with a logarithmic-envelope proof of the tail asymptotic. Full augmented cut forests have
-proved past independence and uniform root matching; the marked-root clock
-correction and remaining conditional bare-forest formulas stay explicit.
-The arbitrary plane labelled local topology is proved, while the broader
-unordered-labelled realization remains under development.
+## Verify
 
-The three local-convergence equivalences and the common limit are in
-[Freezing1/MainLocalLimit.lean](Freezing1/MainLocalLimit.lean). The iid-sign geometric Bienaymé limit T02 is proved in [Freezing1/MainGeometricLimit.lean](Freezing1/MainGeometricLimit.lean), including chronological ordering, extinction and $p=0$. The source iid extinction/drift and unique increasing reindexing arguments A28 are also proved. The random-birth conditional mean, Bennett/layer-cake moments and corrected harmonic tail now check the paper's own uniform-height proof A40–A43. The requested T01–T02 milestone is complete. See [CLAUDE_HANDOFF.md](CLAUDE_HANDOFF.md) for current evidence and the remaining whole-paper obligations; the publication checkpoint records the current deposit status.
-
-For the height results, start with [Freezing1/MainHeight.lean](Freezing1/MainHeight.lean) and
-[Freezing1/MainMaximum.lean](Freezing1/MainMaximum.lean), then
-[Freezing1/MainLinearHeightScale.lean](Freezing1/MainLinearHeightScale.lean) and
-[Freezing1/MainLinearUniformHeight.lean](Freezing1/MainLinearUniformHeight.lean), [Freezing1/MainLinearDistance.lean](Freezing1/MainLinearDistance.lean)
-and [Freezing1/MainLinearMaximumLower.lean](Freezing1/MainLinearMaximumLower.lean).
-[Freezing1.lean](Freezing1.lean) imports the maintained proof library.
-
-| Module | Content |
-| --- | --- |
-| `Path`, `Extinction` | Signs, integer walk, counts, first zero, exact survival criterion |
-| `HeightScale` | Harmonic comparison, logarithmic bound and triangular-array divergence |
-| `BirthTime` | Disjoint active/frozen labels, uniform probability measure and birth law |
-| `IntervalCounts` | Exact interval counts and the bounds in `EqProp9` |
-| `RateFunction` | Definition and characterization of $f(c)$ and analytic Bennett rates |
-| `BernoulliConcentration` | Two Bennett tails, derived from Bernoulli laws and independence |
-| `ForwardTree`, `ForwardLaw`, `ForwardLabels`, `ForwardAbsorption` | Genuine forward trees, uniform choices, graph distances, labels, counts and stopping |
-| `RootedForest`, `RootedForestLaw`, `ReverseForest` | Root merges, the reverse random graph construction, components, terminal labels and birth law |
-| `ForwardHeight`, `ForwardMaximum` | Actual height distributions, MGF recurrences and finite maximum tails |
-| `BernoulliLimits`, `BernoulliArrayLimits`, `MGFLimits`, `MaximumMGFLimits` | Every real-power moment limit, including varying probability spaces |
-| `MainHeight`, `MainMaximum` | All three parts of Theorem `thm:height` |
-| `LinearRegimeAssumptions`, `LinearRegimeIntervals`, `LinearRegimeUniform` | Exact nested-limit hypotheses and Lemma 8, using Abel summation |
-| `HeightScaleBounds`, `LinearRegimeCutoffs`, `MainLinearHeightScale` | Integer cutoffs, negligible early/late pieces and Theorem `thm:lineaire` I |
-| `ForwardUniformHeight`, `ForwardHeightOrder`, `ForwardUniformHeightTails` | Actual sampling over all vertices, exact birth mixture and finite tails |
-| `CenteredMGFLimits`, `MainLinearUniformHeight`, `LinearMaximumUpper`, `MainLinearMaximumLower` | Linear-regime uniform-vertex $L^p$ limit and complete maximum-height limit in probability |
-| `ForwardScheduleSupport`, `RootedForestCoalescence` | Corrected fixed-schedule support and genuine one-step component coalescence |
-| `BernoulliProductLaw`, `ReverseHeightLaw`, `ReverseHeightBounds` | Actual birth-truncated height laws and corrected finite reverse maximum tails |
-| `ReverseHistory`, `ReverseHistoryHeight`, `ReverseHistoryBernoulli` | Coherent history, conditional increments, mutual independence for one vertex and telescoping |
-| `ReverseSeparationLaw`, `ReverseCoalescenceTime` | Actual phase products, corrected coalescence-time distribution and diagonal law |
-| `CoalescenceBounds`, `UniformCoalescence`, `CoalescenceLimits`, `CoalescenceLogScale` | Actual independent uniform sampling, all-label hazard bounds, L09 and stronger logarithmic decay |
-| `ForwardReconstruction`, `ForwardHistorySupport`, `ForwardPointMass` | Unique legal histories, actual support and exact forward atom masses |
-| `ReverseStampedForest`, `ReverseTimestampSupport`, `ReverseTimestampOrder` | Actual edge timestamps, exact schedule support and increasing labels |
-| `CanonicalTreeObservable`, `ReverseStampedReconstruction`, `ReverseStampedPointMass` | Common graph observable, history reconstruction and actual reverse probability products |
-| `PoissonLowerTail`, `PoissonApproximation`, `BlockAttachmentParameters` | Strict Poisson tail scale, proved Le Cam event bound and exact block parameters |
-| `ReverseHistoryBlocks`, `ReverseHistoryBlockCount`, `MainLinearBlockCount` | Actual block increments, random-root first moment and reverse counterpart of L12 |
-| `CanonicalPairSampling`, `CanonicalMaximum`, `UniformPairDistance`, `MainLinearDistance` | Actual joint sampling, maximum transfer and linear-regime distance in every real $L^p$ |
-| `ReversePairHeightKernel`, `ReversePairHeightBlocks`, `ReversePairHeightVariance` | Actual pair-tail comparison, coalescence error and root-count variance |
-| `CanonicalCutForest`, `CanonicalCutHeight`, `ForwardBlockCountLaw`, `MainForwardBlockConcentration`, `MainLinearComponentMaximum` | Verified forward cut graphs and literal L10–L12 |
-| `PolyaBernoulliMGF`, `SignedUrn`, `SignedUrnContinuation`, `SignedUrnConcentration` | Actual signed urn, finite MGF and endpoint concentration; `SignedUrnInfinite` proves the maximal Markov-path formulation, with the source filtration issue retained |
-| `HistoryProbability`, `UniformRootPair` | Factorial history identity and exact finite pair probabilities |
-| `SourceChecks`, `TreeSourceChecks` | Scalar and actual reverse-tree counterexamples at $n=1$ |
-
-Lean and Mathlib are pinned to **v4.35.0**; the manifest fixes every dependency
-revision. Install [Elan and Lean tooling](https://leanprover-community.github.io/install/project.html),
-open this folder in VS Code, and run from the project root:
-
-```sh
-lake exe cache get
-lake build
-lake env lean scripts/AxiomAudit.lean
-```
-
-Clone the public formalization repository with:
+Install Lean with the [Lean setup guide](https://leanprover-community.github.io/install/project.html);
+Lean and Mathlib are pinned to v4.35.0 in `lean-toolchain` and `lake-manifest.json`. Do not run
+`lake update`. Then:
 
 ```sh
 git clone https://github.com/igor-kortchemski/uniform-attachment-with-freezing.git
 cd uniform-attachment-with-freezing
+git checkout palomar-checked-2026-10-31   # optional: the snapshot checked by Palomar
+lake exe cache get                        # download compiled Mathlib
+lake build                                # Freezing1, Challenge and Solution
+lake env lean scripts/AxiomAudit.lean     # axioms of every Freezing1 declaration
+lake env lean scripts/MainResultsAxioms.lean
 ```
 
-Do not use `lake update` to reproduce this snapshot. The earlier development
-repository and its manuscript history are retained separately and privately.
+`lake build` reports `declaration uses sorry` only for the Challenge targets. To browse the proofs,
+open the folder in VS Code with the Lean 4 extension. On Linux, with Bubblewrap installed as in
+[comparator.yml](.github/workflows/comparator.yml), `lake comparator --config comparator/heights.json`
+compares one interface; `scripts/run-linux-checks.sh OUT` (`OUT` a new directory outside the
+checkout) builds, audits and compares all five configurations with NanoDa enabled.
 
-[Challenge.lean](Challenge.lean), [Solution.lean](Solution.lean), and
-[comparator.json](comparator.json) retain the earlier 16 supporting-result
-interface. They do not yet include the new main-result declarations. Challenge imports only Mathlib and contains complete proofs to avoid
-introducing any proof holes. Its statements were independently audited; the
-copied proof implementations are **not** independent proofs. To check every main
-interface and this auxiliary configuration on Linux, install the pinned
-Bubblewrap using the recipe in
-[comparator.yml](.github/workflows/comparator.yml), then run:
+CI ([ci.yml](.github/workflows/ci.yml)) runs on every push to `main` and every pull request: it scans
+the Lean sources (module headers, file size, forbidden constructs, `sorry` only in Challenge files),
+tests the verification scripts, builds the project and checks the axioms of the whole namespace and of
+the 26 exported names. The Comparator badge shows the latest run of
+[palomar.yml](.github/workflows/palomar.yml), the official Palomar full mechanical preflight, which
+checks one interface per run with the sandboxed Comparator. On 31 October 2026 all four interfaces
+passed this preflight at commit `82f0ad4` (tag `palomar-checked-2026-10-31`), accepted by the Lean,
+NanoDa and con-ron kernels, and CI passed on the same commit
+([reports](verification/certification/palomar/README.md)). On 30 October 2026 the official sandboxed
+Comparator with NanoDa also passed the four interfaces and the auxiliary one at commit `54253ce`
+([Linux evidence](verification/certification/linux/SUMMARY.md)). No Lean file, Lake file or
+Comparator configuration has changed since the tag.
 
-```sh
-scripts/run-linux-checks.sh /tmp/freezing1-linux-evidence-new
-```
+## How it was made
 
-The output directory must be new or empty and outside the checkout. The driver
-explicitly enables NanoDa. Comparator is not the full Palomar verification. The prepared manual Palomar
-workflow is restricted to public repositories. Its four configurations are
-checked separately at one frozen commit; consult the publication checkpoint
-for the actual reports. Whole-paper completion and source repairs remain outstanding.
+The formalization was produced with Codex and Claude Code agents (exact model versions are not
+recorded), using parallel proof workers and separate automated reviewers. A reviewer inventoried the
+paper's results before reading the Lean proofs. Each Challenge file was checked against the manuscript
+by an agent that had not written it and did not read the proofs, then audited again by Codex
+(`verification/certification/*/INDEPENDENT_REVIEW.md` and `CODEX_AUDIT.md`); no unfaithful or vacuous
+statement was reported. No human line-by-line review of the statements or proofs is claimed.
 
-The code and original project documentation use [Apache-2.0](LICENSE).
-Contributor and responsible maintainer: **Igor Kortchemski**, as requested.
-Codex and collaborating automated agents assisted with proofs and audits;
-no human review or endorsement is claimed. See [CITATION.cff](CITATION.cff) for
-artifact and paper credits, and [NOTICE](NOTICE) for third-party rights. The code
-license does not relicense the manuscript or the bundled workflow skills.
+## License and citation
 
-Contributions should preserve the pinned environment and mathematical statements,
-update the coverage report, and pass the commands above. Follow the local
-[project instructions](AGENTS.md) and [Lean skill index](.agents/README.md).
-
-
-The latest source-proof milestone includes the full unordered local topology
-and closed chronological-model embedding, T01/T02 consumers in that ambient,
-actual scalar interleaved-chain factorizations, repaired geometric L08,
-full-forest conditional covariance/Chebyshev/tower growth, the quantitative
-Poisson polynomial bound, and the positive infinite-urn component-tail route.
-The source reverse-SIR coupling and other explicitly retained obligations
-remain open. See the coverage report and continuation checkpoint for current
-proof evidence; this remains a partial development rather than a verified
-whole-paper publication candidate.
-
-The local candidate has since received an independent four-interface audit,
-verification-script repairs, and successful official Linux comparison with
-NanoDa and Lean's kernel. See
-[the Codex takeover record](verification/certification/CODEX_TAKEOVER.md)
-and [Linux evidence](verification/certification/linux/SUMMARY.md) for the exact
-scope and checked snapshot. See the publication checkpoint for the subsequent GitHub and full Palomar checks.
+The Lean code and the original documentation are licensed under [Apache-2.0](LICENSE); this does not
+cover the paper, which is not distributed here (see [NOTICE](NOTICE)). The formalization is maintained
+by Igor Kortchemski. Cite the paper for its mathematics, and [CITATION.cff](CITATION.cff) for this
+formalization. Report problems through GitHub issues; pull requests should keep the pinned versions and
+the compared statements, update the [report](FORMALIZATION_REPORT.md), and pass CI.

@@ -174,7 +174,7 @@ genuine full urn path law, original endpoint, expanded delta and epsilon,
 infinite concentration, the marked-root $+1$ at $t=k^2$, and the literal
 uniform source window. Its fresh actual-file direct check passed with
 exit code zero and no diagnostics in
-`/tmp/a63-positive-extension-independent-statements2.log`. The durable
+a local log (not retained). The durable
 output is `verification/a63-positive-extension-independent-statements.log`.
 All sixteen closures use only `propext`, `Classical.choice`, and
 `Quot.sound`. The implementing source-only check is not substituted for

@@ -60,12 +60,12 @@ the unique tree and the separate edge/frozen-label and skeleton identities.
 
 Both `RootedLabelMap.lean` and `IncreasingRelabelling.lean` pass their
 actual-file direct Lean checks with zero diagnostics
-(`/tmp/rooted-label-map.log`, `/tmp/increasing-relabelling.log`). Root
+(local logs, not retained). Root
 artifact integration passed in
 `verification/consecutive-labels-birth-moment-conclusions-build.log`.
 `verification/A28ConsecutiveStatements.lean` passes four expanded examples,
 a two-way source label-condition proof and eight transitive axiom probes.
 Every probed closure is contained in `propext`, `Classical.choice` and
-`Quot.sound` (`/tmp/a28-consecutive-statements.log`). Root independent
+`Quot.sound` (a local log, not retained). Root independent
 statement review and the project's full trust replay remain separate from
 this author self-review.

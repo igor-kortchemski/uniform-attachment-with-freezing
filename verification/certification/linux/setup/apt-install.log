@@ -243,6 +243,6 @@ Service restarts being deferred:
 No containers need to be restarted.
 
 User sessions running outdated binaries:
- igor @ user manager service: systemd[1530]
+ <user> @ user manager service: systemd[1530]
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.

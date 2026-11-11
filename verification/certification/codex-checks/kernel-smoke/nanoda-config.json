@@ -1,1 +1,1 @@
-{"use_stdin": false, "export_file_path": "/private/tmp/freezing1-candidate-codex-kernel-smoke/solution.ndjson", "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"], "unpermitted_axiom_hard_error": true, "num_threads": 2, "nat_extension": true, "string_extension": true}
+{"use_stdin": false, "export_file_path": "<tmp>/freezing1-candidate-codex-kernel-smoke/solution.ndjson", "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"], "unpermitted_axiom_hard_error": true, "num_threads": 2, "nat_extension": true, "string_extension": true}

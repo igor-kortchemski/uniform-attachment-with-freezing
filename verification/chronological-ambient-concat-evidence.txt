@@ -1,5 +1,5 @@
 Exact-source concatenation check; no artifact files written.
-Command: lake env lean -DautoImplicit=false /tmp/ChronologicalAmbientStatementsConcat.lean
+Command: lake env lean -DautoImplicit=false <tmp>/ChronologicalAmbientStatementsConcat.lean
 Result: exit 0; 9 expanded examples; 15 closures exactly [propext, Classical.choice, Quot.sound].
 Historical development snapshot; actual imported verification subsequently passed.
 Current actual import log: verification/chronological-ambient-statements.log (9 examples, 15 standard-three closures).

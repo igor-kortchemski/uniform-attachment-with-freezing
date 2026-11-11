@@ -9,7 +9,7 @@ real	0m50.157s
 user	0m27.127s
 sys	0m18.878s
 export solution exit=0
--rw-r--r--  1 igor  wheel  167281206 Oct 30 16:50 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/challenge.ndjson
--rw-r--r--  1 igor  wheel  329255511 Oct 30 16:51 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/heights/solution.ndjson
+-rw-r--r--  1 <user>  wheel  167281206 Oct 30 16:50 <tmp>/final/evidence/heights/challenge.ndjson
+-rw-r--r--  1 <user>  wheel  329255511 Oct 30 16:51 <tmp>/final/evidence/heights/solution.ndjson
 leanchecker exit=0
 (nanoda and other bundled checkers are run separately: see the certification notes)

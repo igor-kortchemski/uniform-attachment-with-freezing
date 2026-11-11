@@ -160,7 +160,7 @@ event and discrepancy expectation, expanded reciprocal sum, actual
 marginal product-tail inequality, uniform source quantifiers, and
 the actual S24 counterexample. Its actual imported direct check passed
 with exit code zero and no diagnostics in
-`/tmp/a60-a61-bernoulli-pair-independent-statements1.log`. The durable
+a local log (not retained). The durable
 output is
 `verification/a60-a61-bernoulli-pair-independent-statements.log`.
 All twenty closures use only `propext`, `Classical.choice`, and

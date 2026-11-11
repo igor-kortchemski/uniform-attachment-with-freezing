@@ -75,7 +75,7 @@ and `IidScheduleExtinction`. Root artifact integration also passed; root
 build logs and the full-project trust replay are separate evidence.
 `verification/A28ProbabilityStatements.lean` passes its actual-file direct
 check with five expanded examples and thirteen transitive axiom probes
-(`/tmp/a28-probability-statements.log`). Every probed closure is contained in
+(a local log, not retained). Every probed closure is contained in
 `propext`, `Classical.choice` and `Quot.sound`. The literal increasing consecutive-label
 reindexing is handled separately in `A28_CONSECUTIVE_SELF_REVIEW.md` and the
 new actual quotient-class relabelling modules. The root's A66 full

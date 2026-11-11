@@ -313,7 +313,7 @@ Publication-sensitive sources refreshed at these immutable revisions:
 The current result is a **partial, checked development**, not completion of the
 user's requested whole-paper formalization or a verified final Palomar candidate.
 
-Report structure adapted from the supplied [template](.agents/templates/FORMALIZATION_REPORT.md); see its [attribution](.agents/skill-notices/lean-palomar-skills-updated/ATTRIBUTION.md).
+Report structure adapted from a template distributed with an adaptation of [LeanAutoformalizationSkills](https://github.com/scottnarmstrong/LeanAutoformalizationSkills) by Scott Armstrong, offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## T02 completion milestone
 
@@ -869,9 +869,9 @@ These checks are included in the 4,596-job integration and 7,986-declaration axi
 ## User-requested handover checkpoint
 
 On 30 October 2026 the user requested that proof development stop for a Claude
-handover. Work is stopped. [CLAUDE_HANDOFF.md](CLAUDE_HANDOFF.md) records the
-verified integration, stopped worker files, exact remaining obligations and
-resumption commands. At that checkpoint (historical; superseded by the final section) the default build passed 4,596 jobs and the fresh global
+handover. Work is stopped. The handoff note (not retained in this repository)
+recorded the verified integration, stopped worker files, exact remaining
+obligations and resumption commands. At that checkpoint (historical; superseded by the final section) the default build passed 4,596 jobs and the fresh global
 axiom audit passed 7,986 declarations with only the three permitted axioms.
 New draft one-susceptible coupling and finite-plane foundations remain clearly
 distinguished from the imported verified scope. No upload, publication,
@@ -880,9 +880,8 @@ complete paper coverage, Comparator success or Palomar deposit is claimed.
 Stopped-draft precision: `FinitePlaneConditionalBounds.lean` has two known
 elaboration errors and is outside the imported verified scope; the geometry
 foundation alone passed its artifact build. The later one-susceptible coupling
-files also remain outside the integrated scope. Their stopped notes are
-[A03](verification/A03_FINITE_PLANE_HANDOVER.md) and
-[A85](verification/A85_ONE_SUSCEPTIBLE_HANDOVER.md). All workers confirmed
+files also remain outside the integrated scope. Their stopped notes for A03
+and A85 are not retained in this repository. All workers confirmed
 stop. The final maintained-source text/metadata scan passes 624 Lean files;
 that scan is not a compilation claim for these drafts.
 
@@ -979,9 +978,9 @@ version pin changed. The manual Linux workflow is prepared with NanoDa
 explicitly enabled, but no push, dispatch, publication or visibility change
 was performed. All whole-manuscript gaps remain retained.
 
-Details and exact logs: [Codex takeover](verification/certification/CODEX_TAKEOVER.md),
-[script review](verification/certification/SCRIPT_REVIEW.md), and the four
-`CODEX_AUDIT.md` interface records.
+Details and exact logs: [script review](verification/certification/SCRIPT_REVIEW.md),
+the four `CODEX_AUDIT.md` interface records, and the check logs in
+`verification/certification/codex-checks/`.
 
 ## Official standalone Linux verification — 30 October 2026
 
@@ -1023,8 +1022,8 @@ commits and 1,590 unique reachable blobs. No credential-pattern matches,
 symlinks, submodules, unwanted build artifacts or manuscript TeX were found
 in that candidate history. Existing absolute local paths remain disclosed as
 provenance. Apache-2.0 and the separate skill-attribution/license notices are
-retained. The exact scope and checks are in
-[PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
+retained. The exact scope and checks were recorded in a publication-review
+note that is not retained in this repository.
 
 The Comparator badge target, citation scope, missing-source links and stale
 A32 recommendation were corrected. The prior report already records the
@@ -1124,7 +1123,7 @@ findings are reused only for their unchanged mathematical sources. These new
 metadata variants require fresh exact-source full mechanical preflights.
 
 The user requires checking proposed Palomar actions before external changes.
-The [submission preview](PALOMAR_SUBMISSION_PREVIEW.md) prepares a concrete
+A submission preview (not retained in this repository) prepared a concrete
 candidate and action batch for that check. No new dispatch, intake, withdrawal,
 replacement, registration or publication of private review content was performed
 at this local preparation milestone. The stale first registry request remains

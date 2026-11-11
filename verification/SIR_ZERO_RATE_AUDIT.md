@@ -68,7 +68,7 @@ timing. The actual-file direct check passes with zero diagnostics: four
 expanded examples, two independently reconstructed literal-count/A66
 composition theorems and seven transitive axiom probes. Every probed closure
 is contained in `propext`, `Classical.choice` and `Quot.sound`
-(`/tmp/sir-zero-rate-audit-probe.log`). Root artifact integration passed
+(a local log, not retained). Root artifact integration passed
 separately in
 `verification/sir-physical-zero-rate-build.log`.
 

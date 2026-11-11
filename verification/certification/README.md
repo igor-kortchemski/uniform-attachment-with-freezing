@@ -30,7 +30,7 @@ does not state any main result.
 
 Build the interface modules with `lake build Challenge Solution`. Direct check of one Challenge:
 `lake env lean -DautoImplicit=false Challenge/Heights.lean` (only `declaration uses sorry` warnings on the
-targets). The recipe followed is `CHALLENGE_RECIPE.md`.
+targets). Construction notes for each interface are in `<interface>/NOTES.md`.
 
 ## Reproduction commands (in the candidate checkout)
 
@@ -47,7 +47,7 @@ command is `lake comparator --config comparator/heights.json`. The prepared
 workflow now calls `scripts/run-linux-checks.sh` and explicitly enables NanoDa
 in copies of all five configurations; the toolchain default is off.
 
-## Codex takeover from `4b3e78c`
+## Independent interface audit and verification-script repairs (from `4b3e78c`)
 
 **Current Linux evidence:** the official sandboxed Comparator, NanoDa and Lean
 accepted all four main interfaces plus the auxiliary configuration at clean
@@ -59,7 +59,8 @@ The four interfaces have a new independent audit in each interface directory
 (`CODEX_AUDIT.md`). The selected statements pass within the disclosed chronological
 and canonical-observable representations. This does not certify the unrestricted
 ambient bridge as a compared target, the whole manuscript or Palomar acceptance.
-See [the takeover review and Linux runbook](CODEX_TAKEOVER.md).
+The script changes are reviewed in [SCRIPT_REVIEW.md](SCRIPT_REVIEW.md); compact
+check logs from this audit are in `codex-checks/`.
 
 The verification scripts now stop with a nonzero status on any failed required
 step. Each run needs a **new or empty output directory**. Collection requires a
@@ -87,6 +88,9 @@ accepted by Lean's `leanchecker`, NanoDa (`nanoda_bin`) and the four other bundl
 `<interface>/{compare,run,leanchecker,kernels}.log`. The Claude evidence commits `7546bcf` and `4b3e78c` add only scripts, documentation and these logs
 (no Lean file changes, checked with `git diff --stat`); no rebuild was needed.
 
+Local paths, user and host names in the committed logs of this directory have been replaced by the
+placeholders `<repo>`, `<home>`, `<tmp>`, `<user>` and `<host>`; the logs are otherwise unchanged.
+
 ## Evidence levels — kept distinct
 
 1. **Verified in Lean (build + axioms).** `lake build` of `Freezing1`, `Challenge`, `Solution` and the
@@ -101,9 +105,9 @@ accepted by Lean's `leanchecker`, NanoDa (`nanoda_bin`) and the four other bundl
 3. **Official standalone Linux comparison and kernel replay.** Passed for all
    five configurations at `54253ce`, with Bubblewrap isolation and NanoDa
    explicitly enabled. See [linux/SUMMARY.md](linux/SUMMARY.md).
-4. **Palomar mechanical conformity.** Not obtained: no `mechanical-report.json`
-   or public candidate commit. The GitHub workflows remain prepared and unrun;
-   the standalone official Comparator does not replace the full pipeline.
+4. **Palomar mechanical conformity.** Obtained later, on 31 October 2026: the
+   four full mechanical preflights passed at public commit `82f0ad4` (tag
+   `palomar-checked-2026-10-31`). See [palomar/README.md](palomar/README.md).
 5. **Whole-manuscript coverage.** Not claimed; see `OPEN_OBLIGATIONS.md`.
 
 Independent statement reviews of each Challenge (written without reading the proofs):
@@ -114,4 +118,5 @@ Independent statement reviews of each Challenge (written without reading the pro
 
 `scripts/export_candidate.py DEST` copies an explicit allowlist from the development tree into an isolated
 directory (the development tree is untouched). `MANIFEST.sha256` in the candidate lists the hash of every
-file. The candidate is a local git repository with local commits only (no remote or push).
+file. The candidate was first prepared as a local git repository; its history is the history of this
+public repository.

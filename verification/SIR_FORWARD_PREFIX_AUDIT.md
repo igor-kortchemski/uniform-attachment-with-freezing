@@ -78,7 +78,7 @@ count-index observations. The actual-file direct check passes without
 diagnostics: three expanded adapter examples, two reconstructed joint/stopping
 observations, and seven transitive axiom probes. Every probed closure is
 contained in `propext`, `Classical.choice` and `Quot.sound`
-(`/tmp/sir-forward-prefix-audit-probe.log`). Root artifact integration passed
+(a local log, not retained). Root artifact integration passed
 separately in `verification/mean-limit-physical-forward-prefix-build.log`.
 No implementation files or root coverage report were edited by this audit.
 

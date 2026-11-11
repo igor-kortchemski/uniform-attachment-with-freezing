@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Generate Challenge/Sir.lean from exact slices of the project sources."""
+import os
 import sys
-ROOT = '/Users/igor/LeanFormalization/freezing1/'
+# Repository root (this file is verification/certification/sir/tools/gen_sir.py).
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', '..')) + '/'
 cache = {}
 
 

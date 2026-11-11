@@ -86,11 +86,11 @@ quotient at zero, positivity of the formula's argument, its initial value,
 and a negative-time specialization. The command
 `lake env lean -DautoImplicit=false verification/SIRLambertWProbe.lean`
 passes with no diagnostics; its captured output is
-`/tmp/sir-lambert-probe.log`. Root-owned project build and global axiom checks
+a local log (not retained). Root-owned project build and global axiom checks
 are separate evidence.
 
 The five independently printed axiom closures in
-`/tmp/sir-lambert-audit-axioms.log` contain only `propext`, `Classical.choice`,
+a local log (not retained) contain only `propext`, `Classical.choice`,
 and `Quot.sound`: inverse characterization, quotient derivative, derivative
 at zero, explicit profile formula, and the exact zero-quotient probe.
 

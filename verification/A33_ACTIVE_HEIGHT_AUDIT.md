@@ -134,7 +134,7 @@ ten axiom closures. Its actual-file direct Lean check completed with exit
 code zero and no diagnostics. Every closure uses only `propext`,
 `Classical.choice`, and `Quot.sound`. The log is retained as
 `verification/a33-active-height-independent-statements.log`, also available
-at `/tmp/a33-active-height-statements.log`.
+in a local log (not retained).
 
 No semantic mismatch was found in the audited A33 statements or the A34
 bounded-moment clause. This conclusion does not close the retained

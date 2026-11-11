@@ -97,27 +97,25 @@ The final existence export is
 `ForwardAnnealed.exists_conditioned_iid_linear_coupling`.
 
 The deterministic assumptions module passed actual-file direct checking
-with no diagnostics in `/tmp/iid-linear-assumptions2.log` and parent
+with no diagnostics in a local log (not retained) and parent
 artifact PASS3965. The generic mixture and uniform foundations passed
-in `/tmp/conditional-survival-mixture4.log` and
-`/tmp/conditional-survival-uniform3.log`, with parent artifact PASS2598
+in local logs (not retained), with parent artifact PASS2598
 in `verification/conditional-survival-coupling-foundations-build.log`.
 The generic common coupling passed actual-file direct checking in
-`/tmp/conditional-survival-coupling3.log`, with parent artifact PASS3116
+a local log (not retained), with parent artifact PASS3116
 in `verification/conditional-survival-coupling-build.log`.
 The actual survival system and finite-maximum equivalence passed in
-`/tmp/iid-linear-survival-system1.log` and
-`/tmp/iid-linear-maximum-ratio1.log`.
+local logs (not retained).
 
 The final consumer passed actual-file direct checking with exit zero and
-no diagnostics in `/tmp/iid-linear-conditioned-rows2.log`. Its parent
+no diagnostics in a local log (not retained). Its parent
 artifact passes 3,970 jobs in
 `verification/iid-linear-conditioned-rows-build.log`.
 
 `A04ConditionedIidStatements.lean` checks eight expanded statements and
 fifteen transitive axiom closures. Its actual imported direct check passed
 with exit zero and no diagnostics beyond the requested axiom output in
-`/tmp/a04-conditioned-iid-statements2.log`. Durable output is
+a local log (not retained). Durable output is
 `verification/a04-conditioned-iid-author-statements.log`. Every closure
 contains only `propext`, `Classical.choice`, and `Quot.sound`.
 This is authored evidence; the parent coordinates the independent review.

@@ -1,1 +1,1 @@
-/home/igor.guest/freezing1-checks/tools/bwrap/bwrap
+<home>/freezing1-checks/tools/bwrap/bwrap

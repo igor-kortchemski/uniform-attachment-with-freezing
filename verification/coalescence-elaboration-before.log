@@ -195,7 +195,7 @@ before-instance
     [reduction] Real.instLT ↦ 26986
     [reduction] Classical.choice ↦ 1254
   use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
-/tmp/freezing1-coalescence-profile.lean:74:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached
+<tmp>/freezing1-coalescence-profile.lean:74:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached
 
 Note: Use `set_option maxHeartbeats <num>` to set the limit.
 typeclass inference took 118ms
@@ -210,7 +210,7 @@ typeclass inference took 133ms
 typeclass inference took 107ms
 typeclass inference took 122ms
 interpretation of Lean.Elab.Tactic._aux_Mathlib_Tactic_Widget_Calc___elabRules_Lean_calcTactic_1._boxed took 30.8s
-/tmp/freezing1-coalescence-profile.lean:111:8: error: (kernel) unknown constant 'Freezing1.ReverseHistory.uniform_coalescence_div_nat_tendsto_zero'
+<tmp>/freezing1-coalescence-profile.lean:111:8: error: (kernel) unknown constant 'Freezing1.ReverseHistory.uniform_coalescence_div_nat_tendsto_zero'
 cumulative profiling times:
 	aesop 115ms
 	attribute application 0.0742ms

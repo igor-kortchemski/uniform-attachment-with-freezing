@@ -165,13 +165,13 @@ for multiplication by the block-count bound is explicitly supplied.
 All seven production modules are frozen and individually passed fresh
 actual-file direct Lean checks with exit code zero and no diagnostics:
 
-- `GeometricHeightBlocks`: `/tmp/geometric-height-blocks3.log`;
-- `GeometricHeightBlockBounds`: `/tmp/geometric-height-block-bounds4.log`;
-- `GeometricHeightWindowBounds`: `/tmp/geometric-height-window-bounds3.log`;
-- `GeometricHeightEnvelopes`: `/tmp/geometric-height-envelopes3.log`;
-- `GeometricHeightUniform`: `/tmp/geometric-height-uniform1.log`;
-- `GeometricHeightSourceChecks`: `/tmp/geometric-height-source-checks3.log`;
-- `IntervalFreezingCounts`: `/tmp/interval-freezing-counts1.log`.
+- `GeometricHeightBlocks`: a local log (not retained);
+- `GeometricHeightBlockBounds`: a local log (not retained);
+- `GeometricHeightWindowBounds`: a local log (not retained);
+- `GeometricHeightEnvelopes`: a local log (not retained);
+- `GeometricHeightUniform`: a local log (not retained);
+- `GeometricHeightSourceChecks`: a local log (not retained);
+- `IntervalFreezingCounts`: a local log (not retained).
 
 Each production module is below one thousand lines. Root artifact
 evidence is retained in `verification/geometric-height-blocks-build.log`,
@@ -187,7 +187,7 @@ and nested limits; both counts; the exact partition; printed complete-block
 constants; corrected endpoint and normalized bounds; actual row-error
 positivity; and two source counterexamples. The fresh actual-file check
 passed with exit code zero and no diagnostics in
-`/tmp/a37-a38-geometric-height-statements4.log`. Its durable log is
+a local log (not retained). Its durable log is
 `verification/a37-a38-geometric-height-author-statements.log`.
 All eighteen closures use only `propext`, `Classical.choice`, and
 `Quot.sound`. These authored checks remain self-review and do not replace

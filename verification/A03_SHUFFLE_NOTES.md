@@ -63,7 +63,7 @@ The invariance holds for every $m$ (for $m=0$ the class is empty and both sides 
 
 ## Evidence
 
-All commands run from `/Users/igor/LeanFormalization/freezing1`; Lean/Mathlib v4.35.0, `-DautoImplicit=false`.
+All commands run from the repository root; Lean/Mathlib v4.35.0, `-DautoImplicit=false`.
 
 | Item | Check | Result |
 | --- | --- | --- |

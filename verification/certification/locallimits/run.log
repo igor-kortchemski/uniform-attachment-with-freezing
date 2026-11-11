@@ -9,7 +9,7 @@ real	1m0.543s
 user	0m24.448s
 sys	0m23.177s
 export solution exit=0
--rw-r--r--  1 igor  wheel  147923540 Oct 30 17:02 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/locallimits/challenge.ndjson
--rw-r--r--  1 igor  wheel  298479831 Oct 30 17:03 /private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/final/evidence/locallimits/solution.ndjson
+-rw-r--r--  1 <user>  wheel  147923540 Oct 30 17:02 <tmp>/final/evidence/locallimits/challenge.ndjson
+-rw-r--r--  1 <user>  wheel  298479831 Oct 30 17:03 <tmp>/final/evidence/locallimits/solution.ndjson
 leanchecker exit=0
 (nanoda and other bundled checkers are run separately: see the certification notes)

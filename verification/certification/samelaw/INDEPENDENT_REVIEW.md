@@ -184,6 +184,6 @@ My enumeration asserts the `>= 2 roots` property in every `+1` step of the 47 ca
 * `lake env lean -DautoImplicit=false Probe1.lean` (imports `Challenge.SameLaw` only): non-vacuity proofs, `#check`
   of the main target (`forall x n, n <= extinctionTime x -> forwardLaw x n = reverseLaw x n`), and the expected
   `sorryAx` in `#print axioms` (Challenge). `Probe2.lean`: `n = 0` observables coincide for all `x` (full proof, no `sorry`).
-  Both in `/private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/`.
+  Both in a local scratch directory (not retained).
 * `samelaw_enum.py`, `samelaw_enum2.py` (same directory): exact enumeration, run with `python3 -I`. 
 * No edit to any existing file; no `lake build`; no `import Mathlib`.

@@ -88,7 +88,7 @@ Lean check without diagnostics. Root also built it successfully in
 `verification/sir-clock-prefix-finite-capture-build.log`. Its five probed
 transitive axiom closures contain only `propext`, `Classical.choice` and
 `Quot.sound`; the check is recorded in
-`/tmp/sir-clock-prefix-law-axioms.log`.
+a local log (not retained).
 
 For a finite event word $w$ (stored newest first), let $E_w$ be the event that
 the deterministic static run has that word, let $z_w$ be its proved population
@@ -115,11 +115,11 @@ existence for the live product excludes false holding before absorption.
 ## Proved complete event-word law
 
 `SIRClockWordKernel.lean` passes the actual-file direct Lean check with zero
-diagnostics (`/tmp/sir-clock-word-kernel.log`). Root integration passed in
+diagnostics (a local log, not retained). Root integration passed in
 `verification/sir-clock-word-finite-profiles-build.log`. Expanded examples and
 five transitive axiom probes in `verification/SIRClockWordLawStatements.lean`
 passed; their closures are contained in `propext`, `Classical.choice`, and
-`Quot.sound` (`/tmp/sir-clock-word-law-axioms.log`). Its reference transition draws
+`Quot.sound` (a local log, not retained). Its reference transition draws
 the current relevant-clock selector and prepends that choice to the reversed
 word. This construction alone is not used as evidence for the original
 array. Instead, `preassigned_word_marginal_eq` derives equality of every
@@ -151,7 +151,7 @@ labelled active-source choice to exactly uniform tree-active actor choice.
 calculation, including zero susceptibles and absorption. Its root artifact
 build passed in `verification/sir-clock-projection-scalar-build.log`.
 `SIRClockTreeFullLaw.lean` passes its actual-file direct check with zero
-diagnostics (`/tmp/sir-clock-tree-full-law.log`) and proves the complete
+diagnostics (a local log, not retained) and proves the complete
 required tree identity
 
 $$
@@ -198,7 +198,7 @@ susceptibility decreases, removed individuals stay removed, and later
 contacts cannot be effective when the first contact was ineffective.
 
 The new consumer `SIRPoissonFullContactLaw.lean` passes its actual-file direct
-Lean check with zero diagnostics (`/tmp/sir-poisson-full-contact-law.log`). It transports
+Lean check with zero diagnostics (a local log, not retained). It transports
 that genuine next-point protocol to the already proved complete tree and
 literal susceptible/infectious count laws, complete clock-frame absorption,
 and the terminal tree law. The zero-contact source case is now also proved separately by
@@ -232,7 +232,7 @@ models. The finite-rate fluid target is the law indexed by the actual
 geometric Bienaymé tree's survival event, shared by the entire limiting path.
 
 `SIRPhysicalFiniteLimits.lean` also passes its actual-file direct Lean check
-without diagnostics (`/tmp/sir-physical-finite-limits.log`). It defines the
+without diagnostics (a local log, not retained). It defines the
 scaled actual terminal conditional-sample laws and proves their finite-rate
 weak limits from the independently proved embedded sampling laws. The sampling kernels include all vertices;
 the pair kernel retains independent conditional draws and their diagonal.
@@ -254,14 +254,11 @@ Expanded statement checks passed in
 `verification/SIRPoissonFullContactStatements.lean` (six probes), and
 `verification/SIRPhysicalLimitStatements.lean` (eleven probes). Every probed
 transitive closure is contained in `propext`, `Classical.choice` and
-`Quot.sound`. Their direct logs are respectively
-`/tmp/sir-clock-tree-full-law-axioms.log`,
-`/tmp/sir-poisson-full-contact-law-axioms.log`, and
-`/tmp/sir-physical-limit-statements.log`. The finite sampling wrapper's four expanded examples and five axiom probes
+`Quot.sound`. Their direct logs were local and are not retained. The finite sampling wrapper's four expanded examples and five axiom probes
 also pass against the actual built module in
 `verification/SIRPhysicalFiniteLimitStatements.lean`, with all five closures
 contained in the same standard three axioms
-(`/tmp/sir-physical-finite-limit-statements.log`). Root artifact integration
+(a local log, not retained). Root artifact integration
 passed in `verification/binary-bijection-sir-physical-finite-build.log`.
 The root agent independently reviews the full physical protocol and wrapper
 statements; this document remains the author's self-review record.

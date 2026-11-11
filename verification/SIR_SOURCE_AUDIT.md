@@ -324,10 +324,10 @@ Fubini on measurable rectangles, and an actual exponential-density identity.
 It assumes no conditional memorylessness or winner factorization as a
 premise.
 
-Six winner-module axiom closures in `/tmp/sir-exponential-winner-axioms.log`
+Six winner-module axiom closures in a local log (not retained)
 use only `propext`, `Classical.choice`, and `Quot.sound`. The residual-module
 axiom check is recorded separately in
-`/tmp/sir-exponential-memoryless-axioms.log`.
+a local log (not retained).
 
 ## A65: completed positive-rate original-history identification
 
@@ -367,7 +367,7 @@ susceptibility, permanent removal and the ineffectiveness of later contacts
 when the first was ineffective.
 
 `SIRPoissonFullContactLaw.lean` passes its actual-file direct Lean check with
-zero diagnostics (`/tmp/sir-poisson-full-contact-law.log`). It proves
+zero diagnostics (a local log, not retained). It proves
 `independent_poisson_fullContact_tree_fullLaw` and
 `independent_poisson_fullContact_counts_fullLaw` for the genuine next-point
 protocol. The latter uses the literal susceptible and active label counts.

@@ -137,7 +137,7 @@ the actual neighbour/ball inclusion, and clopen-tail tightness. Its
 twelve root-declaration axiom closures use only `propext`,
 `Classical.choice`, and `Quot.sound`. The fresh actual-file direct check
 passed with exit code zero and no diagnostics in
-`/tmp/a24-all-vertex-independent-statements3.log`; the durable output is
+a local log (not retained); the durable output is
 `verification/a24-all-vertex-independent-statements.log`. Root artifact
 evidence for the final new necessity module is retained in
 `verification/unordered-topology-source-geometry-local-necessity-build.log`.

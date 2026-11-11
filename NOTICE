@@ -10,6 +10,8 @@ Arthur Blanc-Renaudie, Emmanuel Kammerer, and Igor Kortchemski.
 The supplied manuscript attachement-uniforme-1-final.tex retains its own rights;
 the code license does not relicense the manuscript, figures, or cited works.
 
-The local workflow skills under .agents retain their notices and licenses in
-.agents/skill-notices/lean-palomar-skills-updated/. Mathlib and other dependencies
-retain the licenses in their respective repositories.
+The structure of FORMALIZATION_REPORT.md and MANUSCRIPT_RECOMMENDATIONS.md is
+adapted from templates distributed with an adaptation of LeanAutoformalizationSkills
+by Scott Armstrong (https://github.com/scottnarmstrong/LeanAutoformalizationSkills),
+offered under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Mathlib and other
+dependencies retain the licenses in their respective repositories.

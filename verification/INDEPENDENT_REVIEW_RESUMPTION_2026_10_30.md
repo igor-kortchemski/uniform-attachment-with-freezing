@@ -12,7 +12,7 @@ plane bridge `map_fullLaw_toPlaneState`, T02 `planeLimitLaw_fixedPoint`, T04.II 
 `LinearRegimeAssumptions`, the general-schedule `Reverse` kernel). Statement-level review only; no Comparator/Palomar view.
 
 Evidence run by me (no `lake build`): scratch probe
-`/private/tmp/claude-501/-Users-igor--claude-spares-spare-pgdWZg/5bdaa2ad-a45e-4f56-986a-69f4ce995350/scratchpad/ReviewProbe.lean`
+`ReviewProbe.lean` (a local scratch file, not retained)
 (`lake env lean -DautoImplicit=false`, exit 0, only a deprecation warning). It (a) re-proves the A03 conclusion for an
 independently written event `{H | (H (2m-1)).active = ∅ ∧ ∀ k < 2m-1, (H k).active ≠ ∅}` (so `ExtinctionTimeIs` with `card = 0`
 is not hiding anything), (b) prints `#print axioms` for 15 headline exports (A03 x4, A07 x2, A06 x3, A14 x4, A87 x2): all
