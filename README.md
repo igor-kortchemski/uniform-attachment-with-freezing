@@ -9,7 +9,12 @@ Arthur Blanc-Renaudie, Emmanuel Kammerer and Igor Kortchemski
 **The seven main theorems T01–T07 of the paper (twenty conclusions) are proved in Lean, with the
 qualifications below, using only the axioms `propext`, `Classical.choice` and `Quot.sound`, and with
 no `sorry` outside the deliberate theorem holes of the Challenge files. The rest of the paper is only
-partly formalized, and the results are not yet registered in the Palomar registry.**
+partly formalized.**
+Registered in the Palomar registry, for commit [`48410b2`](https://github.com/igor-kortchemski/uniform-attachment-with-freezing/commit/48410b254fbc5d8c1a483acb8309338baa479a6f), as
+[PALOMAR-2026-11-01-000007](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000007&version=1) (SIR epidemic and infection-tree limits),
+[PALOMAR-2026-11-01-000030](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000030&version=1) (equivalence in law of the forward and reversed constructions),
+[PALOMAR-2026-11-02-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-02-000004&version=1) (height and distance asymptotics) and
+[PALOMAR-2026-11-04-000008](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-04-000008&version=1) (local limits and geometric Bienaymé trees), each version 1.
 Statements: [`Challenge/`](Challenge) · correspondence with the paper:
 [MAIN_RESULTS_CORRESPONDENCE.md](verification/certification/MAIN_RESULTS_CORRESPONDENCE.md) ·
 verification: [verification/certification/](verification/certification/README.md) ·
@@ -78,7 +83,7 @@ Lean and Mathlib are pinned to v4.35.0 in `lean-toolchain` and `lake-manifest.js
 ```sh
 git clone https://github.com/igor-kortchemski/uniform-attachment-with-freezing.git
 cd uniform-attachment-with-freezing
-git checkout palomar-checked-2026-10-31   # optional: the snapshot checked by Palomar
+git checkout 48410b2                      # optional: the registered snapshot
 lake exe cache get                        # download compiled Mathlib
 lake build                                # Freezing1, Challenge and Solution
 lake env lean scripts/AxiomAudit.lean     # axioms of every Freezing1 declaration
@@ -102,7 +107,8 @@ NanoDa and con-ron kernels, and CI passed on the same commit
 ([reports](verification/certification/palomar/README.md)). On 30 October 2026 the official sandboxed
 Comparator with NanoDa also passed the four interfaces and the auxiliary one at commit `54253ce`
 ([Linux evidence](verification/certification/linux/SUMMARY.md)). No Lean file, Lake file or
-Comparator configuration has changed since the tag.
+Comparator configuration has changed since the tag; the registered commit `48410b2` has the
+same files.
 
 ## How it was made
 
